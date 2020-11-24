@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tech on ftisiot ideas about food and life</title>
-    <link>https://ftisiot.net/categories/tech/</link>
+    <link>https://ftisiot.github.io/categories/tech/</link>
     <description>Recent content in Tech on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Nov 2020 13:12:10 +0000</lastBuildDate><atom:link href="https://ftisiot.net/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Nov 2020 13:12:10 +0000</lastBuildDate><atom:link href="https://ftisiot.github.io/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What&#39;s My (Talk) Age Again?</title>
-      <link>https://ftisiot.net/2020/11/02/whats-my-talk-age-again/</link>
+      <link>https://ftisiot.github.io/2020/11/02/whats-my-talk-age-again/</link>
       <pubDate>Mon, 02 Nov 2020 13:12:10 +0000</pubDate>
       
-      <guid>https://ftisiot.net/2020/11/02/whats-my-talk-age-again/</guid>
+      <guid>https://ftisiot.github.io/2020/11/02/whats-my-talk-age-again/</guid>
       <description>Las week I shared a personal experience of talking to a small online audience (just one person) and how that episode made me think about my commitment to public talking and understanding that performing at best is still key for both the speaker and the audience.
 One of the items that I explored was the Reflection bit: trying to understand what/why the paper/abstract didn&amp;rsquo;t work, why it didn&amp;rsquo;t attract people and what can be done to improve it.</description>
     </item>
     
     <item>
       <title>A Talk For One</title>
-      <link>https://ftisiot.net/2020/10/26/a-talk-for-one/</link>
+      <link>https://ftisiot.github.io/2020/10/26/a-talk-for-one/</link>
       <pubDate>Mon, 26 Oct 2020 14:15:21 +0000</pubDate>
       
-      <guid>https://ftisiot.net/2020/10/26/a-talk-for-one/</guid>
+      <guid>https://ftisiot.github.io/2020/10/26/a-talk-for-one/</guid>
       <description>2020 hasn&amp;rsquo;t been a great year, with Covid forcing people home and all major events moving from physical to virtual. At the same time, now is the perfect time for attendees: everyone is creating and sharing content via videos, blogs or talks in conferences. People that before had to choose wisely the &amp;ldquo;1 conference&amp;rdquo; where to spend their budget on, now can access for free (or reduced fees) content coming from a huge variety of organisations and speakers.</description>
     </item>
     
     <item>
       <title>Oracle Analytics Server and Kerberos Authentication</title>
-      <link>https://ftisiot.net/2020/09/18/oracle-analytics-server-and-kerberos-authentication/</link>
+      <link>https://ftisiot.github.io/2020/09/18/oracle-analytics-server-and-kerberos-authentication/</link>
       <pubDate>Fri, 18 Sep 2020 08:26:12 +0000</pubDate>
       
-      <guid>https://ftisiot.net/2020/09/18/oracle-analytics-server-and-kerberos-authentication/</guid>
+      <guid>https://ftisiot.github.io/2020/09/18/oracle-analytics-server-and-kerberos-authentication/</guid>
       <description>Oracle Analytics Server is out since several months and a common ask is to provide SSO with Kerberos Authentication.
 The &amp;ldquo;old&amp;rdquo; OBIEE12c style Kerberos configuration is not working with OAS.
 Oracle provided a solution to implement it via Apache Server and Oracle Access Manager Identity Asserter. All the info are published in Doc ID 2707401.1</description>
@@ -39,30 +39,30 @@ Oracle provided a solution to implement it via Apache Server and Oracle Access M
     
     <item>
       <title>Oracle Analytics Cloud 5.7: Use ML Models in the Database</title>
-      <link>https://ftisiot.net/2020/08/10/oracle-analytics-cloud-5-7-use-ml-models-in-the-database/</link>
+      <link>https://ftisiot.github.io/2020/08/10/oracle-analytics-cloud-5-7-use-ml-models-in-the-database/</link>
       <pubDate>Mon, 10 Aug 2020 09:08:25 +0000</pubDate>
       
-      <guid>https://ftisiot.net/2020/08/10/oracle-analytics-cloud-5-7-use-ml-models-in-the-database/</guid>
+      <guid>https://ftisiot.github.io/2020/08/10/oracle-analytics-cloud-5-7-use-ml-models-in-the-database/</guid>
       <description>I created a short video showing how you can register in Oracle Analytics Cloud 5.7 some Machine Learning models created in the Oracle Database and score data with a simple Data Flow, check it out
 https://www.youtube.com/watch?v=GZubKpWUA0U</description>
     </item>
     
     <item>
       <title>Looker for OBIEE Experts: Introduction and Concepts</title>
-      <link>https://ftisiot.net/2018/08/23/looker-for-obiee-experts-introduction-and-concepts/</link>
+      <link>https://ftisiot.github.io/2018/08/23/looker-for-obiee-experts-introduction-and-concepts/</link>
       <pubDate>Thu, 23 Aug 2018 09:14:16 +0000</pubDate>
       
-      <guid>https://ftisiot.net/2018/08/23/looker-for-obiee-experts-introduction-and-concepts/</guid>
+      <guid>https://ftisiot.github.io/2018/08/23/looker-for-obiee-experts-introduction-and-concepts/</guid>
       <description>Hello! After a long time I&amp;rsquo;m back to my personal blog! You can find all my Rittman Mead related blog posts here!
 Recently I&amp;rsquo;ve been doing some personal study around various areas including streaming, machine learning and data visualization and one of the tools that got my attention is Looker. I&amp;rsquo;ve initially heard about Looker from a Drill to Detail podcast from Mark Rittman and increasingly been hearing about it in conferences and use cases together with other cloud solutions like BigQuery, Snowflake and Fivetran.</description>
     </item>
     
     <item>
       <title>Remove OBI12c Data Visualisation from OBIEE</title>
-      <link>https://ftisiot.net/2016/10/13/remove-obi12c-data-visualisation-from-obiee/</link>
+      <link>https://ftisiot.github.io/2016/10/13/remove-obi12c-data-visualisation-from-obiee/</link>
       <pubDate>Thu, 13 Oct 2016 07:28:11 +0000</pubDate>
       
-      <guid>https://ftisiot.net/2016/10/13/remove-obi12c-data-visualisation-from-obiee/</guid>
+      <guid>https://ftisiot.github.io/2016/10/13/remove-obi12c-data-visualisation-from-obiee/</guid>
       <description>For anybody interested in how to remove or add Data Visualisation (also known as Visual Analyser) option to a specific role in OBIEE 12c, Oracle released Doc ID 2102444.1 which gives the detail about the procedure using WLST and the RevokeDVPermission.py (or GrantDVPermission.py) that should be present in the OBIEE12c Installation Middleware home by default.</description>
     </item>
     

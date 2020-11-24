@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>ftisiot ideas about food and life </title>
-		<link>https://ftisiot.net/</link>
+		<link>https://ftisiot.github.io/</link>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<author></author>
@@ -10,21 +10,21 @@
 		
 		<item>
 			<title>Posts</title>
-			<link>https://ftisiot.net/posts/</link>
+			<link>https://ftisiot.github.io/posts/</link>
 			<pubDate>Mon, 02 Nov 2020 13:12:10 &#43;0000</pubDate>
 			<author></author>
-			<guid>https://ftisiot.net/posts/</guid>
-			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<guid>https://ftisiot.github.io/posts/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.github.io/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
 			<description></description>
 		</item>
 		
 		<item>
 			<title>Analytics Everywhere!</title>
-			<link>https://ftisiot.net/analytics-everywhere-webinar/</link>
+			<link>https://ftisiot.github.io/analytics-everywhere-webinar/</link>
 			<pubDate>Wed, 02 Sep 2020 12:49:47 &#43;0000</pubDate>
 			<author></author>
-			<guid>https://ftisiot.net/analytics-everywhere-webinar/</guid>
-			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<guid>https://ftisiot.github.io/analytics-everywhere-webinar/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.github.io/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
 			<description>
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/dQw4w9WgXcQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -35,11 +35,11 @@
 		
 		<item>
 			<title>Speaking Activities</title>
-			<link>https://ftisiot.net/speaking-activities/</link>
+			<link>https://ftisiot.github.io/speaking-activities/</link>
 			<pubDate>Wed, 28 Sep 2016 20:01:20 UTC</pubDate>
 			<author></author>
-			<guid>https://ftisiot.net/speaking-activities/</guid>
-			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/images/speaking-poug-upper.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<guid>https://ftisiot.github.io/speaking-activities/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.github.io/images/speaking-poug-upper.jpg" medium="image" type="image/jpg" width="100" height="100" />
 			<description>&lt;p&gt;Check out Past and Future Speaking Activities!&lt;/p&gt;
 &lt;h1 id=&#34;planned-speaking-activities&#34;&gt;Planned Speaking Activities&lt;/h1&gt;
 &lt;table&gt;
@@ -156,18 +156,18 @@
 		
 		<item>
 			<title>Who The Hell is Francesco Tisiot?</title>
-			<link>https://ftisiot.net/whothehell/</link>
+			<link>https://ftisiot.github.io/whothehell/</link>
 			<pubDate>Wed, 28 Sep 2016 20:00:20 UTC</pubDate>
 			<author></author>
-			<guid>https://ftisiot.net/whothehell/</guid>
-			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/images/speaking-poug-upper.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<guid>https://ftisiot.github.io/whothehell/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.github.io/images/speaking-poug-upper.jpg" medium="image" type="image/jpg" width="100" height="100" />
 			<description>&lt;h1 id=&#34;francesco-tisiot&#34;&gt;Francesco Tisiot&lt;/h1&gt;
 &lt;p&gt;Ciao!&lt;/p&gt;
 &lt;p&gt;I’m Francesco Tisiot, Developer Advocate at &lt;a href=&#34;http://aiven.io&#34;&gt;Aiven&lt;/a&gt; and Oracle ACE Director. You can find me on twitter at &lt;a href=&#34;https://twitter.com/ftisiot&#34;&gt;@ftisiot&lt;/a&gt; and on &lt;a href=&#34;https://www.linkedin.com/in/francescotisiot/&#34;&gt;LinkedIn&lt;/a&gt;
-&lt;img src=&#34;https://ftisiot.net/images/speaking-poug.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;https://ftisiot.github.io/images/speaking-poug.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Some more resources:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;My previous and next Speaking activities in the &lt;a href=&#34;https://ftisiot.net/speaking-activities&#34;&gt;dedicated page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;My previous and next Speaking activities in the &lt;a href=&#34;https://ftisiot.github.io/speaking-activities&#34;&gt;dedicated page&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;The slides of my previous speaking engagements on &lt;a href=&#34;https://speakerdeck.com/ftisiot&#34;&gt;SpeakerDeck&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;My previous company (Rittman Mead) related articles in Rittman Mead’s &lt;a href=&#34;http://ritt.md/FT&#34;&gt;blog&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;

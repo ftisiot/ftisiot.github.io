@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on ftisiot ideas about food and life</title>
-    <link>https://ftisiot.net/categories/</link>
+    <link>https://ftisiot.github.io/categories/</link>
     <description>Recent content in Categories on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Nov 2020 13:12:10 +0000</lastBuildDate><atom:link href="https://ftisiot.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Nov 2020 13:12:10 +0000</lastBuildDate><atom:link href="https://ftisiot.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>public speaking</title>
-      <link>https://ftisiot.net/categories/public-speaking/</link>
+      <link>https://ftisiot.github.io/categories/public-speaking/</link>
       <pubDate>Mon, 02 Nov 2020 13:12:10 +0000</pubDate>
       
-      <guid>https://ftisiot.net/categories/public-speaking/</guid>
+      <guid>https://ftisiot.github.io/categories/public-speaking/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tech</title>
-      <link>https://ftisiot.net/categories/tech/</link>
+      <link>https://ftisiot.github.io/categories/tech/</link>
       <pubDate>Mon, 02 Nov 2020 13:12:10 +0000</pubDate>
       
-      <guid>https://ftisiot.net/categories/tech/</guid>
+      <guid>https://ftisiot.github.io/categories/tech/</guid>
       <description></description>
     </item>
     
     <item>
       <title>conferences</title>
-      <link>https://ftisiot.net/categories/conferences/</link>
+      <link>https://ftisiot.github.io/categories/conferences/</link>
       <pubDate>Mon, 26 Oct 2020 14:15:21 +0000</pubDate>
       
-      <guid>https://ftisiot.net/categories/conferences/</guid>
+      <guid>https://ftisiot.github.io/categories/conferences/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Analytics</title>
-      <link>https://ftisiot.net/categories/analytics/</link>
+      <link>https://ftisiot.github.io/categories/analytics/</link>
       <pubDate>Fri, 18 Sep 2020 08:26:12 +0000</pubDate>
       
-      <guid>https://ftisiot.net/categories/analytics/</guid>
+      <guid>https://ftisiot.github.io/categories/analytics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>itoug</title>
-      <link>https://ftisiot.net/categories/itoug/</link>
+      <link>https://ftisiot.github.io/categories/itoug/</link>
       <pubDate>Tue, 28 Feb 2017 14:33:52 +0000</pubDate>
       
-      <guid>https://ftisiot.net/categories/itoug/</guid>
+      <guid>https://ftisiot.github.io/categories/itoug/</guid>
       <description></description>
     </item>
     
