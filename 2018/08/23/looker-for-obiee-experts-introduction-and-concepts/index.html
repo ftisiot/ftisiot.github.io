@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Looker for OBIEE Experts: Introduction and Concepts</title>
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="https://ftisiot.net/index.xml">
+		<link rel="canonical" href="https://ftisiot.net/2018/08/23/looker-for-obiee-experts-introduction-and-concepts/">
+		
+		<link rel="shortcut icon" type="image/png" href="https://ftisiot.net/apple-touch-icon-precomposed.png">
+		
+		
+		<meta name="generator" content="Hugo 0.78.2" />
+
+		
+		<meta property="og:title" content="Looker for OBIEE Experts: Introduction and Concepts" />
+		<meta property="og:type" content="article" />
+		<meta property="og:image" content="https://ftisiot.net/img/default-header-img.jpg" />
+		<meta property="og:description" content="" />
+		<meta property="og:url" content="https://ftisiot.net/2018/08/23/looker-for-obiee-experts-introduction-and-concepts/" />
+		<meta property="og:site_name" content="Looker for OBIEE Experts: Introduction and Concepts" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@" />
+
+
+		
+		<link rel="stylesheet" href="https://ftisiot.net/css/tachyons.min.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/story.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/descartes.css" />
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Quattrocento:400,700|Spectral:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+		
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script src="https://ftisiot.net/js/story.js"></script>
+
+	</head>
+	<body class="ma0 bg-white section-posts page-kind-page is-page-true ">
+		
+		<header class="cover bg-top" style="background-image: url('https://ftisiot.net/img/default-header-img.jpg'); background-position: center;">
+			<div class="bg-black-30 bb bt">
+
+				<nav class="hide-print sans-serif  border-box pa3 ph5-l">
+					<a href="https://ftisiot.net" title="Home">
+						<img src="https://ftisiot.net/img/logo.jpg" class="w2 h2 br-100" alt="ftisiot ideas about food and life" />
+					</a>
+					<div class="fr h2 pv2 tr">
+						<a class="link f5 ml2 dim near-white" href="/whothehell">who</a>
+						<a class="link f5 ml2 dim near-white" href="/speaking-activities">talks</a>
+						<a class="link f5 ml2 dim near-white" href="https://www.youtube.com/channel/UCTJ4oA3-T3RdmM2OJ7d8cJg"><i class="fab fa-youtube-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://twitter.com/ftisiot/"><i class="fab fa-twitter-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://github.com/ftisiot/"><i class="fab fa-github-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://www.linkedin.com/in/francescotisiot/"><i class="fab fa-linkedin"></i></a>
+						<a class="link f5 ml2 dim near-white fas fa-rss-square" href="https://ftisiot.net/index.xml" title="RSS Feed"></a>
+						<a class="link f5 ml2 dim near-white fas fa-search" href="https://ftisiot.net/search/" role="search" title="Search"></a>
+					</div>
+				</nav>
+
+				<div id="hdr" class="tc-l pv4-ns pv5-l pv2 ph3 ph4-ns">
+					<h1 class="near-white mt1-ns f2 fw3 mb0 mt0 lh-title">Looker for OBIEE Experts: Introduction and Concepts</h1>
+					<h2 class="near-white mt3-l mb4-l fw1 f6 f3-l measure-wide-l center lh-copy mt2 mb3">
+						
+						
+							
+								Published
+								<time datetime="2018-08-23T09:14:16Z">Aug 23, 2018</time>
+								<span class="display-print">by ftisiot</span>
+								 in <a href="https://ftisiot.net/categories/analytics" class="no-underline category near-white dim">Analytics</a>, <a href="https://ftisiot.net/categories/tech" class="no-underline category near-white dim">Tech</a>
+								<span class="display-print">at https://ftisiot.net/2018/08/23/looker-for-obiee-experts-introduction-and-concepts/</span>
+							
+						
+					</h2>
+				</div>
+
+				
+				
+				
+				
+
+			</div>
+		</header>
+		
+		<main role="main">
+		
+<article class="center bg-white br-3 pv1 ph4 lh-copy f5 nested-links mw7">
+	<p>Hello! After a long time I&rsquo;m back to my personal blog! You can find all my Rittman Mead related blog posts <a href="http://ritt.md/FT">here</a>!</p>
+<p>Recently I&rsquo;ve been doing some personal study around various areas including streaming, machine learning and data visualization and one of the tools that got my attention is <a href="https://looker.com">Looker</a>. I&rsquo;ve initially heard about Looker from a <a href="https://www.drilltodetail.com/podcast/2017/3/28/drill-to-detail-ep23-looker-bigquery-and-analytics-on-big-data-with-special-guest-daniel-mintz-1">Drill to Detail</a> podcast from Mark Rittman and increasingly been hearing about it in conferences and use cases together with other cloud solutions like <a href="https://cloud.google.com/bigquery/">BigQuery</a>, <a href="https://www.snowflake.com">Snowflake</a> and <a href="https://fivetran.com">Fivetran</a>.</p>
+<p>I decided to give it a try myself and, since most of my career was based on Oracle Business Intelligence (OBI)  writing down a comparison between the tools that could help others sharing my experience getting introduced to Looker.</p>
+<h1 id="obiees-golden-feature-the-semantic-model">OBIEE&rsquo;s Golden Feature: The Semantic Model</h1>
+<p>As you probably know if you have been working with OBIEE for some time the centrepiece of its architecture is the <strong>Semantic Model</strong> contained in the <strong>Repository</strong> (RPD)</p>
+<p><img src="/images/2018/08/obiee-admin-tool-new.png" alt="OBIEE-Admin-tool-New"></p>
+<p>In the three layers of the RPD, we model our source data (e.g. database tables) into attributes, metrics, hierarchies which can then be easily dragged and dropped by the end-user in the analysis or data visualization.</p>
+<p>I called the RPD &ldquo;OBIEE&rsquo;s Golden Feature&rdquo; because to me it&rsquo;s the main benefit of the platform: <strong>abstracting the data complexity from end-users</strong> and, at the same time, <strong>optimizing the query</strong> definition to take care of all the features that could be set in the datasource. The importance of the RPD is also its <strong>centrality</strong>: within the traditional OBIEE all Analysis and Dashboard had to be based on Subject Areas exposed by the RPD meaning that the definition of the metrics was done in a unique place in a consistent manner and then spread across all the reporting providing the <strong>unique source of truth</strong> for the important KPIs in the company typical of what Gartner calls the Mode 1 Analytics.</p>
+<h2 id="rpd-development-speed-limitation-and-mode-2-analytics">RPD Development Speed Limitation and Mode 2 Analytics</h2>
+<p>The RPD is a centralized binary object within the OBIEE infrastructure: in order to develop and test a full OBIEE instance is required, and the merges between different streams are natively performed via the RPD&rsquo;s admin tool.</p>
+<p>This complexity unified to the deep knowledge required to correctly build a valid semantic model limits the number of people being able to create and publish new content thus slowing down the process from data to insights typical of the centralized Mode 1 Analytic platform provided centrally by IT teams. Moreover, RPD development is entirely point-and-click within the admintool which is somehow considered slow and old fashion in a world of scripting, code versioning and git merging. Several solutions are out in the market (including <a href="https://www.rittmanmead.com/blog/2017/02/concurrent-rpd-development-with-git/">Rittman Mead Developer Toolkit</a>) to enhance the agility of the development but still, the skills and the toolset required to develop new content makes it a purely IT manageable solution.</p>
+<p>In order to overcome this limitation several tools like Tableau, QlikView or Oracle&rsquo;s Data Visualization (included in OAC or in the Desktop version) give all the power in the ends of the end-user: from data-sources to graphing, the tools allow an end-to-end data discovery to visualization journey. The problem with those tools (called Mode 2 Analytics by Gartner) is that there is <strong>no central definition of the KPI</strong> since it&rsquo;s demanded to every analyst. All those tools are addressing the problem by providing some sort of <strong>datasource certification</strong> allowing a datasource to be visible and reusable publicly only when it&rsquo;s validated centrally. Again, for most of those tools, the modelling is done in a visual format, which makes it difficult to debug, version control and automate. I&rsquo;ve been speaking about this subject in my presentation <a href="https://speakerdeck.com/ftisiot/devops-and-obiee-do-it-before-its-too-late">&ldquo;DevOps and OBIEE do it before it&rsquo;s too late&rdquo;</a>.</p>
+<p>What if we could provide the same centralized source of truth data modelling with an easily scriptable syntax that can be developed from business users without any deep knowledge of SQL or source tables? Well, what we just described is <strong>LookML</strong>!</p>
+<h1 id="lookml">LookML</h1>
+<p>LookerML takes the best part of OBIEE: the idea of a modelling layer and democratizes it in order to be available to all business user with a simple language and set of concepts. Moreover, the code versioning is embedded in the tool, so there&rsquo;s no need to teach git branch, commit, push or pull to non-IT people.</p>
+<p>So, what are the concepts behing LookerML and how can you get familiar with it when comparing it to the medatada modelling in the RPD?</p>
+<h2 id="lookml-concepts">LookML Concepts</h2>
+<p>Let&rsquo;s start from the basic of the RPD modelling: a database table. In LookerML each table is represented by an object called **View **(naming is a bit confusing). Moreover, LookerML&rsquo;s Views can be used not only to map existing database tables but also to create new tables based on existing content and a SQL definition, like the <em>opaque views</em> in OBIEE. On top of this LookML allows the phisicalization of those objects (into a table) and the definition of a schedule for the refresh. This concept is very useful when aggregates are needed, the aggregate definition (SQL) is defined within the LookML View together with the related refresh schedule.</p>
+<p><img src="/images/2018/08/2018-08-23_09-24-51.png" alt="2018-08-23_09-24-51"></p>
+<p>The View itself defines only the source, a bit like the RPD&rsquo;s physical layer, the next step is defining how multiple Views interact within each other, or, in OBIEE terms, the Business Layer. In LookML there is an entity called <strong>Explores</strong> and is the place where we can define which Views we want to group together, and what&rsquo;s the linkage between them. Multiple Explores are defined in a <strong>Model</strong>, which should be unique per database. So, in OBIEE words, a Model can be compared to a Business Model with Explores being a subset of Facts and Dimensions grouped in a Subject Area.</p>
+<p><img src="/images/2018/08/2018-08-23_09-51-07.png" alt="2018-08-23_09-51-07"></p>
+<p>Ok, all &ldquo;easy&rdquo; so far, but where do we map the columns? and where do we set the aggregations? As you might expect both are mapped within a LookML View into <strong>Fields</strong>. Fields is a generic term which includes in both metrics and attributes, LookML naming is the below:</p>
+<pre><code>  * **Dimension**: in OBIEE's terms attributes of a dimension. The terminology is confusing since in LookML the Dimension is the column itself while in OBIEE terms is the table. A Dimension can be a column value or a combination of multiple values (like OBIEE's BM Logical Sources formulas). A Dimension in LookML _can't have any aggregation_ (as in OBIEE).
+  * **Measures**: in OBIEE's terms a metric. The definition includes, the source formula in SQL syntax, the type of aggregation (min/max/count...) and the drill fields.
+  * **Filters**: this is not something usually defined in OBIEE's RPD, filters are a way of passing a user choice based on a column value back to an RPD calculation formula, a bit like, for the OBIEE experts, [overriding session variables with dashboard prompt values](https://gerardnico.com/dat/obiee/obis/set_request_variable_dashboard_prompt).
+  * **Parameters**: again this is not something usually defined in OBIEE's RPD, you can think a Parameter as a way of setting up variables function. E.g. a Parameter with values `SUM`, `AVG`, `MIN`, `MAX` could be used to change how a certain Measure is aggregated
+</code></pre>
+<p>All good so far? Stick with me and in the future we&rsquo;ll explore more about LookML syntax and Looker in general!</p>
+
+</article>
+
+		</main>
+		
+				<div class="hide-print sans-serif f6 f5-l mt5 ph3 pb6 center nested-copy-line-height lh-copy nested-links mw-100 measure-wide">
+		<div class="about-the-author">
+		
+			
+			
+				
+					<hr>
+<p><img src="/images/ftisiot.png" alt="Francesco Tisiot"></p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --> <em>Francesco is the Developer Evangelist at Aiven.</em><!-- raw HTML omitted -->
+<em>Oracle ACE Director and Data Enthusiast helps companies understand, organise, expose their data and gain insight for more than 10 years. Speaker in all the major Oracle Conferences he shares his love for Data &amp; Analytics while fighting a battle against bad Italian food!</em></p>
+
+				
+			
+		
+		</div>
+		
+	</div>
+
+		
+		
+		
+		<footer class="hide-print sans-serif f6 fw1 bg-black near-white bottom-0 w-100 pa3" role="contentinfo">
+			<p class="w-50 fr tr">
+			<a class="no-underline near-white" href="https://github.com/xaprb/story"><img class="dib" title="Made with Hugo and Story" alt="Story logo" src="https://ftisiot.net/img/story-logo-white.svg" style="width: 1.5rem; height: 1.5rem" /></a>
+			</p>
+			<p class="w-50 near-white">
+				&copy; 2020 
+			</p>
+		</footer>
+		
+	
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'test', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+	
+	</body>
+</html>

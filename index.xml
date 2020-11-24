@@ -1,0 +1,182 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>ftisiot ideas about food and life </title>
+		<link>https://ftisiot.net/</link>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<author></author>
+		<rights>Copyright (c) 2020</rights>
+		<updated>2020-11-02 13:12:10 &#43;0000 &#43;0000</updated>
+		
+		<item>
+			<title>Posts</title>
+			<link>https://ftisiot.net/posts/</link>
+			<pubDate>Mon, 02 Nov 2020 13:12:10 &#43;0000</pubDate>
+			<author></author>
+			<guid>https://ftisiot.net/posts/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description></description>
+		</item>
+		
+		<item>
+			<title>Analytics Everywhere!</title>
+			<link>https://ftisiot.net/analytics-everywhere-webinar/</link>
+			<pubDate>Wed, 02 Sep 2020 12:49:47 &#43;0000</pubDate>
+			<author></author>
+			<guid>https://ftisiot.net/analytics-everywhere-webinar/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description>
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/dQw4w9WgXcQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+		</item>
+		
+		<item>
+			<title>Speaking Activities</title>
+			<link>https://ftisiot.net/speaking-activities/</link>
+			<pubDate>Wed, 28 Sep 2016 20:01:20 UTC</pubDate>
+			<author></author>
+			<guid>https://ftisiot.net/speaking-activities/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/images/speaking-poug-upper.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description>&lt;p&gt;Check out Past and Future Speaking Activities!&lt;/p&gt;
+&lt;h1 id=&#34;planned-speaking-activities&#34;&gt;Planned Speaking Activities&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Event&lt;/th&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Talk&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;UKOUG Virtual Conference&lt;/td&gt;
+&lt;td&gt;1st Dec&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://ukoug.org/page/ukougconfanalyticsroundtable&#34;&gt;Governed vs Self-Service Analytics Round Table&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sangam 2020&lt;/td&gt;
+&lt;td&gt;12th Dec&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.aioug.org/sangam20-sessions?session_id=177&#34;&gt;Rapid Fire: Machine Learning&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sangam 2020&lt;/td&gt;
+&lt;td&gt;12th Dec&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.aioug.org/sangam20-sessions?session_id=170&#34;&gt;Predicting Good Wines in the Database with Oracle Machine Learning&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;previous-speaking-activities&#34;&gt;Previous Speaking Activities&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Event&lt;/th&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Talk&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;AUSOUG Virtual Connect 2020&lt;/td&gt;
+&lt;td&gt;11th Nov&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://ausoug.org.au/news/virtual-connect-2020/&#34;&gt;Predicting Good Wines in the Database with Oracle Machine Learning and Oracle analytics Cloud&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;OGB APAC Tour&lt;/td&gt;
+&lt;td&gt;26th Oct&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://oracle-groundbreakers-apac-virtual-tour-2020.heysummit.com/speakers/francesco-tisiot/&#34;&gt;Upgrade to OAS:Why and How?&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;OGB APAC Tour&lt;/td&gt;
+&lt;td&gt;20th Oct&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://oracle-groundbreakers-apac-virtual-tour-2020.heysummit.com/speakers/francesco-tisiot/&#34;&gt;Become a Data Scientist with OAC&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;AUSOUG Webinar&lt;/td&gt;
+&lt;td&gt;2nd Sept&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://ausoug.org.au/event/upgrade-to-oracle-analytics-server-why-and-how/&#34;&gt;Upgrade to Oracle Analytics Server: How and Why&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;POUG 2020&lt;/td&gt;
+&lt;td&gt;11th-12th Sept&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://poug.org/en/edycja/poug-2020/&#34;&gt;Predicting Good Wines in the Database with Oracle Machine Learning!&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ProHuddle&lt;/td&gt;
+&lt;td&gt;1st Oct&lt;/td&gt;
+&lt;td&gt;Become a Data Scientist with OAC&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;MakeIT Conf SlOUG&lt;/td&gt;
+&lt;td&gt;12-13 Oct&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.makeit.si/index.php/sl/&#34;&gt;Picking a Good Wine for Under $30 using ADW, Oracle Machine Learning, OAC&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;MakeIT Conf SlOUG&lt;/td&gt;
+&lt;td&gt;12-13 Oct&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.makeit.si/index.php/sl/&#34;&gt;Become a Data Scientist&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;OA Summit&lt;/td&gt;
+&lt;td&gt;1st June&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://gateway.on24.com/wcc/gateway/eliteOracleAmericaInc3/2258334/2289476/francesco-tisiot-of-rittman-mead-presents-how-to-become-a-data-scientist&#34;&gt;How to Become a Data Scientist&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Aces@Home&lt;/td&gt;
+&lt;td&gt;2nd Sept&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://acesathome.com/sessions/2020/03/30/francesco-tisiot-upgrade-to-oas-how-and-why/&#34;&gt;Upgrade to Oracle Analytics Server: How and Why&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;AnD Summit&lt;/td&gt;
+&lt;td&gt;25th-27th Feb&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://analyticsanddatasummit2020.sched.com/speaker/francesco.tisiot?iframe=yes&amp;amp;w=100%25&amp;amp;sidebar=yes&amp;amp;bg=no&#34;&gt;Defining an Analytics Strategy&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;AnD Summit&lt;/td&gt;
+&lt;td&gt;25th-27th Feb&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://analyticsanddatasummit2020.sched.com/speaker/francesco.tisiot?iframe=yes&amp;amp;w=100%25&amp;amp;sidebar=yes&amp;amp;bg=no&#34;&gt;Upgrade to Oracle Analytics Server: Why and How?&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;AnD Summit&lt;/td&gt;
+&lt;td&gt;25th-27th Feb&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://analyticsanddatasummit2020.sched.com/speaker/francesco.tisiot?iframe=yes&amp;amp;w=100%25&amp;amp;sidebar=yes&amp;amp;bg=no&#34;&gt;Data, the Missing Ingredient&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;AnD Summit&lt;/td&gt;
+&lt;td&gt;25th-27th Feb&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://analyticsanddatasummit2020.sched.com/speaker/francesco.tisiot?iframe=yes&amp;amp;w=100%25&amp;amp;sidebar=yes&amp;amp;bg=no&#34;&gt;Machine Learning with Oracle Analytics Cloud for Citizen Data Scientists&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+		</item>
+		
+		<item>
+			<title>Who The Hell is Francesco Tisiot?</title>
+			<link>https://ftisiot.net/whothehell/</link>
+			<pubDate>Wed, 28 Sep 2016 20:00:20 UTC</pubDate>
+			<author></author>
+			<guid>https://ftisiot.net/whothehell/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/images/speaking-poug-upper.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description>&lt;h1 id=&#34;francesco-tisiot&#34;&gt;Francesco Tisiot&lt;/h1&gt;
+&lt;p&gt;Ciao!&lt;/p&gt;
+&lt;p&gt;I’m Francesco Tisiot, Developer Advocate at &lt;a href=&#34;http://aiven.io&#34;&gt;Aiven&lt;/a&gt; and Oracle ACE Director. You can find me on twitter at &lt;a href=&#34;https://twitter.com/ftisiot&#34;&gt;@ftisiot&lt;/a&gt; and on &lt;a href=&#34;https://www.linkedin.com/in/francescotisiot/&#34;&gt;LinkedIn&lt;/a&gt;
+&lt;img src=&#34;https://ftisiot.net/images/speaking-poug.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Some more resources:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;My previous and next Speaking activities in the &lt;a href=&#34;https://ftisiot.net/speaking-activities&#34;&gt;dedicated page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The slides of my previous speaking engagements on &lt;a href=&#34;https://speakerdeck.com/ftisiot&#34;&gt;SpeakerDeck&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;My previous company (Rittman Mead) related articles in Rittman Mead’s &lt;a href=&#34;http://ritt.md/FT&#34;&gt;blog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is my personal blog! Stay tuned for ideas, tests and opinions related to my work. All the content written here is my own and don’t necessary reflect my company vision.&lt;/p&gt;
+&lt;h2 id=&#34;personal-bio&#34;&gt;Personal BIO&lt;/h2&gt;
+&lt;p&gt;Francesco is the Developer Advocate at Aiven, Oracle ACE Director and Data Enthusiast. Helping companies understand, organise, expose their data and gain insight for more than 10 years.&lt;/p&gt;
+&lt;p&gt;Speaker in all the major Oracle Conferences he shares his love for Data &amp;amp; Analytics while fighting a battle against bad Italian food!&lt;/p&gt;
+</description>
+		</item>
+		
+	</channel>
+</rss>
