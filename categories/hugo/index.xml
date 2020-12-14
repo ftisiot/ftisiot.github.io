@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on ftisiot ideas about food and life</title>
+    <link>https://ftisiot.github.io/categories/hugo/</link>
+    <description>Recent content in hugo on ftisiot ideas about food and life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Nov 2020 11:00:00 +0000</lastBuildDate><atom:link href="https://ftisiot.github.io/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Convert Blog from Wordpress Hugo and GitHub Pages</title>
+      <link>https://ftisiot.github.io/2020/11/26/convert-blog-from-wordpress-to-hugo-and-github-pages/</link>
+      <pubDate>Thu, 26 Nov 2020 11:00:00 +0000</pubDate>
+      
+      <guid>https://ftisiot.github.io/2020/11/26/convert-blog-from-wordpress-to-hugo-and-github-pages/</guid>
+      <description>I&amp;rsquo;ve had this small personal website for some time now, adding from time to time some stuff mainly related to Oracle Analytics, the Italian Oracle User Group and personal speaking experiences.
+I was running it on Wordpress.com which was providing a nice completely managed experience: I didn&amp;rsquo;t have to care about hosting, versioning, SSL etc, all was managed by the platform. I just had to focus on content writing and on top of it I had, out of the box, nice dashboards showing visitors of the page and other blog stats.</description>
+    </item>
+    
+  </channel>
+</rss>
