@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>I Don&rsquo;t Want to Miss a Thing - Track Database Changes with Apache Kafka &bullet; Nordic PG Day 2022</title>
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="https://ftisiot.github.io/index.xml">
+		<link rel="canonical" href="https://ftisiot.github.io/talks/track-database-changes/">
+		
+		<link rel="shortcut icon" type="image/png" href="https://ftisiot.github.io/apple-touch-icon-precomposed.png">
+		<meta name="description" content="A talk about how to build Change Data Capture data pipelines with PostgreSQL and Apache Kafka">
+		
+		<meta name="generator" content="Hugo 0.90.1" />
+
+		
+		<meta property="og:title" content="I Don&rsquo;t Want to Miss a Thing - Track Database Changes with Apache Kafka" />
+		<meta property="og:type" content="article" />
+		<meta property="og:image" content="https://ftisiot.github.io/slides/track-database-changes/thumbnail.jpg" />
+		<meta property="og:description" content="A talk about how to build Change Data Capture data pipelines with PostgreSQL and Apache Kafka" />
+		<meta property="og:url" content="https://ftisiot.github.io/talks/track-database-changes/" />
+		<meta property="og:site_name" content="I Don&rsquo;t Want to Miss a Thing - Track Database Changes with Apache Kafka" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@" />
+
+
+		
+		<link rel="stylesheet" href="https://ftisiot.github.io/css/tachyons.min.css" />
+		<link rel="stylesheet" href="https://ftisiot.github.io/css/story.css" />
+		<link rel="stylesheet" href="https://ftisiot.github.io/css/descartes.css" />
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Quattrocento:400,700|Spectral:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+		
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script src="https://ftisiot.github.io/js/story.js"></script>
+
+	</head>
+	<body class="ma0 bg-white section-talks page-kind-page is-page-true ">
+		
+		<header class="cover bg-top" style="background-image: url('https://ftisiot.github.io/slides/track-database-changes/cover.jpg'); background-position: center;">
+			<div class="bg-black-30 bb bt">
+
+				<nav class="hide-print sans-serif  border-box pa3 ph5-l">
+					<a href="https://ftisiot.github.io" title="Home">
+						<img src="https://ftisiot.github.io/img/logo.jpg" class="w2 h2 br-100" alt="ftisiot ideas about food and life" />
+					</a>
+					<div class="fr h2 pv2 tr">
+						<a class="link f5 ml2 dim near-white" href="/who">who</a>
+						<a class="link f5 ml2 dim near-white" href="/speaking-activities">talks</a>
+						<a class="link f5 ml2 dim near-white" href="https://www.youtube.com/channel/UCTJ4oA3-T3RdmM2OJ7d8cJg"><i class="fab fa-youtube-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://twitter.com/ftisiot/"><i class="fab fa-twitter-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://github.com/ftisiot/"><i class="fab fa-github-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://www.linkedin.com/in/francescotisiot/"><i class="fab fa-linkedin"></i></a>
+						<a class="link f5 ml2 dim near-white fas fa-rss-square" href="https://ftisiot.github.io/index.xml" title="RSS Feed"></a>
+						<a class="link f5 ml2 dim near-white fas fa-search" href="https://ftisiot.github.io/search/" role="search" title="Search"></a>
+					</div>
+				</nav>
+
+				<div id="hdr" class="tc-l pv4-ns pv5-l pv2 ph3 ph4-ns">
+					<h1 class="near-white mt1-ns f2 fw3 mb0 mt0 lh-title">I Don&rsquo;t Want to Miss a Thing - Track Database Changes with Apache Kafka</h1>
+					<h2 class="near-white mt3-l mb4-l fw1 f6 f3-l measure-wide-l center lh-copy mt2 mb3">
+						
+						
+							
+								Presented
+								<time datetime="2022-02-22T12:22:35&#43;01:00">February 22, 2022</time>
+								at <a class="no-underline category near-white dim" href="https://2022.nordicpgday.org/">Nordic PG Day 2022</a>
+							
+						
+					</h2>
+				</div>
+
+				
+				
+				
+				
+
+			</div>
+		</header>
+		
+		<main role="main">
+		
+<article class="center bg-white br-3 pv1 ph4 nested-copy-line-height lh-copy f4 nested-links mw-100 measure-wide">
+		
+		<p><a id="slides_link" class="ba black br-3 bw1 dib no-underline ph2 pv1" href="https://ftisiot.github.io/slides/track-database-changes/track-database-changes.pdf">Slides</a>
+		
+		
+		
+		<a class="ba black br-3 bw1 dib no-underline ph2 pv1" href="https://2022.nordicpgday.org/">Website</a>
+		
+		
+		<p><img src="/slides/track-database-changes/thumbnail.jpg" alt="Intro image"></p>
+<h2 id="useful-links">Useful Links</h2>
+<ul>
+<li><a href="https://kafka.apache.org/">Apache Kafka docs</a></li>
+<li><a href="https://debezium.io/documentation/reference/stable/connectors/postgresql.html">Debezium docs</a></li>
+<li><a href="https://developer.aiven.io/docs/products/kafka/kafka-connect/howto/debezium-source-connector-pg.html">How to Debezium in Aiven docs</a></li>
+<li><a href="https://aiven.io/blog/using-kafka-connect-jdbc-source-a-postgresql-example">JDBC source connector example</a></li>
+<li><a href="https://aiven.io/blog/db-technology-migration-with-apache-kafka-and-kafka-connect">Debezium source connector example</a></li>
+<li><a href="https://landing.aiven.io/en/aiven-for-postgresql/">Aiven for PostgreSQL</a></li>
+</ul>
+
+	</article>
+<script type="text/javascript">
+
+$( function() {
+	if ( $( "#slides_link" ).length ) {
+		$("#slides_link").click(function(eventObject) {
+			eventObject.preventDefault();
+			var elem = $( this );
+			elem.parent().next("iframe").remove();
+			var href = elem.attr("href");
+			switch(true) {
+			case /\.pdf$/.test(href):
+				elem.parent().after($("<iframe frameborder=0 class='ba h5 w-100' src='/js/pdfjs/web/viewer.html?file=" + href + "'></iframe>"));
+				break;
+			default:
+				elem.parent().after($("<iframe frameborder=0 class='ba h5 w-100' src='" + elem.attr("href") + "'></iframe>"));
+				
+			}
+			var width = elem.parent().next("iframe").width();
+			var height = Math.round(width * 9 / 16);
+			elem.parent().next("iframe").height(height);
+		});
+	}
+	if ( $( "#video_link" ).length ) {
+		$("#video_link").click(function(eventObject) {
+			var elem = $( this );
+			elem.parent().next("iframe").remove();
+			var href = elem.attr("href");
+			switch(true) {
+			case /youtube.com/.test(href):
+				eventObject.preventDefault();
+				href = href.replace("watch?v=", "embed/");
+				elem.parent().after($("<iframe frameborder=0 class='ba h5 w-100' src='" + href + "' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"));
+				break;
+			default:
+				
+				
+				
+			}
+			var width = elem.parent().next("iframe").width();
+			var height = Math.round(width * 9 / 16);
+			elem.parent().next("iframe").height(height);
+		});
+	}
+});
+
+</script>
+
+		</main>
+		
+				<div class="hide-print sans-serif f6 f5-l mt5 ph3 pb6 center nested-copy-line-height lh-copy nested-links mw-100 measure-wide">
+		<div class="about-the-author">
+		
+			
+			
+				
+					<hr>
+<p><img src="/images/ftisiot.png" alt="Francesco Tisiot"></p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --> <em>Francesco comes from Verona, Italy and works as a Developer Advocate at Aiven. With his many years of experience as a data analyst, he has stories to tell and advice for data-wranglers everywhere. Francesco loves sharing knowledge with others as a speaker and writer, and is on a mission to defend the world from bad Italian food!</em></p>
+
+				
+			
+		
+		</div>
+		
+	</div>
+
+		
+		
+		
+		<footer class="hide-print sans-serif f6 fw1 bg-black near-white bottom-0 w-100 pa3" role="contentinfo">
+			<p class="w-50 fr tr">
+			<a class="no-underline near-white" href="https://github.com/xaprb/story"><img class="dib" title="Made with Hugo and Story" alt="Story logo" src="https://ftisiot.github.io/img/story-logo-white.svg" style="width: 1.5rem; height: 1.5rem" /></a>
+			</p>
+			<p class="w-50 near-white">
+				&copy; 2022 
+			</p>
+		</footer>
+		
+	
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-183917003-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+	
+	</body>
+</html>

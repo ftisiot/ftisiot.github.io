@@ -2,13 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ftisiot.github.io/tag/apache-kafka/</loc>
+    <lastmod>2022-02-22T12:22:35+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.github.io/tag/cdc/</loc>
+    <lastmod>2022-02-22T12:22:35+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.github.io/tag/debezium/</loc>
+    <lastmod>2022-02-22T12:22:35+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.github.io/</loc>
+    <lastmod>2022-02-22T12:22:35+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.github.io/talks/track-database-changes/</loc>
+    <lastmod>2022-02-22T12:22:35+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.github.io/tag/</loc>
+    <lastmod>2022-02-22T12:22:35+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.github.io/talks/</loc>
+    <lastmod>2022-02-22T12:22:35+01:00</lastmod>
+  </url><url>
     <loc>https://ftisiot.github.io/2021/01/27/a_month_in_aiven/</loc>
     <lastmod>2021-01-29T10:30:00+00:00</lastmod>
   </url><url>
     <loc>https://ftisiot.github.io/categories/</loc>
-    <lastmod>2021-01-29T10:30:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.github.io/</loc>
     <lastmod>2021-01-29T10:30:00+00:00</lastmod>
   </url><url>
     <loc>https://ftisiot.github.io/posts/</loc>
@@ -87,9 +105,6 @@
     <lastmod>2016-09-28T20:01:20+00:00</lastmod>
   </url><url>
     <loc>https://ftisiot.github.io/tag/speaking-activities/</loc>
-    <lastmod>2016-09-28T20:01:20+00:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.github.io/tag/</loc>
     <lastmod>2016-09-28T20:01:20+00:00</lastmod>
   </url><url>
     <loc>https://ftisiot.github.io/tag/talks/</loc>
