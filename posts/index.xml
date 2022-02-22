@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on ftisiot ideas about food and life</title>
-    <link>https://ftisiot.github.io/posts/</link>
+    <link>https://ftisiot.net/posts/</link>
     <description>Recent content in Posts on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Jan 2021 10:30:00 +0000</lastBuildDate><atom:link href="https://ftisiot.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Jan 2021 10:30:00 +0000</lastBuildDate><atom:link href="https://ftisiot.net/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Month in Aiven.io</title>
-      <link>https://ftisiot.github.io/2021/01/27/a_month_in_aiven/</link>
+      <link>https://ftisiot.net/2021/01/27/a_month_in_aiven/</link>
       <pubDate>Fri, 29 Jan 2021 10:30:00 +0000</pubDate>
       
-      <guid>https://ftisiot.github.io/2021/01/27/a_month_in_aiven/</guid>
+      <guid>https://ftisiot.net/2021/01/27/a_month_in_aiven/</guid>
       <description>&lt;p&gt;A month has already gone since my start at &lt;a href=&#34;https://aiven.io/&#34;&gt;Aiven.io&lt;/a&gt; and it&amp;rsquo;s time for a first, and brief, look back at my experience so far together with few suggestions (even if nobody asks) for anyone that will follow my steps.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: The journey has been great, met several amazing people and learnt lots using cool tech! A bit shocked about food choices&amp;hellip; but that&amp;rsquo;s life 🤌 !&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Looking Forward</title>
-      <link>https://ftisiot.github.io/2021/01/04/looking_forward/</link>
+      <link>https://ftisiot.net/2021/01/04/looking_forward/</link>
       <pubDate>Mon, 04 Jan 2021 15:30:00 +0000</pubDate>
       
-      <guid>https://ftisiot.github.io/2021/01/04/looking_forward/</guid>
+      <guid>https://ftisiot.net/2021/01/04/looking_forward/</guid>
       <description>&lt;p&gt;Now&amp;hellip; What?&lt;/p&gt;
 &lt;p&gt;My previous &lt;a href=&#34;https://ftisiot.net//2020/11/26/looking_back/&#34;&gt;post&lt;/a&gt; was looking back in my 8 years of Rittman Mead experience&amp;hellip; But now it&amp;rsquo;s 2021&amp;hellip; so&amp;hellip; what&amp;rsquo;s next?&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m joining &lt;a href=&#34;https://aiven.io&#34;&gt;Aiven&lt;/a&gt; as Developer Advocate!&lt;/p&gt;</description>
@@ -30,38 +30,38 @@
     
     <item>
       <title>Looking Back</title>
-      <link>https://ftisiot.github.io/2020/11/26/looking_back/</link>
+      <link>https://ftisiot.net/2020/11/26/looking_back/</link>
       <pubDate>Wed, 23 Dec 2020 10:00:00 +0000</pubDate>
       
-      <guid>https://ftisiot.github.io/2020/11/26/looking_back/</guid>
+      <guid>https://ftisiot.net/2020/11/26/looking_back/</guid>
       <description>It was February 2012 when I was meant to take a flight from a foggy Treviso Airport direction London Stansted. The fog created several problems, all passengers were taken by bus to Venice and we had to wait 3 hours before boarding on the plane. The flight 🛬 landed with an overall 4h of delay, not great if the scheduled arrival time was 8PM! I then caught a bus to Liverpool street and finally got lost while trying to reach my hotel.</description>
     </item>
     
     <item>
       <title>What&#39;s My (Talk) Age Again?</title>
-      <link>https://ftisiot.github.io/2020/11/02/whats-my-talk-age-again/</link>
+      <link>https://ftisiot.net/2020/11/02/whats-my-talk-age-again/</link>
       <pubDate>Mon, 02 Nov 2020 13:12:10 +0000</pubDate>
       
-      <guid>https://ftisiot.github.io/2020/11/02/whats-my-talk-age-again/</guid>
+      <guid>https://ftisiot.net/2020/11/02/whats-my-talk-age-again/</guid>
       <description>Las week I shared a personal experience of talking to a small online audience (just one person) and how that episode made me think about my commitment to public talking and understanding that performing at best is still key for both the speaker and the audience.
 One of the items that I explored was the Reflection bit: trying to understand what/why the paper/abstract didn&amp;rsquo;t work, why it didn&amp;rsquo;t attract people and what can be done to improve it.</description>
     </item>
     
     <item>
       <title>A Talk For One</title>
-      <link>https://ftisiot.github.io/2020/10/26/a-talk-for-one/</link>
+      <link>https://ftisiot.net/2020/10/26/a-talk-for-one/</link>
       <pubDate>Mon, 26 Oct 2020 14:15:21 +0000</pubDate>
       
-      <guid>https://ftisiot.github.io/2020/10/26/a-talk-for-one/</guid>
+      <guid>https://ftisiot.net/2020/10/26/a-talk-for-one/</guid>
       <description>2020 hasn&amp;rsquo;t been a great year, with Covid forcing people home and all major events moving from physical to virtual. At the same time, now is the perfect time for attendees: everyone is creating and sharing content via videos, blogs or talks in conferences. People that before had to choose wisely the &amp;ldquo;1 conference&amp;rdquo; where to spend their budget on, now can access for free (or reduced fees) content coming from a huge variety of organisations and speakers.</description>
     </item>
     
     <item>
       <title>Oracle Analytics Server and Kerberos Authentication</title>
-      <link>https://ftisiot.github.io/2020/09/18/oracle-analytics-server-and-kerberos-authentication/</link>
+      <link>https://ftisiot.net/2020/09/18/oracle-analytics-server-and-kerberos-authentication/</link>
       <pubDate>Fri, 18 Sep 2020 08:26:12 +0000</pubDate>
       
-      <guid>https://ftisiot.github.io/2020/09/18/oracle-analytics-server-and-kerberos-authentication/</guid>
+      <guid>https://ftisiot.net/2020/09/18/oracle-analytics-server-and-kerberos-authentication/</guid>
       <description>Oracle Analytics Server is out since several months and a common ask is to provide SSO with Kerberos Authentication.
 The &amp;ldquo;old&amp;rdquo; OBIEE12c style Kerberos configuration is not working with OAS.
 Oracle provided a solution to implement it via Apache Server and Oracle Access Manager Identity Asserter. All the info are published in Doc ID 2707401.1</description>
@@ -69,50 +69,50 @@ Oracle provided a solution to implement it via Apache Server and Oracle Access M
     
     <item>
       <title>Oracle Analytics Cloud 5.7: Use ML Models in the Database</title>
-      <link>https://ftisiot.github.io/2020/08/10/oracle-analytics-cloud-5-7-use-ml-models-in-the-database/</link>
+      <link>https://ftisiot.net/2020/08/10/oracle-analytics-cloud-5-7-use-ml-models-in-the-database/</link>
       <pubDate>Mon, 10 Aug 2020 09:08:25 +0000</pubDate>
       
-      <guid>https://ftisiot.github.io/2020/08/10/oracle-analytics-cloud-5-7-use-ml-models-in-the-database/</guid>
+      <guid>https://ftisiot.net/2020/08/10/oracle-analytics-cloud-5-7-use-ml-models-in-the-database/</guid>
       <description>I created a short video showing how you can register in Oracle Analytics Cloud 5.7 some Machine Learning models created in the Oracle Database and score data with a simple Data Flow, check it out
 https://www.youtube.com/watch?v=GZubKpWUA0U</description>
     </item>
     
     <item>
       <title>2019 a Year of Conferences and Much More!</title>
-      <link>https://ftisiot.github.io/2019/12/13/2019-a-year-of-conferences-and-much-more/</link>
+      <link>https://ftisiot.net/2019/12/13/2019-a-year-of-conferences-and-much-more/</link>
       <pubDate>Fri, 13 Dec 2019 13:09:17 +0000</pubDate>
       
-      <guid>https://ftisiot.github.io/2019/12/13/2019-a-year-of-conferences-and-much-more/</guid>
+      <guid>https://ftisiot.net/2019/12/13/2019-a-year-of-conferences-and-much-more/</guid>
       <description>The 2019 end-of-year holiday period is approaching, before closing the laptop for few days it&amp;rsquo;s good to look back how the year went. It has been very busy working wise: client work, conference preparation and talks, blog posts and videos kept my time well occupied. I also had an amazing news in June, when, during Kscope 19, I was invited on the stage and announced as Oracle ACE Director
 Congratulations to new Oracle ACE Directors @ftisiot @thtechnology @fdmeeguru!</description>
     </item>
     
     <item>
       <title>ITOUG Call for Papers Submission Analysis</title>
-      <link>https://ftisiot.github.io/2019/07/30/itoug-call-for-papers-submission-analysis/</link>
+      <link>https://ftisiot.net/2019/07/30/itoug-call-for-papers-submission-analysis/</link>
       <pubDate>Tue, 30 Jul 2019 14:21:36 +0000</pubDate>
       
-      <guid>https://ftisiot.github.io/2019/07/30/itoug-call-for-papers-submission-analysis/</guid>
+      <guid>https://ftisiot.net/2019/07/30/itoug-call-for-papers-submission-analysis/</guid>
       <description>If you read this now and you wanted to submit for ITOUG Tech Days 2020&amp;hellip;. well, bad luck, you&amp;rsquo;re too late! ITOUG Tech Days 2020 was closed last week with an astonishing record of submissions! This post will analyse a bit the numbers of the submissions using the magic Oracle Analytics Cloud.
 First of all, uploading the data and fixing the column settings. For example, we want to properly convert to Date our Submission Date (Data di invio in Italian).</description>
     </item>
     
     <item>
       <title>Looker for OBIEE Experts: Introduction and Concepts</title>
-      <link>https://ftisiot.github.io/2018/08/23/looker-for-obiee-experts-introduction-and-concepts/</link>
+      <link>https://ftisiot.net/2018/08/23/looker-for-obiee-experts-introduction-and-concepts/</link>
       <pubDate>Thu, 23 Aug 2018 09:14:16 +0000</pubDate>
       
-      <guid>https://ftisiot.github.io/2018/08/23/looker-for-obiee-experts-introduction-and-concepts/</guid>
+      <guid>https://ftisiot.net/2018/08/23/looker-for-obiee-experts-introduction-and-concepts/</guid>
       <description>Hello! After a long time I&amp;rsquo;m back to my personal blog! You can find all my Rittman Mead related blog posts here!
 Recently I&amp;rsquo;ve been doing some personal study around various areas including streaming, machine learning and data visualization and one of the tools that got my attention is Looker. I&amp;rsquo;ve initially heard about Looker from a Drill to Detail podcast from Mark Rittman and increasingly been hearing about it in conferences and use cases together with other cloud solutions like BigQuery, Snowflake and Fivetran.</description>
     </item>
     
     <item>
       <title>ITOUG Call for Papers is Open!</title>
-      <link>https://ftisiot.github.io/2017/02/28/itoug-call-for-papers-is-open/</link>
+      <link>https://ftisiot.net/2017/02/28/itoug-call-for-papers-is-open/</link>
       <pubDate>Tue, 28 Feb 2017 14:33:52 +0000</pubDate>
       
-      <guid>https://ftisiot.github.io/2017/02/28/itoug-call-for-papers-is-open/</guid>
+      <guid>https://ftisiot.net/2017/02/28/itoug-call-for-papers-is-open/</guid>
       <description>I&amp;rsquo;m pleased to announce that, for the first time, a BI/Analytics track will be present at ITOUG!
 ITOUG, the recently created Italian Oracle User Group, has been so far almost 100% DBA orientated. At the next event, which will be held on 8th June 2017 at UNA Century Hotel in Milan, we are opening a new BI/Analytics streams and looking for speakers.
 Call for papers is already open, visit http://www.itoug.it for more informations.</description>
@@ -120,39 +120,39 @@ Call for papers is already open, visit http://www.itoug.it for more informations
     
     <item>
       <title>OBI12c SSL with Custom Certificates</title>
-      <link>https://ftisiot.github.io/2016/10/16/obi12c-ssl-with-custom-certificates/</link>
+      <link>https://ftisiot.net/2016/10/16/obi12c-ssl-with-custom-certificates/</link>
       <pubDate>Sun, 16 Oct 2016 18:40:45 +0000</pubDate>
       
-      <guid>https://ftisiot.github.io/2016/10/16/obi12c-ssl-with-custom-certificates/</guid>
+      <guid>https://ftisiot.net/2016/10/16/obi12c-ssl-with-custom-certificates/</guid>
       <description>For anybody on OBIEE 12c wanting to enable full SSL, Oracle provided within the OBIEE Documentation an explanation on how to set it up using demo certificates.
 However the usage of demo certificates gives the end user the annoying problem of needing to accept an exception to enter the website since the demo certificate wasn&amp;rsquo;t created for the server/domain where OBIEE is located (the same problem arises also with Smartview).</description>
     </item>
     
     <item>
       <title>Remove OBI12c Data Visualisation from OBIEE</title>
-      <link>https://ftisiot.github.io/2016/10/13/remove-obi12c-data-visualisation-from-obiee/</link>
+      <link>https://ftisiot.net/2016/10/13/remove-obi12c-data-visualisation-from-obiee/</link>
       <pubDate>Thu, 13 Oct 2016 07:28:11 +0000</pubDate>
       
-      <guid>https://ftisiot.github.io/2016/10/13/remove-obi12c-data-visualisation-from-obiee/</guid>
+      <guid>https://ftisiot.net/2016/10/13/remove-obi12c-data-visualisation-from-obiee/</guid>
       <description>For anybody interested in how to remove or add Data Visualisation (also known as Visual Analyser) option to a specific role in OBIEE 12c, Oracle released Doc ID 2102444.1 which gives the detail about the procedure using WLST and the RevokeDVPermission.py (or GrantDVPermission.py) that should be present in the OBIEE12c Installation Middleware home by default.</description>
     </item>
     
     <item>
       <title>How to search the Cause of Errors</title>
-      <link>https://ftisiot.github.io/2016/10/12/how-to-search-the-cause-of-errors/</link>
+      <link>https://ftisiot.net/2016/10/12/how-to-search-the-cause-of-errors/</link>
       <pubDate>Wed, 12 Oct 2016 18:40:22 +0000</pubDate>
       
-      <guid>https://ftisiot.github.io/2016/10/12/how-to-search-the-cause-of-errors/</guid>
+      <guid>https://ftisiot.net/2016/10/12/how-to-search-the-cause-of-errors/</guid>
       <description>I&amp;rsquo;ve been working on OBIEE and Oracle products in general since 2008, it has been so far a great experience with an enormous amount of information being available freely in internet.
 When trying to solve problems this amount of information can be a treasure but also a risk since the information contained in any website can be partial, not relevant or in some cases completely wrong for the subject searched. As an unexperienced person (but also for experienced) it&amp;rsquo;s difficult to distinguish whether the content of a website can be followed and trusted and sometimes even replies to public forums can&amp;rsquo;t be a valid source since different problems provide the similar wrong behaviour and can be confused.</description>
     </item>
     
     <item>
       <title>OBI Blogs to follow</title>
-      <link>https://ftisiot.github.io/2016/09/29/obi-blogs-to-follow/</link>
+      <link>https://ftisiot.net/2016/09/29/obi-blogs-to-follow/</link>
       <pubDate>Thu, 29 Sep 2016 10:17:15 +0000</pubDate>
       
-      <guid>https://ftisiot.github.io/2016/09/29/obi-blogs-to-follow/</guid>
+      <guid>https://ftisiot.net/2016/09/29/obi-blogs-to-follow/</guid>
       <description>Hi All,
 I thought that including a post on the OBI related blogs and the owner twitter accounts, may be useful. The list will be enriched over time
  * [rittmanmead.com](http://www.rittmanmead.com): My company&#39;s blog, always source of good OBI articles * [rmoff.net](http://rmoff.net): [Robin Moffat](https://twitter.com/rmoff)&#39;s (Oracle ACE) personal blog * [gianniceresa.com](https://gianniceresa.com): [Gianni Ceresa](https://twitter.com/G_Ceresa)&#39;s personal blog * [dimensionality.ch](http://dimensionality.ch): [Christian Berg](https://twitter.com/Nephentur)&#39;s (Oracle ACE Associate) personal blog * [gerardnico.com](http://gerardnico.com/): Nicolas Gerard&#39;s personal blog * [bisoftdiary.</description>
@@ -160,10 +160,10 @@ I thought that including a post on the OBI related blogs and the owner twitter a
     
     <item>
       <title>OBI12c Performance Tiles PDF Print Error</title>
-      <link>https://ftisiot.github.io/2016/09/29/obi12c-performance-tiles-pdf-print-error/</link>
+      <link>https://ftisiot.net/2016/09/29/obi12c-performance-tiles-pdf-print-error/</link>
       <pubDate>Thu, 29 Sep 2016 08:10:24 +0000</pubDate>
       
-      <guid>https://ftisiot.github.io/2016/09/29/obi12c-performance-tiles-pdf-print-error/</guid>
+      <guid>https://ftisiot.net/2016/09/29/obi12c-performance-tiles-pdf-print-error/</guid>
       <description>Hi All,
 If you already migrated to OBI12c you could experience, when printing to PDF a dashboard or analysis including performance tiles that the layout is not what expected.
 [caption width=&amp;ldquo;300&amp;rdquo; id=&amp;ldquo;attachment_37&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo;]Original Dashboard Layout[/caption] [caption width=&amp;ldquo;300&amp;rdquo; id=&amp;ldquo;attachment_36&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo;]PDF Print[/caption]The good news is that this has been recognised as a bug and if you are on 12.2.1.0.0 there is a patch available &amp;ldquo;Patch 22759083: BIEE 12C DASHBOARD PRINT TO PDF MISSING PERFORMANCE TILES FROM THE REPORT&amp;rdquo;.</description>
@@ -171,10 +171,10 @@ If you already migrated to OBI12c you could experience, when printing to PDF a d
     
     <item>
       <title>Welcome</title>
-      <link>https://ftisiot.github.io/2016/09/28/first-blog-post/</link>
+      <link>https://ftisiot.net/2016/09/28/first-blog-post/</link>
       <pubDate>Wed, 28 Sep 2016 13:10:09 +0000</pubDate>
       
-      <guid>https://ftisiot.github.io/2016/09/28/first-blog-post/</guid>
+      <guid>https://ftisiot.net/2016/09/28/first-blog-post/</guid>
       <description>Hi All!
 Welcome to my blog! If time and perseverance will assist me I&amp;rsquo;ll try to post here about my findings and ideas at work and about life in general, so stay tuned!
 Francesco</description>

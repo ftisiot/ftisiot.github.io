@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>talks on ftisiot ideas about food and life</title>
-    <link>https://ftisiot.github.io/tag/talks/</link>
+    <link>https://ftisiot.net/tag/talks/</link>
     <description>Recent content in talks on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Sep 2016 20:01:20 +0000</lastBuildDate><atom:link href="https://ftisiot.github.io/tag/talks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Sep 2016 20:01:20 +0000</lastBuildDate><atom:link href="https://ftisiot.net/tag/talks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Speaking Activities</title>
-      <link>https://ftisiot.github.io/speaking-activities/</link>
+      <link>https://ftisiot.net/speaking-activities/</link>
       <pubDate>Wed, 28 Sep 2016 20:01:20 +0000</pubDate>
       
-      <guid>https://ftisiot.github.io/speaking-activities/</guid>
+      <guid>https://ftisiot.net/speaking-activities/</guid>
       <description>Check out Past and Future Speaking Activities!
 Planned Speaking Activities    Event Date Talk     FOSDEM 2022 5th Feb Build an Open Source Streaming Data Pipeline   FOSDEM 2022 6th Feb Get to know Apache Kafka with Jupyter Notebooks   FOSDEM 2022 6th Feb Solving the knapsack problem with recursive queries and PostgreSQL    Previous Speaking Activities 2020    Event Date Talk     Sangam 2020 12th Dec Rapid Fire: Machine Learning   Sangam 2020 12th Dec Predicting Good Wines in the Database with Oracle Machine Learning   UKOUG Virtual Conference 1st Dec Governed vs Self-Service Analytics Round Table   AUSOUG Virtual Connect 2020 11th Nov Predicting Good Wines in the Database with Oracle Machine Learning and Oracle analytics Cloud   OGB APAC Tour 26th Oct Upgrade to OAS:Why and How?</description>
     </item>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>debezium on ftisiot ideas about food and life</title>
-    <link>https://ftisiot.github.io/tag/debezium/</link>
+    <link>https://ftisiot.net/tag/debezium/</link>
     <description>Recent content in debezium on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Feb 2022 12:22:35 +0100</lastBuildDate><atom:link href="https://ftisiot.github.io/tag/debezium/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Feb 2022 12:22:35 +0100</lastBuildDate><atom:link href="https://ftisiot.net/tag/debezium/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>I Don&#39;t Want to Miss a Thing - Track Database Changes with Apache Kafka</title>
-      <link>https://ftisiot.github.io/talks/track-database-changes/</link>
+      <link>https://ftisiot.net/talks/track-database-changes/</link>
       <pubDate>Tue, 22 Feb 2022 12:22:35 +0100</pubDate>
       
-      <guid>https://ftisiot.github.io/talks/track-database-changes/</guid>
+      <guid>https://ftisiot.net/talks/track-database-changes/</guid>
       <description>Useful Links  Apache Kafka docs Debezium docs How to Debezium in Aiven docs JDBC source connector example Debezium source connector example Aiven for PostgreSQL  </description>
     </item>
     

@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Search on ftisiot ideas about food and life</title>
-    <link>https://ftisiot.github.io/search/</link>
+    <link>https://ftisiot.net/search/</link>
     <description>Recent content in Search on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ftisiot.github.io/search/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://ftisiot.net/search/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
