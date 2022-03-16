@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>First Steps within Aiven&hellip; the CLI!</title>
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="https://ftisiot.net/index.xml">
+		<link rel="canonical" href="https://ftisiot.net/2021/01/15/aiven_cli/">
+		
+		<link rel="shortcut icon" type="image/png" href="https://ftisiot.net/apple-touch-icon-precomposed.png">
+		
+		
+		
+
+		
+		<meta property="og:title" content="First Steps within Aiven&hellip; the CLI!" />
+		<meta property="og:type" content="article" />
+		<meta property="og:image" content="https://ftisiot.net/images/2021/01/looking_forward.jpg" />
+		<meta property="og:description" content="" />
+		<meta property="og:url" content="https://ftisiot.net/2021/01/15/aiven_cli/" />
+		<meta property="og:site_name" content="First Steps within Aiven&hellip; the CLI!" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@" />
+
+
+		
+		<link rel="stylesheet" href="https://ftisiot.net/css/tachyons.min.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/story.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/descartes.css" />
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Quattrocento:400,700|Spectral:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+		
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script src="https://ftisiot.net/js/story.js"></script>
+
+	</head>
+	<body class="ma0 bg-white section-posts page-kind-page is-page-true ">
+		
+		<header class="cover bg-top" style="background-image: url('https://ftisiot.net/images/2021/01/looking_forward.jpg'); background-position: center;">
+			<div class="bg-black-30 bb bt">
+
+				<nav class="hide-print sans-serif  border-box pa3 ph5-l">
+					<a href="https://ftisiot.net" title="Home">
+						<img src="https://ftisiot.net/img/logo.jpg" class="w2 h2 br-100" alt="ftisiot ideas about food and life" />
+					</a>
+					<div class="fr h2 pv2 tr">
+						<a class="link f5 ml2 dim near-white" href="/who">who</a>
+						<a class="link f5 ml2 dim near-white" href="/speaking-activities">talks</a>
+						<a class="link f5 ml2 dim near-white" href="https://www.youtube.com/channel/UCTJ4oA3-T3RdmM2OJ7d8cJg"><i class="fab fa-youtube-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://twitter.com/ftisiot/"><i class="fab fa-twitter-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://github.com/ftisiot/"><i class="fab fa-github-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://www.linkedin.com/in/francescotisiot/"><i class="fab fa-linkedin"></i></a>
+						<a class="link f5 ml2 dim near-white fas fa-rss-square" href="https://ftisiot.net/index.xml" title="RSS Feed"></a>
+						<a class="link f5 ml2 dim near-white fas fa-search" href="https://ftisiot.net/search/" role="search" title="Search"></a>
+					</div>
+				</nav>
+
+				<div id="hdr" class="tc-l pv4-ns pv5-l pv2 ph3 ph4-ns">
+					<h1 class="near-white mt1-ns f2 fw3 mb0 mt0 lh-title">First Steps within Aiven&hellip; the CLI!</h1>
+					<h2 class="near-white mt3-l mb4-l fw1 f6 f3-l measure-wide-l center lh-copy mt2 mb3">
+						
+						
+							
+								Published
+								<time datetime="2021-01-06T15:30:00Z">Jan 6, 2021</time>
+								<span class="display-print">by ftisiot</span>
+								 in <a href="https://ftisiot.net/categories/work" class="no-underline category near-white dim">Work</a>
+								<span class="display-print">at https://ftisiot.net/2021/01/15/aiven_cli/</span>
+							
+						
+					</h2>
+				</div>
+
+				
+				
+				
+				<div class="w-100 cf hide-print">
+					<a class="fr f6 ma0 pa2 link white-50 dim fas fa-camera" href="https://twitter.com/ftisiot/" title="Photo Credit"></a>
+				</div>
+				
+				
+
+			</div>
+		</header>
+		
+		<main role="main">
+		
+<article class="center bg-white br-3 pv1 ph4 lh-copy f5 nested-links mw7">
+	<p>Hi, I&rsquo;m Francesco and recently joined Aiven.io as Developer Advocate!</p>
+<p>In this first blog post, we&rsquo;ll have a look at how to install and login to Aiven&rsquo;s resources using the command line client.</p>
+<p>If you&rsquo;re new to Aiven or if you already know the platform but want to automate some tasks, the client allows you to perform the same tasks available on <a href="https://console.aiven.io/">Aiven&rsquo;s web console</a> but from your preferred terminal.</p>
+<h2 id="install-the-aiven-client">Install the Aiven client</h2>
+<p>The first step is very simple, installing Aiven&rsquo;s cli!
+It can be done (as per <a href="https://github.com/aiven/aiven-client">documentation</a>) with</p>
+<pre tabindex="0"><code>python3 -m pip install aiven-client
+</code></pre><p><strong>Note</strong>: you need to be on Python 3.6 or later to successfully work with <code>aiven-client</code></p>
+<p>If the installation was performed correctly, you should now be able to call <code>avn</code> commands from your terminal. To obtain an overview of commands and options you can simply execute <code>avn -h</code></p>
+<pre tabindex="0"><code>FT:Client ft$ avn -h
+usage: avn [-h] [--config CONFIG] [--version] [--auth-ca FILE] [--auth-token AUTH_TOKEN] [--show-http] [--url URL]  ...
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --config CONFIG       config file location &#39;/Users/francescotisiot/.config/aiven/aiven-client.json&#39;
+  --version             show program&#39;s version number and exit
+  --auth-ca FILE        CA certificate to use [AIVEN_CA_CERT], default None
+  --auth-token AUTH_TOKEN
+                        Client auth token to use [AIVEN_AUTH_TOKEN], [AIVEN_CREDENTIALS_FILE]
+  --show-http           Show HTTP requests and responses
+  --url URL             Server base url default &#39;https://api.aiven.io&#39;
+
+command categories:
+
+    account             Account commands
+    billing-group       Billing-Group commands
+    card                Card commands
+    cloud               Cloud commands
+    credits             Credits commands
+    events              View project event logs
+    help                List commands
+    mirrormaker         Mirrormaker commands
+    project             Project commands
+    service             Service commands
+    ticket              Ticket commands
+    user                User commands
+    vpc                 Vpc commands
+</code></pre><h2 id="autocomplete">Autocomplete</h2>
+<p>Autocomplete allows you to get suggestion for any command in the <code>avn</code> suite just by pressing <code>TAB</code>. Installing it just requires you to add the <code>argcomplete</code> dependency with</p>
+<pre tabindex="0"><code>python3 -m pip install argcomplete
+</code></pre><p>Then add the following line to your <code>~/.bash_profile</code> file</p>
+<pre tabindex="0"><code>eval &#34;$(register-python-argcomplete avn)&#34;
+</code></pre><p>All set! Now just press <code>TAB</code> to get autocomplete suggestions when writing any <code>avn</code> command.</p>
+<p><img src="/images/2021/01/avn_autocomplete_cmd_t1.gif" alt="autocomplete"></p>
+<h2 id="login">Login</h2>
+<p>With <code>aiven-client</code> and autocomplete installed, you can start playing with the <code>avn</code> command in the shell.
+The first task to perform is the login: you can easily achieve it with the following command, replacing <code>&lt;USERNAME&gt;</code> with the email registered on Aiven&rsquo;s website.</p>
+<pre tabindex="0"><code>avn user login &lt;USERNAME&gt;
+</code></pre><p>You&rsquo;ll be now prompted for the password. In case of a successful login, you should receive a message like the below telling you that a new Access Token has been created and stored under <code>~/.config/aiven/aiven-credentials.json</code>.</p>
+<pre tabindex="0"><code>FT:Client ft$ avn user login ftisiot@aiven.io
+ftisiot@aiven.io&#39;s Aiven password:
+INFO	Aiven credentials written to: ~/.config/aiven/aiven-credentials.json
+</code></pre><p>The token will also be visible from <a href="https://console.aiven.io/profile/auth">Aiven&rsquo;s Profile Authentication page</a></p>
+<p><img src="/images/2021/01/Authentication_token.jpg" alt="auth_token"></p>
+<p>If, on the other side, your login is invalid you&rsquo;ll see the below error message</p>
+<pre tabindex="0"><code>ERROR	command failed: Error: {&#34;errors&#34;:[{&#34;message&#34;:&#34;Authentication failed&#34;,&#34;status&#34;:403}],&#34;message&#34;:&#34;Authentication failed&#34;}
+</code></pre><h2 id="enable-aiven-cli-login-when-using-sign-in-with-google">Enable <code>aiven-cli</code> Login when using &ldquo;Sign in with Google&rdquo;</h2>
+<p>Please note that if you are using Google OAuth Single Sign-On (&ldquo;Sign in with Google&rdquo; in <a href="https://console.aiven.io">Aiven&rsquo;s console</a>), trying to login with the same credentials via the <code>aiven-cli</code> will result in a failure with an <code>Authentication failed</code> message.</p>
+<p>The <strong>Aiven Password</strong> login method used by <code>aiven-cli</code> needs to be enabled in <a href="https://console.aiven.io/profile/auth">Aiven&rsquo;s Profile Authentication page</a></p>
+<p><img src="/images/2021/01/login_methods_enabled.jpg" alt="login methods"></p>
+<p>Once enabled you&rsquo;ll be able to login with your account email and the defined Aiven&rsquo;s password from <code>aiven-cli</code>!</p>
+<p>That&rsquo;s it, you&rsquo;re in! You can now create services, teams, profiles and even tickets! Follow this space for more!
+Happy browsing Aiven&rsquo;s services!</p>
+</article>
+
+		</main>
+		
+				<div class="hide-print sans-serif f6 f5-l mt5 ph3 pb6 center nested-copy-line-height lh-copy nested-links mw-100 measure-wide">
+		<div class="about-the-author">
+		
+			
+			
+				
+					<hr>
+<p><img src="/images/ftisiot.png" alt="Francesco Tisiot"></p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --> <em>Francesco comes from Verona, Italy and works as a Developer Advocate at Aiven. With his many years of experience as a data analyst, he has stories to tell and advice for data-wranglers everywhere. Francesco loves sharing knowledge with others as a speaker and writer, and is on a mission to defend the world from bad Italian food!</em></p>
+
+				
+			
+		
+		</div>
+		
+	</div>
+
+		
+		
+		
+		<footer class="hide-print sans-serif f6 fw1 bg-black near-white bottom-0 w-100 pa3" role="contentinfo">
+			<p class="w-50 fr tr">
+			<a class="no-underline near-white" href="https://github.com/xaprb/story"><img class="dib" title="Made with Hugo and Story" alt="Story logo" src="https://ftisiot.net/img/story-logo-white.svg" style="width: 1.5rem; height: 1.5rem" /></a>
+			</p>
+			<p class="w-50 near-white">
+				&copy; 2022 
+			</p>
+		</footer>
+		
+	
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-183917003-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+	
+	</body>
+</html>
