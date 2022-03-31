@@ -6,7 +6,17 @@
     <description>Recent content in Posts on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Jan 2021 10:30:00 +0000</lastBuildDate><atom:link href="https://ftisiot.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Mar 2022 13:39:18 +0200</lastBuildDate><atom:link href="https://ftisiot.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beautify `kcat` consumer output by piping to `jq`</title>
+      <link>https://ftisiot.net/posts/jq-kcat-consumer/</link>
+      <pubDate>Thu, 31 Mar 2022 13:39:18 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/posts/jq-kcat-consumer/</guid>
+      <description>I was working on some demos recently on the Apache Kafka source connectors (hi #KafkaSummit!), and trying to display the stream of changes in the resulting Apache Kafka topic.
+My standard approach is to vertically divide the terminal and have on the left the database connection where I can issue commands and on the right the output of kcat. This setup works really well for simple messages, but when using it with a Debezium source connector, the amount of fields pushed in a single message makes it hardly parsable by a live audience watching a screen.</description>
+    </item>
+    
     <item>
       <title>A Month in Aiven.io</title>
       <link>https://ftisiot.net/2021/01/27/a_month_in_aiven/</link>

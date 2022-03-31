@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Beautify &lt;code&gt;kcat&lt;/code&gt; consumer output by piping to &lt;code&gt;jq&lt;/code&gt;</title>
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="https://ftisiot.net/index.xml">
+		<link rel="canonical" href="https://ftisiot.net/posts/jq-kcat-consumer/">
+		
+		<link rel="shortcut icon" type="image/png" href="https://ftisiot.net/apple-touch-icon-precomposed.png">
+		<meta name="description" content="How to beautify kcat JSON output with jq">
+		
+		
+
+		
+		<meta property="og:title" content="Beautify kcat consumer output by piping to jq" />
+		<meta property="og:type" content="article" />
+		<meta property="og:image" content="https://ftisiot.net/images/2022/working_result_kcat_jq.jpg" />
+		<meta property="og:description" content="How to beautify kcat JSON output with jq" />
+		<meta property="og:url" content="https://ftisiot.net/posts/jq-kcat-consumer/" />
+		<meta property="og:site_name" content="Beautify kcat consumer output by piping to jq" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@" />
+
+
+		
+		<link rel="stylesheet" href="https://ftisiot.net/css/tachyons.min.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/story.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/descartes.css" />
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Quattrocento:400,700|Spectral:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+		
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script src="https://ftisiot.net/js/story.js"></script>
+
+	</head>
+	<body class="ma0 bg-white section-posts page-kind-page is-page-true ">
+		
+		<header class="cover bg-top" style="background-image: url('https://ftisiot.net/images/2022/working_result_kcat_jq.jpg'); background-position: center;">
+			<div class="bg-black-30 bb bt">
+
+				<nav class="hide-print sans-serif  border-box pa3 ph5-l">
+					<a href="https://ftisiot.net" title="Home">
+						<img src="https://ftisiot.net/img/logo.jpg" class="w2 h2 br-100" alt="ftisiot ideas about food and life" />
+					</a>
+					<div class="fr h2 pv2 tr">
+						<a class="link f5 ml2 dim near-white" href="/who">who</a>
+						<a class="link f5 ml2 dim near-white" href="/speaking-activities">talks</a>
+						<a class="link f5 ml2 dim near-white" href="https://www.youtube.com/channel/UCTJ4oA3-T3RdmM2OJ7d8cJg"><i class="fab fa-youtube-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://twitter.com/ftisiot/"><i class="fab fa-twitter-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://github.com/ftisiot/"><i class="fab fa-github-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://www.linkedin.com/in/francescotisiot/"><i class="fab fa-linkedin"></i></a>
+						<a class="link f5 ml2 dim near-white fas fa-rss-square" href="https://ftisiot.net/index.xml" title="RSS Feed"></a>
+						<a class="link f5 ml2 dim near-white fas fa-search" href="https://ftisiot.net/search/" role="search" title="Search"></a>
+					</div>
+				</nav>
+
+				<div id="hdr" class="tc-l pv4-ns pv5-l pv2 ph3 ph4-ns">
+					<h1 class="near-white mt1-ns f2 fw3 mb0 mt0 lh-title">Beautify <code>kcat</code> consumer output by piping to <code>jq</code></h1>
+					<h2 class="near-white mt3-l mb4-l fw1 f6 f3-l measure-wide-l center lh-copy mt2 mb3">
+						
+						
+							
+								Published
+								<time datetime="2022-03-31T13:39:18&#43;02:00">Mar 31, 2022</time>
+								<span class="display-print">by </span>
+								 in <a href="https://ftisiot.net/categories/apache-kafka" class="no-underline category near-white dim">Apache Kafka</a>, <a href="https://ftisiot.net/categories/kcat" class="no-underline category near-white dim">Kcat</a>, <a href="https://ftisiot.net/categories/jq" class="no-underline category near-white dim">Jq</a>
+								<span class="display-print">at https://ftisiot.net/posts/jq-kcat-consumer/</span>
+							
+						
+					</h2>
+				</div>
+
+				
+				
+				
+				
+
+			</div>
+		</header>
+		
+		<main role="main">
+		
+<article class="center bg-white br-3 pv1 ph4 lh-copy f5 nested-links mw7">
+	<p>I was working on some demos recently on the Apache Kafka source connectors (hi #KafkaSummit!), and trying to display the stream of changes in the resulting Apache Kafka topic.</p>
+<p>My standard approach is to vertically divide the terminal and have on the left the database connection where I can issue commands and on the right the output of <a href="https://docs.confluent.io/platform/current/app-development/kafkacat-usage.html">kcat</a>. This setup works really well for simple messages, but when using it with a <a href="https://developer.aiven.io/docs/products/kafka/kafka-connect/howto/debezium-source-connector-pg.html">Debezium source connector</a>, the amount of fields pushed in a single message makes it hardly parsable by a live audience watching a screen.</p>
+<p><img src="/images/2022/unparsable_json.jpg" alt="Unparsable JSON"></p>
+<p>In the above image you can notice that the <code>kcat</code> output is a JSON format without syntax highlight making it almost unreadable.</p>
+<h2 id="jq-to-the-rescue"><code>jq</code> to the rescue</h2>
+<p>I knew and was using since long time <a href="https://stedolan.github.io/jq/">jq</a> a tool that allows you to beautify and parse JSON outputs. After installing you can just use it as</p>
+<pre tabindex="0"><code>echo &#39;{&#34;name&#34;:&#34;Francesco&#34;, &#34;preferences&#34;:[&#34;pasta&#34;,&#34;pizza&#34;,&#34;espresso&#34;]}&#39; | jq &#39;.&#39;
+</code></pre><p>and you get your amazing JSON displayed nicely</p>
+<pre tabindex="0"><code>{
+  &#34;name&#34;: &#34;Francesco&#34;,
+  &#34;preferences&#34;: [
+    &#34;pasta&#34;,
+    &#34;pizza&#34;,
+    &#34;espresso&#34;
+  ]
+}
+</code></pre><h2 id="jq-and-kcat"><code>jq</code> and <code>kcat</code></h2>
+<p>Now, how can I apply <code>jq</code> to the <code>kcat</code> consumer output? I tried a direct pipe like:</p>
+<pre tabindex="0"><code>kcat -F kcat.config -C \
+    -t my_pgsource.public.players | jq 
+</code></pre><p>But unfortunately I only got the output comments without the actual data being displayed</p>
+<pre tabindex="0"><code>% Reading configuration from file kcat.config
+% Reached end of topic my_pgsource.public.players [0] at offset 3
+</code></pre><p>Seen on screen as</p>
+<p><img src="/images/2022/no_json_kcat.jpg" alt="No output of JSON"></p>
+<p>I struggled long time, but then reached out to a friend (kudos <a href="https://twitter.com/rmoff">@rmoff</a>) who pointed me to the right solution: the <code>-u</code> flag (                 Unbuffered output) in <code>kcat</code>. Once added the <code>-u</code> flag I&rsquo;m now able to see my beautified JSON!</p>
+<p><img src="/images/2022/working_kcat_beauty_json.gif" alt="Beautified JSON"></p>
+
+</article>
+
+		</main>
+		
+				<div class="hide-print sans-serif f6 f5-l mt5 ph3 pb6 center nested-copy-line-height lh-copy nested-links mw-100 measure-wide">
+		<div class="about-the-author">
+		
+			
+			
+				
+					<hr>
+<p><img src="/images/ftisiot.png" alt="Francesco Tisiot"></p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --> <em>Francesco comes from Verona, Italy and works as a Developer Advocate at Aiven. With his many years of experience as a data analyst, he has stories to tell and advice for data-wranglers everywhere. Francesco loves sharing knowledge with others as a speaker and writer, and is on a mission to defend the world from bad Italian food!</em></p>
+
+				
+			
+		
+		</div>
+		
+	</div>
+
+		
+		
+		
+		<footer class="hide-print sans-serif f6 fw1 bg-black near-white bottom-0 w-100 pa3" role="contentinfo">
+			<p class="w-50 fr tr">
+			<a class="no-underline near-white" href="https://github.com/xaprb/story"><img class="dib" title="Made with Hugo and Story" alt="Story logo" src="https://ftisiot.net/img/story-logo-white.svg" style="width: 1.5rem; height: 1.5rem" /></a>
+			</p>
+			<p class="w-50 near-white">
+				&copy; 2022 
+			</p>
+		</footer>
+		
+	
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-183917003-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+	
+	</body>
+</html>
