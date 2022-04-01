@@ -6,7 +6,17 @@
 		<language>en-us</language>
 		<author></author>
 		<rights>Copyright (c) 2022</rights>
-		<updated>2022-03-31 13:39:18 &#43;0200 CEST</updated>
+		<updated>2022-04-01 14:24:42 &#43;0200 CEST</updated>
+		
+		<item>
+			<title>Talks</title>
+			<link>https://ftisiot.net/talks/</link>
+			<pubDate>Fri, 01 Apr 2022 14:24:42 CEST</pubDate>
+			<author></author>
+			<guid>https://ftisiot.net/talks/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description></description>
+		</item>
 		
 		<item>
 			<title>Posts</title>
@@ -14,16 +24,6 @@
 			<pubDate>Thu, 31 Mar 2022 13:39:18 CEST</pubDate>
 			<author></author>
 			<guid>https://ftisiot.net/posts/</guid>
-			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
-			<description></description>
-		</item>
-		
-		<item>
-			<title>Talks</title>
-			<link>https://ftisiot.net/talks/</link>
-			<pubDate>Tue, 15 Mar 2022 16:12:47 CET</pubDate>
-			<author></author>
-			<guid>https://ftisiot.net/talks/</guid>
 			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
 			<description></description>
 		</item>
@@ -62,11 +62,6 @@
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;Nordic PG Day&lt;/td&gt;
-&lt;td&gt;22nd Mar&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.postgresql.eu/events/nordicpgday2022/schedule/session/3540-i-dont-want-to-miss-a-thing-track-database-changes-with-apache-kafka/&#34;&gt;I Don&amp;rsquo;t Want to Miss a Thing: Track Database Changes with Apache Kafka&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
 &lt;td&gt;Kafka Summit 2022 London&lt;/td&gt;
 &lt;td&gt;25th April&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://www.kafka-summit.org/sessions/jdbc-source-connector-what-could-go-wrong&#34;&gt;JDBC Source Connector: What Could Go Wrong?&lt;/a&gt;&lt;/td&gt;
@@ -81,6 +76,11 @@
 &lt;td&gt;3rd Jun&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://pycon.it/en/talk/event-driven-applications-with-flask-and-kafka?day=2022-06-03&#34;&gt;Event Driven Applications with Flask and Kafka&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Berlin Buzzwords&lt;/td&gt;
+&lt;td&gt;12nd Jun&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://2022.berlinbuzzwords.de/&#34;&gt;Solving the knapsack problem with recursive queries and PostgreSQL&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h1 id=&#34;previous-speaking-activities&#34;&gt;Previous Speaking Activities&lt;/h1&gt;
@@ -94,6 +94,11 @@
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Nordic PG Day&lt;/td&gt;
+&lt;td&gt;22nd Mar&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://ftisiot.net/talks/track-database-changes&#34;&gt;I Don&amp;rsquo;t Want to Miss a Thing: Track Database Changes with Apache Kafka&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;FOSDEM 2022&lt;/td&gt;
 &lt;td&gt;5th Feb&lt;/td&gt;

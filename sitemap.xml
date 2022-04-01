@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ftisiot.net/</loc>
+    <lastmod>2022-04-01T14:24:42+02:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/talks/kafka-jdbc-what-can-go-wrong/</loc>
+    <lastmod>2022-04-01T14:24:42+02:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/talks/</loc>
+    <lastmod>2022-04-01T14:24:42+02:00</lastmod>
+  </url><url>
     <loc>https://ftisiot.net/categories/apache-kafka/</loc>
     <lastmod>2022-03-31T13:39:18+02:00</lastmod>
   </url><url>
@@ -9,9 +18,6 @@
     <lastmod>2022-03-31T13:39:18+02:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/</loc>
-    <lastmod>2022-03-31T13:39:18+02:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/</loc>
     <lastmod>2022-03-31T13:39:18+02:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/jq/</loc>
@@ -36,9 +42,6 @@
     <lastmod>2022-03-15T16:12:47+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/tag/</loc>
-    <lastmod>2022-03-15T16:12:47+01:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/talks/</loc>
     <lastmod>2022-03-15T16:12:47+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/tag/cdc/</loc>
