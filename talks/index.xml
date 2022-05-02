@@ -6,7 +6,16 @@
     <description>Recent content in Talks on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Apr 2022 14:24:42 +0200</lastBuildDate><atom:link href="https://ftisiot.net/talks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 May 2022 14:54:29 +0200</lastBuildDate><atom:link href="https://ftisiot.net/talks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solving the Knapsack Problem with Recursive Queries and PostgreSQL</title>
+      <link>https://ftisiot.net/talks/knapsack-problem-pg/</link>
+      <pubDate>Mon, 02 May 2022 14:54:29 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/talks/knapsack-problem-pg/</guid>
+      <description>Useful Links  Knapsack Problem Knapsack in PostgreSQL PostgreSQL 14 Search and Cycle Features Aiven  </description>
+    </item>
+    
     <item>
       <title>JDBC Source Connector: What Could Go Wrong?</title>
       <link>https://ftisiot.net/talks/kafka-jdbc-what-can-go-wrong/</link>
