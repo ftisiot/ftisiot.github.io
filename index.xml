@@ -6,7 +6,17 @@
 		<language>en-us</language>
 		<author></author>
 		<rights>Copyright (c) 2022</rights>
-		<updated>2022-05-13 15:49:28 &#43;0200 CEST</updated>
+		<updated>2022-07-18 14:44:12 &#43;0200 CEST</updated>
+		
+		<item>
+			<title>Posts</title>
+			<link>https://ftisiot.net/posts/</link>
+			<pubDate>Mon, 18 Jul 2022 14:44:12 CEST</pubDate>
+			<author></author>
+			<guid>https://ftisiot.net/posts/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description></description>
+		</item>
 		
 		<item>
 			<title>Talks</title>
@@ -14,16 +24,6 @@
 			<pubDate>Fri, 13 May 2022 15:49:28 CEST</pubDate>
 			<author></author>
 			<guid>https://ftisiot.net/talks/</guid>
-			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
-			<description></description>
-		</item>
-		
-		<item>
-			<title>Posts</title>
-			<link>https://ftisiot.net/posts/</link>
-			<pubDate>Thu, 31 Mar 2022 13:39:18 CEST</pubDate>
-			<author></author>
-			<guid>https://ftisiot.net/posts/</guid>
 			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
 			<description></description>
 		</item>
@@ -129,7 +129,7 @@
 			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/images/speaking-poug-upper.jpg" medium="image" type="image/jpg" width="100" height="100" />
 			<description>&lt;h1 id=&#34;francesco-tisiot&#34;&gt;Francesco Tisiot&lt;/h1&gt;
 &lt;p&gt;Ciao!&lt;/p&gt;
-&lt;p&gt;I’m Francesco Tisiot, Developer Advocate at &lt;a href=&#34;https://aiven.io&#34;&gt;Aiven&lt;/a&gt; and Oracle ACE Director. You can find me on twitter at &lt;a href=&#34;https://twitter.com/ftisiot&#34;&gt;@ftisiot&lt;/a&gt; and on &lt;a href=&#34;https://www.linkedin.com/in/francescotisiot/&#34;&gt;LinkedIn&lt;/a&gt;
+&lt;p&gt;I’m Francesco Tisiot, Senior Developer Advocate at &lt;a href=&#34;https://aiven.io&#34;&gt;Aiven&lt;/a&gt; and Oracle ACE Director. You can find me on twitter at &lt;a href=&#34;https://twitter.com/ftisiot&#34;&gt;@ftisiot&lt;/a&gt; and on &lt;a href=&#34;https://www.linkedin.com/in/francescotisiot/&#34;&gt;LinkedIn&lt;/a&gt;
 &lt;img src=&#34;https://ftisiot.net/images/speaking-poug.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Some more resources:&lt;/p&gt;
 &lt;ul&gt;

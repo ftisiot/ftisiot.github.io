@@ -6,7 +6,16 @@
     <description>Recent content in Posts on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 31 Mar 2022 13:39:18 +0200</lastBuildDate><atom:link href="https://ftisiot.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Jul 2022 14:44:12 +0200</lastBuildDate><atom:link href="https://ftisiot.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Yep, my slides are useless!</title>
+      <link>https://ftisiot.net/posts/useless-slides/</link>
+      <pubDate>Mon, 18 Jul 2022 14:44:12 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/posts/useless-slides/</guid>
+      <description>&lt;p&gt;Every time someone talks about slides design a great debate is generated. People have opinions and, guess what? Specifically in the area of public speaking, they seem to be quite vocal about them.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Beautify `kcat` consumer output by piping to `jq`</title>
       <link>https://ftisiot.net/posts/jq-kcat-consumer/</link>
@@ -24,6 +33,17 @@
       <guid>https://ftisiot.net/2021/01/27/a_month_in_aiven/</guid>
       <description>&lt;p&gt;A month has already gone since my start at &lt;a href=&#34;https://aiven.io/&#34;&gt;Aiven.io&lt;/a&gt; and it&amp;rsquo;s time for a first, and brief, look back at my experience so far together with few suggestions (even if nobody asks) for anyone that will follow my steps.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: The journey has been great, met several amazing people and learnt lots using cool tech! A bit shocked about food choices&amp;hellip; but that&amp;rsquo;s life 🤌 !&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>First Steps within Aiven... the CLI!</title>
+      <link>https://ftisiot.net/2021/01/15/aiven_cli/</link>
+      <pubDate>Wed, 06 Jan 2021 15:30:00 +0000</pubDate>
+      
+      <guid>https://ftisiot.net/2021/01/15/aiven_cli/</guid>
+      <description>&lt;p&gt;Hi, I&amp;rsquo;m Francesco and recently joined Aiven.io as Developer Advocate!&lt;/p&gt;
+&lt;p&gt;In this first blog post, we&amp;rsquo;ll have a look at how to install and login to Aiven&amp;rsquo;s resources using the command line client.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re new to Aiven or if you already know the platform but want to automate some tasks, the client allows you to perform the same tasks available on &lt;a href=&#34;https://console.aiven.io/&#34;&gt;Aiven&amp;rsquo;s web console&lt;/a&gt; but from your preferred terminal.&lt;/p&gt;</description>
     </item>
     
     <item>

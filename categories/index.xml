@@ -6,7 +6,34 @@
     <description>Recent content in Categories on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 31 Mar 2022 13:39:18 +0200</lastBuildDate><atom:link href="https://ftisiot.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Jul 2022 14:44:12 +0200</lastBuildDate><atom:link href="https://ftisiot.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Presenting</title>
+      <link>https://ftisiot.net/categories/presenting/</link>
+      <pubDate>Mon, 18 Jul 2022 14:44:12 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/categories/presenting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://ftisiot.net/categories/slides/</link>
+      <pubDate>Mon, 18 Jul 2022 14:44:12 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/categories/slides/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tips</title>
+      <link>https://ftisiot.net/categories/tips/</link>
+      <pubDate>Mon, 18 Jul 2022 14:44:12 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/categories/tips/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Apache Kafka</title>
       <link>https://ftisiot.net/categories/apache-kafka/</link>
