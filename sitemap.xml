@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ftisiot.net/categories/</loc>
-    <lastmod>2022-07-18T14:44:12+02:00</lastmod>
-  </url><url>
     <loc>https://ftisiot.net/</loc>
+    <lastmod>2022-08-02T14:05:20+02:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/talks/anomaly-detection/</loc>
+    <lastmod>2022-08-02T14:05:20+02:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/talks/</loc>
+    <lastmod>2022-08-02T14:05:20+02:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/</loc>
     <lastmod>2022-07-18T14:44:12+02:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/posts/</loc>
@@ -36,9 +42,6 @@
     <lastmod>2022-05-13T15:49:28+02:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/tag/</loc>
-    <lastmod>2022-05-13T15:49:28+02:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/talks/</loc>
     <lastmod>2022-05-13T15:49:28+02:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/talks/knapsack-problem-pg/</loc>
