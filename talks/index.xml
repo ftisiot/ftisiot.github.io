@@ -6,14 +6,23 @@
     <description>Recent content in Talks on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Aug 2022 14:05:20 +0200</lastBuildDate><atom:link href="https://ftisiot.net/talks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Aug 2022 13:34:59 +0200</lastBuildDate><atom:link href="https://ftisiot.net/talks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Don&#39;t get lost in data: Metadata to the rescue!</title>
+      <link>https://ftisiot.net/talks/metadata-parser-uptime/</link>
+      <pubDate>Mon, 08 Aug 2022 13:34:59 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/talks/metadata-parser-uptime/</guid>
+      <description>&lt;p&gt;Collect, analyze, query your metadata to keep control over your data assets&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>No pineapple on pizza! Streaming anomaly detection with Apache Kafka® and Apache Flink®</title>
       <link>https://ftisiot.net/talks/anomaly-detection/</link>
       <pubDate>Tue, 02 Aug 2022 14:05:20 +0200</pubDate>
       
       <guid>https://ftisiot.net/talks/anomaly-detection/</guid>
-      <description>Useful Links  GitHub repository containing all the code Dockerized Fake Data Producer for Apache Kafka® Apache Flink® SQL documentation Apache Flink® MATCH_RECOGNIZE documentation  </description>
+      <description>&lt;p&gt;A streaming anomaly detection system with Apache Kafka® and Apache Flink®&lt;/p&gt;</description>
     </item>
     
     <item>

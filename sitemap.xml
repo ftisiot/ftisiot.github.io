@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ftisiot.net/</loc>
-    <lastmod>2022-08-02T14:05:20+02:00</lastmod>
+    <loc>https://ftisiot.net/talks/metadata-parser-uptime/</loc>
+    <lastmod>2022-08-08T13:34:59+02:00</lastmod>
   </url><url>
-    <loc>https://ftisiot.net/talks/anomaly-detection/</loc>
-    <lastmod>2022-08-02T14:05:20+02:00</lastmod>
+    <loc>https://ftisiot.net/</loc>
+    <lastmod>2022-08-08T13:34:59+02:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/talks/</loc>
+    <lastmod>2022-08-08T13:34:59+02:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/talks/anomaly-detection/</loc>
     <lastmod>2022-08-02T14:05:20+02:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/</loc>
