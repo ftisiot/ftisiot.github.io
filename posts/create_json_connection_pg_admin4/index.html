@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Define a PostgreSQL database connection in JSON and import it in PGAdmin 4</title>
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="https://ftisiot.net/index.xml">
+		<link rel="canonical" href="https://ftisiot.net/posts/create_json_connection_pg_admin4/">
+		
+		<link rel="shortcut icon" type="image/png" href="https://ftisiot.net/apple-touch-icon-precomposed.png">
+		<meta name="description" content="How to define a PostgreSQL database connection in JSON and import it in PGAdmin 4">
+		
+		
+
+		
+		<meta property="og:title" content="Define a PostgreSQL database connection in JSON and import it in PGAdmin 4" />
+		<meta property="og:type" content="article" />
+		<meta property="og:image" content="https://ftisiot.net/images/2022/pgadmin_json.png" />
+		<meta property="og:description" content="How to define a PostgreSQL database connection in JSON and import it in PGAdmin 4" />
+		<meta property="og:url" content="https://ftisiot.net/posts/create_json_connection_pg_admin4/" />
+		<meta property="og:site_name" content="Define a PostgreSQL database connection in JSON and import it in PGAdmin 4" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@" />
+
+
+		
+		<link rel="stylesheet" href="https://ftisiot.net/css/tachyons.min.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/story.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/descartes.css" />
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Quattrocento:400,700|Spectral:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+		
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script src="https://ftisiot.net/js/story.js"></script>
+
+	</head>
+	<body class="ma0 bg-white section-posts page-kind-page is-page-true ">
+		
+		<header class="cover bg-top" style="background-image: url('https://ftisiot.net/images/2022/pgadmin_json.png'); background-position: center;">
+			<div class="bg-black-30 bb bt">
+
+				<nav class="hide-print sans-serif  border-box pa3 ph5-l">
+					<a href="https://ftisiot.net" title="Home">
+						<img src="https://ftisiot.net/img/logo.jpg" class="w2 h2 br-100" alt="ftisiot ideas about food and life" />
+					</a>
+					<div class="fr h2 pv2 tr">
+						<a class="link f5 ml2 dim near-white" href="/who">who</a>
+						<a class="link f5 ml2 dim near-white" href="/speaking-activities">talks</a>
+						<a class="link f5 ml2 dim near-white" href="/suggestions-verona">suggestions</a>
+						<a class="link f5 ml2 dim near-white" href="https://www.youtube.com/channel/UCTJ4oA3-T3RdmM2OJ7d8cJg"><i class="fab fa-youtube-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://twitter.com/ftisiot/"><i class="fab fa-twitter-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://github.com/ftisiot/"><i class="fab fa-github-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://www.linkedin.com/in/francescotisiot/"><i class="fab fa-linkedin"></i></a>
+						<a class="link f5 ml2 dim near-white fas fa-rss-square" href="https://ftisiot.net/index.xml" title="RSS Feed"></a>
+						<a class="link f5 ml2 dim near-white fas fa-search" href="https://ftisiot.net/search/" role="search" title="Search"></a>
+					</div>
+				</nav>
+
+				<div id="hdr" class="tc-l pv4-ns pv5-l pv2 ph3 ph4-ns">
+					<h1 class="near-white mt1-ns f2 fw3 mb0 mt0 lh-title">Define a PostgreSQL database connection in JSON and import it in PGAdmin 4</h1>
+					<h2 class="near-white mt3-l mb4-l fw1 f6 f3-l measure-wide-l center lh-copy mt2 mb3">
+						
+						
+							
+								Published
+								<time datetime="2022-08-11T14:47:17&#43;02:00">Aug 11, 2022</time>
+								<span class="display-print">by </span>
+								 in <a href="https://ftisiot.net/categories/pgadmin4" class="no-underline category near-white dim">PGAdmin4</a>, <a href="https://ftisiot.net/categories/postgresql" class="no-underline category near-white dim">PostgreSQL</a>, <a href="https://ftisiot.net/categories/connections" class="no-underline category near-white dim">Connections</a>
+								<span class="display-print">at https://ftisiot.net/posts/create_json_connection_pg_admin4/</span>
+							
+						
+					</h2>
+				</div>
+
+				
+				
+				
+				
+
+			</div>
+		</header>
+		
+		<main role="main">
+		
+<article class="center bg-white br-3 pv1 ph4 lh-copy f5 nested-links mw7">
+	<p>Yesterday I updated my PGAdmin 4 and found an interesting option to manage database connection via the <strong>Tools</strong> -&gt; <strong>Import/Export Servers</strong>, allowing to pass almost all the parameters required (it doesn&rsquo;t export/import the password) to connect to a database via JSON files.</p>
+<p>The question is: how can I define a connection in JSON so it can pick it up and imported in PGAdmin 4? It&rsquo;s actually pretty simple, all you have to do is, substitute all the parameters in the following example</p>
+<pre tabindex="0"><code>{
+    &#34;Servers&#34;: {
+        &#34;1&#34;: {
+            &#34;Name&#34;: &#34;CONNECTION_NAME&#34;,
+            &#34;Group&#34;: &#34;GROUP_NAME&#34;,
+            &#34;Host&#34;: &#34;HOSTNAME&#34;,
+            &#34;Port&#34;: PORT,
+            &#34;MaintenanceDB&#34;: &#34;DATABASE_NAME&#34;,
+            &#34;Username&#34;: &#34;USERNAME&#34;,
+            &#34;Password&#34;: &#34;PASSWORD&#34;,
+            &#34;SSLMode&#34;: &#34;SSLMODE&#34;
+        }
+    }
+}
+</code></pre><p>Where</p>
+<ul>
+<li><code>CONNECTION_NAME</code> is the logical name you want to give to the connection</li>
+<li><code>GROUP_NAME</code> is the logical group name that you can use to group more connections</li>
+<li><code>HOSTNAME</code>, <code>PORT</code>, <code>DATABASE_NAME</code>, <code>USERNAME</code>, <code>PASSWORD</code>, <code>SSLMODE</code> are the usual parameters to connect to the database.</li>
+</ul>
+<p>You can also add more than one database connection in the mix, E.g.</p>
+<pre tabindex="0"><code>{
+    &#34;Servers&#34;: {
+        &#34;1&#34;: {
+            &#34;Name&#34;: &#34;CONNECTION_NAME1&#34;,
+            &#34;Group&#34;: &#34;GROUP_NAME1&#34;,
+            &#34;Host&#34;: &#34;HOSTNAME1&#34;,
+            &#34;Port&#34;: PORT1,
+            &#34;MaintenanceDB&#34;: &#34;DATABASE_NAME1&#34;,
+            &#34;Username&#34;: &#34;USERNAME1&#34;,
+            &#34;Password&#34;: &#34;PASSWORD1&#34;,
+            &#34;SSLMode&#34;: &#34;SSLMODE1&#34;
+        },
+        &#34;2&#34;: {
+            &#34;Name&#34;: &#34;CONNECTION_NAME2&#34;,
+            &#34;Group&#34;: &#34;GROUP_NAME2&#34;,
+            &#34;Host&#34;: &#34;HOSTNAME2&#34;,
+            &#34;Port&#34;: PORT2,
+            &#34;MaintenanceDB&#34;: &#34;DATABASE_NAME2&#34;,
+            &#34;Username&#34;: &#34;USERNAME2&#34;,
+            &#34;Password&#34;: &#34;PASSWORD2&#34;,
+            &#34;SSLMode&#34;: &#34;SSLMODE2&#34;
+        }
+    }
+}
+</code></pre><h2 id="import-the-json-definition-in-pgadmin-4">Import the JSON definition in PGAdmin 4</h2>
+<p>Once you have the above config stored in a JSON file, you can then import in PGAdmin4 with:</p>
+<ul>
+<li>select <strong>Tools</strong> -&gt; <strong>Import/Export Servers</strong></li>
+<li>select <strong>Import</strong></li>
+<li>select the connections you want to import and click on <strong>Next</strong></li>
+<li>click on <strong>Finish</strong></li>
+</ul>
+<p>And done! you imported all your JSON connections</p>
+
+</article>
+
+		</main>
+		
+				<div class="hide-print sans-serif f6 f5-l mt5 ph3 pb6 center nested-copy-line-height lh-copy nested-links mw-100 measure-wide">
+		<div class="about-the-author">
+		
+			
+			
+				
+					<hr>
+<p><img src="/images/ftisiot.png" alt="Francesco Tisiot"></p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --> <em>Francesco comes from Verona, Italy and works as a Senior Developer Advocate at Aiven. With his many years of experience as a data analyst, he has stories to tell and advice for data-wranglers everywhere. Francesco loves sharing knowledge with others as a speaker and writer, and is on a mission to defend the world from bad Italian food!</em></p>
+
+				
+			
+		
+		</div>
+		
+	</div>
+
+		
+		
+		
+		<footer class="hide-print sans-serif f6 fw1 bg-black near-white bottom-0 w-100 pa3" role="contentinfo">
+			<p class="w-50 fr tr">
+			<a class="no-underline near-white" href="https://github.com/xaprb/story"><img class="dib" title="Made with Hugo and Story" alt="Story logo" src="https://ftisiot.net/img/story-logo-white.svg" style="width: 1.5rem; height: 1.5rem" /></a>
+			</p>
+			<p class="w-50 near-white">
+				&copy; 2022 
+			</p>
+		</footer>
+		
+	
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-183917003-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+	
+	</body>
+</html>

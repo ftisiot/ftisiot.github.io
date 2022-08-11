@@ -6,7 +6,17 @@
 		<language>en-us</language>
 		<author></author>
 		<rights>Copyright (c) 2022</rights>
-		<updated>2022-08-11 13:28:45 &#43;0200 CEST</updated>
+		<updated>2022-08-11 14:47:17 &#43;0200 CEST</updated>
+		
+		<item>
+			<title>Posts</title>
+			<link>https://ftisiot.net/posts/</link>
+			<pubDate>Thu, 11 Aug 2022 14:47:17 CEST</pubDate>
+			<author></author>
+			<guid>https://ftisiot.net/posts/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description></description>
+		</item>
 		
 		<item>
 			<title>Suggestions on places/activities near Verona</title>
@@ -89,16 +99,6 @@
 			<pubDate>Mon, 08 Aug 2022 13:34:59 CEST</pubDate>
 			<author></author>
 			<guid>https://ftisiot.net/talks/</guid>
-			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
-			<description></description>
-		</item>
-		
-		<item>
-			<title>Posts</title>
-			<link>https://ftisiot.net/posts/</link>
-			<pubDate>Mon, 18 Jul 2022 14:44:12 CEST</pubDate>
-			<author></author>
-			<guid>https://ftisiot.net/posts/</guid>
 			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
 			<description></description>
 		</item>

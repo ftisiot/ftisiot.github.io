@@ -6,7 +6,17 @@
     <description>Recent content in Posts on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Jul 2022 14:44:12 +0200</lastBuildDate><atom:link href="https://ftisiot.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Aug 2022 14:47:17 +0200</lastBuildDate><atom:link href="https://ftisiot.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Define a PostgreSQL database connection in JSON and import it in PGAdmin 4</title>
+      <link>https://ftisiot.net/posts/create_json_connection_pg_admin4/</link>
+      <pubDate>Thu, 11 Aug 2022 14:47:17 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/posts/create_json_connection_pg_admin4/</guid>
+      <description>Yesterday I updated my PGAdmin 4 and found an interesting option to manage database connection via the Tools -&amp;gt; Import/Export Servers, allowing to pass almost all the parameters required (it doesn&amp;rsquo;t export/import the password) to connect to a database via JSON files.
+The question is: how can I define a connection in JSON so it can pick it up and imported in PGAdmin 4? It&amp;rsquo;s actually pretty simple, all you have to do is, substitute all the parameters in the following example</description>
+    </item>
+    
     <item>
       <title>Yep, my slides are useless!</title>
       <link>https://ftisiot.net/posts/useless-slides/</link>

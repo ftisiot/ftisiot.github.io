@@ -2,16 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ftisiot.net/categories/</loc>
+    <lastmod>2022-08-11T14:47:17+02:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/connections/</loc>
+    <lastmod>2022-08-11T14:47:17+02:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/posts/create_json_connection_pg_admin4/</loc>
+    <lastmod>2022-08-11T14:47:17+02:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/</loc>
+    <lastmod>2022-08-11T14:47:17+02:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/pgadmin4/</loc>
+    <lastmod>2022-08-11T14:47:17+02:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/postgresql/</loc>
+    <lastmod>2022-08-11T14:47:17+02:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/posts/</loc>
+    <lastmod>2022-08-11T14:47:17+02:00</lastmod>
+  </url><url>
     <loc>https://ftisiot.net/categories/activities/</loc>
     <lastmod>2022-08-11T13:28:45+02:00</lastmod>
   </url><url>
-    <loc>https://ftisiot.net/categories/</loc>
-    <lastmod>2022-08-11T13:28:45+02:00</lastmod>
-  </url><url>
     <loc>https://ftisiot.net/categories/food/</loc>
-    <lastmod>2022-08-11T13:28:45+02:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/</loc>
     <lastmod>2022-08-11T13:28:45+02:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/suggestions-verona/</loc>
@@ -28,9 +43,6 @@
   </url><url>
     <loc>https://ftisiot.net/talks/anomaly-detection/</loc>
     <lastmod>2022-08-02T14:05:20+02:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/posts/</loc>
-    <lastmod>2022-07-18T14:44:12+02:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/presenting/</loc>
     <lastmod>2022-07-18T14:44:12+02:00</lastmod>

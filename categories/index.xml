@@ -6,7 +6,34 @@
     <description>Recent content in Categories on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Aug 2022 13:28:45 +0200</lastBuildDate><atom:link href="https://ftisiot.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Aug 2022 14:47:17 +0200</lastBuildDate><atom:link href="https://ftisiot.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Connections</title>
+      <link>https://ftisiot.net/categories/connections/</link>
+      <pubDate>Thu, 11 Aug 2022 14:47:17 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/categories/connections/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PGAdmin4</title>
+      <link>https://ftisiot.net/categories/pgadmin4/</link>
+      <pubDate>Thu, 11 Aug 2022 14:47:17 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/categories/pgadmin4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PostgreSQL</title>
+      <link>https://ftisiot.net/categories/postgresql/</link>
+      <pubDate>Thu, 11 Aug 2022 14:47:17 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/categories/postgresql/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Activities</title>
       <link>https://ftisiot.net/categories/activities/</link>
