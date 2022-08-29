@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Convert Epoch to Timestamps in Apache Flink with &lt;code&gt;TO_TIMESTAMP_LTZ&lt;/code&gt;</title>
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="https://ftisiot.net/index.xml">
+		<link rel="canonical" href="https://ftisiot.net/posts/apache-flink-to-timestamp-ltz/">
+		
+		<link rel="shortcut icon" type="image/png" href="https://ftisiot.net/apple-touch-icon-precomposed.png">
+		<meta name="description" content="How to Convert Epoch to Timestamps in Apache Flink with TO_TIMESTAMP_LTZ">
+		
+		
+
+		
+		<meta property="og:title" content="Convert Epoch to Timestamps in Apache Flink with TO_TIMESTAMP_LTZ" />
+		<meta property="og:type" content="article" />
+		<meta property="og:image" content="https://ftisiot.net/images/2022/flink-timestamps.png" />
+		<meta property="og:description" content="How to Convert Epoch to Timestamps in Apache Flink with TO_TIMESTAMP_LTZ" />
+		<meta property="og:url" content="https://ftisiot.net/posts/apache-flink-to-timestamp-ltz/" />
+		<meta property="og:site_name" content="Convert Epoch to Timestamps in Apache Flink with TO_TIMESTAMP_LTZ" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@" />
+
+
+		
+		<link rel="stylesheet" href="https://ftisiot.net/css/tachyons.min.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/story.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/descartes.css" />
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Quattrocento:400,700|Spectral:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+		
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script src="https://ftisiot.net/js/story.js"></script>
+
+	</head>
+	<body class="ma0 bg-white section-posts page-kind-page is-page-true ">
+		
+		<header class="cover bg-top" style="background-image: url('https://ftisiot.net/images/2022/flink-timestamps.png'); background-position: center;">
+			<div class="bg-black-30 bb bt">
+
+				<nav class="hide-print sans-serif  border-box pa3 ph5-l">
+					<a href="https://ftisiot.net" title="Home">
+						<img src="https://ftisiot.net/img/logo.jpg" class="w2 h2 br-100" alt="ftisiot ideas about food and life" />
+					</a>
+					<div class="fr h2 pv2 tr">
+						<a class="link f5 ml2 dim near-white" href="/who">who</a>
+						<a class="link f5 ml2 dim near-white" href="/speaking-activities">talks</a>
+						<a class="link f5 ml2 dim near-white" href="/suggestions-verona">suggestions</a>
+						<a class="link f5 ml2 dim near-white" href="https://www.youtube.com/channel/UCTJ4oA3-T3RdmM2OJ7d8cJg"><i class="fab fa-youtube-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://twitter.com/ftisiot/"><i class="fab fa-twitter-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://github.com/ftisiot/"><i class="fab fa-github-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://www.linkedin.com/in/francescotisiot/"><i class="fab fa-linkedin"></i></a>
+						<a class="link f5 ml2 dim near-white fas fa-rss-square" href="https://ftisiot.net/index.xml" title="RSS Feed"></a>
+						<a class="link f5 ml2 dim near-white fas fa-search" href="https://ftisiot.net/search/" role="search" title="Search"></a>
+					</div>
+				</nav>
+
+				<div id="hdr" class="tc-l pv4-ns pv5-l pv2 ph3 ph4-ns">
+					<h1 class="near-white mt1-ns f2 fw3 mb0 mt0 lh-title">Convert Epoch to Timestamps in Apache Flink with <code>TO_TIMESTAMP_LTZ</code></h1>
+					<h2 class="near-white mt3-l mb4-l fw1 f6 f3-l measure-wide-l center lh-copy mt2 mb3">
+						
+						
+							
+								Published
+								<time datetime="2022-08-29T11:19:57&#43;02:00">Aug 29, 2022</time>
+								<span class="display-print">by </span>
+								 in <a href="https://ftisiot.net/categories/apacheflink" class="no-underline category near-white dim">ApacheFlink</a>, <a href="https://ftisiot.net/categories/timestamps" class="no-underline category near-white dim">Timestamps</a>
+								<span class="display-print">at https://ftisiot.net/posts/apache-flink-to-timestamp-ltz/</span>
+							
+						
+					</h2>
+				</div>
+
+				
+				
+				
+				
+
+			</div>
+		</header>
+		
+		<main role="main">
+		
+<article class="center bg-white br-3 pv1 ph4 lh-copy f5 nested-links mw7">
+	<p>Sometimes when defining an Apache Flink® table using SQL we need to map an <a href="https://en.wikipedia.org/wiki/Unix_time">epoch timestamp</a> and use it as record/message timestamp.</p>
+<p>Doing it properly is not complex, but some attention needs to be paid since small changes can have huge impact (ask me how I know&hellip; lost a good hour on it today).</p>
+<h2 id="the-to_timestamp_ltz-function">The <code>TO_TIMESTAMP_LTZ</code> function</h2>
+<p>When dealing with epoch timestamps, Flink offers the <code>TO_TIMESTAMP_LTZ</code> function, with a good set of <a href="https://nightlies.apache.org/flink/flink-docs-master/docs/dev/table/timezone/">documentation</a> around it. Basically the function can be used with epoc timestams in either seconds or millisecods.</p>
+<ul>
+<li>For epoch timestamp in <strong>seconds</strong> use: <code>TO_TIMESTAMP_LTZ(timestamp_column, 0)</code></li>
+<li>For epoch timestamp in <strong>milliseconds</strong> use: <code>TO_TIMESTAMP_LTZ(timestamp_column, 3)</code></li>
+</ul>
+<h2 id="what-about-the-timestamp_column-definition">What about the <code>timestamp_column</code> definition?</h2>
+<p>Ok, ok, that works! What about the definition of the <code>timestamp_column</code>? You need to pay attention to it as well!</p>
+<p>If the epoc timestams in <strong>seconds</strong> you can have it working also by declaring the column as <code>INT</code>.
+But if you do the same when dealing with epoc timestams in <strong>milliseconds</strong> you&rsquo;ll face an error like</p>
+<pre tabindex="0"><code>Caused by: java.lang.NumberFormatException: For input string: &#34;1661760207278&#34;
+</code></pre><p>This is because the number is greater than the <code>INT</code> range (<code>-2,147,483,648</code> to <code>2,147,483,647</code>). Therefore is better to have the column declared as <code>BIGINT</code>, like the following</p>
+<pre tabindex="0"><code>ts BIGINT,
+name string,
+ts_ltz AS TO_TIMESTAMP_LTZ(ts, 3),
+WATERMARK FOR ts_ltz AS ts_ltz - INTERVAL &#39;10&#39; SECOND
+</code></pre>
+</article>
+
+		</main>
+		
+				<div class="hide-print sans-serif f6 f5-l mt5 ph3 pb6 center nested-copy-line-height lh-copy nested-links mw-100 measure-wide">
+		<div class="about-the-author">
+		
+			
+			
+				
+					<hr>
+<p><img src="/images/ftisiot.png" alt="Francesco Tisiot"></p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --> <em>Francesco comes from Verona, Italy and works as a Senior Developer Advocate at Aiven. With his many years of experience as a data analyst, he has stories to tell and advice for data-wranglers everywhere. Francesco loves sharing knowledge with others as a speaker and writer, and is on a mission to defend the world from bad Italian food!</em></p>
+
+				
+			
+		
+		</div>
+		
+	</div>
+
+		
+		
+		
+		<footer class="hide-print sans-serif f6 fw1 bg-black near-white bottom-0 w-100 pa3" role="contentinfo">
+			<p class="w-50 fr tr">
+			<a class="no-underline near-white" href="https://github.com/xaprb/story"><img class="dib" title="Made with Hugo and Story" alt="Story logo" src="https://ftisiot.net/img/story-logo-white.svg" style="width: 1.5rem; height: 1.5rem" /></a>
+			</p>
+			<p class="w-50 near-white">
+				&copy; 2022 
+			</p>
+		</footer>
+		
+	
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-183917003-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+	
+	</body>
+</html>
