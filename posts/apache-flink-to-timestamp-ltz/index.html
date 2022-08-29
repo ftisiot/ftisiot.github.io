@@ -96,7 +96,7 @@
 </ul>
 <h2 id="what-about-the-timestamp_column-definition">What about the <code>timestamp_column</code> definition?</h2>
 <p>Ok, ok, that works! What about the definition of the <code>timestamp_column</code>? You need to pay attention to it as well!</p>
-<p>If the epoch timestamps in <strong>seconds</strong> you can have it working also by declaring the column as <code>INT</code>.
+<p>If the epoch timestamps in <strong>seconds</strong> you can get away with it by declaring the column as <code>INT</code>.
 But if you do the same when dealing with epoch timestamps in <strong>milliseconds</strong> you&rsquo;ll face an error like</p>
 <pre tabindex="0"><code>Caused by: java.lang.NumberFormatException: For input string: &#34;1661760207278&#34;
 </code></pre><p>This is because the number is greater than the <code>INT</code> range (<code>-2,147,483,648</code> to <code>2,147,483,647</code>). Therefore is better to have the column declared as <code>BIGINT</code>, like the following</p>
