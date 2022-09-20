@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Breathe in Breathe Out Kafka Connect &bullet; Current 2022</title>
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="https://ftisiot.net/index.xml">
+		<link rel="canonical" href="https://ftisiot.net/talks/breathe-in-breathe-out-kafka-connect/">
+		
+		<link rel="shortcut icon" type="image/png" href="https://ftisiot.net/apple-touch-icon-precomposed.png">
+		<meta name="description" content="Breathe In, Breathe Out: get you Kafka Connect configs right">
+		
+		
+
+		
+		<meta property="og:title" content="Breathe in Breathe Out Kafka Connect" />
+		<meta property="og:type" content="article" />
+		<meta property="og:image" content="https://ftisiot.net/slides/breathe-in-breathe-out-kafka-connect/thumbnail.png" />
+		<meta property="og:description" content="Breathe In, Breathe Out: get you Kafka Connect configs right" />
+		<meta property="og:url" content="https://ftisiot.net/talks/breathe-in-breathe-out-kafka-connect/" />
+		<meta property="og:site_name" content="Breathe in Breathe Out Kafka Connect" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@" />
+
+
+		
+		<link rel="stylesheet" href="https://ftisiot.net/css/tachyons.min.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/story.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/descartes.css" />
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Quattrocento:400,700|Spectral:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+		
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script src="https://ftisiot.net/js/story.js"></script>
+
+	</head>
+	<body class="ma0 bg-white section-talks page-kind-page is-page-true ">
+		
+		<header class="cover bg-top" style="background-image: url('https://ftisiot.net/slides/breathe-in-breathe-out-kafka-connect/cover.png'); background-position: center;">
+			<div class="bg-black-30 bb bt">
+
+				<nav class="hide-print sans-serif  border-box pa3 ph5-l">
+					<a href="https://ftisiot.net" title="Home">
+						<img src="https://ftisiot.net/img/logo.jpg" class="w2 h2 br-100" alt="ftisiot ideas about food and life" />
+					</a>
+					<div class="fr h2 pv2 tr">
+						<a class="link f5 ml2 dim near-white" href="/who">who</a>
+						<a class="link f5 ml2 dim near-white" href="/speaking-activities">talks</a>
+						<a class="link f5 ml2 dim near-white" href="/suggestions-verona">suggestions</a>
+						<a class="link f5 ml2 dim near-white" href="https://www.youtube.com/channel/UCTJ4oA3-T3RdmM2OJ7d8cJg"><i class="fab fa-youtube-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://twitter.com/ftisiot/"><i class="fab fa-twitter-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://github.com/ftisiot/"><i class="fab fa-github-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://www.linkedin.com/in/francescotisiot/"><i class="fab fa-linkedin"></i></a>
+						<a class="link f5 ml2 dim near-white fas fa-rss-square" href="https://ftisiot.net/index.xml" title="RSS Feed"></a>
+						<a class="link f5 ml2 dim near-white fas fa-search" href="https://ftisiot.net/search/" role="search" title="Search"></a>
+					</div>
+				</nav>
+
+				<div id="hdr" class="tc-l pv4-ns pv5-l pv2 ph3 ph4-ns">
+					<h1 class="near-white mt1-ns f2 fw3 mb0 mt0 lh-title">Breathe in Breathe Out Kafka Connect</h1>
+					<h2 class="near-white mt3-l mb4-l fw1 f6 f3-l measure-wide-l center lh-copy mt2 mb3">
+						
+						
+							
+								Presented
+								<time datetime="2022-09-20T13:23:04&#43;02:00">September 20, 2022</time>
+								at <a class="no-underline category near-white dim" href="">Current 2022</a>
+							
+						
+					</h2>
+				</div>
+
+				
+				
+				
+				
+
+			</div>
+		</header>
+		
+		<main role="main">
+		
+<article class="center bg-white br-3 pv1 ph4 nested-copy-line-height lh-copy f4 nested-links mw-100 measure-wide">
+		
+		<p><a id="slides_link" class="ba black br-3 bw1 dib no-underline ph2 pv1" href="https://ftisiot.net/slides/breathe-in-breathe-out-kafka-connect/slides.pdf">Slides</a>
+		
+		
+		
+		
+		<a class="ba black br-3 bw1 dib no-underline ph2 pv1" href="https://www.google.com/maps/place/Austin">Venue</a>
+		
+		<p>A deep dive into Kafka connect settings and pitfalls</p>
+<p><img src="/slides/breathe-in-breathe-out-kafka-connect/cover.png" alt="Intro image"></p>
+<h2 id="abstract">Abstract</h2>
+<p>Kafka Connect is the spell book for creating magical data streaming setups. It allows us to integrate Apache Kafka with the rest of our data ecosystem and get all the data flowing to the right place. However you need some rather dark magic to configure all the weird and wonderful connectors recently, and this talk will teach you the tricks you need.</p>
+<p>We&rsquo;ll talk about streaming data into topics, the data formats to use and what to look out for when Kafka Connect is plugging data from another platform into your setup. Since we don&rsquo;t live in a perfect world, we&rsquo;ll also cover configurations like error tolerance, dead letter queues and single message transforms that can make things more robust.</p>
+<p>You&rsquo;ll see some examples of good practices, and hear some stories about how I learned a few of these things the hard way. Finally we&rsquo;ll shed light on some of the options, like auto evolution, that seem like a great idea when you are prototyping a new solution but which can store up problems for the longer term.</p>
+<p>If you are ready to make magic with Kafka Connect and the Apache Kafka ecosystem, this is the talk for you!</p>
+<h2 id="useful-links">Useful Links</h2>
+<ul>
+<li><a href="https://docs.aiven.io/docs/products/kafka/kafka-connect.html">Aiven for Apache Kafka Connect</a></li>
+<li><a href="https://rmoff.net/2021/01/04/kafka-connect-deep-dive-into-single-message-transforms/">Deep dive into Single Message Transforms</a></li>
+<li><a href="https://www.confluent.io/events/kafka-summit-london-2022/jdbc-source-connector-what-could-go-wrong/">JDBC Source connector: what could go wrong?</a></li>
+<li><a href="https://stackoverflow.com/questions/70927512/kafka-jdbc-sink-connector-with-json-messages-without-schema">JDBC Sink connector not working with schemaless topics</a></li>
+<li><a href="https://cwiki.apache.org/confluence/display/KAFKA/KIP-301%3A+Schema+Inferencing+for+JsonConverter">Works on JDBC sink to parse schemaless topics by inferencing the JSON structure</a></li>
+</ul>
+	</article>
+<script type="text/javascript">
+
+$( function() {
+	if ( $( "#slides_link" ).length ) {
+		$("#slides_link").click(function(eventObject) {
+			eventObject.preventDefault();
+			var elem = $( this );
+			elem.parent().next("iframe").remove();
+			var href = elem.attr("href");
+			switch(true) {
+			case /\.pdf$/.test(href):
+				elem.parent().after($("<iframe frameborder=0 class='ba h5 w-100' src='/js/pdfjs/web/viewer.html?file=" + href + "'></iframe>"));
+				break;
+			default:
+				elem.parent().after($("<iframe frameborder=0 class='ba h5 w-100' src='" + elem.attr("href") + "'></iframe>"));
+				
+			}
+			var width = elem.parent().next("iframe").width();
+			var height = Math.round(width * 9 / 16);
+			elem.parent().next("iframe").height(height);
+		});
+	}
+	if ( $( "#video_link" ).length ) {
+		$("#video_link").click(function(eventObject) {
+			var elem = $( this );
+			elem.parent().next("iframe").remove();
+			var href = elem.attr("href");
+			switch(true) {
+			case /youtube.com/.test(href):
+				eventObject.preventDefault();
+				href = href.replace("watch?v=", "embed/");
+				elem.parent().after($("<iframe frameborder=0 class='ba h5 w-100' src='" + href + "' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"));
+				break;
+			default:
+				
+				
+				
+			}
+			var width = elem.parent().next("iframe").width();
+			var height = Math.round(width * 9 / 16);
+			elem.parent().next("iframe").height(height);
+		});
+	}
+});
+
+</script>
+
+		</main>
+		
+				<div class="hide-print sans-serif f6 f5-l mt5 ph3 pb6 center nested-copy-line-height lh-copy nested-links mw-100 measure-wide">
+		<div class="about-the-author">
+		
+			
+			
+				
+					<hr>
+<p><img src="/images/ftisiot.png" alt="Francesco Tisiot"></p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --> <em>Francesco comes from Verona, Italy and works as a Senior Developer Advocate at Aiven. With his many years of experience as a data analyst, he has stories to tell and advice for data-wranglers everywhere. Francesco loves sharing knowledge with others as a speaker and writer, and is on a mission to defend the world from bad Italian food!</em></p>
+
+				
+			
+		
+		</div>
+		
+	</div>
+
+		
+		
+		
+		<footer class="hide-print sans-serif f6 fw1 bg-black near-white bottom-0 w-100 pa3" role="contentinfo">
+			<p class="w-50 fr tr">
+			<a class="no-underline near-white" href="https://github.com/xaprb/story"><img class="dib" title="Made with Hugo and Story" alt="Story logo" src="https://ftisiot.net/img/story-logo-white.svg" style="width: 1.5rem; height: 1.5rem" /></a>
+			</p>
+			<p class="w-50 near-white">
+				&copy; 2022 
+			</p>
+		</footer>
+		
+	
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-183917003-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+	
+	</body>
+</html>

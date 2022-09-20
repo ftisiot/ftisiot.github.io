@@ -6,7 +6,16 @@
     <description>Recent content in Talks on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Aug 2022 13:34:59 +0200</lastBuildDate><atom:link href="https://ftisiot.net/talks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Sep 2022 13:23:04 +0200</lastBuildDate><atom:link href="https://ftisiot.net/talks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Breathe in Breathe Out Kafka Connect</title>
+      <link>https://ftisiot.net/talks/breathe-in-breathe-out-kafka-connect/</link>
+      <pubDate>Tue, 20 Sep 2022 13:23:04 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/talks/breathe-in-breathe-out-kafka-connect/</guid>
+      <description>&lt;p&gt;A deep dive into Kafka connect settings and pitfalls&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Don&#39;t get lost in data: Metadata to the rescue!</title>
       <link>https://ftisiot.net/talks/metadata-parser-uptime/</link>
