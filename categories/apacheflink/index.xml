@@ -13,7 +13,7 @@
       <pubDate>Mon, 29 Aug 2022 11:19:57 +0200</pubDate>
       
       <guid>https://ftisiot.net/posts/apache-flink-to-timestamp-ltz/</guid>
-      <description>&lt;p&gt;Sometimes when defining an Apache Flink® table using SQL we need to map an &lt;a href=&#34;https://en.wikipedia.org/wiki/Unix_time&#34;&gt;epoch timestamp&lt;/a&gt; and use it as record/message timestamp.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Sometimes when defining an Apache Flink® table using SQL we need to map an &lt;a href=&#34;https://en.wikipedia.org/wiki/Unix_time&#34;&gt;epoch timestamp&lt;/a&gt; and use it as record/message timestamp, this blog contains few tricks to get it right.&lt;/p&gt;</description>
     </item>
     
   </channel>

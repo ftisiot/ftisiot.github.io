@@ -17,12 +17,12 @@
     </item>
     
     <item>
-      <title>Breathe in Breathe Out Kafka Connect</title>
+      <title>Breathe in Breathe out: get Kafka Connect settings right!</title>
       <link>https://ftisiot.net/talks/breathe-in-breathe-out-kafka-connect/</link>
       <pubDate>Tue, 20 Sep 2022 13:23:04 +0200</pubDate>
       
       <guid>https://ftisiot.net/talks/breathe-in-breathe-out-kafka-connect/</guid>
-      <description>&lt;p&gt;A deep dive into Kafka connect settings and pitfalls&lt;/p&gt;</description>
+      <description>&lt;p&gt;A deep dive into Kafka connect settings and pitfalls, analysing several tips to have a better experience when setting up a connector.&lt;/p&gt;</description>
     </item>
     
     <item>

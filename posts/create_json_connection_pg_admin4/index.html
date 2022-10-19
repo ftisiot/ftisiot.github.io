@@ -86,7 +86,8 @@
 		<main role="main">
 		
 <article class="center bg-white br-3 pv1 ph4 lh-copy f5 nested-links mw7">
-	<p>Yesterday I updated my PGAdmin 4 and found an interesting option to manage database connection via the <strong>Tools</strong> -&gt; <strong>Import/Export Servers</strong>, allowing to pass almost all the parameters required (it doesn&rsquo;t export/import the password) to connect to a database via JSON files.</p>
+	<p>How to define a database connection in a JSON file that can be imported in PG Admin 4</p>
+<p>Yesterday I updated my PGAdmin 4 and found an interesting option to manage database connection via the <strong>Tools</strong> -&gt; <strong>Import/Export Servers</strong>, allowing to pass almost all the parameters required (it doesn&rsquo;t export/import the password) to connect to a database via JSON files.</p>
 <p>The question is: how can I define a connection in JSON so it can pick it up and imported in PGAdmin 4? It&rsquo;s actually pretty simple, all you have to do is, substitute all the parameters in the following example</p>
 <pre tabindex="0"><code>{
     &#34;Servers&#34;: {
@@ -142,7 +143,6 @@
 <li>click on <strong>Finish</strong></li>
 </ul>
 <p>And done! you imported all your JSON connections</p>
-
 </article>
 
 		</main>

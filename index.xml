@@ -137,19 +137,9 @@
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;Current (ex Kafka Summit)&lt;/td&gt;
-&lt;td&gt;4th-5th October&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://2022.currentevent.io/website/39543/agenda/&#34;&gt;Breathe In, Breathe Out: Get Kafka Connect Configs Right!&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Uptime&lt;/td&gt;
-&lt;td&gt;14-15th Sept&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://uptime.aiven.io/session/325396&#34;&gt;Don&amp;rsquo;t get lost in data: metadata to the rescue!&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Uptime&lt;/td&gt;
-&lt;td&gt;14-15th Sept&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://uptime.aiven.io/session/325620&#34;&gt;No pineapple on pizza! Streaming anomaly detection with Apache Kafka and Apache Flink&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;PG Conf EU&lt;/td&gt;
+&lt;td&gt;24th-29th October&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.postgresql.eu/events/pgconfeu2022/schedule/session/4084-put-postgresql-at-the-center-of-your-metadata-universe/&#34;&gt;Put PostgreSQL at the center of your (meta)data universe!&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -165,47 +155,35 @@
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;Kafka Summit 2022 London&lt;/td&gt;
-&lt;td&gt;25th April&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.confluent.io/events/kafka-summit-london-2022/jdbc-source-connector-what-could-go-wrong/&#34;&gt;🎥 JDBC Source Connector: What Could Go Wrong?&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Current (ex Kafka Summit)&lt;/td&gt;
+&lt;td&gt;4th-5th October&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://2022.currentevent.io/website/39543/agenda/&#34;&gt;Breathe In, Breathe Out: Get Kafka Connect Configs Right!&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;NDC London 2022&lt;/td&gt;
-&lt;td&gt;10th May&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=AT6-WXLwKQE&#34;&gt;🎥 I don’t want to miss a Thing 🎶 - Track Database Changes with Apache Kafka&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Uptime&lt;/td&gt;
+&lt;td&gt;14-15th Sept&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://uptime.aiven.io/session/325396&#34;&gt;Don&amp;rsquo;t get lost in data: metadata to the rescue!&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;PyCon Italy&lt;/td&gt;
-&lt;td&gt;3rd Jun&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=hfi_ALPlsOQ&amp;amp;t=3s&#34;&gt;🎥 Event Driven Applications with Flask and Kafka&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Uptime&lt;/td&gt;
+&lt;td&gt;14-15th Sept&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://uptime.aiven.io/session/325620&#34;&gt;No pineapple on pizza! Streaming anomaly detection with Apache Kafka and Apache Flink&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;Berlin Buzzwords&lt;/td&gt;
-&lt;td&gt;12nd Jun&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=njvH3I39Dv0&amp;amp;list=PLq-odUc2x7i8eaYHVXSOadHrVE9tEU2QR&amp;amp;index=47&amp;amp;t=1720s&#34;&gt;🎥 Solving the knapsack problem with recursive queries and PostgreSQL&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Nordic PG Day&lt;/td&gt;
-&lt;td&gt;22nd Mar&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ftisiot.net/talks/track-database-changes&#34;&gt;I Don&amp;rsquo;t Want to Miss a Thing: Track Database Changes with Apache Kafka&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;FOSDEM 2022&lt;/td&gt;
-&lt;td&gt;5th Feb&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://fosdem.org/2022/schedule/event/batch_proc_data_streaming/&#34;&gt;Build an Open Source Streaming Data Pipeline&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;FOSDEM 2022&lt;/td&gt;
-&lt;td&gt;6th Feb&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://fosdem.org/2022/schedule/event/python_kafka/&#34;&gt;Get to know Apache Kafka with Jupyter Notebooks&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;FOSDEM 2022&lt;/td&gt;
-&lt;td&gt;6th Feb&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://fosdem.org/2022/schedule/event/postgresql_solving_the_knapsack_problem_with_recursive_queries_and_postgresql/&#34;&gt;Solving the knapsack problem with recursive queries and PostgreSQL&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;PG Day Austria&lt;/td&gt;
+&lt;td&gt;16th Sept&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://pgday.at/talks/solving-the-knapsack-problem/&#34;&gt;Solving the Knapsack Problem with Recursive queries and postgreSQL&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;p&gt;|Kafka Summit 2022 London|25th April|&lt;a href=&#34;https://www.confluent.io/events/kafka-summit-london-2022/jdbc-source-connector-what-could-go-wrong/&#34;&gt;🎥 JDBC Source Connector: What Could Go Wrong?&lt;/a&gt;|
+|NDC London 2022|10th May|&lt;a href=&#34;https://www.youtube.com/watch?v=AT6-WXLwKQE&#34;&gt;🎥 I don’t want to miss a Thing 🎶 - Track Database Changes with Apache Kafka&lt;/a&gt;|
+|PyCon Italy|3rd Jun|&lt;a href=&#34;https://www.youtube.com/watch?v=hfi_ALPlsOQ&amp;amp;t=3s&#34;&gt;🎥 Event Driven Applications with Flask and Kafka&lt;/a&gt;|
+|Berlin Buzzwords|12nd Jun|&lt;a href=&#34;https://www.youtube.com/watch?v=njvH3I39Dv0&amp;amp;list=PLq-odUc2x7i8eaYHVXSOadHrVE9tEU2QR&amp;amp;index=47&amp;amp;t=1720s&#34;&gt;🎥 Solving the knapsack problem with recursive queries and PostgreSQL&lt;/a&gt;|
+|Nordic PG Day|22nd Mar|&lt;a href=&#34;https://ftisiot.net/talks/track-database-changes&#34;&gt;I Don&amp;rsquo;t Want to Miss a Thing: Track Database Changes with Apache Kafka&lt;/a&gt;|
+|FOSDEM 2022|5th Feb|&lt;a href=&#34;https://fosdem.org/2022/schedule/event/batch_proc_data_streaming/&#34;&gt;Build an Open Source Streaming Data Pipeline&lt;/a&gt;|
+|FOSDEM 2022|6th Feb|&lt;a href=&#34;https://fosdem.org/2022/schedule/event/python_kafka/&#34;&gt;Get to know Apache Kafka with Jupyter Notebooks&lt;/a&gt;|
+|FOSDEM 2022|6th Feb|&lt;a href=&#34;https://fosdem.org/2022/schedule/event/postgresql_solving_the_knapsack_problem_with_recursive_queries_and_postgresql/&#34;&gt;Solving the knapsack problem with recursive queries and PostgreSQL&lt;/a&gt;|&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>
 		</item>

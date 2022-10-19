@@ -86,7 +86,7 @@
 		<main role="main">
 		
 <article class="center bg-white br-3 pv1 ph4 lh-copy f5 nested-links mw7">
-	<p>Sometimes when defining an Apache Flink® table using SQL we need to map an <a href="https://en.wikipedia.org/wiki/Unix_time">epoch timestamp</a> and use it as record/message timestamp.</p>
+	<p>Sometimes when defining an Apache Flink® table using SQL we need to map an <a href="https://en.wikipedia.org/wiki/Unix_time">epoch timestamp</a> and use it as record/message timestamp, this blog contains few tricks to get it right.</p>
 <p>Doing it properly is not complex, but some attention needs to be paid since small changes can have huge impact (ask me how I know&hellip; lost a good hour on it today).</p>
 <h2 id="the-to_timestamp_ltz-function">The <code>TO_TIMESTAMP_LTZ</code> function</h2>
 <p>When dealing with epoch timestamps, Flink offers the <code>TO_TIMESTAMP_LTZ</code> function, with a good set of <a href="https://nightlies.apache.org/flink/flink-docs-master/docs/dev/table/timezone/">documentation</a> around it. Basically the function can be used with epoch timestamps in either seconds or milliseconds.</p>
