@@ -205,5 +205,32 @@
       <description></description>
     </item>
     
+    <item>
+      <title>FrancescoTisiot</title>
+      <link>https://ftisiot.net/categories/francescotisiot/</link>
+      <pubDate>Wed, 28 Sep 2016 20:00:20 +0000</pubDate>
+      
+      <guid>https://ftisiot.net/categories/francescotisiot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ftisiot</title>
+      <link>https://ftisiot.net/categories/ftisiot/</link>
+      <pubDate>Wed, 28 Sep 2016 20:00:20 +0000</pubDate>
+      
+      <guid>https://ftisiot.net/categories/ftisiot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>whoamI</title>
+      <link>https://ftisiot.net/categories/whoami/</link>
+      <pubDate>Wed, 28 Sep 2016 20:00:20 +0000</pubDate>
+      
+      <guid>https://ftisiot.net/categories/whoami/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
