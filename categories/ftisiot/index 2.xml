@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ftisiot on ftisiot ideas about food and life</title>
+    <link>https://ftisiot.net/categories/ftisiot/</link>
+    <description>Recent content in ftisiot on ftisiot ideas about food and life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Sep 2016 20:00:20 +0000</lastBuildDate><atom:link href="https://ftisiot.net/categories/ftisiot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Who is Francesco Tisiot?</title>
+      <link>https://ftisiot.net/who/</link>
+      <pubDate>Wed, 28 Sep 2016 20:00:20 +0000</pubDate>
+      
+      <guid>https://ftisiot.net/who/</guid>
+      <description>Francesco Tisiot Ciao!
+I’m Francesco Tisiot, Senior Developer Advocate at Aiven. You can find me on twitter at @ftisiot and on LinkedIn Some more resources:
+ My previous and next Speaking activities in the dedicated page My series of blog post for Aiven The slides of my previous speaking engagements on SpeakerDeck My previous company (Rittman Mead) related articles in Rittman Mead’s blog  This is my personal blog! Stay tuned for ideas, tests and opinions related to my work.</description>
+    </item>
+    
+  </channel>
+</rss>
