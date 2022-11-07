@@ -2,8 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ftisiot.net/categories/</loc>
+    <lastmod>2022-11-07T10:15:10+01:00</lastmod>
+  </url><url>
     <loc>https://ftisiot.net/</loc>
-    <lastmod>2022-10-11T13:08:56+02:00</lastmod>
+    <lastmod>2022-11-07T10:15:10+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/posts/query_influxb_curl/</loc>
+    <lastmod>2022-11-07T10:15:10+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/influxdb/</loc>
+    <lastmod>2022-11-07T10:15:10+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/posts/</loc>
+    <lastmod>2022-11-07T10:15:10+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/query/</loc>
+    <lastmod>2022-11-07T10:15:10+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/talks/pg-metadata/</loc>
     <lastmod>2022-10-11T13:08:56+02:00</lastmod>
@@ -17,13 +32,7 @@
     <loc>https://ftisiot.net/categories/apacheflink/</loc>
     <lastmod>2022-08-29T11:19:57+02:00</lastmod>
   </url><url>
-    <loc>https://ftisiot.net/categories/</loc>
-    <lastmod>2022-08-29T11:19:57+02:00</lastmod>
-  </url><url>
     <loc>https://ftisiot.net/posts/apache-flink-to-timestamp-ltz/</loc>
-    <lastmod>2022-08-29T11:19:57+02:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/posts/</loc>
     <lastmod>2022-08-29T11:19:57+02:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/timestamps/</loc>

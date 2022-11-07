@@ -6,7 +6,16 @@
     <description>Recent content in Posts on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Aug 2022 11:19:57 +0200</lastBuildDate><atom:link href="https://ftisiot.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Nov 2022 10:15:10 +0100</lastBuildDate><atom:link href="https://ftisiot.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to query remote InfluxDB via cURL</title>
+      <link>https://ftisiot.net/posts/query_influxb_curl/</link>
+      <pubDate>Mon, 07 Nov 2022 10:15:10 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/posts/query_influxb_curl/</guid>
+      <description>&lt;p&gt;Sometimes you want to query a remote InfluxDB server to understand the data in it. This can be done via cURL as explained in the &lt;a href=&#34;https://docs.influxdata.com/influxdb/v1.8/guides/query_data/&#34;&gt;InfluxDB docs&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Convert Epoch to Timestamps in Apache Flink with ``TO_TIMESTAMP_LTZ``</title>
       <link>https://ftisiot.net/posts/apache-flink-to-timestamp-ltz/</link>
