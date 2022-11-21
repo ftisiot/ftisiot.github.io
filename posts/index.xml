@@ -211,7 +211,7 @@ When trying to solve problems this amount of information can be a treasure but a
       <guid>https://ftisiot.net/2016/09/29/obi-blogs-to-follow/</guid>
       <description>Hi All,
 I thought that including a post on the OBI related blogs and the owner twitter accounts, may be useful. The list will be enriched over time
- * [rittmanmead.com](http://www.rittmanmead.com): My company&#39;s blog, always source of good OBI articles * [rmoff.net](http://rmoff.net): [Robin Moffat](https://twitter.com/rmoff)&#39;s (Oracle ACE) personal blog * [gianniceresa.com](https://gianniceresa.com): [Gianni Ceresa](https://twitter.com/G_Ceresa)&#39;s personal blog * [dimensionality.ch](http://dimensionality.ch): [Christian Berg](https://twitter.com/Nephentur)&#39;s (Oracle ACE Associate) personal blog * [gerardnico.com](http://gerardnico.com/): Nicolas Gerard&#39;s personal blog * [bisoftdiary.</description>
+* [rittmanmead.com](http://www.rittmanmead.com): My company&#39;s blog, always source of good OBI articles * [rmoff.net](http://rmoff.net): [Robin Moffat](https://twitter.com/rmoff)&#39;s (Oracle ACE) personal blog * [gianniceresa.com](https://gianniceresa.com): [Gianni Ceresa](https://twitter.com/G_Ceresa)&#39;s personal blog * [dimensionality.ch](http://dimensionality.ch): [Christian Berg](https://twitter.com/Nephentur)&#39;s (Oracle ACE Associate) personal blog * [gerardnico.com](http://gerardnico.com/): Nicolas Gerard&#39;s personal blog * [bisoftdiary.com](https://bisoftdiary.com/): [Andrew Fomin](https://twitter.</description>
     </item>
     
     <item>
@@ -222,7 +222,7 @@ I thought that including a post on the OBI related blogs and the owner twitter a
       <guid>https://ftisiot.net/2016/09/29/obi12c-performance-tiles-pdf-print-error/</guid>
       <description>Hi All,
 If you already migrated to OBI12c you could experience, when printing to PDF a dashboard or analysis including performance tiles that the layout is not what expected.
-[caption width=&amp;ldquo;300&amp;rdquo; id=&amp;ldquo;attachment_37&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo;]Original Dashboard Layout[/caption] [caption width=&amp;ldquo;300&amp;rdquo; id=&amp;ldquo;attachment_36&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo;]PDF Print[/caption]The good news is that this has been recognised as a bug and if you are on 12.2.1.0.0 there is a patch available &amp;ldquo;Patch 22759083: BIEE 12C DASHBOARD PRINT TO PDF MISSING PERFORMANCE TILES FROM THE REPORT&amp;rdquo;.</description>
+[caption width=&amp;ldquo;300&amp;rdquo; id=&amp;ldquo;attachment_37&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo;] Original Dashboard Layout[/caption] [caption width=&amp;ldquo;300&amp;rdquo; id=&amp;ldquo;attachment_36&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo;] PDF Print[/caption]The good news is that this has been recognised as a bug and if you are on 12.2.1.0.0 there is a patch available &amp;ldquo;Patch 22759083: BIEE 12C DASHBOARD PRINT TO PDF MISSING PERFORMANCE TILES FROM THE REPORT&amp;rdquo;.</description>
     </item>
     
     <item>

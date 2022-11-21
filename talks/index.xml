@@ -49,7 +49,8 @@
       <pubDate>Fri, 13 May 2022 15:49:28 +0200</pubDate>
       
       <guid>https://ftisiot.net/talks/flask-kafka/</guid>
-      <description>Useful Links  Apache Kafka docs GitHub Repo Aiven for Apache Kafka  </description>
+      <description>
+Useful Links Apache Kafka docs GitHub Repo Aiven for Apache Kafka </description>
     </item>
     
     <item>
@@ -58,7 +59,8 @@
       <pubDate>Mon, 02 May 2022 14:54:29 +0200</pubDate>
       
       <guid>https://ftisiot.net/talks/knapsack-problem-pg/</guid>
-      <description>Useful Links  Knapsack Problem Knapsack in PostgreSQL PostgreSQL 14 Search and Cycle Features Aiven  </description>
+      <description>
+Useful Links Knapsack Problem Knapsack in PostgreSQL PostgreSQL 14 Search and Cycle Features Aiven </description>
     </item>
     
     <item>
@@ -67,7 +69,8 @@
       <pubDate>Fri, 01 Apr 2022 14:24:42 +0200</pubDate>
       
       <guid>https://ftisiot.net/talks/kafka-jdbc-what-can-go-wrong/</guid>
-      <description>Useful Links  Talk recording JDBC source connector docs Debezium docs How to Debezium in Aiven docs JDBC source connector example Debezium source connector example Aiven  </description>
+      <description>
+Useful Links Talk recording JDBC source connector docs Debezium docs How to Debezium in Aiven docs JDBC source connector example Debezium source connector example Aiven </description>
     </item>
     
     <item>
@@ -76,7 +79,8 @@
       <pubDate>Tue, 15 Mar 2022 16:12:47 +0100</pubDate>
       
       <guid>https://ftisiot.net/talks/kafka-flink-sql/</guid>
-      <description>Useful Links  Apache Kafka docs Apache Flink docs Apache Fink SQL client on Docker Build a Streaming data pipeline with Apache Kafka and Flink blog JDBC source connector example Debezium source connector example Aiven for Apache Kafka   </description>
+      <description>
+Useful Links Apache Kafka docs Apache Flink docs Apache Fink SQL client on Docker Build a Streaming data pipeline with Apache Kafka and Flink blog JDBC source connector example Debezium source connector example Aiven for Apache Kafka </description>
     </item>
     
     <item>
@@ -85,7 +89,8 @@
       <pubDate>Tue, 22 Feb 2022 12:22:35 +0100</pubDate>
       
       <guid>https://ftisiot.net/talks/track-database-changes/</guid>
-      <description>Useful Links  Apache Kafka docs Debezium docs How to Debezium in Aiven docs JDBC source connector example Debezium source connector example JDBC Source Connector: what could go wrong? Aiven for PostgreSQL  </description>
+      <description>
+Useful Links Apache Kafka docs Debezium docs How to Debezium in Aiven docs JDBC source connector example Debezium source connector example JDBC Source Connector: what could go wrong? Aiven for PostgreSQL </description>
     </item>
     
   </channel>
