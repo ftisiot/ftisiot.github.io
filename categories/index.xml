@@ -6,7 +6,34 @@
     <description>Recent content in Categories on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Nov 2022 10:15:10 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Nov 2022 12:22:13 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>abstract</title>
+      <link>https://ftisiot.net/categories/abstract/</link>
+      <pubDate>Mon, 28 Nov 2022 12:22:13 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/categories/abstract/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>conference</title>
+      <link>https://ftisiot.net/categories/conference/</link>
+      <pubDate>Mon, 28 Nov 2022 12:22:13 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/categories/conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>writing</title>
+      <link>https://ftisiot.net/categories/writing/</link>
+      <pubDate>Mon, 28 Nov 2022 12:22:13 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/categories/writing/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>InfluxDB</title>
       <link>https://ftisiot.net/categories/influxdb/</link>

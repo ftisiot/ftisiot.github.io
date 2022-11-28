@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>writing on ftisiot ideas about food and life</title>
+    <link>https://ftisiot.net/categories/writing/</link>
+    <description>Recent content in writing on ftisiot ideas about food and life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Nov 2022 12:22:13 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/writing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tips for Successful Conference Abstracts</title>
+      <link>https://ftisiot.net/posts/tips-for-abstract-writing/</link>
+      <pubDate>Mon, 28 Nov 2022 12:22:13 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/posts/tips-for-abstract-writing/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;re reading this, there are good chances you&amp;rsquo;re thinking, writing or evaluating an abstract for a conference. The post is about little tips I learnt in more than 8 years of prepping for conferences and in 1 year or reviewing internal abstracts at Aiven before they are submitted for a conference.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
