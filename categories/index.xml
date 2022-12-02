@@ -6,7 +6,25 @@
     <description>Recent content in Categories on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Nov 2022 12:22:13 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Nov 2022 10:38:44 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Community</title>
+      <link>https://ftisiot.net/categories/community/</link>
+      <pubDate>Wed, 30 Nov 2022 10:38:44 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/categories/community/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PostgreSQL</title>
+      <link>https://ftisiot.net/categories/postgresql/</link>
+      <pubDate>Wed, 30 Nov 2022 10:38:44 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/categories/postgresql/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>abstract</title>
       <link>https://ftisiot.net/categories/abstract/</link>
@@ -103,15 +121,6 @@
       <pubDate>Thu, 11 Aug 2022 14:47:17 +0200</pubDate>
       
       <guid>https://ftisiot.net/categories/pgadmin4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PostgreSQL</title>
-      <link>https://ftisiot.net/categories/postgresql/</link>
-      <pubDate>Thu, 11 Aug 2022 14:47:17 +0200</pubDate>
-      
-      <guid>https://ftisiot.net/categories/postgresql/</guid>
       <description></description>
     </item>
     
