@@ -6,7 +6,16 @@
     <description>Recent content in Posts on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Nov 2022 10:38:44 +0100</lastBuildDate><atom:link href="https://ftisiot.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Dec 2022 11:35:42 +0100</lastBuildDate><atom:link href="https://ftisiot.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From data stack to data stuck: the risks of not asking the right data questions</title>
+      <link>https://ftisiot.net/posts/from-data-stack-to-data-stuck/</link>
+      <pubDate>Wed, 21 Dec 2022 11:35:42 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/posts/from-data-stack-to-data-stuck/</guid>
+      <description>&lt;p&gt;Companies are in a continuous motion: new requirements, new data streams, new technologies are popping up every day. When designing new data platforms supporting the needs of your company, failing to perform a complete assessment of the options available can have disastrous effects on a company&amp;rsquo;s capability to innovate, and making sure their data assets usable and reusable in the long term.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>PostgreSQL Community and you</title>
       <link>https://ftisiot.net/posts/postgresql-community/</link>

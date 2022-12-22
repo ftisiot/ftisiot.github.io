@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>From data stack to data stuck: the risks of not asking the right data questions</title>
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="https://ftisiot.net/index.xml">
+		<link rel="canonical" href="https://ftisiot.net/posts/from-data-stack-to-data-stuck/">
+		
+		<link rel="shortcut icon" type="image/png" href="https://ftisiot.net/apple-touch-icon-precomposed.png">
+		<meta name="description" content="What are the risks of not evaluating a data platform correctly?">
+		
+		
+
+		
+		<meta property="og:title" content="From data stack to data stuck: the risks of not asking the right data questions" />
+		<meta property="og:type" content="article" />
+		<meta property="og:image" content="https://ftisiot.net/images/2022/stuck.png" />
+		<meta property="og:description" content="What are the risks of not evaluating a data platform correctly?" />
+		<meta property="og:url" content="https://ftisiot.net/posts/from-data-stack-to-data-stuck/" />
+		<meta property="og:site_name" content="From data stack to data stuck: the risks of not asking the right data questions" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@" />
+
+
+		
+		<link rel="stylesheet" href="https://ftisiot.net/css/tachyons.min.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/story.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/descartes.css" />
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Quattrocento:400,700|Spectral:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+		
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script src="https://ftisiot.net/js/story.js"></script>
+
+	</head>
+	<body class="ma0 bg-white section-posts page-kind-page is-page-true ">
+		
+		<header class="cover bg-top" style="background-image: url('https://ftisiot.net/images/2022/stuck.png'); background-position: center;">
+			<div class="bg-black-30 bb bt">
+
+				<nav class="hide-print sans-serif  border-box pa3 ph5-l">
+					<a href="https://ftisiot.net" title="Home">
+						<img src="https://ftisiot.net/img/logo.jpg" class="w2 h2 br-100" alt="ftisiot ideas about food and life" />
+					</a>
+					<div class="fr h2 pv2 tr">
+						<a class="link f5 ml2 dim near-white" href="/who">who</a>
+						<a class="link f5 ml2 dim near-white" href="/speaking-activities">talks</a>
+						<a class="link f5 ml2 dim near-white" href="/suggestions-verona">suggestions</a>
+						<a class="link f5 ml2 dim near-white" href="https://www.youtube.com/channel/UCTJ4oA3-T3RdmM2OJ7d8cJg"><i class="fab fa-youtube-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://twitter.com/ftisiot/"><i class="fab fa-twitter-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://github.com/ftisiot/"><i class="fab fa-github-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://www.linkedin.com/in/francescotisiot/"><i class="fab fa-linkedin"></i></a>
+						<a class="link f5 ml2 dim near-white fas fa-rss-square" href="https://ftisiot.net/index.xml" title="RSS Feed"></a>
+						<a class="link f5 ml2 dim near-white fas fa-search" href="https://ftisiot.net/search/" role="search" title="Search"></a>
+					</div>
+				</nav>
+
+				<div id="hdr" class="tc-l pv4-ns pv5-l pv2 ph3 ph4-ns">
+					<h1 class="near-white mt1-ns f2 fw3 mb0 mt0 lh-title">From data stack to data stuck: the risks of not asking the right data questions</h1>
+					<h2 class="near-white mt3-l mb4-l fw1 f6 f3-l measure-wide-l center lh-copy mt2 mb3">
+						
+						
+							
+								Published
+								<time datetime="2022-12-21T11:35:42&#43;01:00">Dec 21, 2022</time>
+								<span class="display-print">by ftisiot</span>
+								 in <a href="https://ftisiot.net/categories/design" class="no-underline category near-white dim">Design</a>, <a href="https://ftisiot.net/categories/data-platforms" class="no-underline category near-white dim">Data Platforms</a>, <a href="https://ftisiot.net/categories/evaluation" class="no-underline category near-white dim">Evaluation</a>
+								<span class="display-print">at https://ftisiot.net/posts/from-data-stack-to-data-stuck/</span>
+							
+						
+					</h2>
+				</div>
+
+				
+				
+				
+				
+
+			</div>
+		</header>
+		
+		<main role="main">
+		
+<article class="center bg-white br-3 pv1 ph4 lh-copy f5 nested-links mw7">
+	<p>Companies are in a continuous motion: new requirements, new data streams, new technologies are popping up every day. When designing new data platforms supporting the needs of your company, failing to perform a complete assessment of the options available can have disastrous effects on a company&rsquo;s capability to innovate, and making sure their data assets usable and reusable in the long term.</p>
+<p>Having a standard assessment methodology is an absolute must to avoid personal bias, and properly evaluate the various solutions across all the needed axes. The <a href="https://aiven.io/blog/a-soft-methodology-to-define-robust-data-platforms">SOFT Methodology</a> provides a comprehensive guide of all the evaluation points to define robust and future proof data solutions. However, the original blog doesn’t discuss a couple of important factors: <strong>why</strong> is applying a methodology like SOFT important? and, even more, what <strong>risks</strong> can we encounter if we’re not doing so? This blog aims to cover both aspects.</p>
+<h1 id="the-why">The why</h1>
+<p>Data platforms are here to stay: the recent history of technology has told us that data decisions made now have a long lasting effect.</p>
+<p>We commonly see a frequent rework of the front-end, but radical changes in the back-end data platforms used are rare. Front-end rework can radically change the perception of a product, but when the same is done on a backend the changes are not immediately impacting the end users.</p>
+<p>Changing the product provider is nowadays quite frictionless, but porting a solution across different backend tech stacks is, despite the eternal promise, very complex and costly, both financially and time wise. Some options exist to ease the experience, but the code compatibility and performances are never a 100% match.</p>
+<p>Furthermore, when talking about data solutions, performance consistency is key. Any change in the backend technology is therefore seen as a high risk scenario, and most of the times refused with the statement &ldquo;don’t fix what isn’t broken&rdquo;. The fear of change blocks both new tech adoption as well as upgrades of existing solutions.</p>
+<p>Summarizing, the world has plenty of examples of companies using backend data platforms chosen ages ago, sometimes with old, unsupported versions. Therefore, any data decision made today needs to be robust and age well, in order to support the companies in their future data growth. Having a standard methodology helps understand the playing field, evaluate all the possible directions and accurately compare the options.</p>
+<h1 id="the-risks-of-being-data-stuck">The risks of being (data) stuck</h1>
+<p>Ok, you&rsquo;re in the long term game now. Swapping back-end or data pipeline solutions is not easy, therefore selecting the right one is crucial. But what problems will we face if we fail in our selection process? What are the risks of being stuck with a sub-optimal choice?</p>
+<h2 id="features">Features</h2>
+<p><img src="/images/2022/features-list.png" alt="List of Features"></p>
+<p>When thinking about being stuck, it&rsquo;s tempting to compare the chosen solution with the new and shiny tooling available at the moment, and their promised future features.</p>
+<p>New options and functionalities could enhance a company’s productivity, system management, integration, and remove frictions in any point of the data journey. Being stuck with a suboptimal solution without a clear innovation path and without any capability to influence its direction puts the company in a potential weak position regarding innovation. Evaluating the community and the vendors behind a certain technology could help decrease the risk of stagnating tools.</p>
+<p>It&rsquo;s very important to evaluate which features and functionality is relevant/needed and define a list of &ldquo;must haves&rdquo; to reduce time spent on due diligence.</p>
+<h2 id="scaling">Scaling</h2>
+<p><img src="/images/2022/growth.png" alt="Scaling"></p>
+<p>The <a href="https://aiven.io/blog/a-soft-methodology-to-define-robust-data-platforms">SOFT methodology blog post</a> touches several directions on scaling: human, technological, business case, financial.</p>
+<p>Hitting any of these problems could mean that the identified solution:</p>
+<ul>
+<li>could not be supported by lack of talent</li>
+<li>could hit technical limits and prevent growth</li>
+<li>could expose security/regulatory problems</li>
+<li>could be perfectly fine to run on a sandbox, but financially impractical on production-size data volumes</li>
+</ul>
+<p>Hitting scaling limits therefore means that companies adopting a specific technology could be forced to either slow down growth or completely rebuild solutions starting from a different technology choice.</p>
+<h2 id="support-and-upgrade-path">Support and upgrade path</h2>
+<p><img src="/images/2022/hands.png" alt="Support"></p>
+<p>Sometimes the chosen technology advances, but companies are afraid or can&rsquo;t find the time/budget to upgrade to the new version. The associated risk is that the older the software version, the more complex (and risky) the upgrade path will be. In exceptional circumstances, the upgrade path could not exist, forcing a complete re-implementation of the solution.</p>
+<p>Support needs a similar discussion: staying on a very old version could mean a premium support fee in the best case, or a complete lack of vendor/community help in a vast majority of the scenarios.</p>
+<h2 id="community-and-talent">Community and talent</h2>
+<p><img src="/images/2022/people.png" alt="Community and talent"></p>
+<p>The risk associated with talent shortage was already covered in the scaling chapter. New development and workload scaling heavily depend on the humans behind the tool. Moreover, not evaluating the community and talent pool behind a certain technology decision could create support problems once the chosen solution becomes mature and the first set of developers/supporters leave the company without proper replacement.</p>
+<p>The lack of a vibrant community around a data solution could rapidly decrease the talent pool, creating issues for new features, new developments and existing support.</p>
+<h2 id="performance">Performance</h2>
+<p><img src="/images/2022/clock.png" alt="Performance"></p>
+<p>It&rsquo;s impossible to know what the future will hold in terms of new technologies and integrations. But selecting a closed solution, with limited (or none) capabilities of integration forces companies to run only &ldquo;at the speed of the chosen technology&rdquo; exposing companies to a risk of not being able to unleash new use cases because of technical limitations.
+Moreover, not paying attention to the speed of development and recovery could expose limits on the innovation and the resilience fronts.</p>
+<h2 id="black-box">Black box</h2>
+<p><img src="/images/2022/blackbox.png" alt="Black box"></p>
+<p>When defining new data solutions, an important aspect is the ability to make data assets and related pipelines discoverable and understandable. Dealing with a black box approach means exposing companies to repeated efforts and inconsistent results which decrease the trust in the solution and open the door to misalignments on the results across departments.</p>
+<h2 id="overthinking">Overthinking</h2>
+<p><img src="/images/2022/questions.png" alt="Overthinking"></p>
+<p>The opposite risk is overthinking: the more time spent evaluating solutions, the more technologies, options and needs will pile up making the final decision process even longer.
+An inventory of the needs, timeframes and acceptable performance are necessary to reduce the scope, take a decision and start implementing.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>When designing a data platform, it is very important to address the right questions and avoid the &ldquo;risk of being stuck&rdquo;. The <a href="https://aiven.io/blog/a-soft-methodology-to-define-robust-data-platforms">SOFT Methodology</a> aims at providing all the important questions you should ask yourself in order to avoid pitfalls and create a robust solution.</p>
+<p>Do you feel all the risks are covered? Have a different opinion? Let me know!</p>
+</article>
+
+		</main>
+		
+				<div class="hide-print sans-serif f6 f5-l mt5 ph3 pb6 center nested-copy-line-height lh-copy nested-links mw-100 measure-wide">
+		<div class="about-the-author">
+		
+			
+			
+				
+					<hr>
+<p><img src="/images/ftisiot.png" alt="Francesco Tisiot"></p>
+<p><a href="https://www.linkedin.com/in/francescotisiot/"><b class="fab fa-linkedin"></b></a> <em>Francesco comes from Verona, Italy and works as a Senior Developer Advocate at Aiven. With his many years of experience as a data analyst, he has stories to tell and advice for data-wranglers everywhere. Francesco loves sharing knowledge with others as a speaker and writer, and is on a mission to defend the world from bad Italian food!</em></p>
+<p><a rel="me" href="https://data-folks.masto.host/@ftisiot">Mastodon</a></p>
+
+				
+			
+		
+		</div>
+		
+	</div>
+
+		
+		
+		
+		<footer class="hide-print sans-serif f6 fw1 bg-black near-white bottom-0 w-100 pa3" role="contentinfo">
+			<p class="w-50 fr tr">
+			<a class="no-underline near-white" href="https://github.com/xaprb/story"><img class="dib" title="Made with Hugo and Story" alt="Story logo" src="https://ftisiot.net/img/story-logo-white.svg" style="width: 1.5rem; height: 1.5rem" /></a>
+			</p>
+			<p class="w-50 near-white">
+				&copy; 2022 
+			</p>
+		</footer>
+		
+	
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-183917003-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+	
+	</body>
+</html>
