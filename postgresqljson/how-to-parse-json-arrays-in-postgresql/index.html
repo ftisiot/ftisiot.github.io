@@ -103,7 +103,29 @@
 <p><strong>NOTE</strong>: more info is available in the <a href="https://www.postgresql.org/docs/current/functions-json.html">PostgreSQL JSON functions documentation page</a></p>
 </blockquote>
 <h2 id="the-dataset">The dataset</h2>
-<p>The following examples use a pizza order dataset with an order having:</p>
+<p>The dataset is the following:</p>
+<pre tabindex="0"><code>{
+    &#34;id&#34;: 778,
+    &#34;shop&#34;: &#34;Luigis Pizza&#34;,
+    &#34;name&#34;: &#34;Edward Olson&#34;,
+    &#34;phoneNumbers&#34;:
+        [&#34;(935)503-3765x4154&#34;,&#34;(935)12345&#34;],
+    &#34;address&#34;: &#34;Unit 9398 Box 2056\nDPO AP 24022&#34;,
+    &#34;image&#34;: null,
+    &#34;pizzas&#34;: [
+        {
+            &#34;pizzaName&#34;: &#34;Salami&#34;,
+            &#34;additionalToppings&#34;: [&#34;🥓&#34;, &#34;🌶️&#34;]
+        },
+        {
+            &#34;pizzaName&#34;: &#34;Margherita&#34;,
+            &#34;additionalToppings&#34;: [&#34;🍌&#34;, &#34;🌶️&#34;, &#34;🍍&#34;]
+        }
+    ]
+}
+</code></pre><details>
+  <summary>Check out the description of the fields</summary>
+The following examples use a pizza order dataset with an order having:
 <ul>
 <li><code>id</code>: 778</li>
 <li><code>shop</code>: &ldquo;Luigis Pizza&rdquo;</li>
@@ -123,7 +145,10 @@
         &#34;additionalToppings&#34;: [&#34;🍌&#34;, &#34;🌶️&#34;, &#34;🍍&#34;]
     }
 ]
-</code></pre><p>It can be recreated with the following script:</p>
+</code></pre></details>
+<details>
+  <summary>If you want to reproduce the examples, check how to recreate the dataset</summary>
+<p>It can be recreated with the following script:</p>
 <pre tabindex="0"><code>create table test(id serial, json_data jsonb);
 
 insert into test(json_data) values (
@@ -146,7 +171,8 @@ insert into test(json_data) values (
         }
     ]
 }&#39;);
-</code></pre><h2 id="extract-the-json-array-elements-as-json-objects-with-the-json_array_elements-function">Extract the JSON array elements as JSON objects with the <code>json_array_elements</code> function</h2>
+</code></pre></details>
+<h2 id="extract-the-json-array-elements-as-json-objects-with-the-json_array_elements-function">Extract the JSON array elements as JSON objects with the <code>json_array_elements</code> function</h2>
 <p>The <code>pizzas</code> items can be extracted creating one row per element using the <code>json_array_elements</code> (<code>jsonb_array_elements</code> since the column is defined as JSONB) function:</p>
 <pre tabindex="0"><code>select p.*
 from test 

@@ -3,9 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>How to check if JSON contains in PostgreSQL®?</title>
+		<title>How to prettify the JSON output in PostgreSQL®</title>
 		<link rel="alternate" type="application/rss+xml" title="RSS" href="https://ftisiot.net/index.xml">
-		<link rel="canonical" href="https://ftisiot.net/postgresqljson/how-to-check-JSON-contains-postgresql/">
+		<link rel="canonical" href="https://ftisiot.net/postgresqljson/how-to-prettify-json-output-in-postgresql/">
 		
 		<link rel="shortcut icon" type="image/png" href="https://ftisiot.net/apple-touch-icon-precomposed.png">
 		
@@ -13,12 +13,12 @@
 		
 
 		
-		<meta property="og:title" content="How to check if JSON contains in PostgreSQL®?" />
+		<meta property="og:title" content="How to prettify the JSON output in PostgreSQL®" />
 		<meta property="og:type" content="article" />
 		<meta property="og:image" content="https://ftisiot.net/images/2023/pg-json-full.png" />
 		<meta property="og:description" content="" />
-		<meta property="og:url" content="https://ftisiot.net/postgresqljson/how-to-check-JSON-contains-postgresql/" />
-		<meta property="og:site_name" content="How to check if JSON contains in PostgreSQL®?" />
+		<meta property="og:url" content="https://ftisiot.net/postgresqljson/how-to-prettify-json-output-in-postgresql/" />
+		<meta property="og:site_name" content="How to prettify the JSON output in PostgreSQL®" />
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="twitter:site" content="@" />
 
@@ -60,16 +60,16 @@
 				</nav>
 
 				<div id="hdr" class="tc-l pv4-ns pv5-l pv2 ph3 ph4-ns">
-					<h1 class="near-white mt1-ns f2 fw3 mb0 mt0 lh-title">How to check if JSON contains in PostgreSQL®?</h1>
+					<h1 class="near-white mt1-ns f2 fw3 mb0 mt0 lh-title">How to prettify the JSON output in PostgreSQL®</h1>
 					<h2 class="near-white mt3-l mb4-l fw1 f6 f3-l measure-wide-l center lh-copy mt2 mb3">
 						
 						
 							
 								Published
-								<time datetime="2023-01-06T16:39:26&#43;01:00">Jan 6, 2023</time>
+								<time datetime="2023-01-09T11:53:26&#43;01:00">Jan 9, 2023</time>
 								<span class="display-print">by </span>
-								 in <a href="https://ftisiot.net/categories/postgresql" class="no-underline category near-white dim">Postgresql</a>, <a href="https://ftisiot.net/categories/json" class="no-underline category near-white dim">Json</a>, <a href="https://ftisiot.net/categories/jsonb" class="no-underline category near-white dim">Jsonb</a>, <a href="https://ftisiot.net/categories/contains" class="no-underline category near-white dim">Contains</a>
-								<span class="display-print">at https://ftisiot.net/postgresqljson/how-to-check-JSON-contains-postgresql/</span>
+								 in <a href="https://ftisiot.net/categories/postgresql" class="no-underline category near-white dim">Postgresql</a>, <a href="https://ftisiot.net/categories/json" class="no-underline category near-white dim">Json</a>, <a href="https://ftisiot.net/categories/jsonb" class="no-underline category near-white dim">Jsonb</a>, <a href="https://ftisiot.net/categories/prettify" class="no-underline category near-white dim">Prettify</a>
+								<span class="display-print">at https://ftisiot.net/postgresqljson/how-to-prettify-json-output-in-postgresql/</span>
 							
 						
 					</h2>
@@ -90,13 +90,7 @@
 		<main role="main">
 		
 <article class="center bg-white br-3 pv1 ph4 lh-copy f5 nested-links mw7">
-	<p>PostgreSQL® offers two types of data types to handle JSON data, <code>JSON</code> and <code>JSONB</code>, and provides several different ways to check if a value/field from a JSON document:</p>
-<ul>
-<li>the <code>@&gt;</code> operator to check if a JSON is contained</li>
-<li>the <code>?</code> operator to check if a field name is contained</li>
-<li>the <code>?|</code> operator to check if any field name in the array is contained</li>
-<li>the <code>?&amp;</code> operator to check if all the field names in the array are contained</li>
-</ul>
+	<p>PostgreSQL® offers two types of data types to handle JSON data, <code>JSON</code> and <code>JSONB</code>, you can use the function <code>json_pretty</code> (<code>jsonb_pretty</code> for <code>JSONB</code>) to prettify the output.</p>
 <blockquote>
 <p><strong>NOTE</strong>: To review the differences between <code>JSON</code> and <code>JSONB</code> check out the <a href="/postgresqljson/what-are-the-differences-json-jsonb-postgresql">related article</a>.</p>
 </blockquote>
@@ -173,52 +167,31 @@ insert into test(json_data) values (
     ]
 }&#39;);
 </code></pre></details>
-<h2 id="check-if-a-json-is-contained-with-the--operator">Check if a JSON is contained with the <code>@&gt;</code> operator</h2>
-<p>To check if a JSON object <code>{&quot;id&quot;: 778}</code> is contained, you can use</p>
+<h2 id="prettify-the-json-output-with-the-json_pretty-function">Prettify the JSON output with the <code>json_pretty</code> function</h2>
+<p>The <code>pizzas</code> array can be prettified using the <code>json_pretty</code> (<code>jsonb_pretty</code> since the column is defined as JSONB) function</p>
 <pre tabindex="0"><code>select 
-    json_data 
-        @&gt; &#39;{&#34;id&#34;: 778}&#39;::jsonb  
-        as contains_id
+    jsonb_pretty(json_data-&gt;&#39;pizzas&#39;) 
 from test;
 </code></pre><p>Result</p>
-<pre tabindex="0"><code> contains_id
--------------
- t
-(1 row)
-</code></pre><h2 id="check-if-a-field-name-is-contained-with-the--operator">Check if a field name is contained with the <code>?</code> operator</h2>
-<p>To check if the <code>shop</code> field</p>
-<pre tabindex="0"><code>select 
-    json_data ? &#39;shop&#39;
-        as contains_shop
-from test;
-</code></pre><p>Result</p>
-<pre tabindex="0"><code> contains_shop
----------------
- t
-(1 row)
-</code></pre><h2 id="check-if-any-field-name-in-the-array-is-contained-with-the--operator">Check if any field name in the array is contained with the <code>?|</code> operator</h2>
-<p>To check if the JSON object contains any of the <code>shop</code> and <code>cookies</code> fields</p>
-<pre tabindex="0"><code>select 
-    json_data 
-        ?| ARRAY[&#39;shop&#39;,&#39;cookies&#39;]
-        as contains_shop_or_cookies
-from test;
-</code></pre><p>Result</p>
-<pre tabindex="0"><code> contains_shop_or_cookies
---------------------------
- t
-(1 row)
-</code></pre><h2 id="check-if-all-the-field-names-in-the-array-are-contained-the--operator">Check if all the field names in the array are contained the <code>?&amp;</code> operator</h2>
-<p>To check if the JSON object contains both the <code>shop</code> and <code>cookies</code> fields</p>
-<pre tabindex="0"><code>select 
-    json_data 
-        ?&amp; ARRAY[&#39;shop&#39;,&#39;cookies&#39;]
-        as contains_shop_or_cookies
-from test;
-</code></pre><p>Result</p>
-<pre tabindex="0"><code> contains_shop_or_cookies
---------------------------
- f
+<pre tabindex="0"><code>            jsonb_pretty
+------------------------------------
+ [                                 +
+     {                             +
+         &#34;pizzaName&#34;: &#34;Salami&#34;,    +
+         &#34;additionalToppings&#34;: [   +
+             &#34;🥓&#34;,                 +
+             &#34;🌶️&#34;                  +
+         ]                         +
+     },                            +
+     {                             +
+         &#34;pizzaName&#34;: &#34;Margherita&#34;,+
+         &#34;additionalToppings&#34;: [   +
+             &#34;🍌&#34;,                 +
+             &#34;🌶️&#34;,                 +
+             &#34;🍍&#34;                  +
+         ]                         +
+     }                             +
+ ]
 (1 row)
 </code></pre>
 </article>
