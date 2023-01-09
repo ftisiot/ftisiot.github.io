@@ -6,7 +6,16 @@
     <description>Recent content in jsonb on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Jan 2023 08:23:06 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/jsonb/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Jan 2023 11:33:09 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/jsonb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Array</title>
+      <link>https://ftisiot.net/postgresqljson/how-to-parse-json-arrays-in-postgresql/</link>
+      <pubDate>Mon, 09 Jan 2023 11:33:09 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/postgresqljson/how-to-parse-json-arrays-in-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, and provides several different ways to parse arrays from a JSON document:&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>How to JSON in PostgreSQL®</title>
       <link>https://ftisiot.net/postgresqljson/</link>
