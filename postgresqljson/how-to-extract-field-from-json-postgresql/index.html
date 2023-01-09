@@ -235,7 +235,7 @@ from test;
  [&#34;🍌&#34;, &#34;🌶️&#34;, &#34;🍍&#34;]
 (1 row)
 </code></pre><h2 id="extract-a-json-field-as-a-specific-path-using-the-json_extract_path-function">Extract a JSON field as a specific path using the <code>json_extract_path</code> function</h2>
-<p>To get the second pizza name in the order</p>
+<p>To get the second pizza name in the order you can use the <code>json_extract_path</code> (<code>jsonb_extract_path</code> since the column is defined as JSONB)</p>
 <pre tabindex="0"><code>select 
     jsonb_extract_path(json_data, &#39;pizzas&#39;, &#39;1&#39;, &#39;pizzaName&#39;) second_pizza_name
 from test;
