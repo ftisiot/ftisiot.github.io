@@ -6,11 +6,29 @@
     <description>Recent content in Categories on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Jan 2023 16:58:02 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Jan 2023 17:32:52 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>array</title>
+      <link>https://ftisiot.net/categories/array/</link>
+      <pubDate>Mon, 09 Jan 2023 17:32:52 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/categories/array/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>create</title>
+      <link>https://ftisiot.net/categories/create/</link>
+      <pubDate>Mon, 09 Jan 2023 17:32:52 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/categories/create/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>json</title>
       <link>https://ftisiot.net/categories/json/</link>
-      <pubDate>Mon, 09 Jan 2023 16:58:02 +0100</pubDate>
+      <pubDate>Mon, 09 Jan 2023 17:32:52 +0100</pubDate>
       
       <guid>https://ftisiot.net/categories/json/</guid>
       <description></description>
@@ -19,9 +37,54 @@
     <item>
       <title>jsonb</title>
       <link>https://ftisiot.net/categories/jsonb/</link>
-      <pubDate>Mon, 09 Jan 2023 16:58:02 +0100</pubDate>
+      <pubDate>Mon, 09 Jan 2023 17:32:52 +0100</pubDate>
       
       <guid>https://ftisiot.net/categories/jsonb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>key</title>
+      <link>https://ftisiot.net/categories/key/</link>
+      <pubDate>Mon, 09 Jan 2023 17:32:52 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/categories/key/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>postgresql</title>
+      <link>https://ftisiot.net/categories/postgresql/</link>
+      <pubDate>Mon, 09 Jan 2023 17:32:52 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/categories/postgresql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>value</title>
+      <link>https://ftisiot.net/categories/value/</link>
+      <pubDate>Mon, 09 Jan 2023 17:32:52 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/categories/value/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>convert</title>
+      <link>https://ftisiot.net/categories/convert/</link>
+      <pubDate>Mon, 09 Jan 2023 17:19:50 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/categories/convert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>elements</title>
+      <link>https://ftisiot.net/categories/elements/</link>
+      <pubDate>Mon, 09 Jan 2023 17:14:22 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/categories/elements/</guid>
       <description></description>
     </item>
     
@@ -31,24 +94,6 @@
       <pubDate>Mon, 09 Jan 2023 16:58:02 +0100</pubDate>
       
       <guid>https://ftisiot.net/categories/keys/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>postgresql</title>
-      <link>https://ftisiot.net/categories/postgresql/</link>
-      <pubDate>Mon, 09 Jan 2023 16:58:02 +0100</pubDate>
-      
-      <guid>https://ftisiot.net/categories/postgresql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>convert</title>
-      <link>https://ftisiot.net/categories/convert/</link>
-      <pubDate>Mon, 09 Jan 2023 16:16:10 +0100</pubDate>
-      
-      <guid>https://ftisiot.net/categories/convert/</guid>
       <description></description>
     </item>
     
@@ -67,15 +112,6 @@
       <pubDate>Mon, 09 Jan 2023 11:53:26 +0100</pubDate>
       
       <guid>https://ftisiot.net/categories/prettify/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>array</title>
-      <link>https://ftisiot.net/categories/array/</link>
-      <pubDate>Mon, 09 Jan 2023 11:33:09 +0100</pubDate>
-      
-      <guid>https://ftisiot.net/categories/array/</guid>
       <description></description>
     </item>
     

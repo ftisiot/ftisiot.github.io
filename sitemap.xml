@@ -2,29 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ftisiot.net/categories/array/</loc>
+    <lastmod>2023-01-09T17:32:52+01:00</lastmod>
+  </url><url>
     <loc>https://ftisiot.net/categories/</loc>
-    <lastmod>2023-01-09T16:58:02+01:00</lastmod>
+    <lastmod>2023-01-09T17:32:52+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/create/</loc>
+    <lastmod>2023-01-09T17:32:52+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/</loc>
-    <lastmod>2023-01-09T16:58:02+01:00</lastmod>
+    <lastmod>2023-01-09T17:32:52+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/postgresqljson/howto-create-json-from-array-key-value-pairs-postgresql/</loc>
+    <lastmod>2023-01-09T17:32:52+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/json/</loc>
+    <lastmod>2023-01-09T17:32:52+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/jsonb/</loc>
+    <lastmod>2023-01-09T17:32:52+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/key/</loc>
+    <lastmod>2023-01-09T17:32:52+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/postgresql/</loc>
+    <lastmod>2023-01-09T17:32:52+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/value/</loc>
+    <lastmod>2023-01-09T17:32:52+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/postgresqljson/howto-create-json-from-keys-and-values-arrays-postgresql/</loc>
+    <lastmod>2023-01-09T17:25:47+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/convert/</loc>
+    <lastmod>2023-01-09T17:19:50+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/postgresqljson/howto-convert-array-to-json-array-postgresql/</loc>
+    <lastmod>2023-01-09T17:19:50+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/elements/</loc>
+    <lastmod>2023-01-09T17:14:22+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/postgresqljson/how-to-build-json-array-from-elements-postgresql/</loc>
+    <lastmod>2023-01-09T17:14:22+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/postgresqljson/how-to-parse-json-keys-postgresql/</loc>
     <lastmod>2023-01-09T16:58:02+01:00</lastmod>
   </url><url>
-    <loc>https://ftisiot.net/categories/json/</loc>
-    <lastmod>2023-01-09T16:58:02+01:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/categories/jsonb/</loc>
-    <lastmod>2023-01-09T16:58:02+01:00</lastmod>
-  </url><url>
     <loc>https://ftisiot.net/categories/keys/</loc>
     <lastmod>2023-01-09T16:58:02+01:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/categories/postgresql/</loc>
-    <lastmod>2023-01-09T16:58:02+01:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/categories/convert/</loc>
-    <lastmod>2023-01-09T16:16:10+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/postgresqljson/how-to-convert-table-row-json-postgresql/</loc>
     <lastmod>2023-01-09T16:16:10+01:00</lastmod>
@@ -37,9 +64,6 @@
   </url><url>
     <loc>https://ftisiot.net/categories/prettify/</loc>
     <lastmod>2023-01-09T11:53:26+01:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/categories/array/</loc>
-    <lastmod>2023-01-09T11:33:09+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/postgresqljson/how-to-parse-json-arrays-in-postgresql/</loc>
     <lastmod>2023-01-09T11:33:09+01:00</lastmod>

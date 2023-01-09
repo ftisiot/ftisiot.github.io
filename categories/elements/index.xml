@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>elements on ftisiot ideas about food and life</title>
+    <link>https://ftisiot.net/categories/elements/</link>
+    <description>Recent content in elements on ftisiot ideas about food and life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Jan 2023 17:14:22 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/elements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to build a JSON array from a list of elements in PostgreSQL®</title>
+      <link>https://ftisiot.net/postgresqljson/how-to-build-json-array-from-elements-postgresql/</link>
+      <pubDate>Mon, 09 Jan 2023 17:14:22 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/postgresqljson/how-to-build-json-array-from-elements-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, you can use the function &lt;code&gt;json_build_array&lt;/code&gt; (&lt;code&gt;jsonb_build_array&lt;/code&gt; for &lt;code&gt;JSONB&lt;/code&gt;) to create a JSON array from a list of elements.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
