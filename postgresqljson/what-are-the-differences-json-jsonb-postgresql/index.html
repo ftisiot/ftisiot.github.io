@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>What are the differences between JSON or JSONB in PostgreSQL®?</title>
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="https://ftisiot.net/index.xml">
+		<link rel="canonical" href="https://ftisiot.net/postgresqljson/what-are-the-differences-json-jsonb-postgresql/">
+		
+		<link rel="shortcut icon" type="image/png" href="https://ftisiot.net/apple-touch-icon-precomposed.png">
+		<meta name="description" content="Understanding differences between JSON and JSONB in PostgreSQL">
+		
+		
+
+		
+		<meta property="og:title" content="What are the differences between JSON or JSONB in PostgreSQL®?" />
+		<meta property="og:type" content="article" />
+		<meta property="og:image" content="https://ftisiot.net/images/2023/pg-json-full.png" />
+		<meta property="og:description" content="Understanding differences between JSON and JSONB in PostgreSQL" />
+		<meta property="og:url" content="https://ftisiot.net/postgresqljson/what-are-the-differences-json-jsonb-postgresql/" />
+		<meta property="og:site_name" content="What are the differences between JSON or JSONB in PostgreSQL®?" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@" />
+
+
+		
+		<link rel="stylesheet" href="https://ftisiot.net/css/tachyons.min.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/story.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/descartes.css" />
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Quattrocento:400,700|Spectral:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+		
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script src="https://ftisiot.net/js/story.js"></script>
+
+	</head>
+	<body class="ma0 bg-white section-postgresqljson page-kind-page is-page-true ">
+		
+		<header class="cover bg-top" style="background-image: url('https://ftisiot.net/images/2023/pg-json-full.png'); background-position: center;">
+			<div class="bg-black-30 bb bt">
+
+				<nav class="hide-print sans-serif  border-box pa3 ph5-l">
+					<a href="https://ftisiot.net" title="Home">
+						<img src="https://ftisiot.net/img/logo.jpg" class="w2 h2 br-100" alt="ftisiot ideas about food and life" />
+					</a>
+					<div class="fr h2 pv2 tr">
+						<a class="link f5 ml2 dim near-white" href="/who">who</a>
+						<a class="link f5 ml2 dim near-white" href="/speaking-activities">talks</a>
+						<a class="link f5 ml2 dim near-white" href="/suggestions-verona">suggestions</a>
+						<a class="link f5 ml2 dim near-white" href="https://www.youtube.com/channel/UCTJ4oA3-T3RdmM2OJ7d8cJg"><i class="fab fa-youtube-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://twitter.com/ftisiot/"><i class="fab fa-twitter-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://github.com/ftisiot/"><i class="fab fa-github-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://www.linkedin.com/in/francescotisiot/"><i class="fab fa-linkedin"></i></a>
+						<a class="link f5 ml2 dim near-white fas fa-rss-square" href="https://ftisiot.net/index.xml" title="RSS Feed"></a>
+						<a class="link f5 ml2 dim near-white fas fa-search" href="https://ftisiot.net/search/" role="search" title="Search"></a>
+					</div>
+				</nav>
+
+				<div id="hdr" class="tc-l pv4-ns pv5-l pv2 ph3 ph4-ns">
+					<h1 class="near-white mt1-ns f2 fw3 mb0 mt0 lh-title">What are the differences between JSON or JSONB in PostgreSQL®?</h1>
+					<h2 class="near-white mt3-l mb4-l fw1 f6 f3-l measure-wide-l center lh-copy mt2 mb3">
+						
+						
+							
+								Published
+								<time datetime="2023-01-06T16:39:26&#43;01:00">Jan 6, 2023</time>
+								<span class="display-print">by </span>
+								 in <a href="https://ftisiot.net/categories/postgresql" class="no-underline category near-white dim">Postgresql</a>, <a href="https://ftisiot.net/categories/json" class="no-underline category near-white dim">Json</a>, <a href="https://ftisiot.net/categories/jsonb" class="no-underline category near-white dim">Jsonb</a>
+								<span class="display-print">at https://ftisiot.net/postgresqljson/what-are-the-differences-json-jsonb-postgresql/</span>
+							
+						
+					</h2>
+				</div>
+
+				
+				
+				
+				<div class="w-100 cf hide-print">
+					<a class="fr f6 ma0 pa2 link white-50 dim fas fa-camera" href="ftisiot" title="Photo Credit"></a>
+				</div>
+				
+				
+
+			</div>
+		</header>
+		
+		<main role="main">
+		
+<article class="center bg-white br-3 pv1 ph4 lh-copy f5 nested-links mw7">
+	<p>PostgreSQL® offers two types of data types to handle JSON data:</p>
+<ul>
+<li><code>JSON</code> stores the JSON as text, performing a validation on the correctness of the JSON syntax</li>
+<li><code>JSONB</code> optimizes the JSON storage in a custom binary format. Therefore, on top of validating the correctness of the JSON format, time is spent to properly parse and store the content.</li>
+</ul>
+<blockquote>
+<p><strong>NOTE</strong>: more info is available in the <a href="https://www.postgresql.org/docs/current/datatype-json.html">PostgreSQL JSON types documentation page</a></p>
+</blockquote>
+<p>The following table defines the differences between <code>JSON</code> and <code>JSONB</code> data types in PostgreSQL.</p>
+<table>
+<thead>
+<tr>
+<th>Quality</th>
+<th><code>JSON</code></th>
+<th><code>JSONB</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Data storage format</td>
+<td>raw text</td>
+<td>custom binary</td>
+</tr>
+<tr>
+<td>Write</td>
+<td>faster to write, only minimal JSON validation</td>
+<td>slower to write due to binary conversion overhead</td>
+</tr>
+<tr>
+<td>Read</td>
+<td>slower to read, reparsing needed</td>
+<td>faster to read</td>
+</tr>
+<tr>
+<td>White spaces</td>
+<td>preserved</td>
+<td>removed</td>
+</tr>
+<tr>
+<td>Duplicated keys</td>
+<td>preserved</td>
+<td>only last valued is kept</td>
+</tr>
+<tr>
+<td>Order of keys</td>
+<td>preserved</td>
+<td>can be altered</td>
+</tr>
+<tr>
+<td>Index support</td>
+<td>no</td>
+<td>yes</td>
+</tr>
+</tbody>
+</table>
+</article>
+
+		</main>
+		
+				<div class="hide-print sans-serif f6 f5-l mt5 ph3 pb6 center nested-copy-line-height lh-copy nested-links mw-100 measure-wide">
+		<div class="about-the-author">
+		
+			
+			
+				
+					<hr>
+<p><img src="/images/ftisiot.png" alt="Francesco Tisiot"></p>
+<p><a href="https://www.linkedin.com/in/francescotisiot/"><b class="fab fa-linkedin"></b></a> <em>Francesco comes from Verona, Italy and works as a Senior Developer Advocate at Aiven. With his many years of experience as a data analyst, he has stories to tell and advice for data-wranglers everywhere. Francesco loves sharing knowledge with others as a speaker and writer, and is on a mission to defend the world from bad Italian food!</em></p>
+<p><a rel="me" href="https://data-folks.masto.host/@ftisiot">Mastodon</a></p>
+
+				
+			
+		
+		</div>
+		
+	</div>
+
+		
+		
+		
+		<footer class="hide-print sans-serif f6 fw1 bg-black near-white bottom-0 w-100 pa3" role="contentinfo">
+			<p class="w-50 fr tr">
+			<a class="no-underline near-white" href="https://github.com/xaprb/story"><img class="dib" title="Made with Hugo and Story" alt="Story logo" src="https://ftisiot.net/img/story-logo-white.svg" style="width: 1.5rem; height: 1.5rem" /></a>
+			</p>
+			<p class="w-50 near-white">
+				&copy; 2023 
+			</p>
+		</footer>
+		
+	
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-183917003-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+	
+	</body>
+</html>

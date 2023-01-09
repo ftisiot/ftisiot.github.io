@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>types on ftisiot ideas about food and life</title>
+    <link>https://ftisiot.net/categories/types/</link>
+    <description>Recent content in types on ftisiot ideas about food and life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Jan 2023 16:59:12 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/types/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to get the JSON field types in PostgreSQL®?</title>
+      <link>https://ftisiot.net/postgresqljson/how-to-get-json-field-types-postgresql/</link>
+      <pubDate>Fri, 06 Jan 2023 16:59:12 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/postgresqljson/how-to-get-json-field-types-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, you can use the function &lt;code&gt;json_typeof&lt;/code&gt; (&lt;code&gt;jsonb_typeof&lt;/code&gt; for &lt;code&gt;JSONB&lt;/code&gt;) to extract the fields type.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,12 +1,73 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>PostgreSQL on ftisiot ideas about food and life</title>
+    <title>postgresql on ftisiot ideas about food and life</title>
     <link>https://ftisiot.net/categories/postgresql/</link>
-    <description>Recent content in PostgreSQL on ftisiot ideas about food and life</description>
+    <description>Recent content in postgresql on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Nov 2022 10:38:44 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/postgresql/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Jan 2023 08:23:06 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/postgresql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to JSON in PostgreSQL®</title>
+      <link>https://ftisiot.net/postgresqljson/</link>
+      <pubDate>Mon, 09 Jan 2023 08:23:06 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/postgresqljson/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How to JSON in PostgreSQL®</title>
+      <link>https://ftisiot.net/postgresqljson/main/</link>
+      <pubDate>Mon, 09 Jan 2023 08:13:45 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/postgresqljson/main/</guid>
+      <description>&lt;p&gt;This series covers how to solve common problems on JSON datasets with PostgreSQL and it will include (links will appear once the target pages are up)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to extract a field from a JSON object in PostgreSQL®?</title>
+      <link>https://ftisiot.net/postgresqljson/how-to-extract-field-from-json-postgresql/</link>
+      <pubDate>Fri, 06 Jan 2023 16:59:12 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/postgresqljson/how-to-extract-field-from-json-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, and provides several different ways to extract fields from a JSON document:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to get the JSON field types in PostgreSQL®?</title>
+      <link>https://ftisiot.net/postgresqljson/how-to-get-json-field-types-postgresql/</link>
+      <pubDate>Fri, 06 Jan 2023 16:59:12 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/postgresqljson/how-to-get-json-field-types-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, you can use the function &lt;code&gt;json_typeof&lt;/code&gt; (&lt;code&gt;jsonb_typeof&lt;/code&gt; for &lt;code&gt;JSONB&lt;/code&gt;) to extract the fields type.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to check if JSON contains in PostgreSQL®?</title>
+      <link>https://ftisiot.net/postgresqljson/how-to-check-JSON-contains-postgresql/</link>
+      <pubDate>Fri, 06 Jan 2023 16:39:26 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/postgresqljson/how-to-check-JSON-contains-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, and provides several different ways to check if a value/field from a JSON document:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What are the differences between JSON or JSONB in PostgreSQL®?</title>
+      <link>https://ftisiot.net/postgresqljson/what-are-the-differences-json-jsonb-postgresql/</link>
+      <pubDate>Fri, 06 Jan 2023 16:39:26 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/postgresqljson/what-are-the-differences-json-jsonb-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;JSON&lt;/code&gt; stores the JSON as text, performing a validation on the correctness of the JSON syntax&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;JSONB&lt;/code&gt; optimizes the JSON storage in a custom binary format. Therefore, on top of validating the correctness of the JSON format, time is spent to properly parse and store the content.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: more info is available in the &lt;a href=&#34;https://www.postgresql.org/docs/current/datatype-json.html&#34;&gt;PostgreSQL JSON types documentation page&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
     <item>
       <title>PostgreSQL Community and you</title>
       <link>https://ftisiot.net/posts/postgresql-community/</link>
