@@ -62,10 +62,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;JSON&lt;/code&gt; stores the JSON as text, performing a validation on the correctness of the JSON syntax&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;JSONB&lt;/code&gt; optimizes the JSON storage in a custom binary format. Therefore, on top of validating the correctness of the JSON format, time is spent to properly parse and store the content.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: more info is available in the &lt;a href=&#34;https://www.postgresql.org/docs/current/datatype-json.html&#34;&gt;PostgreSQL JSON types documentation page&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
