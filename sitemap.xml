@@ -2,7 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ftisiot.net/categories/array/</loc>
+    <lastmod>2023-01-10T08:53:59+01:00</lastmod>
+  </url><url>
     <loc>https://ftisiot.net/categories/</loc>
+    <lastmod>2023-01-10T08:53:59+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/edit/</loc>
     <lastmod>2023-01-10T08:53:59+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/fields/</loc>
@@ -11,13 +17,28 @@
     <loc>https://ftisiot.net/</loc>
     <lastmod>2023-01-10T08:53:59+01:00</lastmod>
   </url><url>
+    <loc>https://ftisiot.net/postgresqljson/how-to-edit-json-postgresql/</loc>
+    <lastmod>2023-01-10T08:53:59+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/postgresqljson/how-to-remove-items-from-json-array-postgresql/</loc>
+    <lastmod>2023-01-10T08:53:59+01:00</lastmod>
+  </url><url>
     <loc>https://ftisiot.net/postgresqljson/how-to-remove-fields-from-json-postgresql/</loc>
+    <lastmod>2023-01-10T08:53:59+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/postgresqljson/how-to-remove-nulls-from-json-postgresql/</loc>
+    <lastmod>2023-01-10T08:53:59+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/items/</loc>
     <lastmod>2023-01-10T08:53:59+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/json/</loc>
     <lastmod>2023-01-10T08:53:59+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/jsonb/</loc>
+    <lastmod>2023-01-10T08:53:59+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/nulls/</loc>
     <lastmod>2023-01-10T08:53:59+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/postgresql/</loc>
@@ -31,9 +52,6 @@
   </url><url>
     <loc>https://ftisiot.net/postgresqljson/how-to-concatenate-two-json-docs-postgresql/</loc>
     <lastmod>2023-01-10T08:47:04+01:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/categories/array/</loc>
-    <lastmod>2023-01-09T17:32:52+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/create/</loc>
     <lastmod>2023-01-09T17:32:52+01:00</lastmod>
