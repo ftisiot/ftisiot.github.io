@@ -6,7 +6,61 @@
     <description>Recent content in Categories on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Jan 2023 17:32:52 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Jan 2023 08:53:59 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fields</title>
+      <link>https://ftisiot.net/categories/fields/</link>
+      <pubDate>Tue, 10 Jan 2023 08:53:59 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/categories/fields/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>json</title>
+      <link>https://ftisiot.net/categories/json/</link>
+      <pubDate>Tue, 10 Jan 2023 08:53:59 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/categories/json/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jsonb</title>
+      <link>https://ftisiot.net/categories/jsonb/</link>
+      <pubDate>Tue, 10 Jan 2023 08:53:59 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/categories/jsonb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>postgresql</title>
+      <link>https://ftisiot.net/categories/postgresql/</link>
+      <pubDate>Tue, 10 Jan 2023 08:53:59 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/categories/postgresql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>remove</title>
+      <link>https://ftisiot.net/categories/remove/</link>
+      <pubDate>Tue, 10 Jan 2023 08:53:59 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/categories/remove/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>concatenate</title>
+      <link>https://ftisiot.net/categories/concatenate/</link>
+      <pubDate>Tue, 10 Jan 2023 08:47:04 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/categories/concatenate/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>array</title>
       <link>https://ftisiot.net/categories/array/</link>
@@ -26,38 +80,11 @@
     </item>
     
     <item>
-      <title>json</title>
-      <link>https://ftisiot.net/categories/json/</link>
-      <pubDate>Mon, 09 Jan 2023 17:32:52 +0100</pubDate>
-      
-      <guid>https://ftisiot.net/categories/json/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>jsonb</title>
-      <link>https://ftisiot.net/categories/jsonb/</link>
-      <pubDate>Mon, 09 Jan 2023 17:32:52 +0100</pubDate>
-      
-      <guid>https://ftisiot.net/categories/jsonb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>key</title>
       <link>https://ftisiot.net/categories/key/</link>
       <pubDate>Mon, 09 Jan 2023 17:32:52 +0100</pubDate>
       
       <guid>https://ftisiot.net/categories/key/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>postgresql</title>
-      <link>https://ftisiot.net/categories/postgresql/</link>
-      <pubDate>Mon, 09 Jan 2023 17:32:52 +0100</pubDate>
-      
-      <guid>https://ftisiot.net/categories/postgresql/</guid>
       <description></description>
     </item>
     

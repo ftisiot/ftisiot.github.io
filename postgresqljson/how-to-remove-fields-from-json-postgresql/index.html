@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>How to remove fields from a JSON document in PostgreSQL®?</title>
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="https://ftisiot.net/index.xml">
+		<link rel="canonical" href="https://ftisiot.net/postgresqljson/how-to-remove-fields-from-json-postgresql/">
+		
+		<link rel="shortcut icon" type="image/png" href="https://ftisiot.net/apple-touch-icon-precomposed.png">
+		
+		
+		
+
+		
+		<meta property="og:title" content="How to remove fields from a JSON document in PostgreSQL®?" />
+		<meta property="og:type" content="article" />
+		<meta property="og:image" content="https://ftisiot.net/images/2023/pg-json-full.png" />
+		<meta property="og:description" content="" />
+		<meta property="og:url" content="https://ftisiot.net/postgresqljson/how-to-remove-fields-from-json-postgresql/" />
+		<meta property="og:site_name" content="How to remove fields from a JSON document in PostgreSQL®?" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@" />
+
+
+		
+		<link rel="stylesheet" href="https://ftisiot.net/css/tachyons.min.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/story.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/descartes.css" />
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Quattrocento:400,700|Spectral:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+		
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script src="https://ftisiot.net/js/story.js"></script>
+
+	</head>
+	<body class="ma0 bg-white section-postgresqljson page-kind-page is-page-true ">
+		
+		<header class="cover bg-top" style="background-image: url('https://ftisiot.net/images/2023/pg-json-full.png'); background-position: center;">
+			<div class="bg-black-30 bb bt">
+
+				<nav class="hide-print sans-serif  border-box pa3 ph5-l">
+					<a href="https://ftisiot.net" title="Home">
+						<img src="https://ftisiot.net/img/logo.jpg" class="w2 h2 br-100" alt="ftisiot ideas about food and life" />
+					</a>
+					<div class="fr h2 pv2 tr">
+						<a class="link f5 ml2 dim near-white" href="/who">who</a>
+						<a class="link f5 ml2 dim near-white" href="/speaking-activities">talks</a>
+						<a class="link f5 ml2 dim near-white" href="/suggestions-verona">suggestions</a>
+						<a class="link f5 ml2 dim near-white" href="/postgresqljson/main">json-pg</a>
+						<a class="link f5 ml2 dim near-white" href="https://www.youtube.com/channel/UCTJ4oA3-T3RdmM2OJ7d8cJg"><i class="fab fa-youtube-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://twitter.com/ftisiot/"><i class="fab fa-twitter-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://github.com/ftisiot/"><i class="fab fa-github-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://www.linkedin.com/in/francescotisiot/"><i class="fab fa-linkedin"></i></a>
+						<a class="link f5 ml2 dim near-white fas fa-rss-square" href="https://ftisiot.net/index.xml" title="RSS Feed"></a>
+						<a class="link f5 ml2 dim near-white fas fa-search" href="https://ftisiot.net/search/" role="search" title="Search"></a>
+					</div>
+				</nav>
+
+				<div id="hdr" class="tc-l pv4-ns pv5-l pv2 ph3 ph4-ns">
+					<h1 class="near-white mt1-ns f2 fw3 mb0 mt0 lh-title">How to remove fields from a JSON document in PostgreSQL®?</h1>
+					<h2 class="near-white mt3-l mb4-l fw1 f6 f3-l measure-wide-l center lh-copy mt2 mb3">
+						
+						
+							
+								Published
+								<time datetime="2023-01-10T08:53:59&#43;01:00">Jan 10, 2023</time>
+								<span class="display-print">by </span>
+								 in <a href="https://ftisiot.net/categories/postgresql" class="no-underline category near-white dim">Postgresql</a>, <a href="https://ftisiot.net/categories/json" class="no-underline category near-white dim">Json</a>, <a href="https://ftisiot.net/categories/jsonb" class="no-underline category near-white dim">Jsonb</a>, <a href="https://ftisiot.net/categories/remove" class="no-underline category near-white dim">Remove</a>, <a href="https://ftisiot.net/categories/fields" class="no-underline category near-white dim">Fields</a>
+								<span class="display-print">at https://ftisiot.net/postgresqljson/how-to-remove-fields-from-json-postgresql/</span>
+							
+						
+					</h2>
+				</div>
+
+				
+				
+				
+				<div class="w-100 cf hide-print">
+					<a class="fr f6 ma0 pa2 link white-50 dim fas fa-camera" href="ftisiot" title="Photo Credit"></a>
+				</div>
+				
+				
+
+			</div>
+		</header>
+		
+		<main role="main">
+		
+<article class="center bg-white br-3 pv1 ph4 lh-copy f5 nested-links mw7">
+	<p>PostgreSQL® offers two types of data types to handle JSON data, <code>JSON</code> and <code>JSONB</code>, and provides two different ways to remove fields from a JSON document:</p>
+<ul>
+<li>the <code>-</code> operator to remove first level fields</li>
+<li>the <code>#-</code> operator to remove specific path (using JSON path)</li>
+</ul>
+<blockquote>
+<p><strong>NOTE</strong>: To review the differences between <code>JSON</code> and <code>JSONB</code> check out the <a href="/postgresqljson/what-are-the-differences-json-jsonb-postgresql">related article</a>.</p>
+</blockquote>
+<blockquote>
+<p><strong>NOTE</strong>: more info is available in the <a href="https://www.postgresql.org/docs/current/functions-json.html">PostgreSQL JSON functions documentation page</a></p>
+</blockquote>
+<h2 id="the-dataset">The dataset</h2>
+<p>The dataset is the following:</p>
+<pre tabindex="0"><code>{
+    &#34;id&#34;: 778,
+    &#34;shop&#34;: &#34;Luigis Pizza&#34;,
+    &#34;name&#34;: &#34;Edward Olson&#34;,
+    &#34;phoneNumbers&#34;:
+        [&#34;(935)503-3765x4154&#34;,&#34;(935)12345&#34;],
+    &#34;address&#34;: &#34;Unit 9398 Box 2056\nDPO AP 24022&#34;,
+    &#34;image&#34;: null,
+    &#34;pizzas&#34;: [
+        {
+            &#34;pizzaName&#34;: &#34;Salami&#34;,
+            &#34;additionalToppings&#34;: [&#34;🥓&#34;, &#34;🌶️&#34;]
+        },
+        {
+            &#34;pizzaName&#34;: &#34;Margherita&#34;,
+            &#34;additionalToppings&#34;: [&#34;🍌&#34;, &#34;🌶️&#34;, &#34;🍍&#34;]
+        }
+    ]
+}
+</code></pre><details>
+  <summary>Check out the description of the fields</summary>
+The following examples use a pizza order dataset with an order having:
+<ul>
+<li><code>id</code>: 778</li>
+<li><code>shop</code>: &ldquo;Luigis Pizza&rdquo;</li>
+<li><code>name</code>: &ldquo;Edward Olson&rdquo;</li>
+<li><code>phoneNumbers</code>:[&quot;(935)503-3765x4154&quot;,&quot;(935)12345&quot;]</li>
+<li><code>address</code>: &ldquo;Unit 9398 Box 2056\nDPO AP 24022&rdquo;</li>
+<li><code>image</code>: null</li>
+<li>and two pizzas contained in the <code>pizzas</code> item:</li>
+</ul>
+<pre tabindex="0"><code>[
+    {
+        &#34;pizzaName&#34;: &#34;Salami&#34;,
+        &#34;additionalToppings&#34;: [&#34;🥓&#34;, &#34;🌶️&#34;]
+    },
+    {
+        &#34;pizzaName&#34;: &#34;Margherita&#34;,
+        &#34;additionalToppings&#34;: [&#34;🍌&#34;, &#34;🌶️&#34;, &#34;🍍&#34;]
+    }
+]
+</code></pre></details>
+<details>
+  <summary>If you want to reproduce the examples, check how to recreate the dataset</summary>
+<p>It can be recreated with the following script:</p>
+<pre tabindex="0"><code>create table test(id serial, json_data jsonb);
+
+insert into test(json_data) values (
+&#39;{
+    &#34;id&#34;: 778,
+    &#34;shop&#34;: &#34;Luigis Pizza&#34;,
+    &#34;name&#34;: &#34;Edward Olson&#34;,
+    &#34;phoneNumbers&#34;:
+        [&#34;(935)503-3765x4154&#34;,&#34;(935)12345&#34;],
+    &#34;address&#34;: &#34;Unit 9398 Box 2056\nDPO AP 24022&#34;,
+    &#34;image&#34;: null,
+    &#34;pizzas&#34;: [
+        {
+            &#34;pizzaName&#34;: &#34;Salami&#34;,
+            &#34;additionalToppings&#34;: [&#34;🥓&#34;, &#34;🌶️&#34;]
+        },
+        {
+            &#34;pizzaName&#34;: &#34;Margherita&#34;,
+            &#34;additionalToppings&#34;: [&#34;🍌&#34;, &#34;🌶️&#34;, &#34;🍍&#34;]
+        }
+    ]
+}&#39;);
+</code></pre></details>
+<h2 id="remove-first-level-fields-from-json-with-the---operator">Remove first level fields from JSON with the <code>-</code> operator</h2>
+<p>First level fields can be removed from a JSON document using the <code>-</code> operator. To remove the <code>pizzas</code> and <code>id</code> fields from the pizza order</p>
+<pre tabindex="0"><code>select 
+    json_data 
+        - ARRAY[&#39;pizzas&#39;,&#39;id&#39;]
+        as no_pizzas_and_id
+from test;
+</code></pre><p>Result</p>
+<pre tabindex="0"><code>                                                                           no_pizzas_and_id
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ {&#34;name&#34;: &#34;Edward Olson&#34;, &#34;shop&#34;: &#34;Luigis Pizza&#34;, &#34;image&#34;: null, &#34;address&#34;: &#34;Unit 9398 Box 2056\nDPO AP 24022&#34;, &#34;phoneNumbers&#34;: [&#34;(935)503-3765x4154&#34;, &#34;(935)12345&#34;]}
+(1 row)
+</code></pre><h2 id="remove-specific-path-fields-from-json-with-the---operator">Remove specific path fields from JSON with the <code>-#</code> operator</h2>
+<p>Specific path fields can be removed from a JSON document using the <code>-#</code> operator. To remove the <code>additionalToppings</code> from the second pizza (index starts from <code>0</code>) in the <code>pizzas</code> item</p>
+<pre tabindex="0"><code>select 
+    json_data 
+       #- &#39;{pizzas,1,additionalToppings}&#39;
+       as no_2nd_pizza_additionalToppings
+from test;
+</code></pre><p>Result</p>
+<pre tabindex="0"><code>                                                                                                                           no_2nd_pizza_additionaltoppings
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ {&#34;id&#34;: 778, &#34;name&#34;: &#34;Edward Olson&#34;, &#34;shop&#34;: &#34;Luigis Pizza&#34;, &#34;image&#34;: null, &#34;pizzas&#34;: [{&#34;pizzaName&#34;: &#34;Salami&#34;, &#34;additionalToppings&#34;: [&#34;🥓&#34;, &#34;🌶️&#34;]}, {&#34;pizzaName&#34;: &#34;Margherita&#34;}], &#34;address&#34;: &#34;Unit 9398 Box 2056\nDPO AP 24022&#34;, &#34;phoneNumbers&#34;: [&#34;(935)503-3765x4154&#34;, &#34;(935)12345&#34;]}
+(1 row)
+</code></pre><p>The <code>'{pizzas,1,additionalToppings}'</code> is a JSON path identifying the <code>pizzas</code> field, the 2nd entry in the array (<code>1</code> since the index starts from <code>0</code>) and the nested <code>additionalToppings</code> field.</p>
+<p>Review all the JSON PostgreSQL use-cases listed in the <a href="/postgresqljson/main">main page</a></p>
+</article>
+
+		</main>
+		
+				<div class="hide-print sans-serif f6 f5-l mt5 ph3 pb6 center nested-copy-line-height lh-copy nested-links mw-100 measure-wide">
+		<div class="about-the-author">
+		
+			
+			
+				
+					<hr>
+<p><img src="/images/ftisiot.png" alt="Francesco Tisiot"></p>
+<p><a href="https://www.linkedin.com/in/francescotisiot/"><b class="fab fa-linkedin"></b></a> <a href="https://twitter.com/FTisiot"><b class="fab fa-twitter"></b></a><a rel="me" href="https://data-folks.masto.host/@ftisiot">Mastodon</a> Francesco comes from Verona, Italy and works as a Senior Developer Advocate at Aiven. With his many years of experience as a data analyst, he has stories to tell and advice for data-wranglers everywhere. Francesco loves sharing knowledge with others as a speaker and writer, and is on a mission to defend the world from bad Italian food!</p>
+
+				
+			
+		
+		</div>
+		
+	</div>
+
+		
+		
+		
+		<footer class="hide-print sans-serif f6 fw1 bg-black near-white bottom-0 w-100 pa3" role="contentinfo">
+			<p class="w-50 fr tr">
+			<a class="no-underline near-white" href="https://github.com/xaprb/story"><img class="dib" title="Made with Hugo and Story" alt="Story logo" src="https://ftisiot.net/img/story-logo-white.svg" style="width: 1.5rem; height: 1.5rem" /></a>
+			</p>
+			<p class="w-50 near-white">
+				&copy; 2023 
+			</p>
+		</footer>
+		
+	
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-183917003-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+	
+	</body>
+</html>

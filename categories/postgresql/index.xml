@@ -6,7 +6,25 @@
     <description>Recent content in postgresql on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Jan 2023 17:32:52 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/postgresql/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Jan 2023 08:53:59 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/postgresql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to remove fields from a JSON document in PostgreSQL®?</title>
+      <link>https://ftisiot.net/postgresqljson/how-to-remove-fields-from-json-postgresql/</link>
+      <pubDate>Tue, 10 Jan 2023 08:53:59 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/postgresqljson/how-to-remove-fields-from-json-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, and provides two different ways to remove fields from a JSON document:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to concatenate two JSON documents in PostgreSQL®?</title>
+      <link>https://ftisiot.net/postgresqljson/how-to-concatenate-two-json-docs-postgresql/</link>
+      <pubDate>Tue, 10 Jan 2023 08:47:04 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/postgresqljson/how-to-concatenate-two-json-docs-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, you can use the opearator &lt;code&gt;||&lt;/code&gt; to concatenate two JSON objects.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>How to create a JSON object from array of key/value pairs in PostgreSQL®?</title>
       <link>https://ftisiot.net/postgresqljson/howto-create-json-from-array-key-value-pairs-postgresql/</link>
