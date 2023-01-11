@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 09 Jan 2023 11:33:09 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/parse/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Array</title>
+      <title>How to parse JSON arrays in PostgreSQL?</title>
       <link>https://ftisiot.net/postgresqljson/how-to-parse-json-arrays-in-postgresql/</link>
       <pubDate>Mon, 09 Jan 2023 11:33:09 +0100</pubDate>
       
