@@ -6,7 +6,25 @@
     <description>Recent content in json on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Jan 2023 08:53:59 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/json/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Jan 2023 15:06:50 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/json/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to tabulate a JSON to a record in PostgreSQL®</title>
+      <link>https://ftisiot.net/postgresqljson/how-to-tabulate-json-document-to-a-record-postgresql/</link>
+      <pubDate>Thu, 12 Jan 2023 15:06:50 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/postgresqljson/how-to-tabulate-json-document-to-a-record-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, and provides two different ways to tabulate a JSON to a record:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>How to tabulate a JSON to a recordset in PostgreSQL®</title>
+      <link>https://ftisiot.net/postgresqljson/how-to-tabulate-json-document-to-a-recordset-postgresql/</link>
+      <pubDate>Thu, 12 Jan 2023 15:06:50 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/postgresqljson/how-to-tabulate-json-document-to-a-recordset-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, and provides two different ways to tabulate a JSON to a recordset:&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>How to edit a JSON object in PostgreSQL®?</title>
       <link>https://ftisiot.net/postgresqljson/how-to-edit-json-postgresql/</link>
