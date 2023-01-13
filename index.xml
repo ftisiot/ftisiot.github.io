@@ -147,9 +147,14 @@
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Pg Day Nordics&lt;/td&gt;
+&lt;td&gt;21st March&lt;/td&gt;
+&lt;td&gt;Put PostgreSQL at the center of your metadata universe&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pg Day Paris&lt;/td&gt;
+&lt;td&gt;23rd March&lt;/td&gt;
+&lt;td&gt;Fix your strings&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
