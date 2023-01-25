@@ -6,7 +6,16 @@
     <description>Recent content in Posts on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Dec 2022 11:35:42 +0100</lastBuildDate><atom:link href="https://ftisiot.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Jan 2023 09:14:26 +0100</lastBuildDate><atom:link href="https://ftisiot.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What are the directions of technical data platforms scalability?</title>
+      <link>https://ftisiot.net/posts/tech-scalability/</link>
+      <pubDate>Tue, 24 Jan 2023 09:14:26 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/posts/tech-scalability/</guid>
+      <description>&lt;p&gt;Technical scalability is one of the main drivers of a data platform, as mentioned in the &lt;a href=&#34;https://aiven.io/blog/a-soft-methodology-to-define-robust-data-platforms&#34;&gt;SOFT methodology&lt;/a&gt;. But what are the options? In this blog we&amp;rsquo;ll evaluate the direction of scalability and the tradeoffs you might encounter in the decision process.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>From data stack to data stuck: the risks of not asking the right data questions</title>
       <link>https://ftisiot.net/posts/from-data-stack-to-data-stuck/</link>
