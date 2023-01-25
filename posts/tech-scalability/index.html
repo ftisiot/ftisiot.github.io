@@ -183,7 +183,7 @@ The tradeoff is between performance (immediate local access), workload isolation
 <p>What does it have to do &ldquo;backup/restore&rdquo; with scaling? Well, some of the technologies (hi PostgreSQL!) will initially restore a database copy from a backup and then start streaming the delta from the primary. Therefore, in such cases, having a ready to go, and up to date backup allows you to cut the time to scale.</p>
 <h3 id="more-data-jumps-more-risks">More data jumps more risks</h3>
 <p>In some of the scenarios presented above, scaling is performed by adding new nodes to a cluster, or adding new technologies in the mix. Even if these options provide great benefit in the parallelism and the separation of workloads they are adding additional steps in the data journey.</p>
-<p>Every time there&rsquo;s more than one sever storing the data, there&rsquo;s always the chance of not-in-sync replicas. Every time you add a new data hop, there are always additional complexities with network, integration, etc.</p>
+<p>Every time there&rsquo;s more than one server storing the data, there&rsquo;s always the chance of not-in-sync replicas. Every time you add a new data hop, there are always additional complexities with network, integration, etc.</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>This article aims at covering a wide spectrum of scaling possibilities and related issues. When designing a data platform, the scalability problem (not only technical, check out the <a href="https://aiven.io/blog/a-soft-methodology-to-define-robust-data-platforms">SOFT methodology</a> to know more) should be an important decision factor to evaluate a  solution based on the underline technologies, the expected workloads and the business constraints.</p>
 </article>
