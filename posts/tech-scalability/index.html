@@ -120,7 +120,7 @@
 </ul>
 <h3 id="horizontal-scalability">Horizontal scalability</h3>
 <p><img src="/images/2023/horizontal-scalability.png" alt="Horizontal scalability"></p>
-<p>Horizontal scalability on the other side, allows you to &ldquo;add more nodes to a cluster&rdquo;. It&rsquo;s usually available in distributed systems where the workload is shared across nodes. Apache Kafka is a perfect example: its distributed nature allows yoi to plug in and out nodes from the cluster and have an automatic rebalancing of the data and responsibilities across nodes.</p>
+<p>Horizontal scalability goes on the opposite direction, instead of having a bigger machine, we spread the workload across several smaller machines. It&rsquo;s usually available in distributed systems where the workload is shared across nodes. Apache Kafka is a perfect example: its distributed nature allows you to plug in and out nodes from the cluster and have an automatic rebalancing of the data and responsibilities across nodes.</p>
 <p><strong>Pro:</strong></p>
 <ul>
 <li>Easy/Fast plug in of new resources</li>
@@ -132,6 +132,7 @@
 <li>Only available in distributed systems</li>
 <li>Change in the cluster architecture for every new node added</li>
 <li>Data is replicated</li>
+<li>Might lead to eventual consistency</li>
 </ul>
 <h3 id="diagonal-scalability">Diagonal scalability</h3>
 <p><img src="/images/2023/scalability.png" alt="Diagonal scalability"></p>
