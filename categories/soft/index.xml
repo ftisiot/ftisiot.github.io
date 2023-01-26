@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>soft on ftisiot ideas about food and life</title>
+    <link>https://ftisiot.net/categories/soft/</link>
+    <description>Recent content in soft on ftisiot ideas about food and life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Jan 2023 09:10:21 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/soft/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SOFT Methodology</title>
+      <link>https://ftisiot.net/soft/</link>
+      <pubDate>Thu, 26 Jan 2023 09:10:21 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/soft/</guid>
+      <description>&lt;p&gt;This page contains all the links related to the SOFT (Scalable Observable Fast Trustworthy) methodology for defining robust data platforms.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

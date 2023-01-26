@@ -6,7 +6,22 @@
 		<language>en-us</language>
 		<author></author>
 		<rights>Copyright (c) 2023</rights>
-		<updated>2023-01-24 09:14:26 &#43;0100 CET</updated>
+		<updated>2023-01-26 09:10:21 &#43;0100 CET</updated>
+		
+		<item>
+			<title>SOFT Methodology</title>
+			<link>https://ftisiot.net/soft/</link>
+			<pubDate>Thu, 26 Jan 2023 09:10:21 CET</pubDate>
+			<author></author>
+			<guid>https://ftisiot.net/soft/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/images/2023/soft.png" medium="image" type="image/jpg" width="100" height="100" />
+			<description>&lt;p&gt;This page contains all the links related to the SOFT (Scalable Observable Fast Trustworthy) methodology for defining robust data platforms.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://aiven.io/blog/a-soft-methodology-to-define-robust-data-platforms&#34;&gt;The SOFT definition&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;posts/soft-data-platforms-why&#34;&gt;From data stack to data stuck: the risks of not asking the right data questions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;posts/tech-scalability&#34;&gt;What are the directions of technical scalability&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+		</item>
 		
 		<item>
 			<title>Posts</title>

@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Design on ftisiot ideas about food and life</title>
+    <title>design on ftisiot ideas about food and life</title>
     <link>https://ftisiot.net/categories/design/</link>
-    <description>Recent content in Design on ftisiot ideas about food and life</description>
+    <description>Recent content in design on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Dec 2022 11:35:42 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/design/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Jan 2023 09:10:21 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SOFT Methodology</title>
+      <link>https://ftisiot.net/soft/</link>
+      <pubDate>Thu, 26 Jan 2023 09:10:21 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/soft/</guid>
+      <description>&lt;p&gt;This page contains all the links related to the SOFT (Scalable Observable Fast Trustworthy) methodology for defining robust data platforms.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>From data stack to data stuck: the risks of not asking the right data questions</title>
       <link>https://ftisiot.net/posts/from-data-stack-to-data-stuck/</link>
