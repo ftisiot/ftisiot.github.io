@@ -167,6 +167,7 @@
 <p>To achieve optimal performance and minimize any network latency, data platforms historically stored co-located data storage and compute. In recent times, a new trend of detaching compute from storage (see Snowflake, neon) allowed further scalability options to increase the disk and the CPU independently at the cost of (a small) additional latency.
 The tradeoff is between performance (immediate local access), workload isolation/independent scaling.</p>
 <p>Furthermore, if the data is co-located with the compute, it needs to be moved when performing, for example, a vertical scaling.</p>
+<p>Check this youtube video from <a href="https://www.youtube.com/watch?v=oi4nDjrZTKY">Gwen Shapira to understand more</a></p>
 <h3 id="time-to-scale">Time to scale</h3>
 <p>Depending on the architecture, the time to scale can vary between fractions of a second (in case only a new compute instance needs to be spun up) to hours (in case huge backups need to be restored). Evaluating the time to scale is necessary to understand the scaling thresholds: e.g. if one can scale in 10 seconds, the scaling option could be triggered at 95% capacity, if the scaling takes a few hours, the threshold needs to be lowered.</p>
 <h3 id="downtime">Downtime</h3>
