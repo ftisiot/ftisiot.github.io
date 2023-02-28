@@ -110,6 +110,7 @@
 <li>the <code>-&gt;&gt;</code> operator to extract the field as text</li>
 <li>the <code>#&gt;</code> operator to extract the object at a specific path as JSON</li>
 <li>the <code>#&gt;&gt;</code> operator to extract the object at a specific path as text</li>
+<li>the <code>[]</code> operator to extract the object at a specific path as JSON</li>
 <li>the <code>json_extract_path</code> (<code>jsonb_extract_path</code> for <code>JSONB</code> columns) function to extract the object at a specific path as JSON</li>
 </ul>
 <blockquote>
@@ -246,6 +247,16 @@ from test;
 <pre tabindex="0"><code> additional_toppings_2nd_pizza
 -------------------------------
  [&#34;🍌&#34;, &#34;🌶️&#34;, &#34;🍍&#34;]
+(1 row)
+</code></pre><h2 id="extract-a-json-field-as-a-specific-path-using-the--operator-subscripting">Extract a JSON field as a specific path using the <code>[]</code> operator (subscripting)</h2>
+<p>To get the second pizza name in the order you can use the <code>[]</code> operator</p>
+<pre tabindex="0"><code>select 
+    json_data[&#39;pizzas&#39;][&#39;1&#39;][&#39;pizzaName&#39;] second_pizza_name
+from test;
+</code></pre><p>Result</p>
+<pre tabindex="0"><code> second_pizza_name
+-------------------
+ &#34;Margherita&#34;
 (1 row)
 </code></pre><h2 id="extract-a-json-field-as-a-specific-path-using-the-json_extract_path-function">Extract a JSON field as a specific path using the <code>json_extract_path</code> function</h2>
 <p>To get the second pizza name in the order you can use the <code>json_extract_path</code> (<code>jsonb_extract_path</code> since the column is defined as JSONB)</p>
