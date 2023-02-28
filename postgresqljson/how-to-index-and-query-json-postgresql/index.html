@@ -222,7 +222,7 @@ insert into test(json_data) values (
 <pre tabindex="0"><code>CREATE INDEX pizzas_gin ON test USING GIN ((json_data -&gt; &#39;pizzas&#39;));
 </code></pre><h2 id="retrieve-all-rows-with-a-specific-filter">Retrieve all rows with a specific filter</h2>
 <p>To filter for a specific item value, like <code>pizzas</code> having <code>pizzaName</code> equal to <code>Margherita</code> you can use the <code>@&gt;</code> operator:</p>
-<pre tabindex="0"><code>select * from test where json_data @&gt; &#39;{&#34;pizzas&#34;: [{&#34;pizzaName&#34;:&#34;Margherita&#34;}]}&#39;;
+<pre tabindex="0"><code>explain analyse select * from test where json_data -&gt; &#39;pizzas&#39; @&gt; &#39;{&#34;pizzaName&#34;:&#34;Margherita&#34;}&#39;;
 </code></pre><p>Results</p>
 <pre tabindex="0"><code> id |                                                                                                                                                           json_data
 ----+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
