@@ -224,6 +224,24 @@
     </item>
     
     <item>
+      <title>index</title>
+      <link>https://ftisiot.net/categories/index/</link>
+      <pubDate>Fri, 06 Jan 2023 16:59:12 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/categories/index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>query</title>
+      <link>https://ftisiot.net/categories/query/</link>
+      <pubDate>Fri, 06 Jan 2023 16:59:12 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/categories/query/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>types</title>
       <link>https://ftisiot.net/categories/types/</link>
       <pubDate>Fri, 06 Jan 2023 16:59:12 +0100</pubDate>
@@ -292,15 +310,6 @@
       <pubDate>Mon, 07 Nov 2022 10:15:10 +0100</pubDate>
       
       <guid>https://ftisiot.net/categories/influxdb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Query</title>
-      <link>https://ftisiot.net/categories/query/</link>
-      <pubDate>Mon, 07 Nov 2022 10:15:10 +0100</pubDate>
-      
-      <guid>https://ftisiot.net/categories/query/</guid>
       <description></description>
     </item>
     

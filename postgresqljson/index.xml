@@ -170,6 +170,15 @@
     </item>
     
     <item>
+      <title>How to index and query a JSON object in PostgreSQL®?</title>
+      <link>https://ftisiot.net/postgresqljson/how-to-index-and-query-json-postgresql/</link>
+      <pubDate>Fri, 06 Jan 2023 16:59:12 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/postgresqljson/how-to-index-and-query-json-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;. This doc showcases how to index a &lt;code&gt;JSONB&lt;/code&gt; column with a GIN index.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>How to check if JSON contains in PostgreSQL®?</title>
       <link>https://ftisiot.net/postgresqljson/how-to-check-JSON-contains-postgresql/</link>
       <pubDate>Fri, 06 Jan 2023 16:39:26 +0100</pubDate>

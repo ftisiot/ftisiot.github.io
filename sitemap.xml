@@ -146,6 +146,15 @@
     <loc>https://ftisiot.net/postgresqljson/how-to-get-json-field-types-postgresql/</loc>
     <lastmod>2023-01-06T16:59:12+01:00</lastmod>
   </url><url>
+    <loc>https://ftisiot.net/postgresqljson/how-to-index-and-query-json-postgresql/</loc>
+    <lastmod>2023-01-06T16:59:12+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/index/</loc>
+    <lastmod>2023-01-06T16:59:12+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/query/</loc>
+    <lastmod>2023-01-06T16:59:12+01:00</lastmod>
+  </url><url>
     <loc>https://ftisiot.net/categories/types/</loc>
     <lastmod>2023-01-06T16:59:12+01:00</lastmod>
   </url><url>
@@ -186,9 +195,6 @@
     <lastmod>2022-11-07T10:15:10+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/influxdb/</loc>
-    <lastmod>2022-11-07T10:15:10+01:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/categories/query/</loc>
     <lastmod>2022-11-07T10:15:10+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/talks/pg-metadata/</loc>

@@ -14,9 +14,9 @@
   		
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>How to JSON in PostgreSQL®</title>
+		<title>Postgresqljson &bullet; ftisiot ideas about food and life</title>
 		<link rel="alternate" type="application/rss+xml" title="RSS" href="https://ftisiot.net/index.xml">
-		<link rel="canonical" href="https://ftisiot.net/postgresqljson/main/">
+		<link rel="canonical" href="https://ftisiot.net/postgresqljson/">
 		
 		<link rel="shortcut icon" type="image/png" href="https://ftisiot.net/apple-touch-icon-precomposed.png">
 		<meta name="description" content="A series of articles on how to solve common JSON problems with PostgreSQL®">
@@ -24,15 +24,7 @@
 		
 
 		
-		<meta property="og:title" content="How to JSON in PostgreSQL®" />
-		<meta property="og:type" content="article" />
-		<meta property="og:image" content="https://ftisiot.net/images/2023/pg-json-full.png" />
-		<meta property="og:description" content="A series of articles on how to solve common JSON problems with PostgreSQL®" />
-		<meta property="og:url" content="https://ftisiot.net/postgresqljson/main/" />
-		<meta property="og:site_name" content="How to JSON in PostgreSQL®" />
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:site" content="@" />
-
+		
 
 		
 		<link rel="stylesheet" href="https://ftisiot.net/css/tachyons.min.css" />
@@ -48,7 +40,7 @@
 		<script src="https://ftisiot.net/js/story.js"></script>
 
 	</head>
-	<body class="ma0 bg-white section-postgresqljson page-kind-page is-page-true ">
+	<body class="ma0 bg-white section-postgresqljson page-kind-section is-page-false ">
 		
 		<header class="cover bg-top" style="background-image: url('https://ftisiot.net/images/2023/pg-json-full.png'); background-position: center;">
 			<div class="bg-black-30 bb bt">
@@ -78,12 +70,6 @@
 						
 						
 							
-								Published
-								<time datetime="2023-01-09T08:13:45&#43;01:00">Jan 9, 2023</time>
-								<span class="display-print">by </span>
-								 in <a href="https://ftisiot.net/categories/postgresql" class="no-underline category near-white dim">Postgresql</a>, <a href="https://ftisiot.net/categories/json" class="no-underline category near-white dim">Json</a>, <a href="https://ftisiot.net/categories/jsonb" class="no-underline category near-white dim">Jsonb</a>
-								<span class="display-print">at https://ftisiot.net/postgresqljson/main/</span>
-							
 						
 					</h2>
 				</div>
@@ -102,52 +88,45 @@
 		
 		<main role="main">
 		
-<article class="center bg-white br-3 pv1 ph4 lh-copy f5 nested-links mw7">
-	<p>This series covers how to solve common problems on JSON datasets with PostgreSQL® and it includes (links will appear once the target pages are up):</p>
-<h3 id="common-json-questions">Common JSON questions</h3>
+<div class="pa3 pa4-ns w-100 w-70-ns center">
+  <section class="w-100 mw8">
+  
+  
+  
+    
+      <div class="relative w-100">
+	<article>
+		<div class="db pv4 ph3 ph0-l no-underline dark-gray">
+			<div class="flex flex-column flex-row-ns">
+				
+				<div class="mb4 mb0-ns w-100 h4 h4-m w4-m h5-ns w5-ns br3 cover hide-child" style="background-image: url('https://ftisiot.net/images/2023/pg-json.png'); background-position: center;">
+					<a href="https://ftisiot.net/postgresqljson/what-are-the-differences-json-jsonb-postgresql/" class="sans-serif db child w-100 h-100 f7 lh-copy white no-underline br3 ph3 pt4 pt5-l ttu tc bg-black-60">
+						<i class="mt3 mt5-l child far fa-calendar-alt"></i> Jan 6, 2023
+					</a>
+				</div>
+				
+				<div class="w-100 w6-ns pl3-ns">
+					<h1 class="f3 fw1 mt0 lh-title"><a href="https://ftisiot.net/postgresqljson/what-are-the-differences-json-jsonb-postgresql/" class="color-inherit dim link">What are the differences between JSON or JSONB in PostgreSQL®?</a></h1>
+					<div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+						
+							<p>PostgreSQL® offers two types of data types to handle JSON data:</p>
 <ul>
-<li><a href="/postgresqljson/what-are-the-differences-json-jsonb-postgresql">What are the differences between JSON or JSONB in PostgreSQL?</a></li>
-<li>How to load JSON data in PostgreSQL?</li>
+<li><code>JSON</code> stores the JSON as text, performing a validation on the correctness of the JSON syntax</li>
+<li><code>JSONB</code> optimizes the JSON storage in a custom binary format. Therefore, on top of validating the correctness of the JSON format, time is spent to properly parse and store the content.</li>
 </ul>
-<h3 id="parse-json">Parse JSON</h3>
-<ul>
-<li><a href="/postgresqljson/how-to-extract-field-from-json-postgresql">How to extract a field from a JSON object in PostgreSQL?</a></li>
-<li><a href="/postgresqljson/how-to-get-json-field-types-postgresql">How to get the JSON field types in PostgreSQL?</a></li>
-<li><a href="/postgresqljson/how-to-check-JSON-contains-postgresql">How to check if JSON contains in PostgreSQL?</a></li>
-<li>How does JSON path work in PostgreSQL?</li>
-<li><a href="/postgresqljson/how-to-parse-json-arrays-in-postgresql">How to parse JSON arrays in PostgreSQL?</a></li>
-<li><a href="/postgresqljson/how-to-parse-json-keys-postgresql">How to parse JSON keys in PostgreSQL?</a></li>
-</ul>
-<h3 id="index-json">Index JSON</h3>
-<ul>
-<li><a href="/postgresqljson/how-to-index-and-query-json-postgresql">How to use GIN indexes over JSON in PostgreSQL?</a></li>
-</ul>
-<h3 id="tabulate-json-to-record-or-recordset">Tabulate JSON to record or recordset</h3>
-<ul>
-<li><a href="/postgresqljson/how-to-tabulate-json-document-to-a-record-postgresql">How to tabulate a JSON to a record in PostgreSQL?</a></li>
-<li><a href="/postgresqljson/how-to-tabulate-json-document-to-a-recordset-postgresql">How to tabulate a JSON to a recordset in PostgreSQL?</a></li>
-</ul>
-<h3 id="convert-to-json">Convert to JSON</h3>
-<ul>
-<li><a href="/postgresqljson/how-to-convert-table-row-json-postgresql">How to convert a row to JSON in PostgreSQL?</a></li>
-<li><a href="/postgresqljson/howto-create-json-from-keys-and-values-arrays-postgresql">How to create a JSON object from keys and values arrays in PostgreSQL?</a></li>
-<li><a href="/postgresqljson/howto-create-json-from-array-key-value-pairs-postgresql">How to create a JSON object from array of key/value pairs in PostgreSQL?</a></li>
-<li><a href="/postgresqljson/how-to-build-json-array-from-elements-postgresql">How to build a JSON array from a list of elements in PostgreSQL?</a></li>
-<li><a href="/postgresqljson/howto-convert-array-to-json-array-postgresql">How to convert an array to a JSON array in PostgreSQL?</a></li>
-</ul>
-<h3 id="prettify-json-output">Prettify JSON output</h3>
-<ul>
-<li><a href="/postgresqljson/how-to-prettify-json-output-in-postgresql">How to prettify the JSON output in PostgreSQL?</a></li>
-</ul>
-<h3 id="edit-json">Edit JSON</h3>
-<ul>
-<li><a href="/postgresqljson/how-to-concatenate-two-json-docs-postgresql">How to concatenate two JSON documents in PostgreSQL?</a></li>
-<li><a href="/postgresqljson/how-to-remove-fields-from-json-postgresql">How to remove fields from a JSON document in PostgreSQL?</a></li>
-<li><a href="/postgresqljson/how-to-remove-items-from-json-array-postgresql">How to remove an item from a JSON array in PostgreSQL?</a></li>
-<li><a href="/postgresqljson/how-to-remove-nulls-from-json-postgresql">How to remove nulls JSON object in PostgreSQL?</a></li>
-<li><a href="/postgresqljson/how-to-edit-json-postgresql">How to edit a JSON document in PostgreSQL?</a></li>
-</ul>
-</article>
+							<p class="pa0 sans-serif f7"><a class="ba br3 pa2 link" href="https://ftisiot.net/postgresqljson/what-are-the-differences-json-jsonb-postgresql/">Continue Reading <i class="fas fa-chevron-circle-right"></i></a></p>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>
+</div>
+
+    
+  
+  </section>
+</div>
 
 		</main>
 		
@@ -155,13 +134,10 @@
 		<div class="about-the-author">
 		
 			
-			
-				
-					<hr>
+				<hr>
 <p><img src="/images/ftisiot.png" alt="Francesco Tisiot"></p>
 <p><a href="https://www.linkedin.com/in/francescotisiot/"><b class="fab fa-linkedin"></b></a> <a href="https://twitter.com/FTisiot"><b class="fab fa-twitter"></b></a><a rel="me" href="https://data-folks.masto.host/@ftisiot">Mastodon</a> Francesco comes from Verona, Italy and works as a Senior Developer Advocate at Aiven. With his many years of experience as a data analyst, he has stories to tell and advice for data-wranglers everywhere. Francesco loves sharing knowledge with others as a speaker and writer, and is on a mission to defend the world from bad Italian food!</p>
 
-				
 			
 		
 		</div>
@@ -170,6 +146,33 @@
 
 		
 		
+<footer class="w-100 sans-serif" role="contentinfo">
+	<nav class="w-third-l pb3 f6 center db" role="navigation">
+    <ul class="pagination pagination-default">
+      <li class="page-item">
+        <a href="/postgresqljson/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/postgresqljson/page/2/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/postgresqljson/" aria-label="Page 1" class="page-link" role="button">1</a>
+      </li>
+      <li class="page-item">
+        <a href="/postgresqljson/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
+      </li>
+      <li class="page-item active">
+        <a aria-current="page" aria-label="Page 3" class="page-link" role="button">3</a>
+      </li>
+      <li class="page-item disabled">
+        <a aria-disabled="true" aria-label="Next" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item disabled">
+        <a aria-disabled="true" aria-label="Last" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      </li>
+    </ul></nav>
+</footer>
+
 		
 		<footer class="hide-print sans-serif f6 fw1 bg-black near-white bottom-0 w-100 pa3" role="contentinfo">
 			<p class="w-50 fr tr">
