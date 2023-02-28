@@ -205,7 +205,19 @@ insert into test(json_data) values (
  Planning Time: 0.087 ms
  Execution Time: 0.470 ms
 (7 rows)
-</code></pre><h2 id="create-an-index-on-a-specific-jsonb-item">Create an index on a specific JSONB item</h2>
+</code></pre><p>But, if weyou filter for a specific subitem, like:</p>
+<pre tabindex="0"><code>explain analyse select * from test where json_data -&gt; &#39;pizzas&#39; @&gt; &#39;{&#34;pizzaName&#34;:&#34;Margherita&#34;}&#39;;
+</code></pre><p>You get a sequence scan:</p>
+<pre tabindex="0"><code>                                            QUERY PLAN
+---------------------------------------------------------------------------------------------------
+ Seq Scan on test  (cost=0.00..470.13 rows=69 width=394) (actual time=2.064..2.064 rows=0 loops=1)
+   Filter: ((json_data -&gt; &#39;pizzas&#39;::text) @&gt; &#39;{&#34;pizzaName&#34;: &#34;Margherita&#34;}&#39;::jsonb)
+   Rows Removed by Filter: 6939
+ Planning Time: 0.056 ms
+ Execution Time: 2.085 ms
+(5 rows)
+</code></pre><p>If the above filter is common, you might want to create specific indexes for a single item (<code>pizzas</code> in this case).</p>
+<h2 id="create-an-index-on-a-specific-jsonb-item">Create an index on a specific JSONB item</h2>
 <p>To create an index for a specific item like the <code>pizzas</code> you can:</p>
 <pre tabindex="0"><code>CREATE INDEX pizzas_gin ON test USING GIN ((json_data -&gt; &#39;pizzas&#39;));
 </code></pre><h2 id="retrieve-all-rows-with-a-specific-filter">Retrieve all rows with a specific filter</h2>
@@ -216,6 +228,19 @@ insert into test(json_data) values (
 ----+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   1 | {&#34;id&#34;: 778, &#34;name&#34;: &#34;Edward Olson&#34;, &#34;shop&#34;: &#34;Luigis Pizza&#34;, &#34;image&#34;: null, &#34;pizzas&#34;: [{&#34;pizzaName&#34;: &#34;Salami&#34;, &#34;additionalToppings&#34;: [&#34;🥓&#34;, &#34;🌶️&#34;]}, {&#34;pizzaName&#34;: &#34;Margherita&#34;, &#34;additionalToppings&#34;: [&#34;🍌&#34;, &#34;🌶️&#34;, &#34;🍍&#34;]}], &#34;address&#34;: &#34;Unit 9398 Box 2056\nDPO AP 24022&#34;, &#34;phoneNumbers&#34;: [&#34;(935)503-3765x4154&#34;, &#34;(935)12345&#34;]}
 (1 row)
+</code></pre><p>Checking with <code>EXPLAIN</code>:</p>
+<pre tabindex="0"><code>explain analyse select * from test where json_data @&gt; &#39;{&#34;pizzas&#34;: [{&#34;pizzaName&#34;:&#34;Margherita&#34;}]}&#39;;
+</code></pre><p>Results, the index is used:</p>
+<pre tabindex="0"><code>                                                      QUERY PLAN
+-----------------------------------------------------------------------------------------------------------------------
+ Bitmap Heap Scan on test  (cost=43.00..44.01 rows=1 width=394) (actual time=0.493..0.494 rows=1 loops=1)
+   Recheck Cond: (json_data @&gt; &#39;{&#34;pizzas&#34;: [{&#34;pizzaName&#34;: &#34;Margherita&#34;}]}&#39;::jsonb)
+   Heap Blocks: exact=1
+   -&gt;  Bitmap Index Scan on json_data_gin  (cost=0.00..43.00 rows=1 width=0) (actual time=0.483..0.483 rows=1 loops=1)
+         Index Cond: (json_data @&gt; &#39;{&#34;pizzas&#34;: [{&#34;pizzaName&#34;: &#34;Margherita&#34;}]}&#39;::jsonb)
+ Planning Time: 0.186 ms
+ Execution Time: 0.523 ms
+(7 rows)
 </code></pre>
 </article>
 
