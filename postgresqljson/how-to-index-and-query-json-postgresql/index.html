@@ -184,14 +184,27 @@ insert into test(json_data) values (
 <h2 id="create-a-gin-index-on-the-jsonb-column">Create a GIN index on the JSONB column</h2>
 <p>To create a GIN index over the JSONB column:</p>
 <pre tabindex="0"><code>create index json_data_gin on test using gin (json_data);
-</code></pre><h2 id="retrieve-all-rows-with-a-key">Retrieve all rows with a key</h2>
-<p>To retrieve all rows having the <code>shop</code> key, you can use the <code>?</code> operator:</p>
-<pre tabindex="0"><code>select * from test where json_data ? &#39;shop&#39;;
+</code></pre><h2 id="retrieve-all-rows-with-a-value">Retrieve all rows with a value</h2>
+<p>To retrieve all rows having the <code>shop</code> name <code>Luigis Pizza</code>, you can use the <code>@&gt;</code> operator:</p>
+<pre tabindex="0"><code>select * from test where json_data @&gt; &#39;{&#34;shop&#34;:&#34;Luigis Pizza&#34;}&#39;;
 </code></pre><p>Result</p>
 <pre tabindex="0"><code> id |                                                                                                                                                           json_data
 ----+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   1 | {&#34;id&#34;: 778, &#34;name&#34;: &#34;Edward Olson&#34;, &#34;shop&#34;: &#34;Luigis Pizza&#34;, &#34;image&#34;: null, &#34;pizzas&#34;: [{&#34;pizzaName&#34;: &#34;Salami&#34;, &#34;additionalToppings&#34;: [&#34;🥓&#34;, &#34;🌶️&#34;]}, {&#34;pizzaName&#34;: &#34;Margherita&#34;, &#34;additionalToppings&#34;: [&#34;🍌&#34;, &#34;🌶️&#34;, &#34;🍍&#34;]}], &#34;address&#34;: &#34;Unit 9398 Box 2056\nDPO AP 24022&#34;, &#34;phoneNumbers&#34;: [&#34;(935)503-3765x4154&#34;, &#34;(935)12345&#34;]}
 (1 row)
+</code></pre><p>Checking with <code>EXPLAIN</code>:</p>
+<pre tabindex="0"><code>explain analyse select * from test where json_data @&gt; &#39;{&#34;shop&#34;:&#34;Luigis Pizza&#34;}&#39;;
+</code></pre><p>Result shows the usage of the index:</p>
+<pre tabindex="0"><code>                                                      QUERY PLAN
+-----------------------------------------------------------------------------------------------------------------------
+ Bitmap Heap Scan on test  (cost=41.00..42.01 rows=1 width=394) (actual time=0.398..0.399 rows=1 loops=1)
+   Recheck Cond: (json_data @&gt; &#39;{&#34;shop&#34;: &#34;Luigis Pizza&#34;}&#39;::jsonb)
+   Heap Blocks: exact=1
+   -&gt;  Bitmap Index Scan on json_data_gin  (cost=0.00..41.00 rows=1 width=0) (actual time=0.389..0.390 rows=1 loops=1)
+         Index Cond: (json_data @&gt; &#39;{&#34;shop&#34;: &#34;Luigis Pizza&#34;}&#39;::jsonb)
+ Planning Time: 0.087 ms
+ Execution Time: 0.470 ms
+(7 rows)
 </code></pre><h2 id="create-an-index-on-a-specific-jsonb-item">Create an index on a specific JSONB item</h2>
 <p>To create an index for a specific item like the <code>pizzas</code> you can:</p>
 <pre tabindex="0"><code>CREATE INDEX pizzas_gin ON test USING GIN ((json_data -&gt; &#39;pizzas&#39;));
