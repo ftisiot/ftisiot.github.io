@@ -6,7 +6,16 @@
     <description>Recent content in json on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Jan 2023 15:06:50 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/json/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Mar 2023 07:59:12 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/json/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to load JSON data in PostgreSQL®?</title>
+      <link>https://ftisiot.net/postgresqljson/how-to-load-json-postgresql/</link>
+      <pubDate>Wed, 01 Mar 2023 07:59:12 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/postgresqljson/how-to-load-json-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;. This doc showcases how to load JSON data into a  column.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>How to tabulate a JSON to a record in PostgreSQL®</title>
       <link>https://ftisiot.net/postgresqljson/how-to-tabulate-json-document-to-a-record-postgresql/</link>

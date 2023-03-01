@@ -3,15 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ftisiot.net/categories/</loc>
-    <lastmod>2023-01-26T09:10:21+01:00</lastmod>
+    <lastmod>2023-03-01T07:59:12+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/</loc>
+    <lastmod>2023-03-01T07:59:12+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/postgresqljson/how-to-load-json-postgresql/</loc>
+    <lastmod>2023-03-01T07:59:12+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/index/</loc>
+    <lastmod>2023-03-01T07:59:12+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/json/</loc>
+    <lastmod>2023-03-01T07:59:12+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/jsonb/</loc>
+    <lastmod>2023-03-01T07:59:12+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/postgresql/</loc>
+    <lastmod>2023-03-01T07:59:12+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/query/</loc>
+    <lastmod>2023-03-01T07:59:12+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/data-platforms/</loc>
     <lastmod>2023-01-26T09:10:21+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/design/</loc>
-    <lastmod>2023-01-26T09:10:21+01:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/</loc>
     <lastmod>2023-01-26T09:10:21+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/soft/</loc>
@@ -36,15 +54,6 @@
     <lastmod>2023-01-12T15:06:50+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/postgresqljson/how-to-tabulate-json-document-to-a-recordset-postgresql/</loc>
-    <lastmod>2023-01-12T15:06:50+01:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/categories/json/</loc>
-    <lastmod>2023-01-12T15:06:50+01:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/categories/jsonb/</loc>
-    <lastmod>2023-01-12T15:06:50+01:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/categories/postgresql/</loc>
     <lastmod>2023-01-12T15:06:50+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/remove/</loc>
@@ -147,12 +156,6 @@
     <lastmod>2023-01-06T16:59:12+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/postgresqljson/how-to-index-and-query-json-postgresql/</loc>
-    <lastmod>2023-01-06T16:59:12+01:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/categories/index/</loc>
-    <lastmod>2023-01-06T16:59:12+01:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/categories/query/</loc>
     <lastmod>2023-01-06T16:59:12+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/types/</loc>
