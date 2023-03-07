@@ -6,7 +6,17 @@
 		<language>en-us</language>
 		<author></author>
 		<rights>Copyright (c) 2023</rights>
-		<updated>2023-03-01 07:59:12 &#43;0100 CET</updated>
+		<updated>2023-03-07 16:33:17 &#43;0100 CET</updated>
+		
+		<item>
+			<title>Talks</title>
+			<link>https://ftisiot.net/talks/</link>
+			<pubDate>Tue, 07 Mar 2023 16:33:17 CET</pubDate>
+			<author></author>
+			<guid>https://ftisiot.net/talks/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description></description>
+		</item>
 		
 		<item>
 			<title>SOFT Methodology</title>
@@ -40,16 +50,6 @@
 			<author></author>
 			<guid>https://ftisiot.net/postgresqljson/</guid>
 			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/images/2023/pg-json.png" medium="image" type="image/jpg" width="100" height="100" />
-			<description></description>
-		</item>
-		
-		<item>
-			<title>Talks</title>
-			<link>https://ftisiot.net/talks/</link>
-			<pubDate>Tue, 11 Oct 2022 13:08:56 CEST</pubDate>
-			<author></author>
-			<guid>https://ftisiot.net/talks/</guid>
-			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
 			<description></description>
 		</item>
 		

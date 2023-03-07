@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+  		
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7Z74BTZ0TM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7Z74BTZ0TM');
+</script>
+  		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Fix Your Strings! &bullet; Pg Day Paris 2023</title>
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="https://ftisiot.net/index.xml">
+		<link rel="canonical" href="https://ftisiot.net/talks/fix-your-strings/">
+		
+		<link rel="shortcut icon" type="image/png" href="https://ftisiot.net/apple-touch-icon-precomposed.png">
+		
+		
+		
+
+		
+		<meta property="og:title" content="Fix Your Strings!" />
+		<meta property="og:type" content="article" />
+		<meta property="og:image" content="https://ftisiot.net/slides/fix-your-strings/cover.png" />
+		<meta property="og:description" content="" />
+		<meta property="og:url" content="https://ftisiot.net/talks/fix-your-strings/" />
+		<meta property="og:site_name" content="Fix Your Strings!" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@" />
+
+
+		
+		<link rel="stylesheet" href="https://ftisiot.net/css/tachyons.min.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/story.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/descartes.css" />
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Quattrocento:400,700|Spectral:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+		
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script src="https://ftisiot.net/js/story.js"></script>
+
+	</head>
+	<body class="ma0 bg-white section-talks page-kind-page is-page-true ">
+		
+		<header class="cover bg-top" style="background-image: url('https://ftisiot.net/slides/fix-your-strings/thumbnail.png'); background-position: center;">
+			<div class="bg-black-30 bb bt">
+
+				<nav class="hide-print sans-serif  border-box pa3 ph5-l">
+					<a href="https://ftisiot.net" title="Home">
+						<img src="https://ftisiot.net/img/logo.jpg" class="w2 h2 br-100" alt="ftisiot ideas about food and life" />
+					</a>
+					<div class="fr h2 pv2 tr">
+						<a class="link f5 ml2 dim near-white" href="/who">who</a>
+						<a class="link f5 ml2 dim near-white" href="/speaking-activities">talks</a>
+						<a class="link f5 ml2 dim near-white" href="/suggestions-verona">suggestions</a>
+						<a class="link f5 ml2 dim near-white" href="/soft">soft</a>
+						<a class="link f5 ml2 dim near-white" href="/postgresqljson/main">json-pg</a>
+						<a class="link f5 ml2 dim near-white" href="https://www.youtube.com/channel/UCTJ4oA3-T3RdmM2OJ7d8cJg"><i class="fab fa-youtube-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://twitter.com/ftisiot/"><i class="fab fa-twitter-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://github.com/ftisiot/"><i class="fab fa-github-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://www.linkedin.com/in/francescotisiot/"><i class="fab fa-linkedin"></i></a>
+						<a class="link f5 ml2 dim near-white fas fa-rss-square" href="https://ftisiot.net/index.xml" title="RSS Feed"></a>
+						<a class="link f5 ml2 dim near-white fas fa-search" href="https://ftisiot.net/search/" role="search" title="Search"></a>
+					</div>
+				</nav>
+
+				<div id="hdr" class="tc-l pv4-ns pv5-l pv2 ph3 ph4-ns">
+					<h1 class="near-white mt1-ns f2 fw3 mb0 mt0 lh-title">Fix Your Strings!</h1>
+					<h2 class="near-white mt3-l mb4-l fw1 f6 f3-l measure-wide-l center lh-copy mt2 mb3">
+						
+						
+							
+								Presented
+								<time datetime="2023-03-07T16:33:17&#43;01:00">March 7, 2023</time>
+								at <a class="no-underline category near-white dim" href="https://2023.pgday.paris/">Pg Day Paris 2023</a>
+							
+						
+					</h2>
+				</div>
+
+				
+				
+				
+				
+
+			</div>
+		</header>
+		
+		<main role="main">
+		
+<article class="center bg-white br-3 pv1 ph4 nested-copy-line-height lh-copy f4 nested-links mw-100 measure-wide">
+		
+		<p><a id="slides_link" class="ba black br-3 bw1 dib no-underline ph2 pv1" href="https://ftisiot.net/slides/fix-your-strings/fix-your-strings.pdf">Slides</a>
+		
+		
+		
+		<a class="ba black br-3 bw1 dib no-underline ph2 pv1" href="https://2023.pgday.paris/">Website</a>
+		
+		
+		<a class="ba black br-3 bw1 dib no-underline ph2 pv1" href="https://www.google.com/maps/place/Paris">Venue</a>
+		
+		<p>Strings are one of the most used types in databases; they can store pretty much any data and don&rsquo;t enforce any rules on the inserted input. This talk showcases the risk of using strings and how to mitigate them to ensure data quality.</p>
+<p><img src="/slides/fix-your-strings/thumbnail.png" alt="Intro image"></p>
+<h2 id="abstract">Abstract</h2>
+<p>Strings are one of the most used types in databases; they can store pretty much any data and don&rsquo;t enforce any rules on the inserted input. Yet too much freedom sometimes leads to inconsistencies: is it Aivan or Aiven? Øyvind or Oyvind? Wine or Whine? These seemingly small differences can have bad side-effects, causing lookups to fail and incorrect aggregation results to be returned. Luckily all is not lost: PostgreSQL has some features that can help us make sense of the chaos.</p>
+<p>In this talk you will learn what PostgreSQL has to offer: starting with pattern matching, passing by regular expressions, and ending with more advanced functionality exposed by the fuzzystrmatch and unaccent extensions. I&rsquo;ll demonstrate what tools can help you fixing string inconsistencies and how to avoid making the same mistakes again in the future. This session is recommended for anyone who deeply cares about their (string) data quality.</p>
+<h2 id="useful-links">Useful Links</h2>
+<ul>
+<li><a href="https://www.postgresql.org/docs/current/functions-array.html">Array Functions</a></li>
+<li><a href="https://www.postgresql.org/docs/current/functions-datetime.html">Date Functions</a></li>
+<li><a href="https://www.postgresql.org/docs/current/functions-matching.html">Pattern Matching</a></li>
+<li><a href="https://www.postgresql.org/docs/current/sql-createdomain.html">Domain</a></li>
+<li><a href="https://bit.ly/3ol6yfr">Email Domain</a></li>
+<li><a href="https://www.postgresql.org/docs/current/unaccent.html">Unaccent</a></li>
+<li><a href="https://www.postgresql.org/docs/current/fuzzystrmatch.html">FuzzyStrMatch</a></li>
+<li><a href="https://aiven.io/">Aiven</a></li>
+<li><a href="https://github.com/ftisiot/fix-your-strings">GitHub repository with the notebook</a></li>
+</ul>
+	</article>
+<script type="text/javascript">
+
+$( function() {
+	if ( $( "#slides_link" ).length ) {
+		$("#slides_link").click(function(eventObject) {
+			eventObject.preventDefault();
+			var elem = $( this );
+			elem.parent().next("iframe").remove();
+			var href = elem.attr("href");
+			switch(true) {
+			case /\.pdf$/.test(href):
+				elem.parent().after($("<iframe frameborder=0 class='ba h5 w-100' src='/js/pdfjs/web/viewer.html?file=" + href + "'></iframe>"));
+				break;
+			default:
+				elem.parent().after($("<iframe frameborder=0 class='ba h5 w-100' src='" + elem.attr("href") + "'></iframe>"));
+				
+			}
+			var width = elem.parent().next("iframe").width();
+			var height = Math.round(width * 9 / 16);
+			elem.parent().next("iframe").height(height);
+		});
+	}
+	if ( $( "#video_link" ).length ) {
+		$("#video_link").click(function(eventObject) {
+			var elem = $( this );
+			elem.parent().next("iframe").remove();
+			var href = elem.attr("href");
+			switch(true) {
+			case /youtube.com/.test(href):
+				eventObject.preventDefault();
+				href = href.replace("watch?v=", "embed/");
+				elem.parent().after($("<iframe frameborder=0 class='ba h5 w-100' src='" + href + "' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"));
+				break;
+			default:
+				
+				
+				
+			}
+			var width = elem.parent().next("iframe").width();
+			var height = Math.round(width * 9 / 16);
+			elem.parent().next("iframe").height(height);
+		});
+	}
+});
+
+</script>
+
+		</main>
+		
+				<div class="hide-print sans-serif f6 f5-l mt5 ph3 pb6 center nested-copy-line-height lh-copy nested-links mw-100 measure-wide">
+		<div class="about-the-author">
+		
+			
+			
+				
+					<hr>
+<p><img src="/images/ftisiot.png" alt="Francesco Tisiot"></p>
+<p><a href="https://www.linkedin.com/in/francescotisiot/"><b class="fab fa-linkedin"></b></a> <a href="https://twitter.com/FTisiot"><b class="fab fa-twitter"></b></a><a rel="me" href="https://data-folks.masto.host/@ftisiot">Mastodon</a> Francesco comes from Verona, Italy and works as a Senior Developer Advocate at Aiven. With his many years of experience as a data analyst, he has stories to tell and advice for data-wranglers everywhere. Francesco loves sharing knowledge with others as a speaker and writer, and is on a mission to defend the world from bad Italian food!</p>
+
+				
+			
+		
+		</div>
+		
+	</div>
+
+		
+		
+		
+		<footer class="hide-print sans-serif f6 fw1 bg-black near-white bottom-0 w-100 pa3" role="contentinfo">
+			<p class="w-50 fr tr">
+			<a class="no-underline near-white" href="https://github.com/xaprb/story"><img class="dib" title="Made with Hugo and Story" alt="Story logo" src="https://ftisiot.net/img/story-logo-white.svg" style="width: 1.5rem; height: 1.5rem" /></a>
+			</p>
+			<p class="w-50 near-white">
+				&copy; 2023 
+			</p>
+		</footer>
+		
+	
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-7Z74BTZ0TM', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+	
+	</body>
+</html>

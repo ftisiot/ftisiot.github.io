@@ -6,7 +6,16 @@
     <description>Recent content in Talks on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Oct 2022 13:08:56 +0200</lastBuildDate><atom:link href="https://ftisiot.net/talks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Mar 2023 16:33:17 +0100</lastBuildDate><atom:link href="https://ftisiot.net/talks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fix Your Strings!</title>
+      <link>https://ftisiot.net/talks/fix-your-strings/</link>
+      <pubDate>Tue, 07 Mar 2023 16:33:17 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/talks/fix-your-strings/</guid>
+      <description>&lt;p&gt;Strings are one of the most used types in databases; they can store pretty much any data and don&amp;rsquo;t enforce any rules on the inserted input. This talk showcases the risk of using strings and how to mitigate them to ensure data quality.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Put PostgreSQL at the center of your (meta)data universe!</title>
       <link>https://ftisiot.net/talks/pg-metadata/</link>
