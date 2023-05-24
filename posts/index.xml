@@ -6,7 +6,18 @@
     <description>Recent content in Posts on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Jan 2023 09:14:26 +0100</lastBuildDate><atom:link href="https://ftisiot.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 May 2023 09:09:07 +0200</lastBuildDate><atom:link href="https://ftisiot.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>So… what does a Staff Developer Advocate do?</title>
+      <link>https://ftisiot.net/posts/staff-da/</link>
+      <pubDate>Wed, 24 May 2023 09:09:07 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/posts/staff-da/</guid>
+      <description>So… what does a Staff Developer Advocate do, and how is it different from the Senior Developer Advocate role you were doing before?
+I got this question three times in the last two weeks after my promotion from Senior to Staff (🎉🎉🎉🎉), from various people in my network.
+TL;DR There&amp;rsquo;s not a unique answer to the question! This blog is a self reflection on the last two and half years in DevRel, the growing paths and challenges and what I (believe) will be doing as a Staff Developer Advocate.</description>
+    </item>
+    
     <item>
       <title>What are the directions of technical data platforms scalability?</title>
       <link>https://ftisiot.net/posts/tech-scalability/</link>
