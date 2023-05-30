@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Platforms on ftisiot ideas about food and life</title>
+    <link>https://ftisiot.net/categories/platforms/</link>
+    <description>Recent content in Platforms on ftisiot ideas about food and life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 May 2023 15:25:59 +0200</lastBuildDate><atom:link href="https://ftisiot.net/categories/platforms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pros and Cons of Multi Step Data Platforms</title>
+      <link>https://ftisiot.net/posts/pros-and-cons-of-multi-step-data-platforms/</link>
+      <pubDate>Mon, 29 May 2023 15:25:59 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/posts/pros-and-cons-of-multi-step-data-platforms/</guid>
+      <description>In the modern world, it&amp;rsquo;s rare to have the data in the same shape and platform from the beginning till the end of its journey. Yes, some technologies can achieve quite a good range of functionalities but sometimes at the expense of precision, developer experience or performance. Therefore, to achieve better or faster results, people might select a new tool for a precise task and start an implementation and integration process to move the data around.</description>
+    </item>
+    
+  </channel>
+</rss>
