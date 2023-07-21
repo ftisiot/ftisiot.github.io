@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>insert on ftisiot ideas about food and life</title>
+    <link>https://ftisiot.net/categories/insert/</link>
+    <description>Recent content in insert on ftisiot ideas about food and life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Jul 2023 16:53:52 +0200</lastBuildDate><atom:link href="https://ftisiot.net/categories/insert/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to insert a field in a JSON document in MySQL</title>
+      <link>https://ftisiot.net/mysqljson/how-to-insert-field-JSON-document-mysql/</link>
+      <pubDate>Fri, 21 Jul 2023 16:53:52 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/mysqljson/how-to-insert-field-JSON-document-mysql/</guid>
+      <description>&lt;p&gt;You can insert a field in a JSON document in MySQL with the &lt;code&gt;JSON_INSERT&lt;/code&gt; function.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

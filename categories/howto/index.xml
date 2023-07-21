@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>howto on ftisiot ideas about food and life</title>
+    <link>https://ftisiot.net/categories/howto/</link>
+    <description>Recent content in howto on ftisiot ideas about food and life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Jul 2023 14:13:18 +0200</lastBuildDate><atom:link href="https://ftisiot.net/categories/howto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to JSON in MySQL</title>
+      <link>https://ftisiot.net/mysqljson/main/</link>
+      <pubDate>Fri, 21 Jul 2023 14:13:18 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/mysqljson/main/</guid>
+      <description>&lt;p&gt;This series covers how to solve common problems on JSON datasets with MySQL and it includes (links will appear once the target pages are up):&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

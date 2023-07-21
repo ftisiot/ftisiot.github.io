@@ -6,7 +6,7 @@
 		<language>en-us</language>
 		<author></author>
 		<rights>Copyright (c) 2023</rights>
-		<updated>2023-05-29 15:25:59 &#43;0200 CEST</updated>
+		<updated>2023-07-21 17:05:26 &#43;0200 CEST</updated>
 		
 		<item>
 			<title>Posts</title>
@@ -41,6 +41,16 @@
 &lt;li&gt;&lt;a href=&#34;https://ftisiot.net/posts/from-data-stack-to-data-stuck&#34;&gt;From data stack to data stuck: the risks of not asking the right data questions&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://ftisiot.net/posts/tech-scalability&#34;&gt;What are the directions of technical scalability&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
+		</item>
+		
+		<item>
+			<title>How to JSON in MySQL</title>
+			<link>https://ftisiot.net/mysqljson/</link>
+			<pubDate>Mon, 09 Jan 2023 08:23:06 CET</pubDate>
+			<author></author>
+			<guid>https://ftisiot.net/mysqljson/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/images/2023/mysql-json-little.png" medium="image" type="image/jpg" width="100" height="100" />
+			<description></description>
 		</item>
 		
 		<item>

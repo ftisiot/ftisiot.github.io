@@ -6,7 +6,16 @@
     <description>Recent content in types on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Jan 2023 16:59:12 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/types/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jul 2023 14:59:42 +0200</lastBuildDate><atom:link href="https://ftisiot.net/categories/types/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to get the JSON field types in MySQL</title>
+      <link>https://ftisiot.net/mysqljson/how-to-get-json-field-types-mysql/</link>
+      <pubDate>Fri, 21 Jul 2023 14:59:42 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/mysqljson/how-to-get-json-field-types-mysql/</guid>
+      <description>&lt;p&gt;To get the type of a JSON item in MySQL you need to use the &lt;code&gt;JSON_TYPE&lt;/code&gt; function.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>How to get the JSON field types in PostgreSQL®?</title>
       <link>https://ftisiot.net/postgresqljson/how-to-get-json-field-types-postgresql/</link>

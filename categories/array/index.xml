@@ -6,7 +6,16 @@
     <description>Recent content in array on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Jan 2023 08:53:59 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/array/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jul 2023 14:52:34 +0200</lastBuildDate><atom:link href="https://ftisiot.net/categories/array/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to extract an item from an array in a JSON object in MySQL</title>
+      <link>https://ftisiot.net/mysqljson/how-to-extract-field-from-array-json-mysql/</link>
+      <pubDate>Fri, 21 Jul 2023 14:52:34 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/mysqljson/how-to-extract-field-from-array-json-mysql/</guid>
+      <description>&lt;p&gt;To extract an item from an array in MySQL you need to use the &lt;code&gt;-&amp;gt;&lt;/code&gt; operator and the &lt;code&gt;[item_number]&lt;/code&gt;  &lt;a href=&#34;https://dev.mysql.com/doc/refman/8.0/en/json.html#json-path-syntax&#34;&gt;JSON Path Syntax&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>How to remove an item from a JSON array in PostgreSQL®?</title>
       <link>https://ftisiot.net/postgresqljson/how-to-remove-items-from-json-array-postgresql/</link>

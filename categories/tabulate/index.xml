@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tabulate on ftisiot ideas about food and life</title>
+    <link>https://ftisiot.net/categories/tabulate/</link>
+    <description>Recent content in tabulate on ftisiot ideas about food and life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Jul 2023 17:05:26 +0200</lastBuildDate><atom:link href="https://ftisiot.net/categories/tabulate/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to tabulate a JSON document in MySQL</title>
+      <link>https://ftisiot.net/mysqljson/how-to-tabulate-JSON-document-mysql/</link>
+      <pubDate>Fri, 21 Jul 2023 17:05:26 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/mysqljson/how-to-tabulate-JSON-document-mysql/</guid>
+      <description>&lt;p&gt;You can tabulate a JSON document (retrieve it as a row) in MySQL with the &lt;code&gt;JSON_TABLE&lt;/code&gt; function.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

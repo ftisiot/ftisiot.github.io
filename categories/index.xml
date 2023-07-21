@@ -6,7 +6,124 @@
     <description>Recent content in Categories on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 May 2023 15:25:59 +0200</lastBuildDate><atom:link href="https://ftisiot.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jul 2023 17:05:26 +0200</lastBuildDate><atom:link href="https://ftisiot.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>json</title>
+      <link>https://ftisiot.net/categories/json/</link>
+      <pubDate>Fri, 21 Jul 2023 17:05:26 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/categories/json/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mysql</title>
+      <link>https://ftisiot.net/categories/mysql/</link>
+      <pubDate>Fri, 21 Jul 2023 17:05:26 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/categories/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tabulate</title>
+      <link>https://ftisiot.net/categories/tabulate/</link>
+      <pubDate>Fri, 21 Jul 2023 17:05:26 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/categories/tabulate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>remove</title>
+      <link>https://ftisiot.net/categories/remove/</link>
+      <pubDate>Fri, 21 Jul 2023 17:01:19 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/categories/remove/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>insert</title>
+      <link>https://ftisiot.net/categories/insert/</link>
+      <pubDate>Fri, 21 Jul 2023 16:53:52 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/categories/insert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>edit</title>
+      <link>https://ftisiot.net/categories/edit/</link>
+      <pubDate>Fri, 21 Jul 2023 16:35:20 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/categories/edit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>merge</title>
+      <link>https://ftisiot.net/categories/merge/</link>
+      <pubDate>Fri, 21 Jul 2023 15:31:08 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/categories/merge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>create</title>
+      <link>https://ftisiot.net/categories/create/</link>
+      <pubDate>Fri, 21 Jul 2023 15:21:29 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/categories/create/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>extract</title>
+      <link>https://ftisiot.net/categories/extract/</link>
+      <pubDate>Fri, 21 Jul 2023 14:59:42 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/categories/extract/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>types</title>
+      <link>https://ftisiot.net/categories/types/</link>
+      <pubDate>Fri, 21 Jul 2023 14:59:42 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/categories/types/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>array</title>
+      <link>https://ftisiot.net/categories/array/</link>
+      <pubDate>Fri, 21 Jul 2023 14:52:34 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/categories/array/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>load</title>
+      <link>https://ftisiot.net/categories/load/</link>
+      <pubDate>Fri, 21 Jul 2023 14:24:56 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/categories/load/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>howto</title>
+      <link>https://ftisiot.net/categories/howto/</link>
+      <pubDate>Fri, 21 Jul 2023 14:13:18 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/categories/howto/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Data</title>
       <link>https://ftisiot.net/categories/data/</link>
@@ -58,15 +175,6 @@
       <pubDate>Wed, 01 Mar 2023 07:59:12 +0100</pubDate>
       
       <guid>https://ftisiot.net/categories/index/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>json</title>
-      <link>https://ftisiot.net/categories/json/</link>
-      <pubDate>Wed, 01 Mar 2023 07:59:12 +0100</pubDate>
-      
-      <guid>https://ftisiot.net/categories/json/</guid>
       <description></description>
     </item>
     
@@ -143,33 +251,6 @@
     </item>
     
     <item>
-      <title>remove</title>
-      <link>https://ftisiot.net/categories/remove/</link>
-      <pubDate>Thu, 12 Jan 2023 15:06:50 +0100</pubDate>
-      
-      <guid>https://ftisiot.net/categories/remove/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>array</title>
-      <link>https://ftisiot.net/categories/array/</link>
-      <pubDate>Tue, 10 Jan 2023 08:53:59 +0100</pubDate>
-      
-      <guid>https://ftisiot.net/categories/array/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>edit</title>
-      <link>https://ftisiot.net/categories/edit/</link>
-      <pubDate>Tue, 10 Jan 2023 08:53:59 +0100</pubDate>
-      
-      <guid>https://ftisiot.net/categories/edit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>items</title>
       <link>https://ftisiot.net/categories/items/</link>
       <pubDate>Tue, 10 Jan 2023 08:53:59 +0100</pubDate>
@@ -193,15 +274,6 @@
       <pubDate>Tue, 10 Jan 2023 08:47:04 +0100</pubDate>
       
       <guid>https://ftisiot.net/categories/concatenate/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>create</title>
-      <link>https://ftisiot.net/categories/create/</link>
-      <pubDate>Mon, 09 Jan 2023 17:32:52 +0100</pubDate>
-      
-      <guid>https://ftisiot.net/categories/create/</guid>
       <description></description>
     </item>
     
@@ -274,24 +346,6 @@
       <pubDate>Mon, 09 Jan 2023 11:33:09 +0100</pubDate>
       
       <guid>https://ftisiot.net/categories/parse/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>extract</title>
-      <link>https://ftisiot.net/categories/extract/</link>
-      <pubDate>Fri, 06 Jan 2023 16:59:12 +0100</pubDate>
-      
-      <guid>https://ftisiot.net/categories/extract/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>types</title>
-      <link>https://ftisiot.net/categories/types/</link>
-      <pubDate>Fri, 06 Jan 2023 16:59:12 +0100</pubDate>
-      
-      <guid>https://ftisiot.net/categories/types/</guid>
       <description></description>
     </item>
     

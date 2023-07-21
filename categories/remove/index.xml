@@ -6,7 +6,16 @@
     <description>Recent content in remove on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Jan 2023 15:06:50 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/remove/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jul 2023 17:01:19 +0200</lastBuildDate><atom:link href="https://ftisiot.net/categories/remove/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to remove a field in a JSON document in MySQL</title>
+      <link>https://ftisiot.net/mysqljson/how-to-remove-field-JSON-document-mysql/</link>
+      <pubDate>Fri, 21 Jul 2023 17:01:19 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/mysqljson/how-to-remove-field-JSON-document-mysql/</guid>
+      <description>&lt;p&gt;You can remove a field from JSON document in MySQL with the &lt;code&gt;JSON_REMOVE&lt;/code&gt; function.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>How to tabulate a JSON to a record in PostgreSQL®</title>
       <link>https://ftisiot.net/postgresqljson/how-to-tabulate-json-document-to-a-record-postgresql/</link>
