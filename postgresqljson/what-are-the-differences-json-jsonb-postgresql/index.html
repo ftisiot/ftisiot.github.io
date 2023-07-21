@@ -117,8 +117,35 @@
 </div>
 
 <p style="border:2px dotted #77dd77;"> 👉 If you want to try it out on a FREE PostgreSQL database, check <a href="https://console.aiven.io/signup">Aiven's free plans</a></p>
-<h2 id="differences-between-json-and-jsonb">Differences between JSON and JSONB</h2>
-<p>The following table defines the differences between <code>JSON</code> and <code>JSONB</code> data types in PostgreSQL.</p>
+<h2 id="what-are-the-differences-between-json-and-jsonb">What are the differences between JSON and JSONB</h2>
+<h3 id="storage">Storage</h3>
+<p>The main difference is how the data is stored: while <code>JSON</code> stores the data as text, <code>JSONB</code> optimises the information storage by creating a <a href="https://erthalion.info/2017/12/21/advanced-json-benchmarks/">tree structure</a>.</p>
+<h3 id="read-and-write-performance">Read and Write performance</h3>
+<p>Both formats do a content validation to ensure that the input is a valid JSON document, but, while <code>JSON</code> only performs an overall check, with <code>JSONB</code> the data is then transformed from the string into the tree structure. This additional processing means than <code>JSON</code> is faster compared to <code>JSONB</code> when inserting data, due to the slimmer parsing process. On the other side, when retrieving data, specifically if only a subset of the document is selected, the <code>JSONB</code> performances are way better, since the binary tree can be parsed way faster compared to a scan of the full document and the selection of some subitems.</p>
+<h3 id="content-immutability">Content immutability</h3>
+<p>When using <code>JSONB</code>, the content of the JSON document could be modified:</p>
+<ul>
+<li>
+<p><strong>Unnecessary white spaces are removed</strong>: the white spaces outside the strings, will be removed.</p>
+<p>E.g. in <code>{&quot;id&quot;:   &quot;123&quot;}</code> the 3 spaces between the <code>:</code> and the string <code>123</code> will be removed since unnecessary.</p>
+</li>
+<li>
+<p><strong>Duplicated keys are merged</strong>: in case duplicated keys are present at the same level of a document, only the last value will be kept.</p>
+<p>E.g. in <code>{&quot;id&quot;:&quot;123&quot;, &quot;name&quot;:&quot;Ugo&quot;, &quot;name&quot;:&quot;Francesco&quot;}</code> only the <code>&quot;name&quot;:&quot;Francesco&quot;</code> association will be kept. Nested structures and arrays will be stored correctly.</p>
+</li>
+<li>
+<p><strong>Order of keys could be altered</strong>: the order of the keys can be altered when inserting and retrieving an JSON document.</p>
+<p>E.g. the document <code>{&quot;id&quot;:&quot;123&quot;, &quot;name&quot;:&quot;Ugo&quot;}</code> could be retrieved as <code>{&quot;name&quot;:&quot;Ugo&quot;, &quot;id&quot;:&quot;123&quot;}</code></p>
+</li>
+</ul>
+<p>Therefore if you absolutely need either to keep the white spaces, the duplicated keys or the order of the keys, you&rsquo;ll need to use <code>JSON</code>.</p>
+<h3 id="indexing">Indexing</h3>
+<p>Since its optimized data structure, <code>JSONB</code> provides advanced methods for indexing the entire document or only some parts. Read more in the dedicated <a href="/postgresqljson/how-to-index-and-query-json-postgresql">PostgreSQL JSON indexing page</a>.</p>
+<h3 id="editing">Editing</h3>
+<p>With <code>JSON</code> PostgreSQL is storing the JSON document as text, therefore any edits to the document mean a full replacement of the content.
+With <code>JSONB</code>, on the other hand, offers a way to just edit a particular entry in the tree, leaving the rest of the document unaltered. Read more in <a href="/postgresqljson/how-to-edit-json-postgresql">How to edit a JSON document in PostgreSQL?</a>.</p>
+<h3 id="summary">Summary</h3>
+<p>The following table summarizes the differences between <code>JSON</code> and <code>JSONB</code> data types in PostgreSQL.</p>
 <table>
 <thead>
 <tr>
