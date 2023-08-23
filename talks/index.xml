@@ -6,7 +6,17 @@
     <description>Recent content in Talks on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 May 2023 08:28:44 +0200</lastBuildDate><atom:link href="https://ftisiot.net/talks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Aug 2023 15:27:54 +0200</lastBuildDate><atom:link href="https://ftisiot.net/talks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Batch to Streaming Data Pipeline Evolution</title>
+      <link>https://ftisiot.net/talks/from-batch-to-streaming-data-pipeline-evolution/</link>
+      <pubDate>Wed, 23 Aug 2023 15:27:54 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/talks/from-batch-to-streaming-data-pipeline-evolution/</guid>
+      <description>
+Useful Links Aiven Signup Code examples to run with Aiven for Apache Flink Flink JDBC SQL Connector Flink SQL CDC Connecto for PostgreSQL </description>
+    </item>
+    
     <item>
       <title>Boost Apache Kafka with Schema Registry</title>
       <link>https://ftisiot.net/talks/boost-kafka-schemas/</link>
