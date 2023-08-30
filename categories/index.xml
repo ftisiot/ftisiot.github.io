@@ -6,7 +6,34 @@
     <description>Recent content in Categories on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Jul 2023 17:05:26 +0200</lastBuildDate><atom:link href="https://ftisiot.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Aug 2023 11:30:24 +0200</lastBuildDate><atom:link href="https://ftisiot.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache Kafka</title>
+      <link>https://ftisiot.net/categories/apache-kafka/</link>
+      <pubDate>Wed, 30 Aug 2023 11:30:24 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/categories/apache-kafka/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Karapace</title>
+      <link>https://ftisiot.net/categories/karapace/</link>
+      <pubDate>Wed, 30 Aug 2023 11:30:24 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/categories/karapace/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>REST APIs</title>
+      <link>https://ftisiot.net/categories/rest-apis/</link>
+      <pubDate>Wed, 30 Aug 2023 11:30:24 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/categories/rest-apis/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>json</title>
       <link>https://ftisiot.net/categories/json/</link>
@@ -508,15 +535,6 @@
       <pubDate>Mon, 18 Jul 2022 14:44:12 +0200</pubDate>
       
       <guid>https://ftisiot.net/categories/tips/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Apache Kafka</title>
-      <link>https://ftisiot.net/categories/apache-kafka/</link>
-      <pubDate>Thu, 31 Mar 2022 13:39:18 +0200</pubDate>
-      
-      <guid>https://ftisiot.net/categories/apache-kafka/</guid>
       <description></description>
     </item>
     
