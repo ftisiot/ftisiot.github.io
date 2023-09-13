@@ -13,7 +13,7 @@
       <pubDate>Wed, 13 Sep 2023 10:35:51 +0200</pubDate>
       
       <guid>https://ftisiot.net/posts/kafka_connect_sink_elasticsearch_opensearch_timestamp/</guid>
-      <description>&lt;p&gt;When sinking unix timestamps from Kafka to OpenSearch/ElasticSearch using the dedicated connector, they are not recognized by default as timestamp in the target tech.&lt;/p&gt;</description>
+      <description>&lt;p&gt;When sinking unix timestamps from Apache Kafka to OpenSearch/ElasticSearch using the dedicated connector, they are not recognized by default as timestamp in the target tech.&lt;/p&gt;</description>
     </item>
     
     <item>

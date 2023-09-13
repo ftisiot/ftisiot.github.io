@@ -104,7 +104,7 @@
 		<main role="main">
 		
 <article class="center bg-white br-3 pv1 ph4 lh-copy f5 nested-links mw7">
-	<p>When sinking unix timestamps from Kafka to OpenSearch/ElasticSearch using the dedicated connector, they are not recognized by default as timestamp in the target tech.</p>
+	<p>When sinking unix timestamps from Apache Kafka to OpenSearch/ElasticSearch using the dedicated connector, they are not recognized by default as timestamp in the target tech.</p>
 <p>Using the <a href="https://rmoff.net/2020/12/17/twelve-days-of-smt-day-8-timestampconverter/">TimestampConverter SMT</a> you can change the format into one that is recognized natively by OpenSearch/ElasticSearch.</p>
 <h2 id="use-the-timestampconverter-smt-to-translate-unix-timestamps-into-strings">Use the TimestampConverter SMT to translate unix timestamps into strings</h2>
 <p>To have OpenSearch/ElasticSearch automatically recognizing a timestamp we need to push it in the <a href="https://en.wikipedia.org/wiki/ISO_8601#Combined_date_and_time_representations">ISO 8601 format</a> <code>yyyy-MM-ddTHH:mm:ss.SSSZ</code> where:</p>
