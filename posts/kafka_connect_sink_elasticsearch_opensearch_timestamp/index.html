@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+  		
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7Z74BTZ0TM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7Z74BTZ0TM');
+</script>
+  		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Kafka Connect sink to OpenSearch/ElasticSearch: how to sink unix timestamps</title>
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="https://ftisiot.net/index.xml">
+		<link rel="canonical" href="https://ftisiot.net/posts/kafka_connect_sink_elasticsearch_opensearch_timestamp/">
+		
+		<link rel="shortcut icon" type="image/png" href="https://ftisiot.net/apple-touch-icon-precomposed.png">
+		<meta name="description" content="When sending unix timestamps from Kafka to OpenSearch/ElasticSearch, they are not recognized by default as timestamp, this shows how">
+		
+		
+
+		
+		<meta property="og:title" content="Kafka Connect sink to OpenSearch/ElasticSearch: how to sink unix timestamps" />
+		<meta property="og:type" content="article" />
+		<meta property="og:image" content="https://ftisiot.net/images/2023/kc-es-os.png" />
+		<meta property="og:description" content="When sending unix timestamps from Kafka to OpenSearch/ElasticSearch, they are not recognized by default as timestamp, this shows how" />
+		<meta property="og:url" content="https://ftisiot.net/posts/kafka_connect_sink_elasticsearch_opensearch_timestamp/" />
+		<meta property="og:site_name" content="Kafka Connect sink to OpenSearch/ElasticSearch: how to sink unix timestamps" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@" />
+
+
+		
+		<link rel="stylesheet" href="https://ftisiot.net/css/tachyons.min.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/story.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/descartes.css" />
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Quattrocento:400,700|Spectral:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+		
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script src="https://ftisiot.net/js/story.js"></script>
+
+	</head>
+	<body class="ma0 bg-white section-posts page-kind-page is-page-true ">
+		
+		<header class="cover bg-top" style="background-image: url('https://ftisiot.net/images/2023/kc-es-os.png'); background-position: center;">
+			<div class="bg-black-30 bb bt">
+
+				<nav class="hide-print sans-serif  border-box pa3 ph5-l">
+					<a href="https://ftisiot.net" title="Home">
+						<img src="https://ftisiot.net/img/logo.jpg" class="w2 h2 br-100" alt="ftisiot ideas about food and life" />
+					</a>
+					<div class="fr h2 pv2 tr">
+						<a class="link f5 ml2 dim near-white" href="/who">who</a>
+						<a class="link f5 ml2 dim near-white" href="/speaking-activities">talks</a>
+						<a class="link f5 ml2 dim near-white" href="/suggestions-verona">suggestions</a>
+						<a class="link f5 ml2 dim near-white" href="/soft">soft</a>
+						<a class="link f5 ml2 dim near-white" href="/postgresqljson/main">json-pg</a>
+						<a class="link f5 ml2 dim near-white" href="/mysqljson/main">json-mysql</a>
+						<a class="link f5 ml2 dim near-white" href="https://www.youtube.com/channel/UCTJ4oA3-T3RdmM2OJ7d8cJg"><i class="fab fa-youtube-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://twitter.com/ftisiot/"><i class="fab fa-twitter-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://github.com/ftisiot/"><i class="fab fa-github-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://www.linkedin.com/in/francescotisiot/"><i class="fab fa-linkedin"></i></a>
+						<a class="link f5 ml2 dim near-white fas fa-rss-square" href="https://ftisiot.net/index.xml" title="RSS Feed"></a>
+						<a class="link f5 ml2 dim near-white fas fa-search" href="https://ftisiot.net/search/" role="search" title="Search"></a>
+					</div>
+				</nav>
+
+				<div id="hdr" class="tc-l pv4-ns pv5-l pv2 ph3 ph4-ns">
+					<h1 class="near-white mt1-ns f2 fw3 mb0 mt0 lh-title">Kafka Connect sink to OpenSearch/ElasticSearch: how to sink unix timestamps</h1>
+					<h2 class="near-white mt3-l mb4-l fw1 f6 f3-l measure-wide-l center lh-copy mt2 mb3">
+						
+						
+							
+								Published
+								<time datetime="2023-09-13T10:35:51&#43;02:00">Sep 13, 2023</time>
+								<span class="display-print">by </span>
+								 in <a href="https://ftisiot.net/categories/kafka-connect" class="no-underline category near-white dim">Kafka Connect</a>, <a href="https://ftisiot.net/categories/opensearch" class="no-underline category near-white dim">OpenSearch</a>, <a href="https://ftisiot.net/categories/elasticsearch" class="no-underline category near-white dim">ElasticSearch</a>, <a href="https://ftisiot.net/categories/timestamp" class="no-underline category near-white dim">Timestamp</a>, <a href="https://ftisiot.net/categories/unix-time" class="no-underline category near-white dim">Unix Time</a>
+								<span class="display-print">at https://ftisiot.net/posts/kafka_connect_sink_elasticsearch_opensearch_timestamp/</span>
+							
+						
+					</h2>
+				</div>
+
+				
+				
+				
+				<div class="w-100 cf hide-print">
+					<a class="fr f6 ma0 pa2 link white-50 dim fas fa-camera" href="ftisiot" title="Photo Credit"></a>
+				</div>
+				
+				
+
+			</div>
+		</header>
+		
+		<main role="main">
+		
+<article class="center bg-white br-3 pv1 ph4 lh-copy f5 nested-links mw7">
+	<p>When sinking unix timestamps from Kafka to OpenSearch/ElasticSearch using the dedicated connector, they are not recognized by default as timestamp in the target tech.</p>
+<p>Using the <a href="https://rmoff.net/2020/12/17/twelve-days-of-smt-day-8-timestampconverter/">TimestampConverter SMT</a> you can change the format into one that is recognized natively by OpenSearch/ElasticSearch.</p>
+<h2 id="use-the-timestampconverter-smt-to-translate-unix-timestamps-into-strings">Use the TimestampConverter SMT to translate unix timestamps into strings</h2>
+<p>To have OpenSearch/ElasticSearch automatically recognizing a timestamp we need to push it in the <a href="https://en.wikipedia.org/wiki/ISO_8601#Combined_date_and_time_representations">ISO 8601 format</a> <code>yyyy-MM-ddTHH:mm:ss.SSSZ</code> where:</p>
+<ul>
+<li><code>yyyy-MM-dd</code> are the year, month, day</li>
+<li><code>T</code> is the string <code>T</code></li>
+<li><code>HH:mm:ss.SSS</code> are the hour, minutes, seconds, milliseconds</li>
+<li><code>Z</code> is the string <code>Z</code></li>
+</ul>
+<p>You can achieve this by adding a TimestampConverter SMT to the Kafka connect sink definition with:</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span><span style="color:#ba2121">&#34;transforms.transform-name.type&#34;</span><span style="">:</span> <span style="color:#ba2121">&#34;org.apache.kafka.connect.transforms.TimestampConverter$Value&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#ba2121">&#34;transforms.transform-name.field&#34;</span><span style="">:</span> <span style="color:#ba2121">&#34;ts_ms&#34;</span><span style="">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#ba2121">&#34;transforms.transform-name.format&#34;</span><span style="">:</span> <span style="color:#ba2121">&#34;yyyy-MM-dd&#39;T&#39;HH:mm:ss.SSS&#39;Z&#39;&#34;</span><span style="">,</span>
+</span></span><span style="display:flex;"><span><span style="color:#ba2121">&#34;transforms.transform-name.target.type&#34;</span><span style="">:</span> <span style="color:#ba2121">&#34;string&#34;</span><span style="">,</span>    
+</span></span></code></pre></div><p>Where:</p>
+<ul>
+<li><code>transform-name</code> is the transformation name, the same name must be referenced in the <code>transforms</code> parameter</li>
+<li><code>&quot;transforms.transform-name.type&quot;: &quot;org.apache.kafka.connect.transforms.TimestampConverter$Value&quot;</code> will extract the timestamp from part of the message value</li>
+<li><code>&quot;transforms.transform-name.field&quot;: &quot;ts_ms&quot;</code> identifies the field <code>ts_ms</code> as the one to be converted from unix timestamp</li>
+<li><code>&quot;transforms.transform-name.format&quot;: &quot;yyyy-MM-dd'T'HH:mm:ss.SSS'Z'&quot;</code> defines the target ISO 8601 format</li>
+<li><code>&quot;transforms.transform-name.target.type&quot;: &quot;string&quot;</code> defines the target field as string (OS/ES will automatically recognize it as timestamp)</li>
+</ul>
+</article>
+
+		</main>
+		
+				<div class="hide-print sans-serif f6 f5-l mt5 ph3 pb6 center nested-copy-line-height lh-copy nested-links mw-100 measure-wide">
+		<div class="about-the-author">
+		
+			
+			
+				
+					<hr>
+<p><img src="/images/ftisiot.jpg" alt="Francesco Tisiot"></p>
+<p><a href="https://www.linkedin.com/in/francescotisiot/"><b class="fab fa-linkedin"></b></a> <a href="https://twitter.com/FTisiot"><b class="fab fa-twitter"></b></a><a rel="me" href="https://data-folks.masto.host/@ftisiot">Mastodon</a> Francesco comes from Verona, Italy and works as a Staff Developer Advocate at Aiven. With his many years of experience as a data analyst, he has stories to tell and advice for data-wranglers everywhere. Francesco loves sharing knowledge with others as a speaker and writer, and is on a mission to defend the world from bad Italian food!</p>
+
+				
+			
+		
+		</div>
+		
+	</div>
+
+		
+		
+		
+		<footer class="hide-print sans-serif f6 fw1 bg-black near-white bottom-0 w-100 pa3" role="contentinfo">
+			<p class="w-50 fr tr">
+			<a class="no-underline near-white" href="https://github.com/xaprb/story"><img class="dib" title="Made with Hugo and Story" alt="Story logo" src="https://ftisiot.net/img/story-logo-white.svg" style="width: 1.5rem; height: 1.5rem" /></a>
+			</p>
+			<p class="w-50 near-white">
+				&copy; 2023 
+			</p>
+		</footer>
+		
+	
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-7Z74BTZ0TM', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+	
+	</body>
+</html>

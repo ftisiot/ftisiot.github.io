@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>unix time on ftisiot ideas about food and life</title>
+    <link>https://ftisiot.net/categories/unix-time/</link>
+    <description>Recent content in unix time on ftisiot ideas about food and life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Sep 2023 10:35:51 +0200</lastBuildDate><atom:link href="https://ftisiot.net/categories/unix-time/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kafka Connect sink to OpenSearch/ElasticSearch: how to sink unix timestamps</title>
+      <link>https://ftisiot.net/posts/kafka_connect_sink_elasticsearch_opensearch_timestamp/</link>
+      <pubDate>Wed, 13 Sep 2023 10:35:51 +0200</pubDate>
+      
+      <guid>https://ftisiot.net/posts/kafka_connect_sink_elasticsearch_opensearch_timestamp/</guid>
+      <description>&lt;p&gt;When sinking unix timestamps from Kafka to OpenSearch/ElasticSearch using the dedicated connector, they are not recognized by default as timestamp in the target tech.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
