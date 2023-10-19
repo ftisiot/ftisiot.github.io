@@ -533,6 +533,12 @@
     <loc>https://ftisiot.net/2016/09/28/first-blog-post/</loc>
     <lastmod>2016-09-28T13:10:09+00:00</lastmod>
   </url><url>
+    <loc>https://ftisiot.net/components/mysqllink/</loc>
+  </url><url>
+    <loc>https://ftisiot.net/components/pglink/</loc>
+  </url><url>
+    <loc>https://ftisiot.net/components/</loc>
+  </url><url>
     <loc>https://ftisiot.net/search/</loc>
   </url>
 </urlset>
