@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ftisiot.net/talks/attack-defend-apache-kafka/</loc>
+    <lastmod>2023-12-04T08:32:09+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/</loc>
+    <lastmod>2023-12-04T08:32:09+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/talks/</loc>
+    <lastmod>2023-12-04T08:32:09+01:00</lastmod>
+  </url><url>
     <loc>https://ftisiot.net/categories/</loc>
     <lastmod>2023-09-13T10:35:51+02:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/elasticsearch/</loc>
-    <lastmod>2023-09-13T10:35:51+02:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/</loc>
     <lastmod>2023-09-13T10:35:51+02:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/kafka-connect/</loc>
@@ -42,9 +48,6 @@
     <lastmod>2023-08-30T11:30:24+02:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/talks/from-batch-to-streaming-data-pipeline-evolution/</loc>
-    <lastmod>2023-08-23T15:27:54+02:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/talks/</loc>
     <lastmod>2023-08-23T15:27:54+02:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/mysqljson/how-to-tabulate-JSON-document-mysql/</loc>

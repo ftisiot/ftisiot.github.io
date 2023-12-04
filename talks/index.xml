@@ -6,7 +6,17 @@
     <description>Recent content in Talks on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Aug 2023 15:27:54 +0200</lastBuildDate><atom:link href="https://ftisiot.net/talks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Dec 2023 08:32:09 +0100</lastBuildDate><atom:link href="https://ftisiot.net/talks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Attacking (and defending) Apache Kafka</title>
+      <link>https://ftisiot.net/talks/attack-defend-apache-kafka/</link>
+      <pubDate>Mon, 04 Dec 2023 08:32:09 +0100</pubDate>
+      
+      <guid>https://ftisiot.net/talks/attack-defend-apache-kafka/</guid>
+      <description>When attacking any system, taking control of its central nervous system is the first step in infiltrating the core infrastructure and gaining control over its vital functions. Translating this to organization data, a clear target is Apache Kafka, the data hub increasingly adopted for mission-critical systems. This session explores the topic of attacking and defending Apache Kafka, shedding light on potential threats, attack vectors, and countermeasures.
+Initially, we’ll focus on understanding the potential attack surface of Apache Kafka.</description>
+    </item>
+    
     <item>
       <title>From Batch to Streaming Data Pipeline Evolution</title>
       <link>https://ftisiot.net/talks/from-batch-to-streaming-data-pipeline-evolution/</link>

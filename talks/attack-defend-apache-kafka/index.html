@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+  		
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7Z74BTZ0TM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7Z74BTZ0TM');
+</script>
+  		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Attacking (and defending) Apache Kafka &bullet; </title>
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="https://ftisiot.net/index.xml">
+		<link rel="canonical" href="https://ftisiot.net/talks/attack-defend-apache-kafka/">
+		
+		<link rel="shortcut icon" type="image/png" href="https://ftisiot.net/apple-touch-icon-precomposed.png">
+		<meta name="description" content="How to attack and defend Apache Kafka">
+		
+		
+
+		
+		<meta property="og:title" content="Attacking (and defending) Apache Kafka" />
+		<meta property="og:type" content="article" />
+		<meta property="og:image" content="https://ftisiot.net/slides/attack-defend-apache-kafka/thumbnail.png" />
+		<meta property="og:description" content="How to attack and defend Apache Kafka" />
+		<meta property="og:url" content="https://ftisiot.net/talks/attack-defend-apache-kafka/" />
+		<meta property="og:site_name" content="Attacking (and defending) Apache Kafka" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@" />
+
+
+		
+		<link rel="stylesheet" href="https://ftisiot.net/css/tachyons.min.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/story.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/descartes.css" />
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Quattrocento:400,700|Spectral:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+		
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script src="https://ftisiot.net/js/story.js"></script>
+
+	</head>
+	<body class="ma0 bg-white section-talks page-kind-page is-page-true ">
+		
+		<header class="cover bg-top" style="background-image: url('https://ftisiot.net/slides/attack-defend-apache-kafka/cover.png'); background-position: center;">
+			<div class="bg-black-30 bb bt">
+
+				<nav class="hide-print sans-serif  border-box pa3 ph5-l">
+					<a href="https://ftisiot.net" title="Home">
+						<img src="https://ftisiot.net/img/logo.jpg" class="w2 h2 br-100" alt="ftisiot ideas about food and life" />
+					</a>
+					<div class="fr h2 pv2 tr">
+						<a class="link f5 ml2 dim near-white" href="/who">who</a>
+						<a class="link f5 ml2 dim near-white" href="/speaking-activities">talks</a>
+						<a class="link f5 ml2 dim near-white" href="/suggestions-verona">suggestions</a>
+						<a class="link f5 ml2 dim near-white" href="/soft">soft</a>
+						<a class="link f5 ml2 dim near-white" href="/postgresqljson/main">json-pg</a>
+						<a class="link f5 ml2 dim near-white" href="/mysqljson/main">json-mysql</a>
+						<a class="link f5 ml2 dim near-white" href="https://www.youtube.com/channel/UCTJ4oA3-T3RdmM2OJ7d8cJg"><i class="fab fa-youtube-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://twitter.com/ftisiot/"><i class="fab fa-twitter-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://github.com/ftisiot/"><i class="fab fa-github-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://www.linkedin.com/in/francescotisiot/"><i class="fab fa-linkedin"></i></a>
+						<a class="link f5 ml2 dim near-white fas fa-rss-square" href="https://ftisiot.net/index.xml" title="RSS Feed"></a>
+						<a class="link f5 ml2 dim near-white fas fa-search" href="https://ftisiot.net/search/" role="search" title="Search"></a>
+					</div>
+				</nav>
+
+				<div id="hdr" class="tc-l pv4-ns pv5-l pv2 ph3 ph4-ns">
+					<h1 class="near-white mt1-ns f2 fw3 mb0 mt0 lh-title">Attacking (and defending) Apache Kafka</h1>
+					<h2 class="near-white mt3-l mb4-l fw1 f6 f3-l measure-wide-l center lh-copy mt2 mb3">
+						
+						
+							
+								Presented
+								<time datetime="2023-12-04T08:32:09&#43;01:00">December 4, 2023</time>
+								at <a class="no-underline category near-white dim" href=""></a>
+							
+						
+					</h2>
+				</div>
+
+				
+				
+				
+				
+
+			</div>
+		</header>
+		
+		<main role="main">
+		
+<article class="center bg-white br-3 pv1 ph4 nested-copy-line-height lh-copy f4 nested-links mw-100 measure-wide">
+		
+		<p><a id="slides_link" class="ba black br-3 bw1 dib no-underline ph2 pv1" href="https://ftisiot.net/slides/attack-defend-apache-kafka/attack-defend-kafka.pdf">Slides</a>
+		
+		
+		
+		
+		<p>When attacking any system, taking control of its central nervous system is the first step in infiltrating the core infrastructure and gaining control over its vital functions. Translating this to organization data, a clear target is Apache Kafka, the data hub increasingly adopted for mission-critical systems. This session explores the topic of attacking and defending Apache Kafka, shedding light on potential threats, attack vectors, and countermeasures.</p>
+<p>Initially, we’ll focus on understanding the potential attack surface of Apache Kafka. Defining attackers&rsquo; objectives and vectors, including unauthorized access, injection attacks, misconfigurations, and distributed denial-of-service (DDoS). With the fundamental threat surface and actors understood, we’ll shift our focus to defensive strategies that protect Apache Kafka deployments. We will discuss and demonstrate best practices and security measures including ACLs, encryption, and monitoring that can help reduce potential attacks.</p>
+<p>Whether you’re directly managing Apache Kafka or it’s part of your data infrastructure, this talk will give you an idea of the security threats involved and how to be ready for them.</p>
+
+	</article>
+<script type="text/javascript">
+
+$( function() {
+	if ( $( "#slides_link" ).length ) {
+		$("#slides_link").click(function(eventObject) {
+			eventObject.preventDefault();
+			var elem = $( this );
+			elem.parent().next("iframe").remove();
+			var href = elem.attr("href");
+			switch(true) {
+			case /\.pdf$/.test(href):
+				elem.parent().after($("<iframe frameborder=0 class='ba h5 w-100' src='/js/pdfjs/web/viewer.html?file=" + href + "'></iframe>"));
+				break;
+			default:
+				elem.parent().after($("<iframe frameborder=0 class='ba h5 w-100' src='" + elem.attr("href") + "'></iframe>"));
+				
+			}
+			var width = elem.parent().next("iframe").width();
+			var height = Math.round(width * 9 / 16);
+			elem.parent().next("iframe").height(height);
+		});
+	}
+	if ( $( "#video_link" ).length ) {
+		$("#video_link").click(function(eventObject) {
+			var elem = $( this );
+			elem.parent().next("iframe").remove();
+			var href = elem.attr("href");
+			switch(true) {
+			case /youtube.com/.test(href):
+				eventObject.preventDefault();
+				href = href.replace("watch?v=", "embed/");
+				elem.parent().after($("<iframe frameborder=0 class='ba h5 w-100' src='" + href + "' allow='accelerometer; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"));
+				break;
+			default:
+				
+				
+				
+			}
+			var width = elem.parent().next("iframe").width();
+			var height = Math.round(width * 9 / 16);
+			elem.parent().next("iframe").height(height);
+		});
+	}
+});
+
+</script>
+
+		</main>
+		
+				<div class="hide-print sans-serif f6 f5-l mt5 ph3 pb6 center nested-copy-line-height lh-copy nested-links mw-100 measure-wide">
+		<div class="about-the-author">
+		
+			
+			
+				
+					<hr>
+<p><img src="/images/ftisiot.jpg" alt="Francesco Tisiot"></p>
+<p><a href="https://www.linkedin.com/in/francescotisiot/"><b class="fab fa-linkedin"></b></a> <a href="https://twitter.com/FTisiot"><b class="fab fa-twitter"></b></a><a rel="me" href="https://data-folks.masto.host/@ftisiot">Mastodon</a> Francesco comes from Verona, Italy and works as a Staff Developer Advocate at Aiven. With his many years of experience as a data analyst, he has stories to tell and advice for data-wranglers everywhere. Francesco loves sharing knowledge with others as a speaker and writer, and is on a mission to defend the world from bad Italian food!</p>
+
+				
+			
+		
+		</div>
+		
+	</div>
+
+		
+		
+		
+		<footer class="hide-print sans-serif f6 fw1 bg-black near-white bottom-0 w-100 pa3" role="contentinfo">
+			<p class="w-50 fr tr">
+			<a class="no-underline near-white" href="https://github.com/xaprb/story"><img class="dib" title="Made with Hugo and Story" alt="Story logo" src="https://ftisiot.net/img/story-logo-white.svg" style="width: 1.5rem; height: 1.5rem" /></a>
+			</p>
+			<p class="w-50 near-white">
+				&copy; 2023 
+			</p>
+		</footer>
+		
+	
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-7Z74BTZ0TM', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+	
+	</body>
+</html>
