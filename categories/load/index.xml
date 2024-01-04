@@ -6,15 +6,14 @@
     <description>Recent content in load on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Jul 2023 14:24:56 +0200</lastBuildDate><atom:link href="https://ftisiot.net/categories/load/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jul 2023 14:24:56 +0200</lastBuildDate>
+    <atom:link href="https://ftisiot.net/categories/load/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to load JSON data in MySQL?</title>
       <link>https://ftisiot.net/mysqljson/how-to-load-json-mysql/</link>
       <pubDate>Fri, 21 Jul 2023 14:24:56 +0200</pubDate>
-      
       <guid>https://ftisiot.net/mysqljson/how-to-load-json-mysql/</guid>
       <description>&lt;p&gt;To load JSON data into a MySQL column you need to include it as string.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

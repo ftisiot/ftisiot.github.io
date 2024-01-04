@@ -6,19 +6,14 @@
     <description>Recent content in merge on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Jul 2023 15:31:08 +0200</lastBuildDate><atom:link href="https://ftisiot.net/categories/merge/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jul 2023 15:31:08 +0200</lastBuildDate>
+    <atom:link href="https://ftisiot.net/categories/merge/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to merge JSON documents in MySQL</title>
       <link>https://ftisiot.net/mysqljson/how-to-merge-JSON-documents-mysql/</link>
       <pubDate>Fri, 21 Jul 2023 15:31:08 +0200</pubDate>
-      
       <guid>https://ftisiot.net/mysqljson/how-to-merge-JSON-documents-mysql/</guid>
-      <description>&lt;p&gt;You can merge two JSON documents in MySQL with:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;the &lt;code&gt;JSON_MERGE_PRESERVE&lt;/code&gt; function to concatenate the document values&lt;/li&gt;
-&lt;li&gt;the &lt;code&gt;JSON_MERGE_PATCH&lt;/code&gt; function to keep the latest value for each key&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>&lt;p&gt;You can merge two JSON documents in MySQL with:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;the &lt;code&gt;JSON_MERGE_PRESERVE&lt;/code&gt; function to concatenate the document values&lt;/li&gt;&#xA;&lt;li&gt;the &lt;code&gt;JSON_MERGE_PATCH&lt;/code&gt; function to keep the latest value for each key&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>

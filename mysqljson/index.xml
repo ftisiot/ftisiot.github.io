@@ -6,119 +6,84 @@
     <description>Recent content in How to JSON in MySQL on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Jan 2023 08:23:06 +0100</lastBuildDate><atom:link href="https://ftisiot.net/mysqljson/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Jan 2023 08:23:06 +0100</lastBuildDate>
+    <atom:link href="https://ftisiot.net/mysqljson/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to tabulate a JSON document in MySQL</title>
       <link>https://ftisiot.net/mysqljson/how-to-tabulate-JSON-document-mysql/</link>
       <pubDate>Fri, 21 Jul 2023 17:05:26 +0200</pubDate>
-      
       <guid>https://ftisiot.net/mysqljson/how-to-tabulate-JSON-document-mysql/</guid>
       <description>&lt;p&gt;You can tabulate a JSON document (retrieve it as a row) in MySQL with the &lt;code&gt;JSON_TABLE&lt;/code&gt; function.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to remove a field in a JSON document in MySQL</title>
       <link>https://ftisiot.net/mysqljson/how-to-remove-field-JSON-document-mysql/</link>
       <pubDate>Fri, 21 Jul 2023 17:01:19 +0200</pubDate>
-      
       <guid>https://ftisiot.net/mysqljson/how-to-remove-field-JSON-document-mysql/</guid>
       <description>&lt;p&gt;You can remove a field from JSON document in MySQL with the &lt;code&gt;JSON_REMOVE&lt;/code&gt; function.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to insert a field in a JSON document in MySQL</title>
       <link>https://ftisiot.net/mysqljson/how-to-insert-field-JSON-document-mysql/</link>
       <pubDate>Fri, 21 Jul 2023 16:53:52 +0200</pubDate>
-      
       <guid>https://ftisiot.net/mysqljson/how-to-insert-field-JSON-document-mysql/</guid>
       <description>&lt;p&gt;You can insert a field in a JSON document in MySQL with the &lt;code&gt;JSON_INSERT&lt;/code&gt; function.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to edit a JSON document in MySQL</title>
       <link>https://ftisiot.net/mysqljson/how-to-edit-JSON-document-mysql/</link>
       <pubDate>Fri, 21 Jul 2023 16:35:20 +0200</pubDate>
-      
       <guid>https://ftisiot.net/mysqljson/how-to-edit-JSON-document-mysql/</guid>
-      <description>&lt;p&gt;You can edit a JSON document in MySQL with:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The &lt;code&gt;JSON_SET&lt;/code&gt; function that will replace values for JSON paths that exists and add values for the ones that don&amp;rsquo;t exist.&lt;/li&gt;
-&lt;li&gt;The &lt;code&gt;JSON_REPLACE&lt;/code&gt; function that will replace values for JSON paths that exists and ignore the ones that don&amp;rsquo;t exist.&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>&lt;p&gt;You can edit a JSON document in MySQL with:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The &lt;code&gt;JSON_SET&lt;/code&gt; function that will replace values for JSON paths that exists and add values for the ones that don&amp;rsquo;t exist.&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;JSON_REPLACE&lt;/code&gt; function that will replace values for JSON paths that exists and ignore the ones that don&amp;rsquo;t exist.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>How to merge JSON documents in MySQL</title>
       <link>https://ftisiot.net/mysqljson/how-to-merge-JSON-documents-mysql/</link>
       <pubDate>Fri, 21 Jul 2023 15:31:08 +0200</pubDate>
-      
       <guid>https://ftisiot.net/mysqljson/how-to-merge-JSON-documents-mysql/</guid>
-      <description>&lt;p&gt;You can merge two JSON documents in MySQL with:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;the &lt;code&gt;JSON_MERGE_PRESERVE&lt;/code&gt; function to concatenate the document values&lt;/li&gt;
-&lt;li&gt;the &lt;code&gt;JSON_MERGE_PATCH&lt;/code&gt; function to keep the latest value for each key&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>&lt;p&gt;You can merge two JSON documents in MySQL with:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;the &lt;code&gt;JSON_MERGE_PRESERVE&lt;/code&gt; function to concatenate the document values&lt;/li&gt;&#xA;&lt;li&gt;the &lt;code&gt;JSON_MERGE_PATCH&lt;/code&gt; function to keep the latest value for each key&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>How to create a JSON document from fields in MySQL</title>
       <link>https://ftisiot.net/mysqljson/how-to-create-JSON-document-from-fields-mysql/</link>
       <pubDate>Fri, 21 Jul 2023 15:21:29 +0200</pubDate>
-      
       <guid>https://ftisiot.net/mysqljson/how-to-create-JSON-document-from-fields-mysql/</guid>
       <description>&lt;p&gt;You can create a JSON document from fields in Mysql® with the &lt;code&gt;JSON_OBJECT&lt;/code&gt; function&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to get the JSON field types in MySQL</title>
       <link>https://ftisiot.net/mysqljson/how-to-get-json-field-types-mysql/</link>
       <pubDate>Fri, 21 Jul 2023 14:59:42 +0200</pubDate>
-      
       <guid>https://ftisiot.net/mysqljson/how-to-get-json-field-types-mysql/</guid>
       <description>&lt;p&gt;To get the type of a JSON item in MySQL you need to use the &lt;code&gt;JSON_TYPE&lt;/code&gt; function.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to extract an item from an array in a JSON object in MySQL</title>
       <link>https://ftisiot.net/mysqljson/how-to-extract-field-from-array-json-mysql/</link>
       <pubDate>Fri, 21 Jul 2023 14:52:34 +0200</pubDate>
-      
       <guid>https://ftisiot.net/mysqljson/how-to-extract-field-from-array-json-mysql/</guid>
       <description>&lt;p&gt;To extract an item from an array in MySQL you need to use the &lt;code&gt;-&amp;gt;&lt;/code&gt; operator and the &lt;code&gt;[item_number]&lt;/code&gt;  &lt;a href=&#34;https://dev.mysql.com/doc/refman/8.0/en/json.html#json-path-syntax&#34;&gt;JSON Path Syntax&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to extract a field from a JSON object in MySQL</title>
       <link>https://ftisiot.net/mysqljson/how-to-extract-field-from-json-mysql/</link>
       <pubDate>Fri, 21 Jul 2023 14:36:10 +0200</pubDate>
-      
       <guid>https://ftisiot.net/mysqljson/how-to-extract-field-from-json-mysql/</guid>
-      <description>&lt;p&gt;Mysql® offers three main ways to extract fields from a JSON document:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;the &lt;code&gt;-&amp;gt;&lt;/code&gt; operator to extract the field as JSON&lt;/li&gt;
-&lt;li&gt;the &lt;code&gt;-&amp;gt;&amp;gt;&lt;/code&gt; operator to extract the field as text&lt;/li&gt;
-&lt;li&gt;the &lt;code&gt;JSON_EXTRACT&lt;/code&gt; function&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Both operators use the &lt;a href=&#34;https://dev.mysql.com/doc/refman/8.0/en/json.html#json-path-syntax&#34;&gt;JSON Path Syntax&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Mysql® offers three main ways to extract fields from a JSON document:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;the &lt;code&gt;-&amp;gt;&lt;/code&gt; operator to extract the field as JSON&lt;/li&gt;&#xA;&lt;li&gt;the &lt;code&gt;-&amp;gt;&amp;gt;&lt;/code&gt; operator to extract the field as text&lt;/li&gt;&#xA;&lt;li&gt;the &lt;code&gt;JSON_EXTRACT&lt;/code&gt; function&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Both operators use the &lt;a href=&#34;https://dev.mysql.com/doc/refman/8.0/en/json.html#json-path-syntax&#34;&gt;JSON Path Syntax&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to load JSON data in MySQL?</title>
       <link>https://ftisiot.net/mysqljson/how-to-load-json-mysql/</link>
       <pubDate>Fri, 21 Jul 2023 14:24:56 +0200</pubDate>
-      
       <guid>https://ftisiot.net/mysqljson/how-to-load-json-mysql/</guid>
       <description>&lt;p&gt;To load JSON data into a MySQL column you need to include it as string.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to JSON in MySQL</title>
       <link>https://ftisiot.net/mysqljson/main/</link>
       <pubDate>Fri, 21 Jul 2023 14:13:18 +0200</pubDate>
-      
       <guid>https://ftisiot.net/mysqljson/main/</guid>
       <description>&lt;p&gt;This series covers how to solve common problems on JSON datasets with MySQL and it includes (links will appear once the target pages are up):&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

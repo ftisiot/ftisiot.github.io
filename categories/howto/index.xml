@@ -6,15 +6,14 @@
     <description>Recent content in howto on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Jul 2023 14:13:18 +0200</lastBuildDate><atom:link href="https://ftisiot.net/categories/howto/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jul 2023 14:13:18 +0200</lastBuildDate>
+    <atom:link href="https://ftisiot.net/categories/howto/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to JSON in MySQL</title>
       <link>https://ftisiot.net/mysqljson/main/</link>
       <pubDate>Fri, 21 Jul 2023 14:13:18 +0200</pubDate>
-      
       <guid>https://ftisiot.net/mysqljson/main/</guid>
       <description>&lt;p&gt;This series covers how to solve common problems on JSON datasets with MySQL and it includes (links will appear once the target pages are up):&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

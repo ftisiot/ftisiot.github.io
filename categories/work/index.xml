@@ -6,47 +6,35 @@
     <description>Recent content in work on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Jan 2021 10:30:00 +0000</lastBuildDate><atom:link href="https://ftisiot.net/categories/work/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 29 Jan 2021 10:30:00 +0000</lastBuildDate>
+    <atom:link href="https://ftisiot.net/categories/work/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Month in Aiven.io</title>
       <link>https://ftisiot.net/2021/01/27/a_month_in_aiven/</link>
       <pubDate>Fri, 29 Jan 2021 10:30:00 +0000</pubDate>
-      
       <guid>https://ftisiot.net/2021/01/27/a_month_in_aiven/</guid>
-      <description>&lt;p&gt;A month has already gone since my start at &lt;a href=&#34;https://aiven.io/&#34;&gt;Aiven.io&lt;/a&gt; and it&amp;rsquo;s time for a first, and brief, look back at my experience so far together with few suggestions (even if nobody asks) for anyone that will follow my steps.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: The journey has been great, met several amazing people and learnt lots using cool tech! A bit shocked about food choices&amp;hellip; but that&amp;rsquo;s life 🤌 !&lt;/p&gt;</description>
+      <description>&lt;p&gt;A month has already gone since my start at &lt;a href=&#34;https://aiven.io/&#34;&gt;Aiven.io&lt;/a&gt; and it&amp;rsquo;s time for a first, and brief, look back at my experience so far together with few suggestions (even if nobody asks) for anyone that will follow my steps.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: The journey has been great, met several amazing people and learnt lots using cool tech! A bit shocked about food choices&amp;hellip; but that&amp;rsquo;s life 🤌 !&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>First Steps within Aiven... the CLI!</title>
       <link>https://ftisiot.net/2021/01/15/aiven_cli/</link>
       <pubDate>Wed, 06 Jan 2021 15:30:00 +0000</pubDate>
-      
       <guid>https://ftisiot.net/2021/01/15/aiven_cli/</guid>
-      <description>&lt;p&gt;Hi, I&amp;rsquo;m Francesco and recently joined Aiven.io as Developer Advocate!&lt;/p&gt;
-&lt;p&gt;In this first blog post, we&amp;rsquo;ll have a look at how to install and login to Aiven&amp;rsquo;s resources using the command line client.&lt;/p&gt;
-&lt;p&gt;If you&amp;rsquo;re new to Aiven or if you already know the platform but want to automate some tasks, the client allows you to perform the same tasks available on &lt;a href=&#34;https://console.aiven.io/&#34;&gt;Aiven&amp;rsquo;s web console&lt;/a&gt; but from your preferred terminal.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hi, I&amp;rsquo;m Francesco and recently joined Aiven.io as Developer Advocate!&lt;/p&gt;&#xA;&lt;p&gt;In this first blog post, we&amp;rsquo;ll have a look at how to install and login to Aiven&amp;rsquo;s resources using the command line client.&lt;/p&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re new to Aiven or if you already know the platform but want to automate some tasks, the client allows you to perform the same tasks available on &lt;a href=&#34;https://console.aiven.io/&#34;&gt;Aiven&amp;rsquo;s web console&lt;/a&gt; but from your preferred terminal.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Looking Forward</title>
       <link>https://ftisiot.net/2021/01/04/looking_forward/</link>
       <pubDate>Mon, 04 Jan 2021 15:30:00 +0000</pubDate>
-      
       <guid>https://ftisiot.net/2021/01/04/looking_forward/</guid>
-      <description>&lt;p&gt;Now&amp;hellip; What?&lt;/p&gt;
-&lt;p&gt;My previous &lt;a href=&#34;https://ftisiot.net//2020/11/26/looking_back/&#34;&gt;post&lt;/a&gt; was looking back in my 8 years of Rittman Mead experience&amp;hellip; But now it&amp;rsquo;s 2021&amp;hellip; so&amp;hellip; what&amp;rsquo;s next?&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m joining &lt;a href=&#34;https://aiven.io&#34;&gt;Aiven&lt;/a&gt; as Developer Advocate!&lt;/p&gt;</description>
+      <description>&lt;p&gt;Now&amp;hellip; What?&lt;/p&gt;&#xA;&lt;p&gt;My previous &lt;a href=&#34;https://ftisiot.net//2020/11/26/looking_back/&#34;&gt;post&lt;/a&gt; was looking back in my 8 years of Rittman Mead experience&amp;hellip; But now it&amp;rsquo;s 2021&amp;hellip; so&amp;hellip; what&amp;rsquo;s next?&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m joining &lt;a href=&#34;https://aiven.io&#34;&gt;Aiven&lt;/a&gt; as Developer Advocate!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Looking Back</title>
       <link>https://ftisiot.net/2020/11/26/looking_back/</link>
       <pubDate>Wed, 23 Dec 2020 10:00:00 +0000</pubDate>
-      
       <guid>https://ftisiot.net/2020/11/26/looking_back/</guid>
       <description>It was February 2012 when I was meant to take a flight from a foggy Treviso Airport direction London Stansted. The fog created several problems, all passengers were taken by bus to Venice and we had to wait 3 hours before boarding on the plane. The flight 🛬 landed with an overall 4h of delay, not great if the scheduled arrival time was 8PM! I then caught a bus to Liverpool street and finally got lost while trying to reach my hotel.</description>
     </item>
-    
   </channel>
 </rss>

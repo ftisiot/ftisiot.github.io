@@ -6,28 +6,21 @@
     <description>Recent content in edit on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Jul 2023 16:35:20 +0200</lastBuildDate><atom:link href="https://ftisiot.net/categories/edit/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jul 2023 16:35:20 +0200</lastBuildDate>
+    <atom:link href="https://ftisiot.net/categories/edit/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to edit a JSON document in MySQL</title>
       <link>https://ftisiot.net/mysqljson/how-to-edit-JSON-document-mysql/</link>
       <pubDate>Fri, 21 Jul 2023 16:35:20 +0200</pubDate>
-      
       <guid>https://ftisiot.net/mysqljson/how-to-edit-JSON-document-mysql/</guid>
-      <description>&lt;p&gt;You can edit a JSON document in MySQL with:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The &lt;code&gt;JSON_SET&lt;/code&gt; function that will replace values for JSON paths that exists and add values for the ones that don&amp;rsquo;t exist.&lt;/li&gt;
-&lt;li&gt;The &lt;code&gt;JSON_REPLACE&lt;/code&gt; function that will replace values for JSON paths that exists and ignore the ones that don&amp;rsquo;t exist.&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>&lt;p&gt;You can edit a JSON document in MySQL with:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The &lt;code&gt;JSON_SET&lt;/code&gt; function that will replace values for JSON paths that exists and add values for the ones that don&amp;rsquo;t exist.&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;JSON_REPLACE&lt;/code&gt; function that will replace values for JSON paths that exists and ignore the ones that don&amp;rsquo;t exist.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>How to edit a JSON object in PostgreSQL®?</title>
       <link>https://ftisiot.net/postgresqljson/how-to-edit-json-postgresql/</link>
       <pubDate>Tue, 10 Jan 2023 08:53:59 +0100</pubDate>
-      
       <guid>https://ftisiot.net/postgresqljson/how-to-edit-json-postgresql/</guid>
       <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, you can use the &lt;code&gt;jsonb_set&lt;/code&gt; function to remove the null values for JSONB columns.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

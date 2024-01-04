@@ -6,15 +6,14 @@
     <description>Recent content in Community on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Nov 2022 10:38:44 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/community/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Nov 2022 10:38:44 +0100</lastBuildDate>
+    <atom:link href="https://ftisiot.net/categories/community/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PostgreSQL Community and you</title>
       <link>https://ftisiot.net/posts/postgresql-community/</link>
       <pubDate>Wed, 30 Nov 2022 10:38:44 +0100</pubDate>
-      
       <guid>https://ftisiot.net/posts/postgresql-community/</guid>
       <description>&lt;p&gt;I started following the &lt;a href=&#34;https://www.softwareandbooz.com/pgsql-phriday-001-invite/&#34;&gt;#PGSQLPhriday&lt;/a&gt; initiative a couple months back but never had the time to properly sit down and write due to conference traveling. Therefore I was super happy to be at home this week and find out that &lt;a href=&#34;https://sqlasylum.wordpress.com/2022/11/29/pgsql-phriday-003-what-is-the-community-to-you/&#34;&gt;PGSQL Phriday #003 theme&lt;/a&gt; is about the PostgreSQL community!&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

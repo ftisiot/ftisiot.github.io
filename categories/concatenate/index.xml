@@ -6,15 +6,14 @@
     <description>Recent content in concatenate on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Jan 2023 08:47:04 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/concatenate/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Jan 2023 08:47:04 +0100</lastBuildDate>
+    <atom:link href="https://ftisiot.net/categories/concatenate/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to concatenate two JSON documents in PostgreSQL®?</title>
       <link>https://ftisiot.net/postgresqljson/how-to-concatenate-two-json-docs-postgresql/</link>
       <pubDate>Tue, 10 Jan 2023 08:47:04 +0100</pubDate>
-      
       <guid>https://ftisiot.net/postgresqljson/how-to-concatenate-two-json-docs-postgresql/</guid>
       <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, you can use the opearator &lt;code&gt;||&lt;/code&gt; to concatenate two JSON objects.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

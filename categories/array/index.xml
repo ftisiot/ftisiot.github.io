@@ -6,69 +6,56 @@
     <description>Recent content in array on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Jul 2023 14:52:34 +0200</lastBuildDate><atom:link href="https://ftisiot.net/categories/array/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jul 2023 14:52:34 +0200</lastBuildDate>
+    <atom:link href="https://ftisiot.net/categories/array/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to extract an item from an array in a JSON object in MySQL</title>
       <link>https://ftisiot.net/mysqljson/how-to-extract-field-from-array-json-mysql/</link>
       <pubDate>Fri, 21 Jul 2023 14:52:34 +0200</pubDate>
-      
       <guid>https://ftisiot.net/mysqljson/how-to-extract-field-from-array-json-mysql/</guid>
       <description>&lt;p&gt;To extract an item from an array in MySQL you need to use the &lt;code&gt;-&amp;gt;&lt;/code&gt; operator and the &lt;code&gt;[item_number]&lt;/code&gt;  &lt;a href=&#34;https://dev.mysql.com/doc/refman/8.0/en/json.html#json-path-syntax&#34;&gt;JSON Path Syntax&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to remove an item from a JSON array in PostgreSQL®?</title>
       <link>https://ftisiot.net/postgresqljson/how-to-remove-items-from-json-array-postgresql/</link>
       <pubDate>Tue, 10 Jan 2023 08:53:59 +0100</pubDate>
-      
       <guid>https://ftisiot.net/postgresqljson/how-to-remove-items-from-json-array-postgresql/</guid>
       <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, you can use the &lt;code&gt;-&lt;/code&gt; operator to remove an item from an array.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to create a JSON object from array of key/value pairs in PostgreSQL®?</title>
       <link>https://ftisiot.net/postgresqljson/howto-create-json-from-array-key-value-pairs-postgresql/</link>
       <pubDate>Mon, 09 Jan 2023 17:32:52 +0100</pubDate>
-      
       <guid>https://ftisiot.net/postgresqljson/howto-create-json-from-array-key-value-pairs-postgresql/</guid>
       <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, you can use the function &lt;code&gt;json_object&lt;/code&gt; (&lt;code&gt;jsonb_object&lt;/code&gt; for &lt;code&gt;JSONB&lt;/code&gt;) to create a JSON object from an array of key/value pairs.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to create a JSON object from keys and values arrays in PostgreSQL®?</title>
       <link>https://ftisiot.net/postgresqljson/howto-create-json-from-keys-and-values-arrays-postgresql/</link>
       <pubDate>Mon, 09 Jan 2023 17:25:47 +0100</pubDate>
-      
       <guid>https://ftisiot.net/postgresqljson/howto-create-json-from-keys-and-values-arrays-postgresql/</guid>
       <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, you can use the function &lt;code&gt;json_object&lt;/code&gt; (&lt;code&gt;jsonb_object&lt;/code&gt; for &lt;code&gt;JSONB&lt;/code&gt;) to create a JSON object from two arrays of keys and values.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to convert an array to a JSON array in PostgreSQL</title>
       <link>https://ftisiot.net/postgresqljson/howto-convert-array-to-json-array-postgresql/</link>
       <pubDate>Mon, 09 Jan 2023 17:19:50 +0100</pubDate>
-      
       <guid>https://ftisiot.net/postgresqljson/howto-convert-array-to-json-array-postgresql/</guid>
       <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, you can use the function &lt;code&gt;array_to_json&lt;/code&gt; (&lt;code&gt;array_to_jsonb&lt;/code&gt; for &lt;code&gt;JSONB&lt;/code&gt;) to create a JSON array from an existing array.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to build a JSON array from a list of elements in PostgreSQL®</title>
       <link>https://ftisiot.net/postgresqljson/how-to-build-json-array-from-elements-postgresql/</link>
       <pubDate>Mon, 09 Jan 2023 17:14:22 +0100</pubDate>
-      
       <guid>https://ftisiot.net/postgresqljson/how-to-build-json-array-from-elements-postgresql/</guid>
       <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, you can use the function &lt;code&gt;json_build_array&lt;/code&gt; (&lt;code&gt;jsonb_build_array&lt;/code&gt; for &lt;code&gt;JSONB&lt;/code&gt;) to create a JSON array from a list of elements.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to parse JSON arrays in PostgreSQL?</title>
       <link>https://ftisiot.net/postgresqljson/how-to-parse-json-arrays-in-postgresql/</link>
       <pubDate>Mon, 09 Jan 2023 11:33:09 +0100</pubDate>
-      
       <guid>https://ftisiot.net/postgresqljson/how-to-parse-json-arrays-in-postgresql/</guid>
       <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, and provides several different ways to parse arrays from a JSON document:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

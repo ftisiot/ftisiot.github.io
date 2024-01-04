@@ -6,33 +6,28 @@
     <description>Recent content in query on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Mar 2023 07:59:12 +0100</lastBuildDate><atom:link href="https://ftisiot.net/categories/query/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Mar 2023 07:59:12 +0100</lastBuildDate>
+    <atom:link href="https://ftisiot.net/categories/query/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to load JSON data in PostgreSQL®?</title>
       <link>https://ftisiot.net/postgresqljson/how-to-load-json-postgresql/</link>
       <pubDate>Wed, 01 Mar 2023 07:59:12 +0100</pubDate>
-      
       <guid>https://ftisiot.net/postgresqljson/how-to-load-json-postgresql/</guid>
       <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;. This doc showcases how to load JSON data into a  column.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to index and query a JSON object in PostgreSQL®?</title>
       <link>https://ftisiot.net/postgresqljson/how-to-index-and-query-json-postgresql/</link>
       <pubDate>Fri, 06 Jan 2023 16:59:12 +0100</pubDate>
-      
       <guid>https://ftisiot.net/postgresqljson/how-to-index-and-query-json-postgresql/</guid>
       <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;. This doc showcases how to index a &lt;code&gt;JSONB&lt;/code&gt; column with a GIN index.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to query remote InfluxDB via cURL</title>
       <link>https://ftisiot.net/posts/query_influxb_curl/</link>
       <pubDate>Mon, 07 Nov 2022 10:15:10 +0100</pubDate>
-      
       <guid>https://ftisiot.net/posts/query_influxb_curl/</guid>
       <description>&lt;p&gt;Sometimes you want to query a remote InfluxDB server to understand the data in it. This can be done via cURL as explained in the &lt;a href=&#34;https://docs.influxdata.com/influxdb/v1.8/guides/query_data/&#34;&gt;InfluxDB docs&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

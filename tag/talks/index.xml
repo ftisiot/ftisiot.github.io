@@ -6,16 +6,14 @@
     <description>Recent content in talks on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Sep 2016 20:01:20 +0000</lastBuildDate><atom:link href="https://ftisiot.net/tag/talks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Sep 2016 20:01:20 +0000</lastBuildDate>
+    <atom:link href="https://ftisiot.net/tag/talks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Speaking Activities</title>
       <link>https://ftisiot.net/speaking-activities/</link>
       <pubDate>Wed, 28 Sep 2016 20:01:20 +0000</pubDate>
-      
       <guid>https://ftisiot.net/speaking-activities/</guid>
-      <description>Check out Past and Future Speaking Activities!
-Planned Speaking Activities Event Date Talk Pg Day Nordics 21st March Put PostgreSQL at the center of your metadata universe Pg Day Paris 23rd March Fix your strings Previous Speaking Activities 2022 Event Date Talk PG Conf EU 24th-29th October Put PostgreSQL at the center of your (meta)data universe! Quix Meetup 24th October 🎥 Breathe In, Breathe Out: Get Kafka Connect Configs Right! Current (ex Kafka Summit) 4th-5th October 🎥 Breathe In, Breathe Out: Get Kafka Connect Configs Right!</description>
+      <description>Check out Past and Future Speaking Activities!&#xA;Planned Speaking Activities Event Date Talk Pg Day Nordics 21st March Put PostgreSQL at the center of your metadata universe Pg Day Paris 23rd March Fix your strings Previous Speaking Activities 2022 Event Date Talk PG Conf EU 24th-29th October Put PostgreSQL at the center of your (meta)data universe! Quix Meetup 24th October 🎥 Breathe In, Breathe Out: Get Kafka Connect Configs Right! Current (ex Kafka Summit) 4th-5th October 🎥 Breathe In, Breathe Out: Get Kafka Connect Configs Right!</description>
     </item>
-    
   </channel>
 </rss>

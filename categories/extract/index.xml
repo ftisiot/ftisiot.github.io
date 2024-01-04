@@ -6,48 +6,35 @@
     <description>Recent content in extract on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Jul 2023 14:59:42 +0200</lastBuildDate><atom:link href="https://ftisiot.net/categories/extract/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jul 2023 14:59:42 +0200</lastBuildDate>
+    <atom:link href="https://ftisiot.net/categories/extract/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to get the JSON field types in MySQL</title>
       <link>https://ftisiot.net/mysqljson/how-to-get-json-field-types-mysql/</link>
       <pubDate>Fri, 21 Jul 2023 14:59:42 +0200</pubDate>
-      
       <guid>https://ftisiot.net/mysqljson/how-to-get-json-field-types-mysql/</guid>
       <description>&lt;p&gt;To get the type of a JSON item in MySQL you need to use the &lt;code&gt;JSON_TYPE&lt;/code&gt; function.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to extract an item from an array in a JSON object in MySQL</title>
       <link>https://ftisiot.net/mysqljson/how-to-extract-field-from-array-json-mysql/</link>
       <pubDate>Fri, 21 Jul 2023 14:52:34 +0200</pubDate>
-      
       <guid>https://ftisiot.net/mysqljson/how-to-extract-field-from-array-json-mysql/</guid>
       <description>&lt;p&gt;To extract an item from an array in MySQL you need to use the &lt;code&gt;-&amp;gt;&lt;/code&gt; operator and the &lt;code&gt;[item_number]&lt;/code&gt;  &lt;a href=&#34;https://dev.mysql.com/doc/refman/8.0/en/json.html#json-path-syntax&#34;&gt;JSON Path Syntax&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to extract a field from a JSON object in MySQL</title>
       <link>https://ftisiot.net/mysqljson/how-to-extract-field-from-json-mysql/</link>
       <pubDate>Fri, 21 Jul 2023 14:36:10 +0200</pubDate>
-      
       <guid>https://ftisiot.net/mysqljson/how-to-extract-field-from-json-mysql/</guid>
-      <description>&lt;p&gt;Mysql® offers three main ways to extract fields from a JSON document:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;the &lt;code&gt;-&amp;gt;&lt;/code&gt; operator to extract the field as JSON&lt;/li&gt;
-&lt;li&gt;the &lt;code&gt;-&amp;gt;&amp;gt;&lt;/code&gt; operator to extract the field as text&lt;/li&gt;
-&lt;li&gt;the &lt;code&gt;JSON_EXTRACT&lt;/code&gt; function&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Both operators use the &lt;a href=&#34;https://dev.mysql.com/doc/refman/8.0/en/json.html#json-path-syntax&#34;&gt;JSON Path Syntax&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Mysql® offers three main ways to extract fields from a JSON document:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;the &lt;code&gt;-&amp;gt;&lt;/code&gt; operator to extract the field as JSON&lt;/li&gt;&#xA;&lt;li&gt;the &lt;code&gt;-&amp;gt;&amp;gt;&lt;/code&gt; operator to extract the field as text&lt;/li&gt;&#xA;&lt;li&gt;the &lt;code&gt;JSON_EXTRACT&lt;/code&gt; function&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Both operators use the &lt;a href=&#34;https://dev.mysql.com/doc/refman/8.0/en/json.html#json-path-syntax&#34;&gt;JSON Path Syntax&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to extract a field from a JSON object in PostgreSQL®?</title>
       <link>https://ftisiot.net/postgresqljson/how-to-extract-field-from-json-postgresql/</link>
       <pubDate>Fri, 06 Jan 2023 16:59:12 +0100</pubDate>
-      
       <guid>https://ftisiot.net/postgresqljson/how-to-extract-field-from-json-postgresql/</guid>
       <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, and provides several different ways to extract fields from a JSON document:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

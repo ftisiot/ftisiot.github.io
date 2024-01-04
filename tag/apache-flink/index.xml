@@ -6,16 +6,14 @@
     <description>Recent content in apache-flink on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Mar 2022 16:12:47 +0100</lastBuildDate><atom:link href="https://ftisiot.net/tag/apache-flink/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Mar 2022 16:12:47 +0100</lastBuildDate>
+    <atom:link href="https://ftisiot.net/tag/apache-flink/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Apache Kafka and Flink: Stateful Streaming Data Pipelines made easy with SQL</title>
       <link>https://ftisiot.net/talks/kafka-flink-sql/</link>
       <pubDate>Tue, 15 Mar 2022 16:12:47 +0100</pubDate>
-      
       <guid>https://ftisiot.net/talks/kafka-flink-sql/</guid>
-      <description>
-Useful Links Apache Kafka docs Apache Flink docs Apache Fink SQL client on Docker Build a Streaming data pipeline with Apache Kafka and Flink blog JDBC source connector example Debezium source connector example Aiven for Apache Kafka </description>
+      <description>&#xA;Useful Links Apache Kafka docs Apache Flink docs Apache Fink SQL client on Docker Build a Streaming data pipeline with Apache Kafka and Flink blog JDBC source connector example Debezium source connector example Aiven for Apache Kafka </description>
     </item>
-    
   </channel>
 </rss>
