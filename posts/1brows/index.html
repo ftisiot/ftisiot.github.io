@@ -261,7 +261,7 @@ Accra	11.7
 </span></span></span><span style="display:flex;"><span><span style="color:#ba2121">FROM AGG&#34;&#34;&#34;</span>  --format_csv_delimiter<span style="color:#666">=</span><span style="color:#ba2121">&#34;;&#34;</span>
 </span></span></code></pre></div><p>The result is <code>44.465s</code>!</p>
 <h2 id="conclusion">Conclusion</h2>
-<p>Both PostgreSQL and ClickHouse were able to complete the challenge. PostgreSQL had the limitiation of forcing the upload of data into a table that took most of the time. ClickHouse, on the other side, was able to query directly the CSV and got much faster results, as expected from a database designed for analytics.</p>
+<p>Both PostgreSQL and ClickHouse were able to complete the challenge. PostgreSQL initial solution had the limitiation of forcing the upload of data into a table that took most of the time, when using the file FDW the performances still weren&rsquo;t great. ClickHouse, on the other side, was able to query directly the CSV and got much faster results, as expected from a database designed for analytics.</p>
 <blockquote>
 <p>Alert: the above is <strong>NOT</strong> a benchmark! The test is done with default installations of both databases and NO optimization. The blog only shows the technical viability of the solution.</p>
 </blockquote>
