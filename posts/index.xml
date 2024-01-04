@@ -13,7 +13,7 @@
       <link>https://ftisiot.net/posts/1brows/</link>
       <pubDate>Wed, 03 Jan 2024 16:43:29 +0100</pubDate>
       <guid>https://ftisiot.net/posts/1brows/</guid>
-      <description>&lt;p&gt;Last week the good old Gunnar Morling launched an interesting &lt;a href=&#34;https://www.morling.dev/blog/one-billion-row-challenge/&#34;&gt;challenge&lt;/a&gt; about ordering 1 billion rows in Java. Like my ex colleague and friend Robin Moffat, I&amp;rsquo;m not at all a Java expert, and while &lt;a href=&#34;https://rmoff.net/2024/01/03/1%EF%B8%8F%E2%83%A3%EF%B8%8F-1brc-in-sql-with-duckdb/&#34;&gt;Robin used DuckDB&lt;/a&gt; to solve the challenge, I did the same with PostgreSQL and ClickHouse.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Last week the good old &lt;a href=&#34;https://www.linkedin.com/in/gunnar-morling-2b44b7229/&#34;&gt;Gunnar Morling&lt;/a&gt; launched an interesting &lt;a href=&#34;https://www.morling.dev/blog/one-billion-row-challenge/&#34;&gt;challenge&lt;/a&gt; about ordering 1 billion rows in Java. Like my ex colleague and friend &lt;a href=&#34;https://www.linkedin.com/in/robinmoffatt/&#34;&gt;Robin Moffat&lt;/a&gt;, I&amp;rsquo;m not at all a Java expert, and while &lt;a href=&#34;https://rmoff.net/2024/01/03/1%EF%B8%8F%E2%83%A3%EF%B8%8F-1brc-in-sql-with-duckdb/&#34;&gt;Robin used DuckDB&lt;/a&gt; to solve the challenge, I did the same with PostgreSQL and ClickHouse.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kafka Connect sink to OpenSearch/ElasticSearch: how to sink unix timestamps</title>
