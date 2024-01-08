@@ -6,8 +6,15 @@
     <description>Recent content in Talks on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Dec 2023 08:39:17 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jan 2024 14:06:54 +0100</lastBuildDate>
     <atom:link href="https://ftisiot.net/talks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Finding PostgreSQL’s fit in the AI space</title>
+      <link>https://ftisiot.net/talks/postgresql-fit-ai/</link>
+      <pubDate>Mon, 08 Jan 2024 14:06:54 +0100</pubDate>
+      <guid>https://ftisiot.net/talks/postgresql-fit-ai/</guid>
+      <description>&lt;p&gt;Why PostgreSQL matters in the AI space as source, central component and target.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Accelerate Generative AI development with  Integrated Data Platforms</title>
       <link>https://ftisiot.net/talks/accelerate-gen-ai-integrated-data-platform/</link>

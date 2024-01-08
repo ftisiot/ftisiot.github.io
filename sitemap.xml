@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ftisiot.net/talks/postgresql-fit-ai/</loc>
+    <lastmod>2024-01-08T14:06:54+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/</loc>
+    <lastmod>2024-01-08T14:06:54+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/talks/</loc>
+    <lastmod>2024-01-08T14:06:54+01:00</lastmod>
+  </url><url>
     <loc>https://ftisiot.net/posts/1brows/</loc>
     <lastmod>2024-01-03T16:43:29+01:00</lastmod>
   </url><url>
@@ -9,9 +18,6 @@
     <lastmod>2024-01-03T16:43:29+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/clickhouse/</loc>
-    <lastmod>2024-01-03T16:43:29+01:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/</loc>
     <lastmod>2024-01-03T16:43:29+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/postgresql/</loc>
@@ -24,9 +30,6 @@
     <lastmod>2024-01-03T16:43:29+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/talks/accelerate-gen-ai-integrated-data-platform/</loc>
-    <lastmod>2023-12-04T08:39:17+01:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/talks/</loc>
     <lastmod>2023-12-04T08:39:17+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/talks/attack-defend-apache-kafka/</loc>
