@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+  		
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7Z74BTZ0TM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7Z74BTZ0TM');
+</script>
+  		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>How to use PostgreSQL® SUBSTRING</title>
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="https://ftisiot.net/index.xml">
+		<link rel="canonical" href="https://ftisiot.net/posts/postgresql-substr/">
+		
+		<link rel="shortcut icon" type="image/png" href="https://ftisiot.net/apple-touch-icon-precomposed.png">
+		<meta name="description" content="Examples on how to use PostgreSQL SUBSTR">
+		
+		
+
+		
+		<meta property="og:title" content="How to use PostgreSQL® SUBSTRING" />
+		<meta property="og:type" content="article" />
+		<meta property="og:image" content="https://ftisiot.net/images/2024/substr.png" />
+		<meta property="og:description" content="Examples on how to use PostgreSQL SUBSTR" />
+		<meta property="og:url" content="https://ftisiot.net/posts/postgresql-substr/" />
+		<meta property="og:site_name" content="How to use PostgreSQL® SUBSTRING" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@" />
+
+
+		
+		<link rel="stylesheet" href="https://ftisiot.net/css/tachyons.min.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/story.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/descartes.css" />
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Quattrocento:400,700|Spectral:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+		
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script src="https://ftisiot.net/js/story.js"></script>
+
+	</head>
+	<body class="ma0 bg-white section-posts page-kind-page is-page-true ">
+		
+		<header class="cover bg-top" style="background-image: url('https://ftisiot.net/images/2024/substr.png'); background-position: center;">
+			<div class="bg-black-30 bb bt">
+
+				<nav class="hide-print sans-serif  border-box pa3 ph5-l">
+					<a href="https://ftisiot.net" title="Home">
+						<img src="https://ftisiot.net/img/logo.jpg" class="w2 h2 br-100" alt="ftisiot ideas about food and life" />
+					</a>
+					<div class="fr h2 pv2 tr">
+						<a class="link f5 ml2 dim near-white" href="/who">who</a>
+						<a class="link f5 ml2 dim near-white" href="/speaking-activities">talks</a>
+						<a class="link f5 ml2 dim near-white" href="/suggestions-verona">suggestions</a>
+						<a class="link f5 ml2 dim near-white" href="/soft">soft</a>
+						<a class="link f5 ml2 dim near-white" href="/postgresqljson/main">json-pg</a>
+						<a class="link f5 ml2 dim near-white" href="/mysqljson/main">json-mysql</a>
+						<a class="link f5 ml2 dim near-white" href="https://www.youtube.com/channel/UCTJ4oA3-T3RdmM2OJ7d8cJg"><i class="fab fa-youtube-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://twitter.com/ftisiot/"><i class="fab fa-twitter-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://github.com/ftisiot/"><i class="fab fa-github-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://www.linkedin.com/in/francescotisiot/"><i class="fab fa-linkedin"></i></a>
+						<a class="link f5 ml2 dim near-white fas fa-rss-square" href="https://ftisiot.net/index.xml" title="RSS Feed"></a>
+						<a class="link f5 ml2 dim near-white fas fa-search" href="https://ftisiot.net/search/" role="search" title="Search"></a>
+					</div>
+				</nav>
+
+				<div id="hdr" class="tc-l pv4-ns pv5-l pv2 ph3 ph4-ns">
+					<h1 class="near-white mt1-ns f2 fw3 mb0 mt0 lh-title">How to use PostgreSQL® SUBSTRING</h1>
+					<h2 class="near-white mt3-l mb4-l fw1 f6 f3-l measure-wide-l center lh-copy mt2 mb3">
+						
+						
+							
+								Published
+								<time datetime="2024-01-12T16:10:27&#43;01:00">Jan 12, 2024</time>
+								<span class="display-print">by </span>
+								 in <a href="https://ftisiot.net/categories/postgresql" class="no-underline category near-white dim">PostgreSQL</a>, <a href="https://ftisiot.net/categories/substr" class="no-underline category near-white dim">Substr</a>
+								<span class="display-print">at https://ftisiot.net/posts/postgresql-substr/</span>
+							
+						
+					</h2>
+				</div>
+
+				
+				
+				
+				<div class="w-100 cf hide-print">
+					<a class="fr f6 ma0 pa2 link white-50 dim fas fa-camera" href="ftisiot" title="Photo Credit"></a>
+				</div>
+				
+				
+
+			</div>
+		</header>
+		
+		<main role="main">
+		
+<article class="center bg-white br-3 pv1 ph4 lh-copy f5 nested-links mw7">
+	<p>Need to extract a specific substring out of a text in PostgreSQL®? Read here how!</p>
+<p>PostgreSQL <a href="https://www.postgresql.org/docs/current/functions-string.html">SUBSTRING</a> allows you to extract a particular string out of a text column.</p>
+<p>The text column can be of:</p>
+<ul>
+<li><code>character</code></li>
+<li><code>character varying</code></li>
+<li><code>text</code></li>
+</ul>
+<p>As per note in the <a href="https://www.postgresql.org/docs/current/functions-string.html">documentation</a>, all the string functions are declared to accept and return type <code>text</code>, all the other types will be converted to it.</p>
+
+<p> <p style="background: #C1E1C1;border: 2px solid #b4d3b2;border-radius: 15px;text-align: center;">👉 Need a FREE PostgreSQL database?👈<br>🦀 Check <a href="https://go.aiven.io/francesco-signup">Aiven&rsquo;s FREE plans</a>! 🦀 <br>
+🐧 Need to optimize your SQL query? Check <a href="https://www.eversql.com/?utm_medium=organic&utm_source=ext_blog&utm_content=ftisiotwebsite">EverSQL</a>! 🐧</p>
+</p>
+
+<blockquote>
+<p><strong>Note</strong>: For most use cases, you can also use the <code>SUBSTR</code> function, the cases and related syntax are included in the blog</p>
+</blockquote>
+<h2 id="use-substring-to-extract-a-string-from-a-specific-index">Use SUBSTRING to extract a string from a specific index</h2>
+<p>Let&rsquo;s say we have the following three values in the database:</p>
+<ul>
+<li><code>I Love Pizza with Mushroom</code></li>
+<li><code>Pizza is Home</code></li>
+<li><code>I had Pizza yesterday</code></li>
+</ul>
+<p>with substring I could:</p>
+<ul>
+<li>Extract from a precise string index, e.g. retrieve all the substring starting from <code>5th</code> character until the end of the string:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">SELECT</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">SUBSTRING</span>(mystr<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">from</span><span style="color:#bbb"> </span><span style="color:#666">5</span>)<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">FROM</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>(<span style="color:#008000;font-weight:bold">VALUES</span>(<span style="color:#ba2121">&#39;I Love Pizza with Mushroom&#39;</span>),(<span style="color:#ba2121">&#39;Pizza is Home&#39;</span>),(<span style="color:#ba2121">&#39;I had Pizza yesterday&#39;</span>))<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">as</span><span style="color:#bbb"> </span>tbl(mystr);<span style="color:#bbb">
+</span></span></span></code></pre></div><p>With output</p>
+<pre tabindex="0"><code>       substring        
+------------------------
+ ve Pizza with Mushroom
+ a is Home
+ d Pizza yesterday
+</code></pre><blockquote>
+<p>You can use the equivalent <code>SUBSTR(mystr, 5)</code> or <code>SUBSTRING(mystr, 5)</code> statement instead of the <code>SUBSTRING(mystr from 5)</code></p>
+</blockquote>
+<ul>
+<li>Extract from a precise string index, e.g. retrieve all the substring starting from <code>5th</code> characte of width <code>3</code> characters:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">SELECT</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">SUBSTRING</span>(mystr<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">FROM</span><span style="color:#bbb"> </span><span style="color:#666">5</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">FOR</span><span style="color:#bbb"> </span><span style="color:#666">3</span>)<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">FROM</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>(<span style="color:#008000;font-weight:bold">VALUES</span>(<span style="color:#ba2121">&#39;I Love Pizza with Mushroom&#39;</span>),(<span style="color:#ba2121">&#39;Pizza is Home&#39;</span>),(<span style="color:#ba2121">&#39;I had Pizza yesterday&#39;</span>))<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">as</span><span style="color:#bbb"> </span>tbl(mystr);<span style="color:#bbb">
+</span></span></span></code></pre></div><p>With result</p>
+<pre tabindex="0"><code> substring 
+-----------
+ ve 
+ a i
+ d P
+</code></pre><blockquote>
+<p>You can use the equivalent <code>SUBSTR(mystr, 5, 3)</code> or <code>SUBSTRING(mystr, 5, 3)</code> statement instead of the <code>SUBSTRING(mystr from 5 for 3)</code></p>
+</blockquote>
+<ul>
+<li>Extract a precise set of characters from the beginning of the string. E.g. extract the first <code>3</code> characters from the string:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">SELECT</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">SUBSTRING</span>(mystr<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">FOR</span><span style="color:#bbb"> </span><span style="color:#666">3</span>)<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">FROM</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>(<span style="color:#008000;font-weight:bold">VALUES</span>(<span style="color:#ba2121">&#39;I Love Pizza with Mushroom&#39;</span>),(<span style="color:#ba2121">&#39;Pizza is Home&#39;</span>),(<span style="color:#ba2121">&#39;I had Pizza yesterday&#39;</span>))<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">as</span><span style="color:#bbb"> </span>tbl(mystr);<span style="color:#bbb">
+</span></span></span></code></pre></div><p>With result</p>
+<pre tabindex="0"><code> I L
+ Piz
+ I h
+</code></pre><blockquote>
+<p>You can use the equivalent <code>SUBSTR(mystr, 1, 3)</code> or <code>SUBSTRING(mystr, 1, 3)</code> statement instead of the <code>SUBSTRING(mystr for 3)</code></p>
+</blockquote>
+<h2 id="use-position-and-substring-to-extract-a-string-from-a-specific-word">Use POSITION and SUBSTRING to extract a string from a specific word</h2>
+<p>The examples above assumed the start from the string was a static character number. What about retrieving all the strings after <code>Pizza</code>? To do so we need to first locate the <code>Pizza</code> substring using <code>POSITION</code> and then use the <code>SUBSTRING</code> function.</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">SELECT</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">SUBSTRING</span>(mystr<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">FROM</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">POSITION</span>(<span style="color:#ba2121">&#39;Pizza&#39;</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">IN</span><span style="color:#bbb"> </span>mystr))<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">FROM</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>(<span style="color:#008000;font-weight:bold">VALUES</span>(<span style="color:#ba2121">&#39;I Love Pizza with Mushroom&#39;</span>),(<span style="color:#ba2121">&#39;Pizza is Home&#39;</span>),(<span style="color:#ba2121">&#39;I had Pizza yesterday&#39;</span>))<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">as</span><span style="color:#bbb"> </span>tbl(mystr);<span style="color:#bbb">
+</span></span></span></code></pre></div><p>Results</p>
+<pre tabindex="0"><code>      substring      
+---------------------
+ Pizza with Mushroom
+ Pizza is Home
+ Pizza yesterday
+</code></pre><p>What if we want only what <strong>follows</strong> <code>Pizza</code>? We need to add the length of the <code>Pizza</code> string (plus maybe the space if necessary) to the <code>FROM</code> position:</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">SELECT</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">SUBSTRING</span>(mystr<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">FROM</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">POSITION</span>(<span style="color:#ba2121">&#39;Pizza&#39;</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">IN</span><span style="color:#bbb"> </span>mystr)<span style="color:#bbb"> </span><span style="color:#666">+</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">LENGTH</span>(<span style="color:#ba2121">&#39;Pizza&#39;</span>))<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">FROM</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>(<span style="color:#008000;font-weight:bold">VALUES</span>(<span style="color:#ba2121">&#39;I Love Pizza with Mushroom&#39;</span>),(<span style="color:#ba2121">&#39;Pizza is Home&#39;</span>),(<span style="color:#ba2121">&#39;I had Pizza yesterday&#39;</span>))<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">as</span><span style="color:#bbb"> </span>tbl(mystr);<span style="color:#bbb">
+</span></span></span></code></pre></div><p>Result (note the space at the beginning of the string)</p>
+<pre tabindex="0"><code>   substring    
+----------------
+  with Mushroom
+  is Home
+  yesterday
+</code></pre><h2 id="use-substring-to-extract-a-string-using-regular-expressions">Use SUBSTRING to extract a string using regular expressions</h2>
+<p>Reusing the case before, we could rewrite the extraction using <a href="https://www.postgresql.org/docs/15/functions-string.html#:~:text=regular%20expression%3B%20see-,Section%C2%A09.7.3,-.">POSIX regular expressions</a></p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">SELECT</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">SUBSTRING</span>(mystr<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">FROM</span><span style="color:#bbb"> </span><span style="color:#ba2121">&#39;Pizza.*$&#39;</span>)<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">FROM</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>(<span style="color:#008000;font-weight:bold">VALUES</span>(<span style="color:#ba2121">&#39;I Love Pizza with Mushroom&#39;</span>),(<span style="color:#ba2121">&#39;Pizza is Home&#39;</span>),(<span style="color:#ba2121">&#39;I had Pizza yesterday&#39;</span>))<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">as</span><span style="color:#bbb"> </span>tbl(mystr);<span style="color:#bbb">
+</span></span></span></code></pre></div><p>The above, instead of using <code>POSITION</code> to find the index of the <code>Pizza</code> word, it defines it as regular expression. RegEx are are powerful yet <a href="https://blog.codinghorror.com/regular-expressions-now-you-have-two-problems/">dangerous</a> way to define the pattern you want find in a specific text. In the example above the <code>Pizza.*$</code> defined to retrieve everyting starting with <code>Pizza</code> and then followed by any character <code>.*</code> until the end of the string <code>$</code>.</p>
+<p>E.g. if I want to find the last word in each sentence I could write</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">SELECT</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">SUBSTRING</span>(mystr<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">FROM</span><span style="color:#bbb"> </span><span style="color:#ba2121">&#39;[A-Za-z]*$&#39;</span>)<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">FROM</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>(<span style="color:#008000;font-weight:bold">VALUES</span>(<span style="color:#ba2121">&#39;I Love Pizza with Mushroom&#39;</span>),(<span style="color:#ba2121">&#39;Pizza is Home&#39;</span>),(<span style="color:#ba2121">&#39;I had Pizza yesterday&#39;</span>))<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">as</span><span style="color:#bbb"> </span>tbl(mystr);<span style="color:#bbb">
+</span></span></span></code></pre></div><p>The result is</p>
+<pre tabindex="0"><code> substring 
+-----------
+ Mushroom
+ Home
+ yesterday
+</code></pre><h2 id="use-substring-to-extract-a-string-using-sql-regular-expressions">Use SUBSTRING to extract a string using SQL regular expressions</h2>
+<p>Similar to the above, instead of using POSIX, we could use <a href="https://www.postgresql.org/docs/15/functions-matching.html#FUNCTIONS-SIMILARTO-REGEXP">SQL regular expressions</a>.</p>
+<p>To get the first word after <code>Pizza </code>:</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">SELECT</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">SUBSTRING</span>(mystr<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">SIMILAR</span><span style="color:#bbb"> </span><span style="color:#ba2121">&#39;%Pizza #&#34;[A-Za-z]*#&#34;%&#39;</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">ESCAPE</span><span style="color:#bbb"> </span><span style="color:#ba2121">&#39;#&#39;</span>)<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">FROM</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>(<span style="color:#008000;font-weight:bold">VALUES</span>(<span style="color:#ba2121">&#39;I Love Pizza with Mushroom&#39;</span>),(<span style="color:#ba2121">&#39;Pizza is Home&#39;</span>),(<span style="color:#ba2121">&#39;I had Pizza yesterday&#39;</span>))<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">as</span><span style="color:#bbb"> </span>tbl(mystr);<span style="color:#bbb">
+</span></span></span></code></pre></div><p>In the above we are using the <code>%Pizza #&quot;[A-Za-z]*#&quot;%</code> expression which states:</p>
+<ul>
+<li><code>%Pizza</code>: Anything starting with <code>Pizza</code></li>
+<li><code>#&quot;[A-Za-z]*#&quot;</code>: Print anything that contains single characters in upper or lowercase</li>
+<li><code>%</code> any trailing characters doesn&rsquo;t need to be displayed</li>
+</ul>
+<p>Results</p>
+<pre tabindex="0"><code> substring 
+-----------
+ with
+ is
+ yesterday
+</code></pre>
+</article>
+
+		</main>
+		
+				<div class="hide-print sans-serif f6 f5-l mt5 ph3 pb6 center nested-copy-line-height lh-copy nested-links mw-100 measure-wide">
+		<div class="about-the-author">
+		
+			
+			
+				
+					<hr>
+<p><img src="/images/ftisiot.jpg" alt="Francesco Tisiot"></p>
+<p><a href="https://www.linkedin.com/in/francescotisiot/"><b class="fab fa-linkedin"></b></a> <a href="https://twitter.com/FTisiot"><b class="fab fa-twitter"></b></a><a rel="me" href="https://data-folks.masto.host/@ftisiot">Mastodon</a> Francesco comes from Verona, Italy and works as a Staff Developer Advocate at Aiven. With his many years of experience as a data analyst, he has stories to tell and advice for data-wranglers everywhere. Francesco loves sharing knowledge with others as a speaker and writer, and is on a mission to defend the world from bad Italian food!</p>
+
+				
+			
+		
+		</div>
+		
+	</div>
+
+		
+		
+		
+		<footer class="hide-print sans-serif f6 fw1 bg-black near-white bottom-0 w-100 pa3" role="contentinfo">
+			<p class="w-50 fr tr">
+			<a class="no-underline near-white" href="https://github.com/xaprb/story"><img class="dib" title="Made with Hugo and Story" alt="Story logo" src="https://ftisiot.net/img/story-logo-white.svg" style="width: 1.5rem; height: 1.5rem" /></a>
+			</p>
+			<p class="w-50 near-white">
+				&copy; 2024 
+			</p>
+		</footer>
+		
+	
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-7Z74BTZ0TM', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+	
+	</body>
+</html>

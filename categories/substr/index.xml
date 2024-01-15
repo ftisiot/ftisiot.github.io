@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>substr on ftisiot ideas about food and life</title>
+    <link>https://ftisiot.net/categories/substr/</link>
+    <description>Recent content in substr on ftisiot ideas about food and life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Jan 2024 16:10:27 +0100</lastBuildDate>
+    <atom:link href="https://ftisiot.net/categories/substr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to use PostgreSQL® SUBSTRING</title>
+      <link>https://ftisiot.net/posts/postgresql-substr/</link>
+      <pubDate>Fri, 12 Jan 2024 16:10:27 +0100</pubDate>
+      <guid>https://ftisiot.net/posts/postgresql-substr/</guid>
+      <description>&lt;p&gt;Need to extract a specific substring out of a text in PostgreSQL®? Read here how!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
