@@ -6,8 +6,29 @@
     <description>Recent content in Categories on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Jan 2024 16:10:27 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jan 2024 14:43:29 +0100</lastBuildDate>
     <atom:link href="https://ftisiot.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1brows</title>
+      <link>https://ftisiot.net/categories/1brows/</link>
+      <pubDate>Fri, 26 Jan 2024 14:43:29 +0100</pubDate>
+      <guid>https://ftisiot.net/categories/1brows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>mysql</title>
+      <link>https://ftisiot.net/categories/mysql/</link>
+      <pubDate>Fri, 26 Jan 2024 14:43:29 +0100</pubDate>
+      <guid>https://ftisiot.net/categories/mysql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sorting</title>
+      <link>https://ftisiot.net/categories/sorting/</link>
+      <pubDate>Fri, 26 Jan 2024 14:43:29 +0100</pubDate>
+      <guid>https://ftisiot.net/categories/sorting/</guid>
+      <description></description>
+    </item>
     <item>
       <title>postgresql</title>
       <link>https://ftisiot.net/categories/postgresql/</link>
@@ -27,13 +48,6 @@
       <link>https://ftisiot.net/categories/clickhouse/</link>
       <pubDate>Wed, 03 Jan 2024 16:43:29 +0100</pubDate>
       <guid>https://ftisiot.net/categories/clickhouse/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sorting</title>
-      <link>https://ftisiot.net/categories/sorting/</link>
-      <pubDate>Wed, 03 Jan 2024 16:43:29 +0100</pubDate>
-      <guid>https://ftisiot.net/categories/sorting/</guid>
       <description></description>
     </item>
     <item>
@@ -97,13 +111,6 @@
       <link>https://ftisiot.net/categories/json/</link>
       <pubDate>Fri, 21 Jul 2023 17:05:26 +0200</pubDate>
       <guid>https://ftisiot.net/categories/json/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>mysql</title>
-      <link>https://ftisiot.net/categories/mysql/</link>
-      <pubDate>Fri, 21 Jul 2023 17:05:26 +0200</pubDate>
-      <guid>https://ftisiot.net/categories/mysql/</guid>
       <description></description>
     </item>
     <item>

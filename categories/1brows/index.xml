@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1brows on ftisiot ideas about food and life</title>
+    <link>https://ftisiot.net/categories/1brows/</link>
+    <description>Recent content in 1brows on ftisiot ideas about food and life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Jan 2024 14:43:29 +0100</lastBuildDate>
+    <atom:link href="https://ftisiot.net/categories/1brows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1 billion rows challenge in MySQL</title>
+      <link>https://ftisiot.net/posts/1brows/</link>
+      <pubDate>Fri, 26 Jan 2024 14:43:29 +0100</pubDate>
+      <guid>https://ftisiot.net/posts/1brows/</guid>
+      <description>&lt;p&gt;Earlier this month I wrote a piece on solving &lt;a href=&#34;https://www.linkedin.com/in/gunnar-morling-2b44b7229/&#34;&gt;Gunnar Morling&lt;/a&gt; interesting &lt;a href=&#34;https://www.morling.dev/blog/one-billion-row-challenge/&#34;&gt;1 billion rows challenge&lt;/a&gt; in &lt;a href=&#34;https://ftisiot.net/posts/1brows&#34;&gt;PostgreSQL and ClickHouse&lt;/a&gt;. Since &lt;a href=&#34;http://aiven.io&#34;&gt;Aiven&lt;/a&gt; provides also MySQL, I wanted to give it a try. TLDR; The results are much slower than PG and ClickHouse, do you have any suggestion on how to improve?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

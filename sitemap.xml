@@ -2,19 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ftisiot.net/posts/1brows/</loc>
+    <lastmod>2024-01-26T14:43:29+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/1brows/</loc>
+    <lastmod>2024-01-26T14:43:29+01:00</lastmod>
+  </url><url>
     <loc>https://ftisiot.net/categories/</loc>
-    <lastmod>2024-01-12T16:10:27+01:00</lastmod>
+    <lastmod>2024-01-26T14:43:29+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/</loc>
-    <lastmod>2024-01-12T16:10:27+01:00</lastmod>
+    <lastmod>2024-01-26T14:43:29+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/mysql/</loc>
+    <lastmod>2024-01-26T14:43:29+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/posts/</loc>
+    <lastmod>2024-01-26T14:43:29+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/sorting/</loc>
+    <lastmod>2024-01-26T14:43:29+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/posts/postgresql-substr/</loc>
     <lastmod>2024-01-12T16:10:27+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/postgresql/</loc>
-    <lastmod>2024-01-12T16:10:27+01:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/posts/</loc>
     <lastmod>2024-01-12T16:10:27+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/substr/</loc>
@@ -30,9 +42,6 @@
     <lastmod>2024-01-03T16:43:29+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/clickhouse/</loc>
-    <lastmod>2024-01-03T16:43:29+01:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/categories/sorting/</loc>
     <lastmod>2024-01-03T16:43:29+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/talks/accelerate-gen-ai-integrated-data-platform/</loc>
@@ -78,9 +87,6 @@
     <lastmod>2023-07-21T17:05:26+02:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/json/</loc>
-    <lastmod>2023-07-21T17:05:26+02:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/categories/mysql/</loc>
     <lastmod>2023-07-21T17:05:26+02:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/tabulate/</loc>
