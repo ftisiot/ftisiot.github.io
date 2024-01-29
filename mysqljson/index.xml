@@ -69,7 +69,7 @@
       <link>https://ftisiot.net/mysqljson/how-to-extract-field-from-json-mysql/</link>
       <pubDate>Fri, 21 Jul 2023 14:36:10 +0200</pubDate>
       <guid>https://ftisiot.net/mysqljson/how-to-extract-field-from-json-mysql/</guid>
-      <description>&lt;p&gt;Mysql® offers three main ways to extract fields from a JSON document:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;the &lt;code&gt;-&amp;gt;&lt;/code&gt; operator to extract the field as JSON&lt;/li&gt;&#xA;&lt;li&gt;the &lt;code&gt;-&amp;gt;&amp;gt;&lt;/code&gt; operator to extract the field as text&lt;/li&gt;&#xA;&lt;li&gt;the &lt;code&gt;JSON_EXTRACT&lt;/code&gt; function&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Both operators use the &lt;a href=&#34;https://dev.mysql.com/doc/refman/8.0/en/json.html#json-path-syntax&#34;&gt;JSON Path Syntax&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;MySQL® offers three ways to extract fields from a JSON object:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;the &lt;code&gt;-&amp;gt;&lt;/code&gt; operator to extract the field as JSON&lt;/li&gt;&#xA;&lt;li&gt;the &lt;code&gt;-&amp;gt;&amp;gt;&lt;/code&gt; operator to extract the field as text&lt;/li&gt;&#xA;&lt;li&gt;the &lt;code&gt;JSON_EXTRACT&lt;/code&gt; function&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Both operators use the &lt;a href=&#34;https://dev.mysql.com/doc/refman/8.0/en/json.html#json-path-syntax&#34;&gt;JSON Path Syntax&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to load JSON data in MySQL?</title>
