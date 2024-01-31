@@ -6,8 +6,36 @@
     <description>Recent content in Categories on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Jan 2024 14:43:29 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jan 2024 14:38:05 +0100</lastBuildDate>
     <atom:link href="https://ftisiot.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DataLoad</title>
+      <link>https://ftisiot.net/categories/dataload/</link>
+      <pubDate>Mon, 29 Jan 2024 14:38:05 +0100</pubDate>
+      <guid>https://ftisiot.net/categories/dataload/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>postgresql</title>
+      <link>https://ftisiot.net/categories/postgresql/</link>
+      <pubDate>Mon, 29 Jan 2024 14:38:05 +0100</pubDate>
+      <guid>https://ftisiot.net/categories/postgresql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>StackExchange</title>
+      <link>https://ftisiot.net/categories/stackexchange/</link>
+      <pubDate>Mon, 29 Jan 2024 14:38:05 +0100</pubDate>
+      <guid>https://ftisiot.net/categories/stackexchange/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>StackOverflow</title>
+      <link>https://ftisiot.net/categories/stackoverflow/</link>
+      <pubDate>Mon, 29 Jan 2024 14:38:05 +0100</pubDate>
+      <guid>https://ftisiot.net/categories/stackoverflow/</guid>
+      <description></description>
+    </item>
     <item>
       <title>1brows</title>
       <link>https://ftisiot.net/categories/1brows/</link>
@@ -27,13 +55,6 @@
       <link>https://ftisiot.net/categories/sorting/</link>
       <pubDate>Fri, 26 Jan 2024 14:43:29 +0100</pubDate>
       <guid>https://ftisiot.net/categories/sorting/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>postgresql</title>
-      <link>https://ftisiot.net/categories/postgresql/</link>
-      <pubDate>Fri, 12 Jan 2024 16:10:27 +0100</pubDate>
-      <guid>https://ftisiot.net/categories/postgresql/</guid>
       <description></description>
     </item>
     <item>

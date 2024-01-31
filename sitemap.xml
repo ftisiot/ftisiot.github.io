@@ -2,31 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ftisiot.net/categories/</loc>
+    <lastmod>2024-01-29T14:38:05+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/dataload/</loc>
+    <lastmod>2024-01-29T14:38:05+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/</loc>
+    <lastmod>2024-01-29T14:38:05+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/posts/stackoverflow-postgresql/</loc>
+    <lastmod>2024-01-29T14:38:05+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/postgresql/</loc>
+    <lastmod>2024-01-29T14:38:05+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/posts/</loc>
+    <lastmod>2024-01-29T14:38:05+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/stackexchange/</loc>
+    <lastmod>2024-01-29T14:38:05+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/stackoverflow/</loc>
+    <lastmod>2024-01-29T14:38:05+01:00</lastmod>
+  </url><url>
     <loc>https://ftisiot.net/posts/1browsmysql/</loc>
     <lastmod>2024-01-26T14:43:29+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/1brows/</loc>
     <lastmod>2024-01-26T14:43:29+01:00</lastmod>
   </url><url>
-    <loc>https://ftisiot.net/categories/</loc>
-    <lastmod>2024-01-26T14:43:29+01:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/</loc>
-    <lastmod>2024-01-26T14:43:29+01:00</lastmod>
-  </url><url>
     <loc>https://ftisiot.net/categories/mysql/</loc>
-    <lastmod>2024-01-26T14:43:29+01:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/posts/</loc>
     <lastmod>2024-01-26T14:43:29+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/sorting/</loc>
     <lastmod>2024-01-26T14:43:29+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/posts/postgresql-substr/</loc>
-    <lastmod>2024-01-12T16:10:27+01:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/categories/postgresql/</loc>
     <lastmod>2024-01-12T16:10:27+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/substr/</loc>
