@@ -236,8 +236,9 @@
 <li>Parse the XML to populate the proper tables and columns</li>
 </ul>
 <p>The two step approach is needed since the original dataset threats all columns, including ids, as strings. We could either define all the Ids as strings or, do a bit more work to load the data into the proper column definitions.</p>
-<h3 id="load-the-user-xml-into-the-table">Load the User XML into the table</h3>
-<p>To load the entire XML of the <code>Users.xml</code> file into a table we can connect to the database using <code>psql</code> from the same folder where the <code>Users.xml</code> is located and execute:</p>
+<h3 id="step-1-load-the-user-xml-into-the-data_load-table">Step 1: Load the User XML into the <code>data_load</code> table</h3>
+<p><img src="/images/2024/stackoverflow-loading-step1.png" alt="Architecture of the data loading phase - step 1"></p>
+<p>To load the entire XML of the <code>Users.xml</code> file into a temporary <code>data_load</code> table we can connect to the database using <code>psql</code> from the same folder where the <code>Users.xml</code> is located and execute:</p>
 <div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="">\</span><span style="color:#008000;font-weight:bold">copy</span><span style="color:#bbb"> </span>data_load<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">from</span><span style="color:#bbb"> </span>program<span style="color:#bbb"> </span><span style="color:#ba2121">&#39;tr -d &#34;\t&#34; &lt; Users.xml | sed -e &#39;&#39;s/\\/\\\\/g&#39;&#39;&#39;</span><span style="color:#bbb"> </span>HEADER<span style="color:#bbb">
 </span></span></span></code></pre></div><p>The <code>\copy</code> command allows us to load the dataset into the <code>data_load</code> table. However we need to perform a couple of tricks in order to load it properly:</p>
 <ul>
@@ -245,6 +246,8 @@
 <li><code>sed -e ''s/\\/\\\\/g''</code> properly escapes the <code>\</code> in the strings.</li>
 <li><code>HEADER</code> avoids to load the initial <code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</code> row, unnecessary for our parsing</li>
 </ul>
+<h3 id="step-2-load-the-data-into-the-users-table">Step 2: Load the data into the <code>Users</code> table</h3>
+<p><img src="/images/2024/stackoverflow-loading-step2.png" alt="Architecture of the data loading phase - step 2"></p>
 <p>The above command loads the data into the <code>data_load</code> table with one row in the table for each row in the original file. This is not optimal but avoids having to deal with very large files included in just a single blob.</p>
 <p>We can make use the fact that each user is contained in a <code>&lt;raw&gt;</code> tag to leverage PostgreSQL ability to parse XML fields with the following:</p>
 <div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">INSERT</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">INTO</span><span style="color:#bbb"> </span>USERS<span style="color:#bbb"> </span>(<span style="color:#bbb">
