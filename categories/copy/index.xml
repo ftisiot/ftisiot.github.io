@@ -9,7 +9,7 @@
     <lastBuildDate>Fri, 02 Feb 2024 11:25:54 +0100</lastBuildDate>
     <atom:link href="https://ftisiot.net/categories/copy/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to load JSON data in PostgreSQL with the the COPY command</title>
+      <title>How to load JSON data in PostgreSQL with the COPY command</title>
       <link>https://ftisiot.net/postgresqljson/load-json-data-with-postgresql-copy/</link>
       <pubDate>Fri, 02 Feb 2024 11:25:54 +0100</pubDate>
       <guid>https://ftisiot.net/postgresqljson/load-json-data-with-postgresql-copy/</guid>
