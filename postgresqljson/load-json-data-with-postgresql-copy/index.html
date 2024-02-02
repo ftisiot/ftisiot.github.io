@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+  		
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7Z74BTZ0TM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7Z74BTZ0TM');
+</script>
+  		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>How to load JSON data in PostgreSQL with the the COPY command</title>
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="https://ftisiot.net/index.xml">
+		<link rel="canonical" href="https://ftisiot.net/postgresqljson/load-json-data-with-postgresql-copy/">
+		
+		<link rel="shortcut icon" type="image/png" href="https://ftisiot.net/apple-touch-icon-precomposed.png">
+		<meta name="description" content="How to load JSON data in PostgreSQL with the COPY command">
+		
+		
+
+		
+		<meta property="og:title" content="How to load JSON data in PostgreSQL with the the COPY command" />
+		<meta property="og:type" content="article" />
+		<meta property="og:image" content="https://ftisiot.net/images/2024/pgcopyjson.png" />
+		<meta property="og:description" content="How to load JSON data in PostgreSQL with the COPY command" />
+		<meta property="og:url" content="https://ftisiot.net/postgresqljson/load-json-data-with-postgresql-copy/" />
+		<meta property="og:site_name" content="How to load JSON data in PostgreSQL with the the COPY command" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@" />
+
+
+		
+		<link rel="stylesheet" href="https://ftisiot.net/css/tachyons.min.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/story.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/descartes.css" />
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Quattrocento:400,700|Spectral:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+		
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script src="https://ftisiot.net/js/story.js"></script>
+
+	</head>
+	<body class="ma0 bg-white section-postgresqljson page-kind-page is-page-true ">
+		
+		<header class="cover bg-top" style="background-image: url('https://ftisiot.net/images/2024/pgcopyjson.png'); background-position: center;">
+			<div class="bg-black-30 bb bt">
+
+				<nav class="hide-print sans-serif  border-box pa3 ph5-l">
+					<a href="https://ftisiot.net" title="Home">
+						<img src="https://ftisiot.net/img/logo.jpg" class="w2 h2 br-100" alt="ftisiot ideas about food and life" />
+					</a>
+					<div class="fr h2 pv2 tr">
+						<a class="link f5 ml2 dim near-white" href="/who">who</a>
+						<a class="link f5 ml2 dim near-white" href="/speaking-activities">talks</a>
+						<a class="link f5 ml2 dim near-white" href="/suggestions-verona">suggestions</a>
+						<a class="link f5 ml2 dim near-white" href="/postgresqljson/main">json-pg</a>
+						<a class="link f5 ml2 dim near-white" href="/mysqljson/main">json-mysql</a>
+						<a class="link f5 ml2 dim near-white" href="https://www.youtube.com/channel/UCTJ4oA3-T3RdmM2OJ7d8cJg"><i class="fab fa-youtube-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://twitter.com/ftisiot/"><i class="fab fa-twitter-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://github.com/ftisiot/"><i class="fab fa-github-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://www.linkedin.com/in/francescotisiot/"><i class="fab fa-linkedin"></i></a>
+						<a class="link f5 ml2 dim near-white fas fa-rss-square" href="https://ftisiot.net/index.xml" title="RSS Feed"></a>
+						<a class="link f5 ml2 dim near-white fas fa-search" href="https://ftisiot.net/search/" role="search" title="Search"></a>
+					</div>
+				</nav>
+
+				<div id="hdr" class="tc-l pv4-ns pv5-l pv2 ph3 ph4-ns">
+					<h1 class="near-white mt1-ns f2 fw3 mb0 mt0 lh-title">How to load JSON data in PostgreSQL with the the COPY command</h1>
+					<h2 class="near-white mt3-l mb4-l fw1 f6 f3-l measure-wide-l center lh-copy mt2 mb3">
+						
+						
+							
+								Published
+								<time datetime="2024-02-02T11:25:54&#43;01:00">Feb 2, 2024</time>
+								<span class="display-print">by </span>
+								 in <a href="https://ftisiot.net/categories/postgresql" class="no-underline category near-white dim">PostgreSQL</a>, <a href="https://ftisiot.net/categories/json" class="no-underline category near-white dim">JSON</a>, <a href="https://ftisiot.net/categories/copy" class="no-underline category near-white dim">COPY</a>, <a href="https://ftisiot.net/categories/jq" class="no-underline category near-white dim">Jq</a>
+								<span class="display-print">at https://ftisiot.net/postgresqljson/load-json-data-with-postgresql-copy/</span>
+							
+						
+					</h2>
+				</div>
+
+				
+				
+				
+				<div class="w-100 cf hide-print">
+					<a class="fr f6 ma0 pa2 link white-50 dim fas fa-camera" href="ftisiot" title="Photo Credit"></a>
+				</div>
+				
+				
+
+			</div>
+		</header>
+		
+		<main role="main">
+		
+<article class="center bg-white br-3 pv1 ph4 lh-copy f5 nested-links mw7">
+	<p>You have a JSON dataset that you want to upload to a PostgreSQL table containing properly formatted rows and columns&hellip; How do you do it?</p>
+<p>All the main sources like <a href="/postgresqljson/how-to-load-json-postgresql">my own blog</a> and <a href="https://konbert.com/blog/import-json-into-postgres-using-copy">others</a> tell you to load the JSON in a dedicated temporary table containing a unique <code>JSON</code> column, then parse it and load into the target table. However there could be another way, avoiding the temp table!</p>
+<p><img src="/images/2024/traditional-json-load.png" alt="Traditional JSON Load involving a temp table"></p>
+<p>In this blog we&rsquo;ll see how to upload the JSON directly using PostgreSQL <code>COPY</code> command and using an utility called <a href="https://jqlang.github.io/jq/">jq</a>!</p>
+
+<p> <p style="background: #C1E1C1;border: 2px solid #b4d3b2;border-radius: 15px;text-align: center;">👉 Need a FREE PostgreSQL database?👈<br>🦀 Check <a href="https://go.aiven.io/francesco-signup">Aiven&rsquo;s FREE plans</a>! 🦀 <br>
+🐧 Need to optimize your SQL query? Check  <a href="https://www.eversql.com/?utm_medium=organic&utm_source=ext_blog&utm_content=ftisiotwebsite">EverSQL</a>! 🐧</p>
+</p>
+
+<h2 id="postgresql-copy-command">PostgreSQL COPY command</h2>
+<p>First of all, let&rsquo;s check PostgreSQL <a href="https://www.postgresql.org/docs/current/sql-copy.html">COPY command</a>. It&rsquo;s a command that allows you to copy into a PostgreSQL table data from a file, there are two versions:</p>
+<ul>
+<li><code>COPY</code> if the file is sitting in the PG server already</li>
+<li><code>\COPY</code> if the file is sitting in the client machine connected to the server via <code>psql</code></li>
+</ul>
+<p>In both cases, the standard <code>COPY</code> command has the following minimal set of parameters:</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="">\</span><span style="color:#008000;font-weight:bold">copy</span><span style="color:#bbb"> </span><span style="color:#666">&lt;</span>TARGET<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">TABLE</span><span style="color:#666">&gt;</span>(<span style="color:#666">&lt;</span>OPTIONAL<span style="color:#bbb"> </span>LIST<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">OF</span><span style="color:#bbb"> </span>COLUMNS<span style="color:#666">&gt;</span>)<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">FROM</span><span style="color:#bbb"> </span><span style="color:#666">&lt;</span><span style="color:#008000;font-weight:bold">SOURCE</span><span style="color:#bbb"> </span>FILE<span style="color:#666">&gt;</span><span style="color:#bbb"> </span><span style="color:#666">&lt;</span>FORMAT<span style="color:#666">&gt;</span><span style="color:#bbb">
+</span></span></span></code></pre></div><p>Where:</p>
+<ul>
+<li><code>&lt;TARGET TABLE&gt;</code> is the name of the target table</li>
+<li><code>(&lt;OPTIONAL LIST OF COLUMNS&gt;)</code> defines the columns in the table to load</li>
+<li><code>&lt;SOURCE FILE&gt;</code> is pointing to the source file to load</li>
+<li><code>&lt;FORMAT&gt;</code> defines the format of the data</li>
+</ul>
+<blockquote>
+<p>The full list of parameters is available in the <a href="https://www.postgresql.org/docs/current/sql-copy.html">PostgreSQL COPY documentation</a></p>
+</blockquote>
+<h3 id="postgresql-copy-command---the-out-of-the-box-formats">PostgreSQL COPY command - the out of the box formats</h3>
+<p>Let&rsquo;s focus on the formats available in the <a href="https://www.postgresql.org/docs/current/sql-copy.html">PostgreSQL COPY documentation</a> are listed:</p>
+<ul>
+<li><code>TEXT</code>: can be used to load a full text</li>
+<li><code>CSV</code>: to load comma (or otherwise separated) values</li>
+<li><code>BINARY</code>: to load binary files</li>
+</ul>
+<p>Unfortunately there doesn&rsquo;t seem to be an out of the box way to load JSON files!</p>
+<h2 id="the-program-option-to-the-rescue">The <code>PROGRAM</code> option to the rescue!</h2>
+<p>A, maybe not known, option of the <code>COPY</code> command is to point to a program to execute instead of the file. This option can be called with the following command:</p>
+<pre tabindex="0"><code>\copy &lt;TARGET TABLE&gt;(&lt;OPTIONAL LIST OF COLUMNS&gt;) FROM PROGRAM &#34;&lt;SET OF INSTRUCTIONS&gt;&#34; 
+</code></pre><p>Compared to the previous <code>\copy</code> call, this time we are adding the <code>PROGRAM</code> with a set of instructions delimited by quotes or double quotes that will be executed on the client machine before loading the data.</p>
+<blockquote>
+<p>If you are using the <code>COPY</code> command on the server, you&rsquo;ll probably need a superuser. This is the error message shown in <a href="https://go.aiven.io/francesco-signup">Aiven</a>: <code>ERROR:  must be superuser or have privileges of the pg_read_server_files role to COPY from a file</code></p>
+</blockquote>
+<p>So, what we can do, is to reshape the data before loading it.</p>
+<h3 id="jq---the-indispensable-json-parsing-tool">jq - the indispensable JSON parsing tool</h3>
+<p>I&rsquo;ve been using jq quite a while in a lot of blog posts, it&rsquo;s a very handy tool to parse, reshape, select JSON documents. For the purpose of this blog, we&rsquo;ll use to reshape the JSON input into a CSV format, digestible from the PostgreSQL <code>COPY</code> command.</p>
+<blockquote>
+<p>You need to have <a href="https://jqlang.github.io/jq/">jq</a> installed on the workstation from where the <code>COPY</code> command is executed!</p>
+</blockquote>
+<p>Let&rsquo;s create a basic JSON file with named <code>test.json</code> with the following content:</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#008000;font-weight:bold">&#34;id&#34;</span>:<span style="color:#666">1</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#008000;font-weight:bold">&#34;mystring&#34;</span>:<span style="color:#ba2121">&#34;ciao&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#008000;font-weight:bold">&#34;id&#34;</span>:<span style="color:#666">2</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#008000;font-weight:bold">&#34;mystring&#34;</span>:<span style="color:#ba2121">&#34;sole&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#008000;font-weight:bold">&#34;id&#34;</span>:<span style="color:#666">3</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#008000;font-weight:bold">&#34;mystring&#34;</span>:<span style="color:#ba2121">&#34;mare&#34;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>With jq we can read and reshape the above JSON to a CSV format with:</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>more test.json | jq -r <span style="color:#ba2121">&#34;. | [.id, .mystring] | @csv&#34;</span>
+</span></span></code></pre></div><p>In the above command:</p>
+<ul>
+<li><code>more test.json</code> reads the file</li>
+<li><code>jq -r</code> prints the raw output</li>
+<li>the first <code>.</code> selects all the elements at the root level</li>
+<li><code>| [.id, .mystring]</code> retrieves the <code>id</code> and <code>mystring</code> keys from each element</li>
+<li><code>|@csv</code> sets the output format as CSV</li>
+</ul>
+<p>The output is:</p>
+<pre tabindex="0"><code class="language-CSV" data-lang="CSV">1,&#34;ciao&#34;
+2,&#34;sole&#34;
+3,&#34;mare&#34;
+</code></pre><blockquote>
+<p>To check the complete set of options available with jq please view the <a href="https://jqlang.github.io/jq/manual/">manual</a></p>
+</blockquote>
+<h2 id="stitching-all-together">Stitching all together</h2>
+<p>So, how can we load a target table with just 1 <code>COPY</code> command? Let&rsquo;s first create the target table with:</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">CREATE</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">TABLE</span><span style="color:#bbb"> </span>MYTARGETTABLE<span style="color:#bbb"> </span>(id<span style="color:#bbb"> </span><span style="color:#008000">serial</span>,<span style="color:#bbb"> </span>myid<span style="color:#bbb"> </span><span style="color:#008000">int</span>,<span style="color:#bbb"> </span>mystring<span style="color:#bbb"> </span><span style="color:#008000">text</span>);<span style="color:#bbb">
+</span></span></span></code></pre></div><p>We now want to load the <code>myid</code> and <code>mystring</code> columns of the <code>MYTARGETTABLE</code> table with the following <code>COPY</code> command reading from the <code>test.json</code> and applying the transformation with <code>jq</code>.</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="">\</span><span style="color:#008000;font-weight:bold">copy</span><span style="color:#bbb"> </span>MYTARGETTABLE(myid,<span style="color:#bbb"> </span>mystring)<span style="color:#bbb"> 
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">FROM</span><span style="color:#bbb"> </span>PROGRAM<span style="color:#bbb"> </span><span style="color:#ba2121">&#39;more test.json | jq -r &#34;. | [.id, .mystring] | @csv&#34;&#39;</span><span style="color:#bbb">  
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span>CSV<span style="color:#bbb">
+</span></span></span></code></pre></div><p>The output is the data properly loaded in the <code>MYTARGETTABLE</code> table</p>
+<pre tabindex="0"><code> id | myid | mystring
+----+------+----------
+  1 |    1 | ciao
+  2 |    2 | sole
+  3 |    3 | mare
+(3 rows)
+</code></pre><p>Solving problems at the source sometimes is useful to avoid extra hops! Stitching together <code>COPY</code> (with <code>PROGRAM</code>) and <code>jq</code> provides us the flexibility to load JSON files without intermediary tables.</p>
+</article>
+
+		</main>
+		
+				<div class="hide-print sans-serif f6 f5-l mt5 ph3 pb6 center nested-copy-line-height lh-copy nested-links mw-100 measure-wide">
+		<div class="about-the-author">
+		
+			
+			
+				
+					<hr>
+<p><img src="/images/ftisiot.jpg" alt="Francesco Tisiot"></p>
+<p><a href="https://www.linkedin.com/in/francescotisiot/"><b class="fab fa-linkedin"></b></a> <a href="https://twitter.com/FTisiot"><b class="fab fa-twitter"></b></a><a rel="me" href="https://data-folks.masto.host/@ftisiot">Mastodon</a> Francesco comes from Verona, Italy 🇮🇹 and works as a Staff Developer Advocate at Aiven. With his many years of experience as a data analyst, he has stories to tell and advice for data-wranglers  everywhere. Francesco loves sharing knowledge with others as a speaker and writer, and is on a mission to defend the world from bad Italian food!!</p>
+
+				
+			
+		
+		</div>
+		
+	</div>
+
+		
+		
+		
+		<footer class="hide-print sans-serif f6 fw1 bg-black near-white bottom-0 w-100 pa3" role="contentinfo">
+			<p class="w-50 fr tr">
+			<a class="no-underline near-white" href="https://github.com/xaprb/story"><img class="dib" title="Made with Hugo and Story" alt="Story logo" src="https://ftisiot.net/img/story-logo-white.svg" style="width: 1.5rem; height: 1.5rem" /></a>
+			</p>
+			<p class="w-50 near-white">
+				&copy; 2024 
+			</p>
+		</footer>
+		
+	
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-7Z74BTZ0TM', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+	
+	</body>
+</html>
