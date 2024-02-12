@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+  		
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7Z74BTZ0TM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7Z74BTZ0TM');
+</script>
+  		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>How to CONCAT in MySQL</title>
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="https://ftisiot.net/index.xml">
+		<link rel="canonical" href="https://ftisiot.net/posts/mysql-concat/">
+		
+		<link rel="shortcut icon" type="image/png" href="https://ftisiot.net/apple-touch-icon-precomposed.png">
+		<meta name="description" content="How to perform string concatenation in MySQL">
+		
+		
+
+		
+		<meta property="og:title" content="How to CONCAT in MySQL" />
+		<meta property="og:type" content="article" />
+		<meta property="og:image" content="https://ftisiot.net/images/2024/concat_mysql.png" />
+		<meta property="og:description" content="How to perform string concatenation in MySQL" />
+		<meta property="og:url" content="https://ftisiot.net/posts/mysql-concat/" />
+		<meta property="og:site_name" content="How to CONCAT in MySQL" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@" />
+
+
+		
+		<link rel="stylesheet" href="https://ftisiot.net/css/tachyons.min.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/story.css" />
+		<link rel="stylesheet" href="https://ftisiot.net/css/descartes.css" />
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Quattrocento:400,700|Spectral:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+		
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script src="https://ftisiot.net/js/story.js"></script>
+
+	</head>
+	<body class="ma0 bg-white section-posts page-kind-page is-page-true ">
+		
+		<header class="cover bg-top" style="background-image: url('https://ftisiot.net/images/2024/concat_mysql.png'); background-position: center;">
+			<div class="bg-black-30 bb bt">
+
+				<nav class="hide-print sans-serif  border-box pa3 ph5-l">
+					<a href="https://ftisiot.net" title="Home">
+						<img src="https://ftisiot.net/img/logo.jpg" class="w2 h2 br-100" alt="ftisiot ideas about food and life" />
+					</a>
+					<div class="fr h2 pv2 tr">
+						<a class="link f5 ml2 dim near-white" href="/who">who</a>
+						<a class="link f5 ml2 dim near-white" href="/speaking-activities">talks</a>
+						<a class="link f5 ml2 dim near-white" href="/suggestions-verona">suggestions</a>
+						<a class="link f5 ml2 dim near-white" href="/postgresqljson/main">json-pg</a>
+						<a class="link f5 ml2 dim near-white" href="/mysqljson/main">json-mysql</a>
+						<a class="link f5 ml2 dim near-white" href="https://www.youtube.com/channel/UCTJ4oA3-T3RdmM2OJ7d8cJg"><i class="fab fa-youtube-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://twitter.com/ftisiot/"><i class="fab fa-twitter-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://github.com/ftisiot/"><i class="fab fa-github-square"></i></a>
+						<a class="link f5 ml2 dim near-white" href="https://www.linkedin.com/in/francescotisiot/"><i class="fab fa-linkedin"></i></a>
+						<a class="link f5 ml2 dim near-white fas fa-rss-square" href="https://ftisiot.net/index.xml" title="RSS Feed"></a>
+						<a class="link f5 ml2 dim near-white fas fa-search" href="https://ftisiot.net/search/" role="search" title="Search"></a>
+					</div>
+				</nav>
+
+				<div id="hdr" class="tc-l pv4-ns pv5-l pv2 ph3 ph4-ns">
+					<h1 class="near-white mt1-ns f2 fw3 mb0 mt0 lh-title">How to CONCAT in MySQL</h1>
+					<h2 class="near-white mt3-l mb4-l fw1 f6 f3-l measure-wide-l center lh-copy mt2 mb3">
+						
+						
+							
+								Published
+								<time datetime="2024-02-12T14:43:29&#43;01:00">Feb 12, 2024</time>
+								<span class="display-print">by </span>
+								 in <a href="https://ftisiot.net/categories/mysql" class="no-underline category near-white dim">MySQL</a>, <a href="https://ftisiot.net/categories/concatenation" class="no-underline category near-white dim">Concatenation</a>, <a href="https://ftisiot.net/categories/concat" class="no-underline category near-white dim">Concat</a>, <a href="https://ftisiot.net/categories/string" class="no-underline category near-white dim">String</a>
+								<span class="display-print">at https://ftisiot.net/posts/mysql-concat/</span>
+							
+						
+					</h2>
+				</div>
+
+				
+				
+				
+				<div class="w-100 cf hide-print">
+					<a class="fr f6 ma0 pa2 link white-50 dim fas fa-camera" href="ftisiot" title="Photo Credit"></a>
+				</div>
+				
+				
+
+			</div>
+		</header>
+		
+		<main role="main">
+		
+<article class="center bg-white br-3 pv1 ph4 lh-copy f5 nested-links mw7">
+	<p>One of the most common tasks with strings is concatenation! This blog post showcases several techniques to perform it with MySQL.</p>
+<p> <p style="background: #C1E1C1;border: 2px solid #b4d3b2;border-radius: 15px;text-align: center;">👉 Need a FREE MySQL database?👈<br>🦀 Check <a href="https://go.aiven.io/francesco-signup">Aiven&rsquo;s FREE plans</a>! 🦀<br>
+Need to optimize your SQL query?  <br><br>
+🐧 Check <a href="https://www.eversql.com/?utm_medium=organic&utm_source=ext_blog&utm_content=ftisiotwebsite">EverSQL</a>! 🐧</p></p>
+
+<h2 id="string-concatenation-in-mysql-by-placing-strings-next-to-each-other">String concatenation in MySQL by placing strings next to each other</h2>
+<p>Let&rsquo;s take a basic example: a table containing <code>firstname</code> and <code>surname</code> fields we want to concatenate:</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">CREATE</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">TABLE</span><span style="color:#bbb"> </span>CLIENTS<span style="color:#bbb"> </span>(<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>id<span style="color:#bbb"> </span><span style="color:#008000">INT</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">PRIMARY</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">KEY</span>,<span style="color:#bbb"> 
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>firstname<span style="color:#bbb"> </span><span style="color:#008000">VARCHAR</span>(<span style="color:#666">100</span>),<span style="color:#bbb"> 
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>surname<span style="color:#bbb"> </span><span style="color:#008000">VARCHAR</span>(<span style="color:#666">100</span>),<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>region<span style="color:#bbb"> </span><span style="color:#008000">VARCHAR</span>(<span style="color:#666">100</span>),<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>creation_date<span style="color:#bbb"> </span><span style="color:#008000">date</span>,<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>preferred_item<span style="color:#bbb"> </span><span style="color:#008000">VARCHAR</span>(<span style="color:#666">100</span>)<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>);<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">INSERT</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">INTO</span><span style="color:#bbb"> </span>CLIENTS<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">VALUES</span><span style="color:#bbb"> 
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>(<span style="color:#666">1</span>,<span style="color:#bbb"> </span><span style="color:#ba2121">&#39;John&#39;</span>,<span style="color:#bbb"> </span><span style="color:#ba2121">&#39;Doe&#39;</span>,<span style="color:#bbb"> </span><span style="color:#ba2121">&#39;EMEA&#39;</span>,<span style="color:#bbb"> </span><span style="color:#ba2121">&#39;2024-01-01&#39;</span>,<span style="color:#bbb"> </span><span style="color:#ba2121">&#39;football&#39;</span>),<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>(<span style="color:#666">2</span>,<span style="color:#bbb"> </span><span style="color:#ba2121">&#39;Laura&#39;</span>,<span style="color:#bbb"> </span><span style="color:#ba2121">&#39;Smith&#39;</span>,<span style="color:#bbb"> </span><span style="color:#ba2121">&#39;EMEA&#39;</span>,<span style="color:#bbb"> </span><span style="color:#ba2121">&#39;2024-02-01&#39;</span>,<span style="color:#bbb"> </span><span style="color:#ba2121">&#39;tennis ball&#39;</span>),<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>(<span style="color:#666">3</span>,<span style="color:#bbb"> </span><span style="color:#ba2121">&#39;Eva&#39;</span>,<span style="color:#bbb"> </span><span style="color:#ba2121">&#39;Book&#39;</span>,<span style="color:#bbb"> </span><span style="color:#ba2121">&#39;APAC&#39;</span>,<span style="color:#bbb"> </span><span style="color:#ba2121">&#39;2024-01-03&#39;</span>,<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">null</span>),<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>(<span style="color:#666">4</span>,<span style="color:#bbb"> </span><span style="color:#ba2121">&#39;Andy&#39;</span>,<span style="color:#bbb"> </span><span style="color:#ba2121">&#39;Novel&#39;</span>,<span style="color:#bbb"> </span><span style="color:#ba2121">&#39;APAC&#39;</span>,<span style="color:#bbb"> </span><span style="color:#ba2121">&#39;2024-02-05&#39;</span>,<span style="color:#bbb"> </span><span style="color:#ba2121">&#39;teddy bear&#39;</span>),<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>(<span style="color:#666">5</span>,<span style="color:#bbb"> </span><span style="color:#ba2121">&#39;Eva&#39;</span>,<span style="color:#bbb"> </span><span style="color:#ba2121">&#39;Leeds&#39;</span>,<span style="color:#bbb"> </span><span style="color:#ba2121">&#39;APAC&#39;</span>,<span style="color:#bbb"> </span><span style="color:#ba2121">&#39;2024-02-01&#39;</span>,<span style="color:#bbb"> </span><span style="color:#ba2121">&#39;football&#39;</span>);<span style="color:#bbb">
+</span></span></span></code></pre></div><p>We can concatenate two quoted strings by placing one string next to the other like:</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">select</span><span style="color:#bbb"> </span><span style="color:#ba2121">&#39;MyFirstname&#39;</span><span style="color:#bbb"> </span><span style="color:#ba2121">&#39;MySurname&#39;</span>;<span style="color:#bbb">
+</span></span></span></code></pre></div><p>The result is</p>
+<pre tabindex="0"><code>+----------------------+
+| MyFirstname          |
++----------------------+
+| MyFirstnameMySurname |
++----------------------+
+1 row in set (0.03 sec)
+</code></pre><p>We can see that:</p>
+<ul>
+<li>the result is the correct concatenation</li>
+<li>the column name is the first quoted string</li>
+</ul>
+<p>However, if we apply the same principle to standard columns instead of quoted strings with:</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">select</span><span style="color:#bbb"> </span>firstname<span style="color:#bbb"> </span>surname<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">from</span><span style="color:#bbb"> </span>CLIENTS;<span style="color:#bbb">
+</span></span></span></code></pre></div><p>We get a different result:</p>
+<pre tabindex="0"><code>+---------+
+| surname |
++---------+
+| John    |
+| Laura   |
+| Eva     |
+| Andy    |
+| Eva     |
++---------+
+5 rows in set (0.02 sec)
+</code></pre><p>The result showcases only the <code>firstname</code> in the results, with the <code>surname</code> being included as the result column heading.</p>
+<blockquote>
+<p>TLDR: concatenating strings in MySQL by placing strings next to each other is possible only if we are dealing with quoted strings.</p>
+</blockquote>
+<h3 id="concatenating-a-non-string">Concatenating a non string</h3>
+<p>Is it possible with the same method to concatenate a non string?</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">select</span><span style="color:#bbb"> </span><span style="color:#ba2121">&#39;MyFirstname&#39;</span><span style="color:#bbb"> </span><span style="color:#666">1</span>;<span style="color:#bbb">
+</span></span></span></code></pre></div><p>Nope, we get <code>ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1</code></p>
+<h3 id="concatenating-a-null">Concatenating a NULL</h3>
+<p>What about concatenating a <code>NULL</code> value?</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">select</span><span style="color:#bbb"> </span><span style="color:#ba2121">&#39;MyFirstname&#39;</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">NULL</span>;<span style="color:#bbb">
+</span></span></span></code></pre></div><p>Same error <code>ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NULL' at line 1</code></p>
+<h2 id="string-concatenation-in-mysql-with-the--operator">String concatenation in MySQL with the <code>||</code> operator</h2>
+<p>We can also concatenate <code>firstname</code> and <code>surname</code> using the <code>||</code> operator with:</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">select</span><span style="color:#bbb"> </span>firstname<span style="color:#bbb"> </span><span style="color:#666">||</span><span style="color:#bbb"> </span>surname<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">from</span><span style="color:#bbb"> </span>CLIENTS;<span style="color:#bbb">
+</span></span></span></code></pre></div><p>The result will be:</p>
+<pre tabindex="0"><code>+-----------------------+
+| firstname || surname  |
++-----------------------+
+| JohnDoe               |
+| LauraSmith            |
+| EvaBook               |
+| AndyNovel             |
+| EvaLeeds              |
++-----------------------+
+5 rows in set (0.02 sec)
+</code></pre><p>Please check that there&rsquo;s no space between the <code>firstname</code> and <code>surname</code>, but we can add it with:</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">select</span><span style="color:#bbb"> </span>firstname<span style="color:#bbb"> </span><span style="color:#666">||</span><span style="color:#bbb"> </span><span style="color:#ba2121">&#39; &#39;</span><span style="color:#bbb"> </span><span style="color:#666">||</span><span style="color:#bbb"> </span>surname<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">from</span><span style="color:#bbb"> </span>CLIENTS;<span style="color:#bbb">
+</span></span></span></code></pre></div><p>Which shows the expected result</p>
+<pre tabindex="0"><code>+------------------------------+
+| firstname || &#39; &#39; || surname  |
++------------------------------+
+| John Doe                     |
+| Laura Smith                  |
+| Eva Book                     |
+| Andy Novel                   |
+| Eva Leeds                    |
++------------------------------+
+5 rows in set (0.02 sec)
+</code></pre><h3 id="concatenating-a-non-string-1">Concatenating a non string</h3>
+<p>What about concatenating strings with other fields that are not a string? If, for example, we try to concat the <code>firstname</code> and <code>id</code> (an <code>integer</code>) with the following:</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">select</span><span style="color:#bbb"> </span>firstname<span style="color:#bbb"> </span><span style="color:#666">||</span><span style="color:#bbb"> </span>id<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">from</span><span style="color:#bbb"> </span>CLIENTS;<span style="color:#bbb">
+</span></span></span></code></pre></div><p>We get the expected result</p>
+<pre tabindex="0"><code>+------------------+
+| firstname || id  |
++------------------+
+| John1            |
+| Laura2           |
+| Eva3             |
+| Andy4            |
+| Eva5             |
++------------------+
+</code></pre><p>The same if we try to concatenate the <code>creation_date</code> date field</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">select</span><span style="color:#bbb"> </span>firstname<span style="color:#bbb"> </span><span style="color:#666">||</span><span style="color:#bbb"> </span>creation_date<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">from</span><span style="color:#bbb"> </span>CLIENTS;<span style="color:#bbb">
+</span></span></span></code></pre></div><p>Result:</p>
+<pre tabindex="0"><code>+-----------------------------+
+| firstname || creation_date  |
++-----------------------------+
+| John2024-01-01              |
+| Laura2024-02-01             |
+| Eva2024-01-03               |
+| Andy2024-02-05              |
+| Eva2024-02-01               |
++-----------------------------+
+5 rows in set (0.02 sec)
+</code></pre><p>However we might want to add a function to the date to get alternative formats from the default, for example the <code>DATE_FORMAT</code> function below converts the date in a weird format separating years, months and days with <code>..</code></p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">select</span><span style="color:#bbb"> </span>firstname<span style="color:#bbb"> </span><span style="color:#666">||</span><span style="color:#bbb"> </span>DATE_FORMAT(creation_date,<span style="color:#bbb"> </span><span style="color:#ba2121">&#39;..%Y..%M..%D&#39;</span>)<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">from</span><span style="color:#bbb"> </span>CLIENTS;<span style="color:#bbb">
+</span></span></span></code></pre></div><p>Results</p>
+<pre tabindex="0"><code>+---------------------------------------------------------+
+| firstname || DATE_FORMAT(creation_date, &#39;..%Y..%M..%D&#39;) |
++---------------------------------------------------------+
+| John..2024..January..1st                                |
+| Laura..2024..February..1st                              |
+| Eva..2024..January..3rd                                 |
+| Andy..2024..February..5th                               |
+| Eva..2024..February..1st                                |
++---------------------------------------------------------+
+5 rows in set (0.03 sec)
+</code></pre><h3 id="concatenating-a-null-value">Concatenating a NULL value</h3>
+<p>What does it happen if we try to concatenate a <code>NULL</code> value? If you check the dataset created, the row with <code>id=3</code> for <code>Eva Book</code> has a <code>preferred_item</code> equal to <code>NULL</code>, let&rsquo;s check the output of concatenating the <code>firstname</code>, <code>surname</code> and <code>preferred_item</code>:</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">select</span><span style="color:#bbb"> </span>firstname<span style="color:#bbb"> </span><span style="color:#666">||</span><span style="color:#bbb"> </span>surname<span style="color:#bbb"> </span><span style="color:#666">||</span><span style="color:#bbb"> </span>preferred_item<span style="color:#bbb">  </span><span style="color:#008000;font-weight:bold">from</span><span style="color:#bbb"> </span>CLIENTS;<span style="color:#bbb">
+</span></span></span></code></pre></div><p>Result</p>
+<pre tabindex="0"><code>+------------------------------------------+
+| firstname || surname || preferred_item   |
++------------------------------------------+
+| JohnDoefootball                          |
+| LauraSmithtennis ball                    |
+| NULL                                     |
+| AndyNovelteddy bear                      |
+| EvaLeedsfootball                         |
++------------------------------------------+
+5 rows in set (0.03 sec)
+</code></pre><p>The result shows that the entire concatenation string is <code>NULL</code>!</p>
+<blockquote>
+<p>TLDR: a concatenation will return <code>NULL</code> if any of the strings is <code>NULL</code></p>
+</blockquote>
+<h2 id="string-concatenation-in-mysql-with-the-concat-function">String concatenation in MySQL with the <code>CONCAT</code> function</h2>
+<p>Another option is to use MySQL <a href="https://dev.mysql.com/doc/refman/8.0/en/string-functions.html#function_concat">Concat function</a>. Let&rsquo;s try with the basic <code>firstname</code> and <code>surname</code> example:</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">select</span><span style="color:#bbb"> </span>concat(firstname,<span style="color:#bbb"> </span>surname)<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">from</span><span style="color:#bbb"> </span>CLIENTS;<span style="color:#bbb">
+</span></span></span></code></pre></div><p>The results are in line with the previous <code>||</code> example, not having any additional separator added into the resulting string.</p>
+<pre tabindex="0"><code>+----------------------------+
+| concat(firstname, surname) |
++----------------------------+
+| JohnDoe                    |
+| LauraSmith                 |
+| EvaBook                    |
+| AndyNovel                  |
+| EvaLeeds                   |
++----------------------------+
+5 rows in set (0.03 sec)
+</code></pre><p>How can we add a space in between? We have two options:</p>
+<ul>
+<li>Add a space to the <code>CONCAT</code> function</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">select</span><span style="color:#bbb"> </span>concat(firstname,<span style="color:#bbb"> </span><span style="color:#ba2121">&#39; &#39;</span><span style="color:#bbb"> </span>,surname)<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">from</span><span style="color:#bbb"> </span>CLIENTS;<span style="color:#bbb">
+</span></span></span></code></pre></div><ul>
+<li>Use the <code>CONCAT_WS</code> function (concat with separator) passing the space as separator</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">select</span><span style="color:#bbb"> </span>concat_ws(<span style="color:#ba2121">&#39; &#39;</span>,<span style="color:#bbb"> </span>firstname,<span style="color:#bbb"> </span>surname)<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">from</span><span style="color:#bbb"> </span>CLIENTS;<span style="color:#bbb">
+</span></span></span></code></pre></div><h3 id="concatenating-a-non-string-with-the-concat-function">Concatenating a non string with the CONCAT function</h3>
+<p>What happens if we include non strings in the <code>CONCAT</code> function?</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">select</span><span style="color:#bbb"> </span>concat(firstname,<span style="color:#bbb"> </span>id)<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">from</span><span style="color:#bbb"> </span>CLIENTS;<span style="color:#bbb">
+</span></span></span></code></pre></div><p>As before we get the expected result</p>
+<pre tabindex="0"><code>+-----------------------+
+| concat(firstname, id) |
++-----------------------+
+| John1                 |
+| Laura2                |
+| Eva3                  |
+| Andy4                 |
+| Eva5                  |
++-----------------------+
+5 rows in set (0.03 sec)
+</code></pre><h3 id="concatenating-a-null-value-with-the-concat-function">Concatenating a NULL value with the CONCAT function</h3>
+<p>What about <code>NULL</code> values?</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">select</span><span style="color:#bbb"> </span>concat(firstname,<span style="color:#bbb"> </span>surname,<span style="color:#bbb"> </span>preferred_item)<span style="color:#bbb">  </span><span style="color:#008000;font-weight:bold">from</span><span style="color:#bbb"> </span>CLIENTS;<span style="color:#bbb">
+</span></span></span></code></pre></div><p>As before, if any of the source strings is <code>NULL</code>, the result of the concatenation is <code>NULL</code></p>
+<pre tabindex="0"><code>+--------------------------------------------+
+| concat(firstname, surname, preferred_item) |
++--------------------------------------------+
+| JohnDoefootball                            |
+| LauraSmithtennis ball                      |
+| NULL                                       |
+| AndyNovelteddy bear                        |
+| EvaLeedsfootball                           |
++--------------------------------------------+
+5 rows in set (0.03 sec)
+</code></pre><h2 id="string-aggregation-via-concatenation-in-mysql-with-the-group_concat-function">String aggregation via concatenation in MySQL with the <code>GROUP_CONCAT</code> function</h2>
+<p>If we need to concatenate all the strings belonging to the same group, we can use MySQL <a href="https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html#function_group-concat">GROUP_CONCAT</a> function.</p>
+<p>If, in our example, we want to concatenate the <code>firstname</code> of all the people grouped by their <code>region</code> we can write the following:</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">select</span><span style="color:#bbb"> </span>region,<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>group_concat(firstname)<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">from</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>CLIENTS<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">group</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">by</span><span style="color:#bbb"> </span>region<span style="color:#bbb">
+</span></span></span></code></pre></div><p>The result is the following, with <code>,</code> as the default separator:</p>
+<pre tabindex="0"><code>+--------+-------------------------+
+| region | group_concat(firstname) |
++--------+-------------------------+
+| APAC   | Eva,Andy,Eva            |
+| EMEA   | John,Laura              |
++--------+-------------------------+
+2 rows in set (0.03 sec)
+</code></pre><p>We can also order how the strings are ordered in the list with:</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">select</span><span style="color:#bbb"> </span>region,<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>group_concat(firstname<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">ORDER</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">BY</span><span style="color:#bbb"> </span>firstname)<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">from</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>CLIENTS<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">group</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">by</span><span style="color:#bbb"> </span>region;<span style="color:#bbb">
+</span></span></span></code></pre></div><p>Result</p>
+<pre tabindex="0"><code>+--------+--------------------------------------------+
+| region | group_concat(firstname ORDER BY firstname) |
++--------+--------------------------------------------+
+| APAC   | Andy,Eva,Eva                               |
+| EMEA   | John,Laura                                 |
++--------+--------------------------------------------+
+2 rows in set (0.03 sec)
+</code></pre><p>And change the separator with</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">select</span><span style="color:#bbb"> </span>region,<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>group_concat(firstname<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">ORDER</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">BY</span><span style="color:#bbb"> </span>firstname<span style="color:#bbb"> </span>SEPARATOR<span style="color:#bbb"> </span><span style="color:#ba2121">&#39;$$&#39;</span>)<span style="color:#bbb"> </span>res<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">from</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>CLIENTS<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">group</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">by</span><span style="color:#bbb"> </span>region;<span style="color:#bbb">
+</span></span></span></code></pre></div><p>Result</p>
+<pre tabindex="0"><code>+--------+----------------+
+| region | res            |
++--------+----------------+
+| APAC   | Andy$$Eva$$Eva |
+| EMEA   | John$$Laura    |
++--------+----------------+
+2 rows in set (0.02 sec)
+</code></pre><p>We can also only list the distinct values, removing the duplication of <code>Eva</code> with:</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">select</span><span style="color:#bbb"> </span>region,<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>group_concat(<span style="color:#008000;font-weight:bold">DISTINCT</span><span style="color:#bbb"> </span>firstname<span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">ORDER</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">BY</span><span style="color:#bbb"> </span>firstname<span style="color:#bbb"> </span>SEPARATOR<span style="color:#bbb"> </span><span style="color:#ba2121">&#39;$$&#39;</span>)<span style="color:#bbb"> </span>res<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">from</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>CLIENTS<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">group</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">by</span><span style="color:#bbb"> </span>region;<span style="color:#bbb">
+</span></span></span></code></pre></div><p>Result</p>
+<pre tabindex="0"><code>+--------+-------------+
+| region | res         |
++--------+-------------+
+| APAC   | Andy$$Eva   |
+| EMEA   | John$$Laura |
++--------+-------------+
+2 rows in set (0.03 sec)
+</code></pre><h3 id="aggregating-and-concatenating-a-non-string-with-the-group_concat-function">Aggregating and concatenating a non string with the GROUP_CONCAT function</h3>
+<p>Let&rsquo;s try with a non string, like the <code>id</code> field:</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">select</span><span style="color:#bbb"> </span>region,<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>group_concat(id)<span style="color:#bbb"> </span>res<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">from</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>CLIENTS<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">group</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">by</span><span style="color:#bbb"> </span>region;<span style="color:#bbb">
+</span></span></span></code></pre></div><p>Works!</p>
+<pre tabindex="0"><code>+--------+-------+
+| region | res   |
++--------+-------+
+| APAC   | 3,4,5 |
+| EMEA   | 1,2   |
++--------+-------+
+2 rows in set (0.02 sec)
+</code></pre><p>The same if we try with <code>creation_date</code></p>
+<pre tabindex="0"><code>+--------+----------------------------------+
+| region | res                              |
++--------+----------------------------------+
+| APAC   | 2024-01-03,2024-02-05,2024-02-01 |
+| EMEA   | 2024-01-01,2024-02-01            |
++--------+----------------------------------+
+2 rows in set (0.02 sec)
+</code></pre><h3 id="aggregating-and-concatenating-a-null-value-with-the-group_concat-function">Aggregating and concatenating a NULL value with the GROUP_CONCAT function</h3>
+<p>What about our <code>NULL</code> value? Let&rsquo;s check it out!</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#008000;font-weight:bold">select</span><span style="color:#bbb"> </span>region,<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>group_concat(preferred_item)<span style="color:#bbb"> </span>res<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">from</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">    </span>CLIENTS<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">group</span><span style="color:#bbb"> </span><span style="color:#008000;font-weight:bold">by</span><span style="color:#bbb"> </span>region;<span style="color:#bbb">
+</span></span></span></code></pre></div><p>In this case the behaviour is different:</p>
+<pre tabindex="0"><code>+--------+----------------------+
+| region | res                  |
++--------+----------------------+
+| APAC   | teddy bear,football  |
+| EMEA   | football,tennis ball |
++--------+----------------------+
+2 rows in set (0.02 sec)
+</code></pre><p>Even if the row with <code>id=3</code> part of the <code>APAC</code> group had <code>preferred_item</code> equal to <code>NULL</code>, the resulting aggregate is <strong>not NULL</strong>! This is a common behaviour for aggregate functions to ignore the <code>NULL</code> values.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Here&rsquo;s an handy overview of the concatenation possibilities in MySQL:</p>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>code</th>
+<th>works with quoted strings</th>
+<th>works with standard columns</th>
+<th>works with non strings</th>
+<th>Works with <code>NULL</code></th>
+<th>aggregates results</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Placing strings next to each other</td>
+<td>&lsquo;a&rsquo; &lsquo;b&rsquo;</td>
+<td>✅</td>
+<td>❌</td>
+<td>❌</td>
+<td>❌</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>| operator</td>
+<td>&lsquo;a&rsquo; || &lsquo;b&rsquo;</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>CONCAT function</td>
+<td>concat(&lsquo;a&rsquo;,&lsquo;b&rsquo;)</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>GROUP_CONCAT function</td>
+<td>group_concat(&lsquo;a&rsquo;,&lsquo;b&rsquo;)</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+<td>✅</td>
+</tr>
+</tbody>
+</table>
+</article>
+
+		</main>
+		
+				<div class="hide-print sans-serif f6 f5-l mt5 ph3 pb6 center nested-copy-line-height lh-copy nested-links mw-100 measure-wide">
+		<div class="about-the-author">
+		
+			
+			
+				
+					<hr>
+<p><img src="/images/ftisiot.jpg" alt="Francesco Tisiot"></p>
+<p><a href="https://www.linkedin.com/in/francescotisiot/"><b class="fab fa-linkedin"></b></a> <a href="https://twitter.com/FTisiot"><b class="fab fa-twitter"></b></a><a rel="me" href="https://data-folks.masto.host/@ftisiot">Mastodon</a> Francesco comes from Verona, Italy 🇮🇹 and works as a Staff Developer Advocate at Aiven. With his many years of experience as a data analyst, he has stories to tell and advice for data-wranglers  everywhere. Francesco loves sharing knowledge with others as a speaker and writer, and is on a mission to defend the world from bad Italian food!!</p>
+
+				
+			
+		
+		</div>
+		
+	</div>
+
+		
+		
+		
+		<footer class="hide-print sans-serif f6 fw1 bg-black near-white bottom-0 w-100 pa3" role="contentinfo">
+			<p class="w-50 fr tr">
+			<a class="no-underline near-white" href="https://github.com/xaprb/story"><img class="dib" title="Made with Hugo and Story" alt="Story logo" src="https://ftisiot.net/img/story-logo-white.svg" style="width: 1.5rem; height: 1.5rem" /></a>
+			</p>
+			<p class="w-50 near-white">
+				&copy; 2024 
+			</p>
+		</footer>
+		
+	
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-7Z74BTZ0TM', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+	
+	</body>
+</html>

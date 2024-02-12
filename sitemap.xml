@@ -3,12 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ftisiot.net/categories/</loc>
-    <lastmod>2024-02-02T11:25:54+01:00</lastmod>
+    <lastmod>2024-02-12T14:43:29+01:00</lastmod>
   </url><url>
-    <loc>https://ftisiot.net/categories/copy/</loc>
-    <lastmod>2024-02-02T11:25:54+01:00</lastmod>
+    <loc>https://ftisiot.net/categories/concat/</loc>
+    <lastmod>2024-02-12T14:43:29+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/concatenation/</loc>
+    <lastmod>2024-02-12T14:43:29+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/</loc>
+    <lastmod>2024-02-12T14:43:29+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/posts/mysql-concat/</loc>
+    <lastmod>2024-02-12T14:43:29+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/mysql/</loc>
+    <lastmod>2024-02-12T14:43:29+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/posts/</loc>
+    <lastmod>2024-02-12T14:43:29+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/string/</loc>
+    <lastmod>2024-02-12T14:43:29+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/copy/</loc>
     <lastmod>2024-02-02T11:25:54+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/postgresqljson/load-json-data-with-postgresql-copy/</loc>
@@ -29,9 +47,6 @@
     <loc>https://ftisiot.net/posts/stackoverflow-postgresql/</loc>
     <lastmod>2024-01-29T14:38:05+01:00</lastmod>
   </url><url>
-    <loc>https://ftisiot.net/posts/</loc>
-    <lastmod>2024-01-29T14:38:05+01:00</lastmod>
-  </url><url>
     <loc>https://ftisiot.net/categories/stackexchange/</loc>
     <lastmod>2024-01-29T14:38:05+01:00</lastmod>
   </url><url>
@@ -42,9 +57,6 @@
     <lastmod>2024-01-26T14:43:29+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/1brows/</loc>
-    <lastmod>2024-01-26T14:43:29+01:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/categories/mysql/</loc>
     <lastmod>2024-01-26T14:43:29+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/sorting/</loc>
