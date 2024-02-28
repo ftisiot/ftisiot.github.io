@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>coalesce on ftisiot ideas about food and life</title>
+    <link>https://ftisiot.net/categories/coalesce/</link>
+    <description>Recent content in coalesce on ftisiot ideas about food and life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Feb 2024 08:00:29 +0100</lastBuildDate>
+    <atom:link href="https://ftisiot.net/categories/coalesce/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>11 Lessons to learn when using NULLs in PostgreSQL®</title>
+      <link>https://ftisiot.net/posts/postgresql-isnull/</link>
+      <pubDate>Wed, 28 Feb 2024 08:00:29 +0100</pubDate>
+      <guid>https://ftisiot.net/posts/postgresql-isnull/</guid>
+      <description>&lt;p&gt;A boolean value should only contain two values, &lt;code&gt;True&lt;/code&gt; or &lt;code&gt;False&lt;/code&gt;, but is it correct? Usually people assume so, but sometimes miss the fact that there could be the &lt;strong&gt;absence&lt;/strong&gt; of the value all-together. In databases this is absence is usually stored as &lt;code&gt;NULL&lt;/code&gt; and this blog showcases how to find them, use them properly and 11 lessons to learn to be a &lt;code&gt;NULL&lt;/code&gt; Pro!&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Keep in mind, it&amp;rsquo;s not only booleans that can contain &lt;code&gt;NULL&lt;/code&gt; values, it&amp;rsquo;s all the columns where you don&amp;rsquo;t define a &lt;code&gt;NOT NULL&lt;/code&gt; constraint!&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
+  </channel>
+</rss>
