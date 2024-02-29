@@ -2,25 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ftisiot.net/posts/postgresql-isnull/</loc>
-    <lastmod>2024-02-28T08:00:29+01:00</lastmod>
+    <loc>https://ftisiot.net/categories/ai/</loc>
+    <lastmod>2024-02-29T11:00:56+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/</loc>
+    <lastmod>2024-02-29T11:00:56+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/</loc>
+    <lastmod>2024-02-29T11:00:56+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/posts/list-of-postgresql-ai-resources/</loc>
+    <lastmod>2024-02-29T11:00:56+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/postgresql/</loc>
+    <lastmod>2024-02-29T11:00:56+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/posts/</loc>
+    <lastmod>2024-02-29T11:00:56+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/projects/</loc>
+    <lastmod>2024-02-29T11:00:56+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/resources/</loc>
+    <lastmod>2024-02-29T11:00:56+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/posts/postgresql-isnull/</loc>
     <lastmod>2024-02-28T08:00:29+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/coalesce/</loc>
     <lastmod>2024-02-28T08:00:29+01:00</lastmod>
   </url><url>
-    <loc>https://ftisiot.net/</loc>
-    <lastmod>2024-02-28T08:00:29+01:00</lastmod>
-  </url><url>
     <loc>https://ftisiot.net/categories/isnull/</loc>
-    <lastmod>2024-02-28T08:00:29+01:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/categories/postgresql/</loc>
-    <lastmod>2024-02-28T08:00:29+01:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/posts/</loc>
     <lastmod>2024-02-28T08:00:29+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/sql/</loc>

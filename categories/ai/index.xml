@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI on ftisiot ideas about food and life</title>
+    <link>https://ftisiot.net/categories/ai/</link>
+    <description>Recent content in AI on ftisiot ideas about food and life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 29 Feb 2024 11:00:56 +0100</lastBuildDate>
+    <atom:link href="https://ftisiot.net/categories/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>List of PostgreSQL® AI Projects and Resources</title>
+      <link>https://ftisiot.net/posts/list-of-postgresql-ai-resources/</link>
+      <pubDate>Thu, 29 Feb 2024 11:00:56 +0100</pubDate>
+      <guid>https://ftisiot.net/posts/list-of-postgresql-ai-resources/</guid>
+      <description>&lt;p&gt;Everyone is now talking about AI, and modern databases like PostgreSQL® are increasingly being adopted in companies&amp;rsquo; AI journey as sources of data or key pieces of the AI infrastructure. Moreover there&amp;rsquo;s a new set projects that are solving PostgreSQL problems with AI.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
