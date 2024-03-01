@@ -9,6 +9,13 @@
     <lastBuildDate>Mon, 09 Jan 2023 08:23:06 +0100</lastBuildDate>
     <atom:link href="https://ftisiot.net/mysqljson/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>How to query JSON in MySQL with JSON_CONTAINS</title>
+      <link>https://ftisiot.net/mysqljson/query-json-contains-mysql/</link>
+      <pubDate>Fri, 01 Mar 2024 10:53:23 +0100</pubDate>
+      <guid>https://ftisiot.net/mysqljson/query-json-contains-mysql/</guid>
+      <description>&lt;p&gt;You can query a JSON document in MySQL to find content within it with:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The &lt;code&gt;JSON_CONTAINS&lt;/code&gt; function that will return if a JSON document is contained within another JSON document. The function returns &lt;code&gt;1&lt;/code&gt; if the document is contained, &lt;code&gt;0&lt;/code&gt; elsewhere.&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;JSON_CONTAINS&lt;/code&gt; function that will return if a JSON document path is contained within another JSON document. The function returns &lt;code&gt;1&lt;/code&gt; if the document is contained, &lt;code&gt;0&lt;/code&gt; elsewhere.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
       <title>How to tabulate a JSON document in MySQL</title>
       <link>https://ftisiot.net/mysqljson/how-to-tabulate-JSON-document-mysql/</link>
       <pubDate>Fri, 21 Jul 2023 17:05:26 +0200</pubDate>

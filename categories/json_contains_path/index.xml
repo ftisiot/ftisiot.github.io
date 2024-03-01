@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>contains on ftisiot ideas about food and life</title>
-    <link>https://ftisiot.net/categories/contains/</link>
-    <description>Recent content in contains on ftisiot ideas about food and life</description>
+    <title>json_contains_path on ftisiot ideas about food and life</title>
+    <link>https://ftisiot.net/categories/json_contains_path/</link>
+    <description>Recent content in json_contains_path on ftisiot ideas about food and life</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Mar 2024 10:53:23 +0100</lastBuildDate>
-    <atom:link href="https://ftisiot.net/categories/contains/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ftisiot.net/categories/json_contains_path/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to query JSON in MySQL with JSON_CONTAINS</title>
       <link>https://ftisiot.net/mysqljson/query-json-contains-mysql/</link>
       <pubDate>Fri, 01 Mar 2024 10:53:23 +0100</pubDate>
       <guid>https://ftisiot.net/mysqljson/query-json-contains-mysql/</guid>
       <description>&lt;p&gt;You can query a JSON document in MySQL to find content within it with:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The &lt;code&gt;JSON_CONTAINS&lt;/code&gt; function that will return if a JSON document is contained within another JSON document. The function returns &lt;code&gt;1&lt;/code&gt; if the document is contained, &lt;code&gt;0&lt;/code&gt; elsewhere.&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;JSON_CONTAINS&lt;/code&gt; function that will return if a JSON document path is contained within another JSON document. The function returns &lt;code&gt;1&lt;/code&gt; if the document is contained, &lt;code&gt;0&lt;/code&gt; elsewhere.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>How to check if JSON contains in PostgreSQL®?</title>
-      <link>https://ftisiot.net/postgresqljson/how-to-check-JSON-contains-postgresql/</link>
-      <pubDate>Fri, 06 Jan 2023 16:39:26 +0100</pubDate>
-      <guid>https://ftisiot.net/postgresqljson/how-to-check-JSON-contains-postgresql/</guid>
-      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, and provides several different ways to check if a value/field from a JSON document:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
