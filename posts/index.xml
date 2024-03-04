@@ -9,11 +9,11 @@
     <lastBuildDate>Mon, 04 Mar 2024 14:31:10 +0100</lastBuildDate>
     <atom:link href="https://ftisiot.net/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>From dbf to PostgreSQL with Python</title>
+      <title>From dbf to SQL (and PostgreSQL) with Python</title>
       <link>https://ftisiot.net/posts/dbf-to-postgresql-python/</link>
       <pubDate>Mon, 04 Mar 2024 14:31:10 +0100</pubDate>
       <guid>https://ftisiot.net/posts/dbf-to-postgresql-python/</guid>
-      <description>&lt;p&gt;Some time ago I found an interesting database file suffix I never faced before: the &lt;code&gt;.dbf&lt;/code&gt; and saw aroung that it was first introduced in 1983 with dBASE II. This article showcases how we can automatically generate the PostgreSQL table and fill it with data using Python and &lt;a href=&#34;https://dbfread.readthedocs.io/en/latest/exporting_data.html#dataset-sql&#34;&gt;dbfread&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Some time ago I found an interesting database file suffix I never faced before: the &lt;code&gt;.dbf&lt;/code&gt; and saw around that it was first introduced in 1983 with dBASE II. This article showcases how we can automatically generate the PostgreSQL table and fill it with data using Python and &lt;a href=&#34;https://dbfread.readthedocs.io/en/latest/exporting_data.html#dataset-sql&#34;&gt;dbfread&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>List of PostgreSQL® AI Projects and Resources</title>
