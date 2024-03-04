@@ -3,12 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ftisiot.net/categories/</loc>
-    <lastmod>2024-03-01T10:53:23+01:00</lastmod>
+    <lastmod>2024-03-04T14:31:10+01:00</lastmod>
   </url><url>
-    <loc>https://ftisiot.net/categories/contains/</loc>
-    <lastmod>2024-03-01T10:53:23+01:00</lastmod>
+    <loc>https://ftisiot.net/categories/dbf/</loc>
+    <lastmod>2024-03-04T14:31:10+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/</loc>
+    <lastmod>2024-03-04T14:31:10+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/posts/dbf-to-postgresql-python/</loc>
+    <lastmod>2024-03-04T14:31:10+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/postgresql/</loc>
+    <lastmod>2024-03-04T14:31:10+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/posts/</loc>
+    <lastmod>2024-03-04T14:31:10+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/python/</loc>
+    <lastmod>2024-03-04T14:31:10+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/sql/</loc>
+    <lastmod>2024-03-04T14:31:10+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/contains/</loc>
     <lastmod>2024-03-01T10:53:23+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/mysqljson/query-json-contains-mysql/</loc>
@@ -32,12 +50,6 @@
     <loc>https://ftisiot.net/posts/list-of-postgresql-ai-resources/</loc>
     <lastmod>2024-02-29T11:00:56+01:00</lastmod>
   </url><url>
-    <loc>https://ftisiot.net/categories/postgresql/</loc>
-    <lastmod>2024-02-29T11:00:56+01:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/posts/</loc>
-    <lastmod>2024-02-29T11:00:56+01:00</lastmod>
-  </url><url>
     <loc>https://ftisiot.net/categories/projects/</loc>
     <lastmod>2024-02-29T11:00:56+01:00</lastmod>
   </url><url>
@@ -51,9 +63,6 @@
     <lastmod>2024-02-28T08:00:29+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/isnull/</loc>
-    <lastmod>2024-02-28T08:00:29+01:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/categories/sql/</loc>
     <lastmod>2024-02-28T08:00:29+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/concat/</loc>
