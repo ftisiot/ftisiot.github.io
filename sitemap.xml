@@ -3,21 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ftisiot.net/categories/</loc>
-    <lastmod>2024-03-04T14:31:10+01:00</lastmod>
+    <lastmod>2024-03-11T11:10:09+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/</loc>
+    <lastmod>2024-03-11T11:10:09+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/posts/pgbench-test-postgresql/</loc>
+    <lastmod>2024-03-11T11:10:09+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/performance/</loc>
+    <lastmod>2024-03-11T11:10:09+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/pgbench/</loc>
+    <lastmod>2024-03-11T11:10:09+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/postgresql/</loc>
+    <lastmod>2024-03-11T11:10:09+01:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/posts/</loc>
+    <lastmod>2024-03-11T11:10:09+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/dbf/</loc>
     <lastmod>2024-03-04T14:31:10+01:00</lastmod>
   </url><url>
-    <loc>https://ftisiot.net/</loc>
-    <lastmod>2024-03-04T14:31:10+01:00</lastmod>
-  </url><url>
     <loc>https://ftisiot.net/posts/dbf-to-postgresql-python/</loc>
-    <lastmod>2024-03-04T14:31:10+01:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/categories/postgresql/</loc>
-    <lastmod>2024-03-04T14:31:10+01:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/posts/</loc>
     <lastmod>2024-03-04T14:31:10+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/python/</loc>
