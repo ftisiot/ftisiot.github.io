@@ -1,328 +1,691 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>ftisiot ideas about food and life </title>
-		<link>https://ftisiot.net/</link>
-		<generator>Hugo -- gohugo.io</generator>
-		<language>en-us</language>
-		<author></author>
-		<rights>Copyright (c) 2024</rights>
-		<updated>2024-03-11 11:10:09 &#43;0100 CET</updated>
-		
-		<item>
-			<title>Posts</title>
-			<link>https://ftisiot.net/posts/</link>
-			<pubDate>Mon, 11 Mar 2024 11:10:09 CET</pubDate>
-			<author></author>
-			<guid>https://ftisiot.net/posts/</guid>
-			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
-			<description></description>
-		</item>
-		
-		<item>
-			<title>Talks</title>
-			<link>https://ftisiot.net/talks/</link>
-			<pubDate>Mon, 08 Jan 2024 14:06:54 CET</pubDate>
-			<author></author>
-			<guid>https://ftisiot.net/talks/</guid>
-			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
-			<description></description>
-		</item>
-		
-		<item>
-			<title>SOFT Methodology</title>
-			<link>https://ftisiot.net/soft/</link>
-			<pubDate>Thu, 26 Jan 2023 09:10:21 CET</pubDate>
-			<author></author>
-			<guid>https://ftisiot.net/soft/</guid>
-			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/images/2023/soft.png" medium="image" type="image/jpg" width="100" height="100" />
-			<description>&lt;p&gt;This page contains all the links related to the SOFT (Scalable Observable Fast Trustworthy) methodology for defining robust data platforms.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://aiven.io/blog/a-soft-methodology-to-define-robust-data-platforms&#34;&gt;The SOFT definition&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://ftisiot.net/posts/from-data-stack-to-data-stuck&#34;&gt;From data stack to data stuck: the risks of not asking the right data questions&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://ftisiot.net/posts/tech-scalability&#34;&gt;What are the directions of technical scalability&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-		</item>
-		
-		<item>
-			<title>How to JSON in MySQL</title>
-			<link>https://ftisiot.net/mysqljson/</link>
-			<pubDate>Mon, 09 Jan 2023 08:23:06 CET</pubDate>
-			<author></author>
-			<guid>https://ftisiot.net/mysqljson/</guid>
-			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/images/2023/mysql-json-little.png" medium="image" type="image/jpg" width="100" height="100" />
-			<description></description>
-		</item>
-		
-		<item>
-			<title>How to JSON in PostgreSQL®</title>
-			<link>https://ftisiot.net/postgresqljson/</link>
-			<pubDate>Mon, 09 Jan 2023 08:23:06 CET</pubDate>
-			<author></author>
-			<guid>https://ftisiot.net/postgresqljson/</guid>
-			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/images/2023/pg-json.png" medium="image" type="image/jpg" width="100" height="100" />
-			<description></description>
-		</item>
-		
-		<item>
-			<title>Suggestions on places/activities near Verona</title>
-			<link>https://ftisiot.net/suggestions-verona/</link>
-			<pubDate>Thu, 11 Aug 2022 13:28:45 CEST</pubDate>
-			<author></author>
-			<guid>https://ftisiot.net/suggestions-verona/</guid>
-			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/images/verona.jpeg" medium="image" type="image/jpg" width="100" height="100" />
-			<description>&lt;p&gt;Now and then I get asked what to do and where to eat nearby Verona, so there, you have the list. I&amp;rsquo;ll update the list whenever needed&lt;/p&gt;
-&lt;h2 id=&#34;restaurants-in-the-city&#34;&gt;Restaurants in the city&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.tripadvisor.com/Restaurant_Review-g187871-d1087202-Reviews-La_Taverna_di_Via_Stella-Verona_Province_of_Verona_Veneto.html&#34;&gt;Taverna di via Stella&lt;/a&gt;: local dishes, honest prices, and good wine selection. 🥩🐟💰&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://ristorantemaffei.it/&#34;&gt;Ristorante Maffei&lt;/a&gt;: near one of the main squares, offers fine dining. It also has ancient ruins under the building, you might ask to visit them. 🥩🐟💰💰💰&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.alpompiere.com/it/&#34;&gt;Trattoria al pompiere&lt;/a&gt;: typical Verona dishes in a nice little restaurant, book a week in advance to find a table. 🥩💰💰💰&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.berberepizza.it/en/berbere-verona/&#34;&gt;Berberè&lt;/a&gt;: the pizzeria in one of the main squares but really good pizza. 🍕💰💰&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.tapasotto.com/&#34;&gt;Tapasotto&lt;/a&gt;: a place doing high quality Italian tapas (small dishes, order at least 2 each). 🥩🐟💰💰&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.tripadvisor.com/Restaurant_Review-g187871-d2140257-Reviews-Terrazza_Bar_al_Ponte-Verona_Province_of_Verona_Veneto.html&#34;&gt;Bar Terrazza al ponte&lt;/a&gt;: a bar with a nice terrace looking at the river, a nice place for a drink. ☕🍹💰&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.alcovadelfrate.it/&#34;&gt;Alcova del Frate&lt;/a&gt;: if you&amp;rsquo;re willing to try horse meat. 🥩💰💰&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.ristorantetorcolo.it/&#34;&gt;Torcolo&lt;/a&gt;: typical dish is the &amp;ldquo;boiled meat&amp;rdquo;, it sounds horrible but is actually quite tasty, a mix of different meats served with local side sauces. 🥩💰💰&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.tripadvisor.com/Restaurant_Review-g187871-d1087170-Reviews-Locanda_di_Castelvecchio-Verona_Province_of_Verona_Veneto.html&#34;&gt;Locanda di Castelvecchio&lt;/a&gt;: see above, but more classy. 🥩💰💰💰&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.pescheriaimasenini.it/&#34;&gt;Pescheria i Masenini&lt;/a&gt;: Fish in the city center! 🐟💰💰💰&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://trattoriaimasenini.it/en/&#34;&gt;Trattoria i Masenini&lt;/a&gt;: Good meat near Castelvecchio. 🥩💰💰💰&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.tripadvisor.com/Restaurant_Review-g187871-d4025636-Reviews-Ristorante_Bar_Caffetteria_Al_Duomo-Verona_Province_of_Verona_Veneto.html&#34;&gt;Caffetteria al Duomo&lt;/a&gt;: Nice cafe with an beautiful garden, nice place for coffee and a cake. ☕💰💰&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;restaurants-around-the-city&#34;&gt;Restaurants around the city&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://elbagolo.it/?lang=en&#34;&gt;El Bagolo&lt;/a&gt;: small family restaurant in a hill, astonishing food for both meat and fish. 🥩🐟💰💰&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.tripadvisor.com/Restaurant_Review-g2209338-d2616383-Reviews-Antica_Trattoria_da_Bepi-Marano_di_Valpolicella_Province_of_Verona_Veneto.html&#34;&gt;Antica trattoria da Bepi&lt;/a&gt;: nice trattoria in the Valpolicella hills, good meat and nice wine selection. 🥩💰💰&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://trattoriacaprini.it/&#34;&gt;Trattoria Caprini&lt;/a&gt;: family restaurant specialized in hand made lasagnette in Valpolicella! Go there and test them! 🥩💰💰&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.tripadvisor.com/Restaurant_Review-g187842-d1458498-Reviews-Osteria_al_Torcol-Sirmione_Province_of_Brescia_Lombardy.html&#34;&gt;Osteria al Torcol&lt;/a&gt;: if you are in Sirmione, it&amp;rsquo;s always worth a stop. 🥩💰💰&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;gelato&#34;&gt;Gelato&lt;/h2&gt;
-&lt;p&gt;My preference in the city center are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.tripadvisor.com/Restaurant_Review-g187871-d6555166-Reviews-L_Arte_del_Gelato-Verona_Province_of_Verona_Veneto.html&#34;&gt;The art of ice cream&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://terraecuoregelato.it/&#34;&gt;Gelateria Terra e cuore - Borgo trento&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.tripadvisor.com/Restaurant_Review-g187871-d3575232-Reviews-Pecoranera-Verona_Province_of_Verona_Veneto.html&#34;&gt;Pecora Nera&lt;/a&gt; a bit out of the city center&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;what-to-do-in-the-city&#34;&gt;What to do in the city&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Verona’s Arena: everyone will tell you that, but visiting the square is nice. Going insite could also be cool&lt;/li&gt;
-&lt;li&gt;Visit Castel San pietro: it’s the castle on top of the city, you have a nice view of the city from there. There is either a staircase or a funicolare that takes you there for 2euros per person (if it’s hot, I would recommend)&lt;/li&gt;
-&lt;li&gt;Visit Castelvecchio, the old castle in the city and go over the bridge, it’s one of the most suggestive views in the city&lt;/li&gt;
-&lt;li&gt;Visit Ponte Pietra, the old bridge&lt;/li&gt;
-&lt;li&gt;Visit the Teatro Romano (old Theatre), just outside the old bridge. There are a tons of shows there during the summer.&lt;/li&gt;
-&lt;li&gt;Visit the nearby &lt;a href=&#34;https://museoarcheologico.comune.verona.it/&#34;&gt;Archeological museum&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;what-to-do-outside-the-city&#34;&gt;What to do outside the city&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Visit Valpolicella Wine Producers like&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.zyme.it/&#34;&gt;Zyme&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cantinalagiaretta.com&#34;&gt;La Giaretta&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.cantinanegrar.it/&#34;&gt;Cantina Sociale Negrar&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.masi.it/en/masi-wine-experience/masi-cellars&#34;&gt;Masi&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Climb Trees in the mountains 1h from Verona at &lt;a href=&#34;https://www.boscopark.it/&#34;&gt;Boscopark&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Visit &lt;a href=&#34;https://www.valeggio.com/?lang=en&#34;&gt;Valeggio sul Mincio&lt;/a&gt; famous for tortellini and for the amazing &lt;a href=&#34;https://www.sigurta.it/&#34;&gt;Parco Sigurtà&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Visit &lt;a href=&#34;https://www.parconaturaviva.it/en&#34;&gt;Parco Naturaviva&lt;/a&gt; for a full immersion on animals!&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Visit &lt;a href=&#34;https://www.gardaland.it/en/&#34;&gt;Gardaland&lt;/a&gt; the biggest italian amusement part&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Visit the Garda Lake: Sirmione, Malcenise, Bardolino or Lazise are all beautiful. If you fancy more distance also Garda, Limone sul Garda are beautiful!&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</description>
-		</item>
-		
-		<item>
-			<title>Analytics Everywhere!</title>
-			<link>https://ftisiot.net/analytics-everywhere-webinar/</link>
-			<pubDate>Wed, 02 Sep 2020 12:49:47 &#43;0000</pubDate>
-			<author></author>
-			<guid>https://ftisiot.net/analytics-everywhere-webinar/</guid>
-			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
-			<description>
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/dQw4w9WgXcQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-</description>
-		</item>
-		
-		<item>
-			<title>Speaking Activities</title>
-			<link>https://ftisiot.net/speaking-activities/</link>
-			<pubDate>Wed, 28 Sep 2016 20:01:20 UTC</pubDate>
-			<author></author>
-			<guid>https://ftisiot.net/speaking-activities/</guid>
-			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/images/speaking-poug-upper.jpg" medium="image" type="image/jpg" width="100" height="100" />
-			<description>&lt;p&gt;Check out Past and Future Speaking Activities!&lt;/p&gt;
-&lt;h1 id=&#34;planned-speaking-activities&#34;&gt;Planned Speaking Activities&lt;/h1&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Event&lt;/th&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Talk&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Pg Day Nordics&lt;/td&gt;
-&lt;td&gt;21st March&lt;/td&gt;
-&lt;td&gt;Put PostgreSQL at the center of your metadata universe&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Pg Day Paris&lt;/td&gt;
-&lt;td&gt;23rd March&lt;/td&gt;
-&lt;td&gt;Fix your strings&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h1 id=&#34;previous-speaking-activities&#34;&gt;Previous Speaking Activities&lt;/h1&gt;
-&lt;h2 id=&#34;2022&#34;&gt;2022&lt;/h2&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Event&lt;/th&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Talk&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;PG Conf EU&lt;/td&gt;
-&lt;td&gt;24th-29th October&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ftisiot.net/slides/pg-metadata/pg-metadata.pdf&#34;&gt;Put PostgreSQL at the center of your (meta)data universe!&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Quix Meetup&lt;/td&gt;
-&lt;td&gt;24th October&lt;/td&gt;
-&lt;td&gt;🎥 &lt;a href=&#34;https://bit.ly/3ghs2ru&#34;&gt;Breathe In, Breathe Out: Get Kafka Connect Configs Right!&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Current (ex Kafka Summit)&lt;/td&gt;
-&lt;td&gt;4th-5th October&lt;/td&gt;
-&lt;td&gt;🎥 &lt;a href=&#34;https://bit.ly/3ghs2ru&#34;&gt;Breathe In, Breathe Out: Get Kafka Connect Configs Right!&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Streaming Audio Podcast&lt;/td&gt;
-&lt;td&gt;31st Sept&lt;/td&gt;
-&lt;td&gt;🎥 &lt;a href=&#34;https://www.youtube.com/watch?v=RfADrwfCJ8Y&#34;&gt;International Podcast Episode&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Uptime&lt;/td&gt;
-&lt;td&gt;14-15th Sept&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://uptime.aiven.io/session/325396&#34;&gt;Don&amp;rsquo;t get lost in data: metadata to the rescue!&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Uptime&lt;/td&gt;
-&lt;td&gt;14-15th Sept&lt;/td&gt;
-&lt;td&gt;🎥 &lt;a href=&#34;https://www.youtube.com/watch?v=rmtgaRq-pkI&amp;amp;t=1s&#34;&gt;No pineapple on pizza! Streaming anomaly detection with Apache Kafka and Apache Flink&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;PG Day Austria&lt;/td&gt;
-&lt;td&gt;16th Sept&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://pgday.at/talks/solving-the-knapsack-problem/&#34;&gt;Solving the Knapsack Problem with Recursive queries and postgreSQL&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Streaming Audio Podcast&lt;/td&gt;
-&lt;td&gt;31st Sept&lt;/td&gt;
-&lt;td&gt;🎥&lt;a href=&#34;https://www.youtube.com/watch?v=GalrgjIqdcM&#34;&gt;What Could Go Wrong with a Kafka JDBC Connector&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Kafka Summit 2022 London&lt;/td&gt;
-&lt;td&gt;25th April&lt;/td&gt;
-&lt;td&gt;🎥 &lt;a href=&#34;https://www.confluent.io/events/kafka-summit-london-2022/jdbc-source-connector-what-could-go-wrong/&#34;&gt;JDBC Source Connector: What Could Go Wrong?&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;NDC London 2022&lt;/td&gt;
-&lt;td&gt;10th May&lt;/td&gt;
-&lt;td&gt;🎥 &lt;a href=&#34;https://www.youtube.com/watch?v=AT6-WXLwKQE&#34;&gt;I don’t want to miss a Thing 🎶 - Track Database Changes with Apache Kafka&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;PyCon Italy&lt;/td&gt;
-&lt;td&gt;3rd Jun&lt;/td&gt;
-&lt;td&gt;🎥 &lt;a href=&#34;https://www.youtube.com/watch?v=hfi_ALPlsOQ&amp;amp;t=3s&#34;&gt;Event Driven Applications with Flask and Kafka&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Berlin Buzzwords&lt;/td&gt;
-&lt;td&gt;12nd Jun&lt;/td&gt;
-&lt;td&gt;🎥&lt;a href=&#34;https://www.youtube.com/watch?v=njvH3I39Dv0&amp;amp;list=PLq-odUc2x7i8eaYHVXSOadHrVE9tEU2QR&amp;amp;index=47&amp;amp;t=1720s&#34;&gt; Solving the knapsack problem with recursive queries and PostgreSQL&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Nordic PG Day&lt;/td&gt;
-&lt;td&gt;22nd Mar&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://ftisiot.net/talks/track-database-changes&#34;&gt;I Don&amp;rsquo;t Want to Miss a Thing: Track Database Changes with Apache Kafka&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;FOSDEM 2022&lt;/td&gt;
-&lt;td&gt;5th Feb&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://fosdem.org/2022/schedule/event/batch_proc_data_streaming/&#34;&gt;Build an Open Source Streaming Data Pipeline&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;FOSDEM 2022&lt;/td&gt;
-&lt;td&gt;6th Feb&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://fosdem.org/2022/schedule/event/python_kafka/&#34;&gt;Get to know Apache Kafka with Jupyter Notebooks&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;FOSDEM 2022&lt;/td&gt;
-&lt;td&gt;6th Feb&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://fosdem.org/2022/schedule/event/postgresql_solving_the_knapsack_problem_with_recursive_queries_and_postgresql/&#34;&gt;Solving the knapsack problem with recursive queries and PostgreSQL&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-		</item>
-		
-		<item>
-			<title>Who is Francesco Tisiot?</title>
-			<link>https://ftisiot.net/who/</link>
-			<pubDate>Wed, 28 Sep 2016 20:00:20 UTC</pubDate>
-			<author></author>
-			<guid>https://ftisiot.net/who/</guid>
-			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/images/speaking-poug-upper.jpg" medium="image" type="image/jpg" width="100" height="100" />
-			<description>&lt;h1 id=&#34;francesco-tisiot&#34;&gt;Francesco Tisiot&lt;/h1&gt;
-&lt;p&gt;Ciao!&lt;/p&gt;
-&lt;p&gt;I’m Francesco Tisiot, Senior Developer Advocate at &lt;a href=&#34;https://aiven.io&#34;&gt;Aiven&lt;/a&gt;. You can find me on twitter at &lt;a href=&#34;https://twitter.com/ftisiot&#34;&gt;@ftisiot&lt;/a&gt; and on &lt;a href=&#34;https://www.linkedin.com/in/francescotisiot/&#34;&gt;LinkedIn&lt;/a&gt;
-&lt;img src=&#34;https://ftisiot.net/images/speaking-poug.jpg&#34; alt=&#34;Me speaking at POUG&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Some more resources:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;My previous and next Speaking activities in the &lt;a href=&#34;https://ftisiot.net/speaking-activities&#34;&gt;dedicated page&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;My &lt;a href=&#34;https://dev.to/ftisiot&#34;&gt;series of blog post for Aiven&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;The slides of my previous speaking engagements on &lt;a href=&#34;https://speakerdeck.com/ftisiot&#34;&gt;SpeakerDeck&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;My previous company (Rittman Mead) related articles in Rittman Mead’s &lt;a href=&#34;http://ritt.md/FT&#34;&gt;blog&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This is my personal blog! Stay tuned for ideas, tests and opinions related to my work. All the content written here is my own and don’t necessary reflect my company vision.&lt;/p&gt;
-&lt;h2 id=&#34;personal-bio&#34;&gt;Personal BIO&lt;/h2&gt;
-&lt;p&gt;Francesco comes from Verona, Italy and works as a Staff Developer Advocate at Aiven. With his many years of experience as a data analyst, he has stories to tell and advice for data-wranglers everywhere. Francesco loves sharing knowledge with others as a speaker and writer, and is on a mission to defend the world from bad Italian food!&lt;/p&gt;
-&lt;p&gt;&lt;a rel=&#34;me&#34; href=&#34;https://data-folks.masto.host/@ftisiot&#34;&gt;Mastodon&lt;/a&gt;&lt;/p&gt;
-</description>
-		</item>
-		
-		<item>
-			<title>Components</title>
-			<link>https://ftisiot.net/components/</link>
-			<pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-			<author></author>
-			<guid>https://ftisiot.net/components/</guid>
-			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
-			<description></description>
-		</item>
-		
-		<item>
-			<title>Search</title>
-			<link>https://ftisiot.net/search/</link>
-			<pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-			<author></author>
-			<guid>https://ftisiot.net/search/</guid>
-			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ftisiot.net/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
-			<description></description>
-		</item>
-		
-	</channel>
+  <channel>
+    <title>Francesco Tisiot Ideas! on ftisiot ideas about food and life</title>
+    <link>https://ftisiot.net/</link>
+    <description>Recent content in Francesco Tisiot Ideas! on ftisiot ideas about food and life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Mar 2024 11:10:09 +0100</lastBuildDate>
+    <atom:link href="https://ftisiot.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to use pgbench to test PostgreSQL® performance</title>
+      <link>https://ftisiot.net/posts/pgbench-test-postgresql/</link>
+      <pubDate>Mon, 11 Mar 2024 11:10:09 +0100</pubDate>
+      <guid>https://ftisiot.net/posts/pgbench-test-postgresql/</guid>
+      <description>&lt;p&gt;Testing a database performance is a must in every company. Despite everyone&amp;rsquo;s needs beings slightly different, a good starting point for PostgreSQL® database is using &lt;a href=&#34;https://www.postgresql.org/docs/current/pgbench.html&#34;&gt;pgbench&lt;/a&gt;: a tool shipped with the PostgreSQL installation that allows you to stress test a local or remote database.&#xA;This blog post showcases how to install (on a Mac) and use pgbench to create load on a remote PostgreSQL database on &lt;a href=&#34;https://go.aiven.io/francesco-signup&#34;&gt;Aiven&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>From dbf to SQL (and PostgreSQL) with Python</title>
+      <link>https://ftisiot.net/posts/dbf-to-postgresql-python/</link>
+      <pubDate>Mon, 04 Mar 2024 14:31:10 +0100</pubDate>
+      <guid>https://ftisiot.net/posts/dbf-to-postgresql-python/</guid>
+      <description>&lt;p&gt;Some time ago I found an interesting database file suffix I never faced before: the &lt;code&gt;.dbf&lt;/code&gt; and saw around that it was first introduced in 1983 with dBASE II. This article showcases how we can automatically generate the PostgreSQL table and fill it with data using Python and &lt;a href=&#34;https://dbfread.readthedocs.io/en/latest/exporting_data.html#dataset-sql&#34;&gt;dbfread&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to query JSON in MySQL with JSON_CONTAINS</title>
+      <link>https://ftisiot.net/mysqljson/query-json-contains-mysql/</link>
+      <pubDate>Fri, 01 Mar 2024 10:53:23 +0100</pubDate>
+      <guid>https://ftisiot.net/mysqljson/query-json-contains-mysql/</guid>
+      <description>&lt;p&gt;You can query a JSON document in MySQL to find content within it with:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The &lt;code&gt;JSON_CONTAINS&lt;/code&gt; function that will return if a JSON document is contained within another JSON document. The function returns &lt;code&gt;1&lt;/code&gt; if the document is contained, &lt;code&gt;0&lt;/code&gt; elsewhere.&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;JSON_CONTAINS&lt;/code&gt; function that will return if a JSON document path is contained within another JSON document. The function returns &lt;code&gt;1&lt;/code&gt; if the document is contained, &lt;code&gt;0&lt;/code&gt; elsewhere.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>List of PostgreSQL® AI Projects and Resources</title>
+      <link>https://ftisiot.net/posts/list-of-postgresql-ai-resources/</link>
+      <pubDate>Thu, 29 Feb 2024 11:00:56 +0100</pubDate>
+      <guid>https://ftisiot.net/posts/list-of-postgresql-ai-resources/</guid>
+      <description>&lt;p&gt;Everyone is now talking about AI, and modern databases like PostgreSQL® are increasingly being adopted in companies&amp;rsquo; AI journey as sources of data or key pieces of the AI infrastructure. Moreover there&amp;rsquo;s a new set projects that are solving PostgreSQL problems with AI.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>11 Lessons to learn when using NULLs in PostgreSQL®</title>
+      <link>https://ftisiot.net/posts/postgresql-isnull/</link>
+      <pubDate>Wed, 28 Feb 2024 08:00:29 +0100</pubDate>
+      <guid>https://ftisiot.net/posts/postgresql-isnull/</guid>
+      <description>&lt;p&gt;A boolean value should only contain two values, &lt;code&gt;True&lt;/code&gt; or &lt;code&gt;False&lt;/code&gt;, but is it correct? Usually people assume so, but sometimes miss the fact that there could be the &lt;strong&gt;absence&lt;/strong&gt; of the value all-together. In databases this is absence is usually stored as &lt;code&gt;NULL&lt;/code&gt; and this blog showcases how to find them, use them properly and 11 lessons to learn to be a &lt;code&gt;NULL&lt;/code&gt; Pro!&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Keep in mind, it&amp;rsquo;s not only booleans that can contain &lt;code&gt;NULL&lt;/code&gt; values, it&amp;rsquo;s all the columns where you don&amp;rsquo;t define a &lt;code&gt;NOT NULL&lt;/code&gt; constraint!&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>How to CONCAT in MySQL</title>
+      <link>https://ftisiot.net/posts/mysql-concat/</link>
+      <pubDate>Mon, 12 Feb 2024 14:43:29 +0100</pubDate>
+      <guid>https://ftisiot.net/posts/mysql-concat/</guid>
+      <description>&lt;p&gt;One of the most common tasks with strings is concatenation! This blog post showcases several techniques to perform it with MySQL.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to load JSON data in PostgreSQL with the COPY command</title>
+      <link>https://ftisiot.net/postgresqljson/load-json-data-with-postgresql-copy/</link>
+      <pubDate>Fri, 02 Feb 2024 11:25:54 +0100</pubDate>
+      <guid>https://ftisiot.net/postgresqljson/load-json-data-with-postgresql-copy/</guid>
+      <description>&lt;p&gt;You have a JSON dataset that you want to upload to a PostgreSQL table containing properly formatted rows and columns&amp;hellip; How do you do it?&lt;/p&gt;&#xA;&lt;p&gt;All the main sources like &lt;a href=&#34;https://ftisiot.net/postgresqljson/how-to-load-json-postgresql&#34;&gt;my own blog&lt;/a&gt; and &lt;a href=&#34;https://konbert.com/blog/import-json-into-postgres-using-copy&#34;&gt;others&lt;/a&gt; tell you to load the JSON in a dedicated temporary table containing a unique &lt;code&gt;JSON&lt;/code&gt; column, then parse it and load into the target table. However there could be another way, avoiding the temp table!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Load StackOverflow&#39;s StackExchange data in Postgresql®</title>
+      <link>https://ftisiot.net/posts/stackoverflow-postgresql/</link>
+      <pubDate>Mon, 29 Jan 2024 14:38:05 +0100</pubDate>
+      <guid>https://ftisiot.net/posts/stackoverflow-postgresql/</guid>
+      <description>&lt;p&gt;How to load StackOverflow StackExchange data in a PostgreSQL® database!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>1 billion rows challenge in MySQL</title>
+      <link>https://ftisiot.net/posts/1browsmysql/</link>
+      <pubDate>Fri, 26 Jan 2024 14:43:29 +0100</pubDate>
+      <guid>https://ftisiot.net/posts/1browsmysql/</guid>
+      <description>&lt;p&gt;Earlier this month I wrote a piece on solving &lt;a href=&#34;https://www.linkedin.com/in/gunnar-morling-2b44b7229/&#34;&gt;Gunnar Morling&lt;/a&gt; interesting &lt;a href=&#34;https://www.morling.dev/blog/one-billion-row-challenge/&#34;&gt;1 billion rows challenge&lt;/a&gt; in &lt;a href=&#34;https://ftisiot.net/posts/1brows&#34;&gt;PostgreSQL and ClickHouse&lt;/a&gt;. Since &lt;a href=&#34;http://aiven.io&#34;&gt;Aiven&lt;/a&gt; provides also MySQL, I wanted to give it a try. TLDR; The results are much slower than PG and ClickHouse, do you have any suggestion on how to improve?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to use PostgreSQL® SUBSTRING</title>
+      <link>https://ftisiot.net/posts/postgresql-substr/</link>
+      <pubDate>Fri, 12 Jan 2024 16:10:27 +0100</pubDate>
+      <guid>https://ftisiot.net/posts/postgresql-substr/</guid>
+      <description>&lt;p&gt;Need to extract a specific substring out of a text in PostgreSQL®? Read here how!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Finding PostgreSQL’s fit in the AI space</title>
+      <link>https://ftisiot.net/talks/postgresql-fit-ai/</link>
+      <pubDate>Mon, 08 Jan 2024 14:06:54 +0100</pubDate>
+      <guid>https://ftisiot.net/talks/postgresql-fit-ai/</guid>
+      <description>&lt;p&gt;Why PostgreSQL matters in the AI space as source, central component and target.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>1 billion rows challenge in PostgreSQL and ClickHouse</title>
+      <link>https://ftisiot.net/posts/1brows/</link>
+      <pubDate>Wed, 03 Jan 2024 16:43:29 +0100</pubDate>
+      <guid>https://ftisiot.net/posts/1brows/</guid>
+      <description>&lt;p&gt;Last week the good old &lt;a href=&#34;https://www.linkedin.com/in/gunnar-morling-2b44b7229/&#34;&gt;Gunnar Morling&lt;/a&gt; launched an interesting &lt;a href=&#34;https://www.morling.dev/blog/one-billion-row-challenge/&#34;&gt;challenge&lt;/a&gt; about ordering 1 billion rows in Java. Like my ex colleague and friend &lt;a href=&#34;https://www.linkedin.com/in/robinmoffatt/&#34;&gt;Robin Moffat&lt;/a&gt;, I&amp;rsquo;m not at all a Java expert, and while &lt;a href=&#34;https://rmoff.net/2024/01/03/1%EF%B8%8F%E2%83%A3%EF%B8%8F-1brc-in-sql-with-duckdb/&#34;&gt;Robin used DuckDB&lt;/a&gt; to solve the challenge, I did the same with PostgreSQL and ClickHouse.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Accelerate Generative AI development with  Integrated Data Platforms</title>
+      <link>https://ftisiot.net/talks/accelerate-gen-ai-integrated-data-platform/</link>
+      <pubDate>Mon, 04 Dec 2023 08:39:17 +0100</pubDate>
+      <guid>https://ftisiot.net/talks/accelerate-gen-ai-integrated-data-platform/</guid>
+      <description>Generative AI is revolutionizing how we work and interact. Yet for generative AI applications relying on private, regulated, or commercially valuable data, feeding the model with the right information is crucial. Failure could result in adverse consequences such as poor performance, confidential information exposure, or regulatory requirement breaches. An integrated data platform is a powerful way to accelerate the development of generative AI applications by providing real-time data feeds, consolidating inputs from different sources, and defining clear information boundaries.</description>
+    </item>
+    <item>
+      <title>Attacking (and defending) Apache Kafka</title>
+      <link>https://ftisiot.net/talks/attack-defend-apache-kafka/</link>
+      <pubDate>Mon, 04 Dec 2023 08:32:09 +0100</pubDate>
+      <guid>https://ftisiot.net/talks/attack-defend-apache-kafka/</guid>
+      <description>When attacking any system, taking control of its central nervous system is the first step in infiltrating the core infrastructure and gaining control over its vital functions. Translating this to organization data, a clear target is Apache Kafka, the data hub increasingly adopted for mission-critical systems. This session explores the topic of attacking and defending Apache Kafka, shedding light on potential threats, attack vectors, and countermeasures.&#xA;Initially, we’ll focus on understanding the potential attack surface of Apache Kafka.</description>
+    </item>
+    <item>
+      <title>Kafka Connect sink to OpenSearch/ElasticSearch: how to sink unix timestamps</title>
+      <link>https://ftisiot.net/posts/kafka_connect_sink_elasticsearch_opensearch_timestamp/</link>
+      <pubDate>Wed, 13 Sep 2023 10:35:51 +0200</pubDate>
+      <guid>https://ftisiot.net/posts/kafka_connect_sink_elasticsearch_opensearch_timestamp/</guid>
+      <description>&lt;p&gt;When sinking unix timestamps from Apache Kafka to OpenSearch/ElasticSearch using the dedicated connector, they are not recognized by default as timestamp in the target tech.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Consume Apache Kafka® messages via REST APIs</title>
+      <link>https://ftisiot.net/posts/kafka-consume-http/</link>
+      <pubDate>Wed, 30 Aug 2023 11:30:24 +0200</pubDate>
+      <guid>https://ftisiot.net/posts/kafka-consume-http/</guid>
+      <description>You have an Apache Kafka topic that you want to consume via REST APIs (think curl or just a web browser), how to do it?&#xA;The reply is Karapace an Open Source (Apache 2.0) tool providing Schema Registry and REST proxy functionality.&#xA;Let&amp;rsquo;s check out how to quickly run it on Docker.&#xA;Step 1: the Apache Kafka® Cluster You need an Apache Kafka cluster up &amp;amp; running, if you have one already you can skip to the next section.</description>
+    </item>
+    <item>
+      <title>From Batch to Streaming Data Pipeline Evolution</title>
+      <link>https://ftisiot.net/talks/from-batch-to-streaming-data-pipeline-evolution/</link>
+      <pubDate>Wed, 23 Aug 2023 15:27:54 +0200</pubDate>
+      <guid>https://ftisiot.net/talks/from-batch-to-streaming-data-pipeline-evolution/</guid>
+      <description>&#xA;Useful Links Aiven Signup Code examples to run with Aiven for Apache Flink Flink JDBC SQL Connector Flink SQL CDC Connecto for PostgreSQL </description>
+    </item>
+    <item>
+      <title>How to tabulate a JSON document in MySQL</title>
+      <link>https://ftisiot.net/mysqljson/how-to-tabulate-JSON-document-mysql/</link>
+      <pubDate>Fri, 21 Jul 2023 17:05:26 +0200</pubDate>
+      <guid>https://ftisiot.net/mysqljson/how-to-tabulate-JSON-document-mysql/</guid>
+      <description>&lt;p&gt;You can tabulate a JSON document (retrieve it as a row) in MySQL with the &lt;code&gt;JSON_TABLE&lt;/code&gt; function.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to remove a field in a JSON document in MySQL</title>
+      <link>https://ftisiot.net/mysqljson/how-to-remove-field-JSON-document-mysql/</link>
+      <pubDate>Fri, 21 Jul 2023 17:01:19 +0200</pubDate>
+      <guid>https://ftisiot.net/mysqljson/how-to-remove-field-JSON-document-mysql/</guid>
+      <description>&lt;p&gt;You can remove a field from JSON document in MySQL with the &lt;code&gt;JSON_REMOVE&lt;/code&gt; function.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to insert a field in a JSON document in MySQL</title>
+      <link>https://ftisiot.net/mysqljson/how-to-insert-field-JSON-document-mysql/</link>
+      <pubDate>Fri, 21 Jul 2023 16:53:52 +0200</pubDate>
+      <guid>https://ftisiot.net/mysqljson/how-to-insert-field-JSON-document-mysql/</guid>
+      <description>&lt;p&gt;You can insert a field in a JSON document in MySQL with the &lt;code&gt;JSON_INSERT&lt;/code&gt; function.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to edit a JSON document in MySQL</title>
+      <link>https://ftisiot.net/mysqljson/how-to-edit-JSON-document-mysql/</link>
+      <pubDate>Fri, 21 Jul 2023 16:35:20 +0200</pubDate>
+      <guid>https://ftisiot.net/mysqljson/how-to-edit-JSON-document-mysql/</guid>
+      <description>&lt;p&gt;You can edit a JSON document in MySQL with:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The &lt;code&gt;JSON_SET&lt;/code&gt; function that will replace values for JSON paths that exists and add values for the ones that don&amp;rsquo;t exist.&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;JSON_REPLACE&lt;/code&gt; function that will replace values for JSON paths that exists and ignore the ones that don&amp;rsquo;t exist.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>How to merge JSON documents in MySQL</title>
+      <link>https://ftisiot.net/mysqljson/how-to-merge-JSON-documents-mysql/</link>
+      <pubDate>Fri, 21 Jul 2023 15:31:08 +0200</pubDate>
+      <guid>https://ftisiot.net/mysqljson/how-to-merge-JSON-documents-mysql/</guid>
+      <description>&lt;p&gt;You can merge two JSON documents in MySQL with:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;the &lt;code&gt;JSON_MERGE_PRESERVE&lt;/code&gt; function to concatenate the document values&lt;/li&gt;&#xA;&lt;li&gt;the &lt;code&gt;JSON_MERGE_PATCH&lt;/code&gt; function to keep the latest value for each key&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>How to create a JSON document from fields in MySQL</title>
+      <link>https://ftisiot.net/mysqljson/how-to-create-JSON-document-from-fields-mysql/</link>
+      <pubDate>Fri, 21 Jul 2023 15:21:29 +0200</pubDate>
+      <guid>https://ftisiot.net/mysqljson/how-to-create-JSON-document-from-fields-mysql/</guid>
+      <description>&lt;p&gt;You can create a JSON document from fields in Mysql® with the &lt;code&gt;JSON_OBJECT&lt;/code&gt; function&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to get the JSON field types in MySQL</title>
+      <link>https://ftisiot.net/mysqljson/how-to-get-json-field-types-mysql/</link>
+      <pubDate>Fri, 21 Jul 2023 14:59:42 +0200</pubDate>
+      <guid>https://ftisiot.net/mysqljson/how-to-get-json-field-types-mysql/</guid>
+      <description>&lt;p&gt;To get the type of a JSON item in MySQL you need to use the &lt;code&gt;JSON_TYPE&lt;/code&gt; function.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to extract an item from an array in a JSON object in MySQL</title>
+      <link>https://ftisiot.net/mysqljson/how-to-extract-field-from-array-json-mysql/</link>
+      <pubDate>Fri, 21 Jul 2023 14:52:34 +0200</pubDate>
+      <guid>https://ftisiot.net/mysqljson/how-to-extract-field-from-array-json-mysql/</guid>
+      <description>&lt;p&gt;To extract an item from an array in MySQL you need to use the &lt;code&gt;-&amp;gt;&lt;/code&gt; operator and the &lt;code&gt;[item_number]&lt;/code&gt;  &lt;a href=&#34;https://dev.mysql.com/doc/refman/8.0/en/json.html#json-path-syntax&#34;&gt;JSON Path Syntax&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to extract a field from a JSON object in MySQL</title>
+      <link>https://ftisiot.net/mysqljson/how-to-extract-field-from-json-mysql/</link>
+      <pubDate>Fri, 21 Jul 2023 14:36:10 +0200</pubDate>
+      <guid>https://ftisiot.net/mysqljson/how-to-extract-field-from-json-mysql/</guid>
+      <description>&lt;p&gt;MySQL® offers three ways to extract fields from a JSON object:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;the &lt;code&gt;-&amp;gt;&lt;/code&gt; operator to extract the field as JSON&lt;/li&gt;&#xA;&lt;li&gt;the &lt;code&gt;-&amp;gt;&amp;gt;&lt;/code&gt; operator to extract the field as text&lt;/li&gt;&#xA;&lt;li&gt;the &lt;code&gt;JSON_EXTRACT&lt;/code&gt; function&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Both operators use the &lt;a href=&#34;https://dev.mysql.com/doc/refman/8.0/en/json.html#json-path-syntax&#34;&gt;JSON Path Syntax&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to load JSON data in MySQL?</title>
+      <link>https://ftisiot.net/mysqljson/how-to-load-json-mysql/</link>
+      <pubDate>Fri, 21 Jul 2023 14:24:56 +0200</pubDate>
+      <guid>https://ftisiot.net/mysqljson/how-to-load-json-mysql/</guid>
+      <description>&lt;p&gt;To load JSON data into a MySQL column you need to include it as string.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to JSON in MySQL</title>
+      <link>https://ftisiot.net/mysqljson/main/</link>
+      <pubDate>Fri, 21 Jul 2023 14:13:18 +0200</pubDate>
+      <guid>https://ftisiot.net/mysqljson/main/</guid>
+      <description>&lt;p&gt;This series covers how to solve common problems on JSON datasets with MySQL and it includes (links will appear once the target pages are up):&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pros and Cons of Multi Step Data Platforms</title>
+      <link>https://ftisiot.net/posts/pros-and-cons-of-multi-step-data-platforms/</link>
+      <pubDate>Mon, 29 May 2023 15:25:59 +0200</pubDate>
+      <guid>https://ftisiot.net/posts/pros-and-cons-of-multi-step-data-platforms/</guid>
+      <description>In the modern world, it&amp;rsquo;s rare to have the data in the same shape and platform from the beginning till the end of its journey. Yes, some technologies can achieve quite a good range of functionalities but sometimes at the expense of precision, developer experience or performance. Therefore, to achieve better or faster results, people might select a new tool for a precise task and start an implementation and integration process to move the data around.</description>
+    </item>
+    <item>
+      <title>So… what does a Staff Developer Advocate do?</title>
+      <link>https://ftisiot.net/posts/staff-da/</link>
+      <pubDate>Wed, 24 May 2023 09:09:07 +0200</pubDate>
+      <guid>https://ftisiot.net/posts/staff-da/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;So… what does a Staff Developer Advocate do, and how is it different from the Senior Developer Advocate role you were doing before?&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;I got this question three times in the last two weeks after my promotion from Senior to Staff (🎉🎉🎉🎉), from various people in my network.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Boost Apache Kafka with Schema Registry</title>
+      <link>https://ftisiot.net/talks/boost-kafka-schemas/</link>
+      <pubDate>Thu, 18 May 2023 08:28:44 +0200</pubDate>
+      <guid>https://ftisiot.net/talks/boost-kafka-schemas/</guid>
+      <description>&lt;p&gt;How and Why using Schema Registry with Apache Kafka&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Learn PostgreSQL JSON with Pizza</title>
+      <link>https://ftisiot.net/talks/pg-json/</link>
+      <pubDate>Wed, 22 Mar 2023 14:27:07 +0100</pubDate>
+      <guid>https://ftisiot.net/talks/pg-json/</guid>
+      <description>&lt;p&gt;A talk about JSON handling in PostgreSQL: from data loading to query to indexing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fix Your Strings!</title>
+      <link>https://ftisiot.net/talks/fix-your-strings/</link>
+      <pubDate>Tue, 07 Mar 2023 16:33:17 +0100</pubDate>
+      <guid>https://ftisiot.net/talks/fix-your-strings/</guid>
+      <description>&lt;p&gt;Strings are one of the most used types in databases; they can store pretty much any data and don&amp;rsquo;t enforce any rules on the inserted input. This talk showcases the risk of using strings and how to mitigate them to ensure data quality.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to load JSON data in PostgreSQL®?</title>
+      <link>https://ftisiot.net/postgresqljson/how-to-load-json-postgresql/</link>
+      <pubDate>Wed, 01 Mar 2023 07:59:12 +0100</pubDate>
+      <guid>https://ftisiot.net/postgresqljson/how-to-load-json-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;. This doc showcases how to load JSON data into a  column.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SOFT Methodology</title>
+      <link>https://ftisiot.net/soft/</link>
+      <pubDate>Thu, 26 Jan 2023 09:10:21 +0100</pubDate>
+      <guid>https://ftisiot.net/soft/</guid>
+      <description>&lt;p&gt;This page contains all the links related to the SOFT (Scalable Observable Fast Trustworthy) methodology for defining robust data platforms.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What are the directions of technical data platforms scalability?</title>
+      <link>https://ftisiot.net/posts/tech-scalability/</link>
+      <pubDate>Tue, 24 Jan 2023 09:14:26 +0100</pubDate>
+      <guid>https://ftisiot.net/posts/tech-scalability/</guid>
+      <description>&lt;p&gt;Technical scalability is one of the main drivers of a data platform, as mentioned in the &lt;a href=&#34;https://aiven.io/blog/a-soft-methodology-to-define-robust-data-platforms&#34;&gt;SOFT methodology&lt;/a&gt;. But what are the options? In this blog we&amp;rsquo;ll evaluate the direction of scalability and the tradeoffs you might encounter in the decision process.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to tabulate a JSON to a record in PostgreSQL®</title>
+      <link>https://ftisiot.net/postgresqljson/how-to-tabulate-json-document-to-a-record-postgresql/</link>
+      <pubDate>Thu, 12 Jan 2023 15:06:50 +0100</pubDate>
+      <guid>https://ftisiot.net/postgresqljson/how-to-tabulate-json-document-to-a-record-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, and provides two different ways to tabulate a JSON to a record:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to tabulate a JSON to a recordset in PostgreSQL®</title>
+      <link>https://ftisiot.net/postgresqljson/how-to-tabulate-json-document-to-a-recordset-postgresql/</link>
+      <pubDate>Thu, 12 Jan 2023 15:06:50 +0100</pubDate>
+      <guid>https://ftisiot.net/postgresqljson/how-to-tabulate-json-document-to-a-recordset-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, and provides two different ways to tabulate a JSON to a recordset:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to edit a JSON object in PostgreSQL®?</title>
+      <link>https://ftisiot.net/postgresqljson/how-to-edit-json-postgresql/</link>
+      <pubDate>Tue, 10 Jan 2023 08:53:59 +0100</pubDate>
+      <guid>https://ftisiot.net/postgresqljson/how-to-edit-json-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, you can use the &lt;code&gt;jsonb_set&lt;/code&gt; function to remove the null values for JSONB columns.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to remove an item from a JSON array in PostgreSQL®?</title>
+      <link>https://ftisiot.net/postgresqljson/how-to-remove-items-from-json-array-postgresql/</link>
+      <pubDate>Tue, 10 Jan 2023 08:53:59 +0100</pubDate>
+      <guid>https://ftisiot.net/postgresqljson/how-to-remove-items-from-json-array-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, you can use the &lt;code&gt;-&lt;/code&gt; operator to remove an item from an array.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to remove fields from a JSON document in PostgreSQL®?</title>
+      <link>https://ftisiot.net/postgresqljson/how-to-remove-fields-from-json-postgresql/</link>
+      <pubDate>Tue, 10 Jan 2023 08:53:59 +0100</pubDate>
+      <guid>https://ftisiot.net/postgresqljson/how-to-remove-fields-from-json-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, and provides two different ways to remove fields from a JSON document:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to remove nulls JSON object in PostgreSQL®?</title>
+      <link>https://ftisiot.net/postgresqljson/how-to-remove-nulls-from-json-postgresql/</link>
+      <pubDate>Tue, 10 Jan 2023 08:53:59 +0100</pubDate>
+      <guid>https://ftisiot.net/postgresqljson/how-to-remove-nulls-from-json-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, you can use the &lt;code&gt;json_strip_nulls&lt;/code&gt; (&lt;code&gt;jsonb_strip_nulls&lt;/code&gt; for JSONB) function to remove the null values.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to concatenate two JSON documents in PostgreSQL®?</title>
+      <link>https://ftisiot.net/postgresqljson/how-to-concatenate-two-json-docs-postgresql/</link>
+      <pubDate>Tue, 10 Jan 2023 08:47:04 +0100</pubDate>
+      <guid>https://ftisiot.net/postgresqljson/how-to-concatenate-two-json-docs-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, you can use the opearator &lt;code&gt;||&lt;/code&gt; to concatenate two JSON objects.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to create a JSON object from array of key/value pairs in PostgreSQL®?</title>
+      <link>https://ftisiot.net/postgresqljson/howto-create-json-from-array-key-value-pairs-postgresql/</link>
+      <pubDate>Mon, 09 Jan 2023 17:32:52 +0100</pubDate>
+      <guid>https://ftisiot.net/postgresqljson/howto-create-json-from-array-key-value-pairs-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, you can use the function &lt;code&gt;json_object&lt;/code&gt; (&lt;code&gt;jsonb_object&lt;/code&gt; for &lt;code&gt;JSONB&lt;/code&gt;) to create a JSON object from an array of key/value pairs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to create a JSON object from keys and values arrays in PostgreSQL®?</title>
+      <link>https://ftisiot.net/postgresqljson/howto-create-json-from-keys-and-values-arrays-postgresql/</link>
+      <pubDate>Mon, 09 Jan 2023 17:25:47 +0100</pubDate>
+      <guid>https://ftisiot.net/postgresqljson/howto-create-json-from-keys-and-values-arrays-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, you can use the function &lt;code&gt;json_object&lt;/code&gt; (&lt;code&gt;jsonb_object&lt;/code&gt; for &lt;code&gt;JSONB&lt;/code&gt;) to create a JSON object from two arrays of keys and values.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to convert an array to a JSON array in PostgreSQL</title>
+      <link>https://ftisiot.net/postgresqljson/howto-convert-array-to-json-array-postgresql/</link>
+      <pubDate>Mon, 09 Jan 2023 17:19:50 +0100</pubDate>
+      <guid>https://ftisiot.net/postgresqljson/howto-convert-array-to-json-array-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, you can use the function &lt;code&gt;array_to_json&lt;/code&gt; (&lt;code&gt;array_to_jsonb&lt;/code&gt; for &lt;code&gt;JSONB&lt;/code&gt;) to create a JSON array from an existing array.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to build a JSON array from a list of elements in PostgreSQL®</title>
+      <link>https://ftisiot.net/postgresqljson/how-to-build-json-array-from-elements-postgresql/</link>
+      <pubDate>Mon, 09 Jan 2023 17:14:22 +0100</pubDate>
+      <guid>https://ftisiot.net/postgresqljson/how-to-build-json-array-from-elements-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, you can use the function &lt;code&gt;json_build_array&lt;/code&gt; (&lt;code&gt;jsonb_build_array&lt;/code&gt; for &lt;code&gt;JSONB&lt;/code&gt;) to create a JSON array from a list of elements.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to parse JSON keys in PostgreSQL®</title>
+      <link>https://ftisiot.net/postgresqljson/how-to-parse-json-keys-postgresql/</link>
+      <pubDate>Mon, 09 Jan 2023 16:58:02 +0100</pubDate>
+      <guid>https://ftisiot.net/postgresqljson/how-to-parse-json-keys-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, you can use several functions to extract the keys and related values in tabular format.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to convert a table row to JSON in PostgreSQL®?</title>
+      <link>https://ftisiot.net/postgresqljson/how-to-convert-table-row-json-postgresql/</link>
+      <pubDate>Mon, 09 Jan 2023 16:16:10 +0100</pubDate>
+      <guid>https://ftisiot.net/postgresqljson/how-to-convert-table-row-json-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, you can use the function &lt;code&gt;to_json&lt;/code&gt; (&lt;code&gt;to_jsonb&lt;/code&gt; for &lt;code&gt;JSONB&lt;/code&gt;) to convert a table row to a JSON object.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to prettify the JSON output in PostgreSQL®</title>
+      <link>https://ftisiot.net/postgresqljson/how-to-prettify-json-output-in-postgresql/</link>
+      <pubDate>Mon, 09 Jan 2023 11:53:26 +0100</pubDate>
+      <guid>https://ftisiot.net/postgresqljson/how-to-prettify-json-output-in-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, you can use the function &lt;code&gt;json_pretty&lt;/code&gt; (&lt;code&gt;jsonb_pretty&lt;/code&gt; for &lt;code&gt;JSONB&lt;/code&gt;) to prettify the output.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to parse JSON arrays in PostgreSQL?</title>
+      <link>https://ftisiot.net/postgresqljson/how-to-parse-json-arrays-in-postgresql/</link>
+      <pubDate>Mon, 09 Jan 2023 11:33:09 +0100</pubDate>
+      <guid>https://ftisiot.net/postgresqljson/how-to-parse-json-arrays-in-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, and provides several different ways to parse arrays from a JSON document:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to JSON in PostgreSQL®</title>
+      <link>https://ftisiot.net/postgresqljson/main/</link>
+      <pubDate>Mon, 09 Jan 2023 08:13:45 +0100</pubDate>
+      <guid>https://ftisiot.net/postgresqljson/main/</guid>
+      <description>&lt;p&gt;This series covers how to solve common problems on JSON datasets with PostgreSQL® and it includes (links will appear once the target pages are up):&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to extract a field from a JSON object in PostgreSQL®?</title>
+      <link>https://ftisiot.net/postgresqljson/how-to-extract-field-from-json-postgresql/</link>
+      <pubDate>Fri, 06 Jan 2023 16:59:12 +0100</pubDate>
+      <guid>https://ftisiot.net/postgresqljson/how-to-extract-field-from-json-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, and provides several different ways to extract fields from a JSON document:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to get the JSON field types in PostgreSQL®?</title>
+      <link>https://ftisiot.net/postgresqljson/how-to-get-json-field-types-postgresql/</link>
+      <pubDate>Fri, 06 Jan 2023 16:59:12 +0100</pubDate>
+      <guid>https://ftisiot.net/postgresqljson/how-to-get-json-field-types-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, you can use the function &lt;code&gt;json_typeof&lt;/code&gt; (&lt;code&gt;jsonb_typeof&lt;/code&gt; for &lt;code&gt;JSONB&lt;/code&gt;) to extract the fields type.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to index and query a JSON object in PostgreSQL®?</title>
+      <link>https://ftisiot.net/postgresqljson/how-to-index-and-query-json-postgresql/</link>
+      <pubDate>Fri, 06 Jan 2023 16:59:12 +0100</pubDate>
+      <guid>https://ftisiot.net/postgresqljson/how-to-index-and-query-json-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;. This doc showcases how to index a &lt;code&gt;JSONB&lt;/code&gt; column with a GIN index.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to check if JSON contains in PostgreSQL®?</title>
+      <link>https://ftisiot.net/postgresqljson/how-to-check-JSON-contains-postgresql/</link>
+      <pubDate>Fri, 06 Jan 2023 16:39:26 +0100</pubDate>
+      <guid>https://ftisiot.net/postgresqljson/how-to-check-JSON-contains-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data, &lt;code&gt;JSON&lt;/code&gt; and &lt;code&gt;JSONB&lt;/code&gt;, and provides several different ways to check if a value/field from a JSON document:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What are the differences between JSON or JSONB in PostgreSQL®?</title>
+      <link>https://ftisiot.net/postgresqljson/what-are-the-differences-json-jsonb-postgresql/</link>
+      <pubDate>Fri, 06 Jan 2023 16:39:26 +0100</pubDate>
+      <guid>https://ftisiot.net/postgresqljson/what-are-the-differences-json-jsonb-postgresql/</guid>
+      <description>&lt;p&gt;PostgreSQL® offers two types of data types to handle JSON data:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;JSON&lt;/code&gt; stores the JSON as text, performing a validation on the correctness of the JSON syntax&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;JSONB&lt;/code&gt; optimizes the JSON storage in a custom binary format. Therefore, on top of validating the correctness of the JSON format, time is spent to properly parse and store the content.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>From data stack to data stuck: the risks of not asking the right data questions</title>
+      <link>https://ftisiot.net/posts/from-data-stack-to-data-stuck/</link>
+      <pubDate>Wed, 21 Dec 2022 11:35:42 +0100</pubDate>
+      <guid>https://ftisiot.net/posts/from-data-stack-to-data-stuck/</guid>
+      <description>&lt;p&gt;Companies are in a continuous motion: new requirements, new data streams, new technologies are popping up every day. When designing new data platforms supporting the needs of your company, failing to perform a complete assessment of the options available can have disastrous effects on a company&amp;rsquo;s capability to innovate, and making sure their data assets usable and reusable in the long term.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PostgreSQL Community and you</title>
+      <link>https://ftisiot.net/posts/postgresql-community/</link>
+      <pubDate>Wed, 30 Nov 2022 10:38:44 +0100</pubDate>
+      <guid>https://ftisiot.net/posts/postgresql-community/</guid>
+      <description>&lt;p&gt;I started following the &lt;a href=&#34;https://www.softwareandbooz.com/pgsql-phriday-001-invite/&#34;&gt;#PGSQLPhriday&lt;/a&gt; initiative a couple months back but never had the time to properly sit down and write due to conference traveling. Therefore I was super happy to be at home this week and find out that &lt;a href=&#34;https://sqlasylum.wordpress.com/2022/11/29/pgsql-phriday-003-what-is-the-community-to-you/&#34;&gt;PGSQL Phriday #003 theme&lt;/a&gt; is about the PostgreSQL community!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tips for Successful Conference Abstracts</title>
+      <link>https://ftisiot.net/posts/tips-for-abstract-writing/</link>
+      <pubDate>Mon, 28 Nov 2022 12:22:13 +0100</pubDate>
+      <guid>https://ftisiot.net/posts/tips-for-abstract-writing/</guid>
+      <description>&lt;p&gt;If you&amp;rsquo;re reading this, there are good chances you&amp;rsquo;re thinking, writing or iterating over an abstract for a conference. The post is about little tips I learnt in more than 8 years of prepping for conferences and in 1 year or reviewing internal abstracts at Aiven before they are submitted for a conference.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to query remote InfluxDB via cURL</title>
+      <link>https://ftisiot.net/posts/query_influxb_curl/</link>
+      <pubDate>Mon, 07 Nov 2022 10:15:10 +0100</pubDate>
+      <guid>https://ftisiot.net/posts/query_influxb_curl/</guid>
+      <description>&lt;p&gt;Sometimes you want to query a remote InfluxDB server to understand the data in it. This can be done via cURL as explained in the &lt;a href=&#34;https://docs.influxdata.com/influxdb/v1.8/guides/query_data/&#34;&gt;InfluxDB docs&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Put PostgreSQL at the center of your (meta)data universe!</title>
+      <link>https://ftisiot.net/talks/pg-metadata/</link>
+      <pubDate>Tue, 11 Oct 2022 13:08:56 +0200</pubDate>
+      <guid>https://ftisiot.net/talks/pg-metadata/</guid>
+      <description>&lt;p&gt;Extract metadata from your existing data tools and build a queryable graph interface in PostgreSQL®&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Breathe in Breathe out: get Kafka Connect settings right!</title>
+      <link>https://ftisiot.net/talks/breathe-in-breathe-out-kafka-connect/</link>
+      <pubDate>Tue, 20 Sep 2022 13:23:04 +0200</pubDate>
+      <guid>https://ftisiot.net/talks/breathe-in-breathe-out-kafka-connect/</guid>
+      <description>&lt;p&gt;A deep dive into Kafka connect settings and pitfalls, analysing several tips to have a better experience when setting up a connector.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Convert Epoch to Timestamps in Apache Flink with ``TO_TIMESTAMP_LTZ``</title>
+      <link>https://ftisiot.net/posts/apache-flink-to-timestamp-ltz/</link>
+      <pubDate>Mon, 29 Aug 2022 11:19:57 +0200</pubDate>
+      <guid>https://ftisiot.net/posts/apache-flink-to-timestamp-ltz/</guid>
+      <description>&lt;p&gt;Sometimes when defining an Apache Flink® table using SQL we need to map an &lt;a href=&#34;https://en.wikipedia.org/wiki/Unix_time&#34;&gt;epoch timestamp&lt;/a&gt; and use it as record/message timestamp, this blog contains few tricks to get it right.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Define a PostgreSQL database connection in JSON and import it in PGAdmin 4</title>
+      <link>https://ftisiot.net/posts/create_json_connection_pg_admin4/</link>
+      <pubDate>Thu, 11 Aug 2022 14:47:17 +0200</pubDate>
+      <guid>https://ftisiot.net/posts/create_json_connection_pg_admin4/</guid>
+      <description>&lt;p&gt;How to define a database connection in a JSON file that can be imported in PG Admin 4&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Suggestions on places/activities near Verona</title>
+      <link>https://ftisiot.net/suggestions-verona/</link>
+      <pubDate>Thu, 11 Aug 2022 13:28:45 +0200</pubDate>
+      <guid>https://ftisiot.net/suggestions-verona/</guid>
+      <description>&lt;p&gt;Now and then I get asked what to do and where to eat nearby Verona, so there, you have the list. I&amp;rsquo;ll update the list whenever needed&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Don&#39;t get lost in data: Metadata to the rescue!</title>
+      <link>https://ftisiot.net/talks/metadata-parser-uptime/</link>
+      <pubDate>Mon, 08 Aug 2022 13:34:59 +0200</pubDate>
+      <guid>https://ftisiot.net/talks/metadata-parser-uptime/</guid>
+      <description>&lt;p&gt;Collect, analyze, query your metadata to keep control over your data assets&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>No pineapple on pizza! Streaming anomaly detection with Apache Kafka® and Apache Flink®</title>
+      <link>https://ftisiot.net/talks/anomaly-detection/</link>
+      <pubDate>Tue, 02 Aug 2022 14:05:20 +0200</pubDate>
+      <guid>https://ftisiot.net/talks/anomaly-detection/</guid>
+      <description>&lt;p&gt;A streaming anomaly detection system with Apache Kafka® and Apache Flink®&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Yep, my slides are useless!</title>
+      <link>https://ftisiot.net/posts/useless-slides/</link>
+      <pubDate>Mon, 18 Jul 2022 14:44:12 +0200</pubDate>
+      <guid>https://ftisiot.net/posts/useless-slides/</guid>
+      <description>&lt;p&gt;Every time someone talks about slides design a great debate is generated. People have opinions and, guess what? Specifically in the area of public speaking, they seem to be quite vocal about them 🤣.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Flask Kafka</title>
+      <link>https://ftisiot.net/talks/flask-kafka/</link>
+      <pubDate>Fri, 13 May 2022 15:49:28 +0200</pubDate>
+      <guid>https://ftisiot.net/talks/flask-kafka/</guid>
+      <description>&#xA;Useful Links Apache Kafka docs GitHub Repo Aiven for Apache Kafka </description>
+    </item>
+    <item>
+      <title>Solving the Knapsack Problem with Recursive Queries and PostgreSQL</title>
+      <link>https://ftisiot.net/talks/knapsack-problem-pg/</link>
+      <pubDate>Mon, 02 May 2022 14:54:29 +0200</pubDate>
+      <guid>https://ftisiot.net/talks/knapsack-problem-pg/</guid>
+      <description>&#xA;Useful Links Knapsack Problem Knapsack in PostgreSQL PostgreSQL 14 Search and Cycle Features Aiven </description>
+    </item>
+    <item>
+      <title>JDBC Source Connector: What Could Go Wrong?</title>
+      <link>https://ftisiot.net/talks/kafka-jdbc-what-can-go-wrong/</link>
+      <pubDate>Fri, 01 Apr 2022 14:24:42 +0200</pubDate>
+      <guid>https://ftisiot.net/talks/kafka-jdbc-what-can-go-wrong/</guid>
+      <description>&#xA;Useful Links Talk recording JDBC source connector docs Debezium docs How to Debezium in Aiven docs JDBC source connector example Debezium source connector example Aiven </description>
+    </item>
+    <item>
+      <title>Beautify `kcat` consumer output by piping to `jq`</title>
+      <link>https://ftisiot.net/posts/jq-kcat-consumer/</link>
+      <pubDate>Thu, 31 Mar 2022 13:39:18 +0200</pubDate>
+      <guid>https://ftisiot.net/posts/jq-kcat-consumer/</guid>
+      <description>&lt;p&gt;I was working on some demos recently on the Apache Kafka source connectors (hi #KafkaSummit!), and trying to display the stream of changes in the resulting Apache Kafka topic.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Apache Kafka and Flink: Stateful Streaming Data Pipelines made easy with SQL</title>
+      <link>https://ftisiot.net/talks/kafka-flink-sql/</link>
+      <pubDate>Tue, 15 Mar 2022 16:12:47 +0100</pubDate>
+      <guid>https://ftisiot.net/talks/kafka-flink-sql/</guid>
+      <description>&#xA;Useful Links Apache Kafka docs Apache Flink docs Apache Fink SQL client on Docker Build a Streaming data pipeline with Apache Kafka and Flink blog JDBC source connector example Debezium source connector example Aiven for Apache Kafka </description>
+    </item>
+    <item>
+      <title>I Don&#39;t Want to Miss a Thing - Track Database Changes with Apache Kafka</title>
+      <link>https://ftisiot.net/talks/track-database-changes/</link>
+      <pubDate>Tue, 22 Feb 2022 12:22:35 +0100</pubDate>
+      <guid>https://ftisiot.net/talks/track-database-changes/</guid>
+      <description>&#xA;Useful Links Apache Kafka docs Debezium docs How to Debezium in Aiven docs JDBC source connector example Debezium source connector example JDBC Source Connector: what could go wrong? Aiven for PostgreSQL </description>
+    </item>
+    <item>
+      <title>A Month in Aiven.io</title>
+      <link>https://ftisiot.net/2021/01/27/a_month_in_aiven/</link>
+      <pubDate>Fri, 29 Jan 2021 10:30:00 +0000</pubDate>
+      <guid>https://ftisiot.net/2021/01/27/a_month_in_aiven/</guid>
+      <description>&lt;p&gt;A month has already gone since my start at &lt;a href=&#34;https://aiven.io/&#34;&gt;Aiven.io&lt;/a&gt; and it&amp;rsquo;s time for a first, and brief, look back at my experience so far together with few suggestions (even if nobody asks) for anyone that will follow my steps.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: The journey has been great, met several amazing people and learnt lots using cool tech! A bit shocked about food choices&amp;hellip; but that&amp;rsquo;s life 🤌 !&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>First Steps within Aiven... the CLI!</title>
+      <link>https://ftisiot.net/2021/01/15/aiven_cli/</link>
+      <pubDate>Wed, 06 Jan 2021 15:30:00 +0000</pubDate>
+      <guid>https://ftisiot.net/2021/01/15/aiven_cli/</guid>
+      <description>&lt;p&gt;Hi, I&amp;rsquo;m Francesco and recently joined Aiven.io as Developer Advocate!&lt;/p&gt;&#xA;&lt;p&gt;In this first blog post, we&amp;rsquo;ll have a look at how to install and login to Aiven&amp;rsquo;s resources using the command line client.&lt;/p&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re new to Aiven or if you already know the platform but want to automate some tasks, the client allows you to perform the same tasks available on &lt;a href=&#34;https://console.aiven.io/&#34;&gt;Aiven&amp;rsquo;s web console&lt;/a&gt; but from your preferred terminal.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Looking Forward</title>
+      <link>https://ftisiot.net/2021/01/04/looking_forward/</link>
+      <pubDate>Mon, 04 Jan 2021 15:30:00 +0000</pubDate>
+      <guid>https://ftisiot.net/2021/01/04/looking_forward/</guid>
+      <description>&lt;p&gt;Now&amp;hellip; What?&lt;/p&gt;&#xA;&lt;p&gt;My previous &lt;a href=&#34;https://ftisiot.net//2020/11/26/looking_back/&#34;&gt;post&lt;/a&gt; was looking back in my 8 years of Rittman Mead experience&amp;hellip; But now it&amp;rsquo;s 2021&amp;hellip; so&amp;hellip; what&amp;rsquo;s next?&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m joining &lt;a href=&#34;https://aiven.io&#34;&gt;Aiven&lt;/a&gt; as Developer Advocate!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Looking Back</title>
+      <link>https://ftisiot.net/2020/11/26/looking_back/</link>
+      <pubDate>Wed, 23 Dec 2020 10:00:00 +0000</pubDate>
+      <guid>https://ftisiot.net/2020/11/26/looking_back/</guid>
+      <description>It was February 2012 when I was meant to take a flight from a foggy Treviso Airport direction London Stansted. The fog created several problems, all passengers were taken by bus to Venice and we had to wait 3 hours before boarding on the plane. The flight 🛬 landed with an overall 4h of delay, not great if the scheduled arrival time was 8PM! I then caught a bus to Liverpool street and finally got lost while trying to reach my hotel.</description>
+    </item>
+    <item>
+      <title>What&#39;s My (Talk) Age Again?</title>
+      <link>https://ftisiot.net/2020/11/02/whats-my-talk-age-again/</link>
+      <pubDate>Mon, 02 Nov 2020 13:12:10 +0000</pubDate>
+      <guid>https://ftisiot.net/2020/11/02/whats-my-talk-age-again/</guid>
+      <description>Las week I shared a personal experience of talking to a small online audience (just one person) and how that episode made me think about my commitment to public talking and understanding that performing at best is still key for both the speaker and the audience.&#xA;One of the items that I explored was the Reflection bit: trying to understand what/why the paper/abstract didn&amp;rsquo;t work, why it didn&amp;rsquo;t attract people and what can be done to improve it.</description>
+    </item>
+    <item>
+      <title>A Talk For One</title>
+      <link>https://ftisiot.net/2020/10/26/a-talk-for-one/</link>
+      <pubDate>Mon, 26 Oct 2020 14:15:21 +0000</pubDate>
+      <guid>https://ftisiot.net/2020/10/26/a-talk-for-one/</guid>
+      <description>2020 hasn&amp;rsquo;t been a great year, with Covid forcing people home and all major events moving from physical to virtual. At the same time, now is the perfect time for attendees: everyone is creating and sharing content via videos, blogs or talks in conferences. People that before had to choose wisely the &amp;ldquo;1 conference&amp;rdquo; where to spend their budget on, now can access for free (or reduced fees) content coming from a huge variety of organisations and speakers.</description>
+    </item>
+    <item>
+      <title>Oracle Analytics Server and Kerberos Authentication</title>
+      <link>https://ftisiot.net/2020/09/18/oracle-analytics-server-and-kerberos-authentication/</link>
+      <pubDate>Fri, 18 Sep 2020 08:26:12 +0000</pubDate>
+      <guid>https://ftisiot.net/2020/09/18/oracle-analytics-server-and-kerberos-authentication/</guid>
+      <description>Oracle Analytics Server is out since several months and a common ask is to provide SSO with Kerberos Authentication.&#xA;The &amp;ldquo;old&amp;rdquo; OBIEE12c style Kerberos configuration is not working with OAS.&#xA;Oracle provided a solution to implement it via Apache Server and Oracle Access Manager Identity Asserter. All the info are published in Doc ID 2707401.1</description>
+    </item>
+    <item>
+      <title>Analytics Everywhere!</title>
+      <link>https://ftisiot.net/analytics-everywhere-webinar/</link>
+      <pubDate>Wed, 02 Sep 2020 12:49:47 +0000</pubDate>
+      <guid>https://ftisiot.net/analytics-everywhere-webinar/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>Oracle Analytics Cloud 5.7: Use ML Models in the Database</title>
+      <link>https://ftisiot.net/2020/08/10/oracle-analytics-cloud-5-7-use-ml-models-in-the-database/</link>
+      <pubDate>Mon, 10 Aug 2020 09:08:25 +0000</pubDate>
+      <guid>https://ftisiot.net/2020/08/10/oracle-analytics-cloud-5-7-use-ml-models-in-the-database/</guid>
+      <description>I created a short video showing how you can register in Oracle Analytics Cloud 5.7 some Machine Learning models created in the Oracle Database and score data with a simple Data Flow, check it out&#xA;https://www.youtube.com/watch?v=GZubKpWUA0U</description>
+    </item>
+    <item>
+      <title>2019 a Year of Conferences and Much More!</title>
+      <link>https://ftisiot.net/2019/12/13/2019-a-year-of-conferences-and-much-more/</link>
+      <pubDate>Fri, 13 Dec 2019 13:09:17 +0000</pubDate>
+      <guid>https://ftisiot.net/2019/12/13/2019-a-year-of-conferences-and-much-more/</guid>
+      <description>The 2019 end-of-year holiday period is approaching, before closing the laptop for few days it&amp;rsquo;s good to look back how the year went. It has been very busy working wise: client work, conference preparation and talks, blog posts and videos kept my time well occupied. I also had an amazing news in June, when, during Kscope 19, I was invited on the stage and announced as Oracle ACE Director&#xA;Congratulations to new Oracle ACE Directors @ftisiot @thtechnology @fdmeeguru!</description>
+    </item>
+    <item>
+      <title>ITOUG Call for Papers Submission Analysis</title>
+      <link>https://ftisiot.net/2019/07/30/itoug-call-for-papers-submission-analysis/</link>
+      <pubDate>Tue, 30 Jul 2019 14:21:36 +0000</pubDate>
+      <guid>https://ftisiot.net/2019/07/30/itoug-call-for-papers-submission-analysis/</guid>
+      <description>If you read this now and you wanted to submit for ITOUG Tech Days 2020&amp;hellip;. well, bad luck, you&amp;rsquo;re too late! ITOUG Tech Days 2020 was closed last week with an astonishing record of submissions! This post will analyse a bit the numbers of the submissions using the magic Oracle Analytics Cloud.&#xA;First of all, uploading the data and fixing the column settings. For example, we want to properly convert to Date our Submission Date (Data di invio in Italian).</description>
+    </item>
+    <item>
+      <title>Looker for OBIEE Experts: Introduction and Concepts</title>
+      <link>https://ftisiot.net/2018/08/23/looker-for-obiee-experts-introduction-and-concepts/</link>
+      <pubDate>Thu, 23 Aug 2018 09:14:16 +0000</pubDate>
+      <guid>https://ftisiot.net/2018/08/23/looker-for-obiee-experts-introduction-and-concepts/</guid>
+      <description>Hello! After a long time I&amp;rsquo;m back to my personal blog! You can find all my Rittman Mead related blog posts here!&#xA;Recently I&amp;rsquo;ve been doing some personal study around various areas including streaming, machine learning and data visualization and one of the tools that got my attention is Looker. I&amp;rsquo;ve initially heard about Looker from a Drill to Detail podcast from Mark Rittman and increasingly been hearing about it in conferences and use cases together with other cloud solutions like BigQuery, Snowflake and Fivetran.</description>
+    </item>
+    <item>
+      <title>ITOUG Call for Papers is Open!</title>
+      <link>https://ftisiot.net/2017/02/28/itoug-call-for-papers-is-open/</link>
+      <pubDate>Tue, 28 Feb 2017 14:33:52 +0000</pubDate>
+      <guid>https://ftisiot.net/2017/02/28/itoug-call-for-papers-is-open/</guid>
+      <description>I&amp;rsquo;m pleased to announce that, for the first time, a BI/Analytics track will be present at ITOUG!&#xA;ITOUG, the recently created Italian Oracle User Group, has been so far almost 100% DBA orientated. At the next event, which will be held on 8th June 2017 at UNA Century Hotel in Milan, we are opening a new BI/Analytics streams and looking for speakers.&#xA;Call for papers is already open, visit http://www.itoug.it for more informations.</description>
+    </item>
+    <item>
+      <title>OBI12c SSL with Custom Certificates</title>
+      <link>https://ftisiot.net/2016/10/16/obi12c-ssl-with-custom-certificates/</link>
+      <pubDate>Sun, 16 Oct 2016 18:40:45 +0000</pubDate>
+      <guid>https://ftisiot.net/2016/10/16/obi12c-ssl-with-custom-certificates/</guid>
+      <description>For anybody on OBIEE 12c wanting to enable full SSL, Oracle provided within the OBIEE Documentation an explanation on how to set it up using demo certificates.&#xA;However the usage of demo certificates gives the end user the annoying problem of needing to accept an exception to enter the website since the demo certificate wasn&amp;rsquo;t created for the server/domain where OBIEE is located (the same problem arises also with Smartview).</description>
+    </item>
+    <item>
+      <title>Remove OBI12c Data Visualisation from OBIEE</title>
+      <link>https://ftisiot.net/2016/10/13/remove-obi12c-data-visualisation-from-obiee/</link>
+      <pubDate>Thu, 13 Oct 2016 07:28:11 +0000</pubDate>
+      <guid>https://ftisiot.net/2016/10/13/remove-obi12c-data-visualisation-from-obiee/</guid>
+      <description>For anybody interested in how to remove or add Data Visualisation (also known as Visual Analyser) option to a specific role in OBIEE 12c, Oracle released Doc ID 2102444.1 which gives the detail about the procedure using WLST and the RevokeDVPermission.py (or GrantDVPermission.py) that should be present in the OBIEE12c Installation Middleware home by default.</description>
+    </item>
+    <item>
+      <title>How to search the Cause of Errors</title>
+      <link>https://ftisiot.net/2016/10/12/how-to-search-the-cause-of-errors/</link>
+      <pubDate>Wed, 12 Oct 2016 18:40:22 +0000</pubDate>
+      <guid>https://ftisiot.net/2016/10/12/how-to-search-the-cause-of-errors/</guid>
+      <description>I&amp;rsquo;ve been working on OBIEE and Oracle products in general since 2008, it has been so far a great experience with an enormous amount of information being available freely in internet.&#xA;When trying to solve problems this amount of information can be a treasure but also a risk since the information contained in any website can be partial, not relevant or in some cases completely wrong for the subject searched. As an unexperienced person (but also for experienced) it&amp;rsquo;s difficult to distinguish whether the content of a website can be followed and trusted and sometimes even replies to public forums can&amp;rsquo;t be a valid source since different problems provide the similar wrong behaviour and can be confused.</description>
+    </item>
+    <item>
+      <title>OBI Blogs to follow</title>
+      <link>https://ftisiot.net/2016/09/29/obi-blogs-to-follow/</link>
+      <pubDate>Thu, 29 Sep 2016 10:17:15 +0000</pubDate>
+      <guid>https://ftisiot.net/2016/09/29/obi-blogs-to-follow/</guid>
+      <description>Hi All,&#xA;I thought that including a post on the OBI related blogs and the owner twitter accounts, may be useful. The list will be enriched over time&#xA;* [rittmanmead.com](http://www.rittmanmead.com): My company&#39;s blog, always source of good OBI articles * [rmoff.net](http://rmoff.net): [Robin Moffat](https://twitter.com/rmoff)&#39;s (Oracle ACE) personal blog * [gianniceresa.com](https://gianniceresa.com): [Gianni Ceresa](https://twitter.com/G_Ceresa)&#39;s personal blog * [dimensionality.ch](http://dimensionality.ch): [Christian Berg](https://twitter.com/Nephentur)&#39;s (Oracle ACE Associate) personal blog * [gerardnico.com](http://gerardnico.com/): Nicolas Gerard&#39;s personal blog * [bisoftdiary.com](https://bisoftdiary.com/): [Andrew Fomin](https://twitter.</description>
+    </item>
+    <item>
+      <title>OBI12c Performance Tiles PDF Print Error</title>
+      <link>https://ftisiot.net/2016/09/29/obi12c-performance-tiles-pdf-print-error/</link>
+      <pubDate>Thu, 29 Sep 2016 08:10:24 +0000</pubDate>
+      <guid>https://ftisiot.net/2016/09/29/obi12c-performance-tiles-pdf-print-error/</guid>
+      <description>Hi All,&#xA;If you already migrated to OBI12c you could experience, when printing to PDF a dashboard or analysis including performance tiles that the layout is not what expected.&#xA;[caption width=&amp;ldquo;300&amp;rdquo; id=&amp;ldquo;attachment_37&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo;] Original Dashboard Layout[/caption] [caption width=&amp;ldquo;300&amp;rdquo; id=&amp;ldquo;attachment_36&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo;] PDF Print[/caption]The good news is that this has been recognised as a bug and if you are on 12.2.1.0.0 there is a patch available &amp;ldquo;Patch 22759083: BIEE 12C DASHBOARD PRINT TO PDF MISSING PERFORMANCE TILES FROM THE REPORT&amp;rdquo;.</description>
+    </item>
+    <item>
+      <title>Who is Francesco Tisiot?</title>
+      <link>https://ftisiot.net/who/</link>
+      <pubDate>Wed, 28 Sep 2016 20:00:20 +0000</pubDate>
+      <guid>https://ftisiot.net/who/</guid>
+      <description>Francesco Tisiot Ciao!&#xA;I’m Francesco Tisiot, Staff Developer Advocate at Aiven. You can find me on twitter at @ftisiot and on LinkedIn&#xA;Some more resources:&#xA;My series of blog post for Aiven The slides of my previous speaking engagements on SpeakerDeck My previous company (Rittman Mead) related articles in Rittman Mead’s blog This is my personal blog! Stay tuned for ideas, tests and opinions related to my work. All the content written here is my own and don’t necessary reflect my company vision.</description>
+    </item>
+    <item>
+      <title>Welcome</title>
+      <link>https://ftisiot.net/2016/09/28/first-blog-post/</link>
+      <pubDate>Wed, 28 Sep 2016 13:10:09 +0000</pubDate>
+      <guid>https://ftisiot.net/2016/09/28/first-blog-post/</guid>
+      <description>Hi All!&#xA;Welcome to my blog! If time and perseverance will assist me I&amp;rsquo;ll try to post here about my findings and ideas at work and about life in general, so stay tuned!&#xA;Francesco</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://ftisiot.net/components/mysqllink/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ftisiot.net/components/mysqllink/</guid>
+      <description> 👉 Need a FREE MySQL database?👈&#xA;🦀 Check Aiven&amp;rsquo;s FREE plans! 🦀&#xA;⚡️ Need to optimize your SQL query with AI? ⚡️ 🐧 Check EverSQL! 🐧 </description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://ftisiot.net/components/pglink/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ftisiot.net/components/pglink/</guid>
+      <description> 👉 Need a FREE PostgreSQL database?👈&#xA;🦀 Check Aiven&amp;rsquo;s FREE plans! 🦀 ⚡️ Need to optimize your SQL query with AI? ⚡️ 🐧 Check EverSQL! 🐧 </description>
+    </item>
+  </channel>
 </rss>
