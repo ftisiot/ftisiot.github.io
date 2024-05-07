@@ -47,7 +47,7 @@
   <meta itemprop="description" content="Sorting 1 billion rows challenge with PostgreSQL and ClickHouse">
   <meta itemprop="datePublished" content="2024-01-03T16:43:29+01:00">
   <meta itemprop="dateModified" content="2024-01-03T16:43:29+01:00">
-  <meta itemprop="wordCount" content="1176">
+  <meta itemprop="wordCount" content="1179">
   <meta itemprop="keywords" content="PostgreSQL,ClickHouse,Sorting"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="1 billion rows challenge in PostgreSQL and ClickHouse">
 <meta name="twitter:description" content="Sorting 1 billion rows challenge with PostgreSQL and ClickHouse">
 
@@ -260,7 +260,7 @@
       
       
         <span class="f6 mv4 dib tracked"> - 6 minutes read </span>
-        <span class="f6 mv4 dib tracked"> - 1176 words </span>
+        <span class="f6 mv4 dib tracked"> - 1179 words </span>
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Last week the good old <a href="https://www.linkedin.com/in/gunnar-morling-2b44b7229/">Gunnar Morling</a> launched an interesting <a href="https://www.morling.dev/blog/one-billion-row-challenge/">challenge</a> about ordering 1 billion rows in Java. Like my ex colleague and friend <a href="https://www.linkedin.com/in/robinmoffatt/">Robin Moffat</a>, I&rsquo;m not at all a Java expert, and while <a href="https://rmoff.net/2024/01/03/1%EF%B8%8F%E2%83%A3%EF%B8%8F-1brc-in-sql-with-duckdb/">Robin used DuckDB</a> to solve the challenge, I did the same with PostgreSQL and ClickHouse.</p>
@@ -323,7 +323,7 @@
 </span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#008000;font-weight:bold">FROM</span><span style="color:#bbb"> </span>AGG<span style="color:#bbb">
 </span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span>;<span style="color:#bbb">
 </span></span></span></code></pre></div><p>The main difference, compared to DuckDB is on the usage of the <code>STRING_AGG</code> function that allows me to directly create the string ordered by <code>CITY</code> with all the metrics.</p>
-<p><strong>Note</strong>: If I use <a href="https://www.eversql.com/?utm_medium=organic&amp;utm_source=ext_blog&amp;utm_content=1browschallenge">EverSQL</a> to optimise the query, it&rsquo;ll provide a suggestion to add an index on <code>city</code> and <code>temperature</code>:</p>
+<p><strong>Note</strong>: If I use <a href="https://go.aiven.io/ft-ai-db-optimizer">Aiven AI database optimizer</a> to optimise the query, it&rsquo;ll provide a suggestion to add an index on <code>city</code> and <code>temperature</code>:</p>
 <pre tabindex="0"><code>CREATE INDEX test_idx_city_temperature ON &#34;test&#34; (&#34;city&#34;,&#34;temperature&#34;);
 </code></pre><p><img src="/images/2024/eversql-suggestion.png" alt="EverSQL suggesting an index"></p>
 <h3 id="postgresql-timing">PostgreSQL Timing</h3>
