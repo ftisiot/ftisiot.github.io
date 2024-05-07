@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>parse on ftisiot ideas about tech, food and life</title>
+    <title>Parse on ftisiot ideas about tech, food and life</title>
     <link>https://ftisiot.net/categories/parse/</link>
-    <description>Recent content in parse on ftisiot ideas about tech, food and life</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Parse on ftisiot ideas about tech, food and life</description>
+    <generator>Hugo 0.125.0</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 09 Jan 2023 11:33:09 +0100</lastBuildDate>
     <atom:link href="https://ftisiot.net/categories/parse/index.xml" rel="self" type="application/rss+xml" />

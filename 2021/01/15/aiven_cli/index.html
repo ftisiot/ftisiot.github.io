@@ -9,7 +9,7 @@
     <meta name="description" content="Hi, I&rsquo;m Francesco and recently joined Aiven.io as Developer Advocate!
 In this first blog post, we&rsquo;ll have a look at how to install and login to Aiven&rsquo;s resources using the command line client.
 If you&rsquo;re new to Aiven or if you already know the platform but want to automate some tasks, the client allows you to perform the same tasks available on Aiven&rsquo;s web console but from your preferred terminal.">
-    <meta name="generator" content="Hugo 0.121.1">
+    <meta name="generator" content="Hugo 0.125.0">
     
     
     
@@ -35,37 +35,51 @@ If you&rsquo;re new to Aiven or if you already know the platform but want to aut
       <link rel="canonical" href="https://ftisiot.net/2021/01/15/aiven_cli/">
     
 
-    <meta property="og:title" content="First Steps within Aiven... the CLI!" />
-<meta property="og:description" content="Hi, I&rsquo;m Francesco and recently joined Aiven.io as Developer Advocate!
-In this first blog post, we&rsquo;ll have a look at how to install and login to Aiven&rsquo;s resources using the command line client.
-If you&rsquo;re new to Aiven or if you already know the platform but want to automate some tasks, the client allows you to perform the same tasks available on Aiven&rsquo;s web console but from your preferred terminal." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://ftisiot.net/2021/01/15/aiven_cli/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2021-01-06T15:30:00+00:00" />
-<meta property="article:modified_time" content="2021-01-06T15:30:00+00:00" />
+    <meta property="og:url" content="https://ftisiot.net/2021/01/15/aiven_cli/">
+  <meta property="og:site_name" content="ftisiot ideas about tech, food and life">
+  <meta property="og:title" content="First Steps within Aiven... the CLI!">
+  <meta property="og:description" content="Hi, I&amp;rsquo;m Francesco and recently joined Aiven.io as Developer Advocate!
+In this first blog post, we&amp;rsquo;ll have a look at how to install and login to Aiven&amp;rsquo;s resources using the command line client.
+If you&amp;rsquo;re new to Aiven or if you already know the platform but want to automate some tasks, the client allows you to perform the same tasks available on Aiven&amp;rsquo;s web console but from your preferred terminal.
+">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+  <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2021-01-06T15:30:00+00:00">
+    <meta property="article:modified_time" content="2021-01-06T15:30:00+00:00">
 
-<meta itemprop="name" content="First Steps within Aiven... the CLI!">
-<meta itemprop="description" content="Hi, I&rsquo;m Francesco and recently joined Aiven.io as Developer Advocate!
+  <meta itemprop="name" content="First Steps within Aiven... the CLI!">
+  <meta itemprop="description" content="Hi, I&rsquo;m Francesco and recently joined Aiven.io as Developer Advocate!
 In this first blog post, we&rsquo;ll have a look at how to install and login to Aiven&rsquo;s resources using the command line client.
-If you&rsquo;re new to Aiven or if you already know the platform but want to automate some tasks, the client allows you to perform the same tasks available on Aiven&rsquo;s web console but from your preferred terminal."><meta itemprop="datePublished" content="2021-01-06T15:30:00+00:00" />
-<meta itemprop="dateModified" content="2021-01-06T15:30:00+00:00" />
-<meta itemprop="wordCount" content="554">
-<meta itemprop="keywords" content="work,aiven,cli,python,commandline," /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="First Steps within Aiven... the CLI!"/>
+If you&rsquo;re new to Aiven or if you already know the platform but want to automate some tasks, the client allows you to perform the same tasks available on Aiven&rsquo;s web console but from your preferred terminal.">
+  <meta itemprop="datePublished" content="2021-01-06T15:30:00+00:00">
+  <meta itemprop="dateModified" content="2021-01-06T15:30:00+00:00">
+  <meta itemprop="wordCount" content="554">
+  <meta itemprop="keywords" content="Work"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="First Steps within Aiven... the CLI!">
 <meta name="twitter:description" content="Hi, I&rsquo;m Francesco and recently joined Aiven.io as Developer Advocate!
 In this first blog post, we&rsquo;ll have a look at how to install and login to Aiven&rsquo;s resources using the command line client.
-If you&rsquo;re new to Aiven or if you already know the platform but want to automate some tasks, the client allows you to perform the same tasks available on Aiven&rsquo;s web console but from your preferred terminal."/>
+If you&rsquo;re new to Aiven or if you already know the platform but want to automate some tasks, the client allows you to perform the same tasks available on Aiven&rsquo;s web console but from your preferred terminal.">
 
       
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7Z74BTZ0TM"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-7Z74BTZ0TM', { 'anonymize_ip': false });
-}
-</script>
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-7Z74BTZ0TM"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-7Z74BTZ0TM');
+        }
+      </script>
+    
+  
+
 
     
 	

@@ -4,7 +4,7 @@
     <title>Components on ftisiot ideas about tech, food and life</title>
     <link>https://ftisiot.net/components/</link>
     <description>Recent content in Components on ftisiot ideas about tech, food and life</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo 0.125.0</generator>
     <language>en-us</language>
     <atom:link href="https://ftisiot.net/components/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,14 +12,14 @@
       <link>https://ftisiot.net/components/mysqllink/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ftisiot.net/components/mysqllink/</guid>
-      <description> 👉 Need a FREE MySQL database?👈&#xA;🦀 Check Aiven&amp;rsquo;s FREE plans! 🦀&#xA;⚡️ Need to optimize your SQL query with AI? ⚡️ 🐧 Check EverSQL! 🐧 </description>
+      <description> 👉 Need a FREE MySQL database?👈&#xA;🦀 Check Aiven&amp;rsquo;s FREE plans! 🦀&#xA;⚡️ Need to optimize your SQL query with AI? ⚡️ 🐧 Check Aiven AI database optimizer! Powered by EverSQL 🐧 </description>
     </item>
     <item>
       <title></title>
       <link>https://ftisiot.net/components/pglink/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ftisiot.net/components/pglink/</guid>
-      <description> 👉 Need a FREE PostgreSQL database?👈&#xA;🦀 Check Aiven&amp;rsquo;s FREE plans! 🦀 ⚡️ Need to optimize your SQL query with AI? ⚡️ 🐧 Check EverSQL! 🐧 </description>
+      <description> 👉 Need a FREE PostgreSQL database?👈&#xA;🦀 Check Aiven&amp;rsquo;s FREE plans! 🦀 ⚡️ Need to optimize your SQL query with AI? ⚡️ 🐧 Check Aiven AI database optimizer! Powered by EverSQL 🐧 </description>
     </item>
   </channel>
 </rss>

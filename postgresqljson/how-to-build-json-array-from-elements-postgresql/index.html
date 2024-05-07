@@ -7,7 +7,7 @@
     <title>How to build a JSON array from a list of elements in PostgreSQL® | ftisiot ideas about tech, food and life</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="PostgreSQL® offers two types of data types to handle JSON data, JSON and JSONB, you can use the function json_build_array (jsonb_build_array for JSONB) to create a JSON array from a list of elements.">
-    <meta name="generator" content="Hugo 0.121.1">
+    <meta name="generator" content="Hugo 0.125.0">
     
     
     
@@ -33,31 +33,45 @@
       <link rel="canonical" href="https://ftisiot.net/postgresqljson/how-to-build-json-array-from-elements-postgresql/">
     
 
-    <meta property="og:title" content="How to build a JSON array from a list of elements in PostgreSQL®" />
-<meta property="og:description" content="PostgreSQL® offers two types of data types to handle JSON data, JSON and JSONB, you can use the function json_build_array (jsonb_build_array for JSONB) to create a JSON array from a list of elements." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://ftisiot.net/postgresqljson/how-to-build-json-array-from-elements-postgresql/" /><meta property="article:section" content="postgresqljson" />
-<meta property="article:published_time" content="2023-01-09T17:14:22+01:00" />
-<meta property="article:modified_time" content="2023-01-09T17:14:22+01:00" />
+    <meta property="og:url" content="https://ftisiot.net/postgresqljson/how-to-build-json-array-from-elements-postgresql/">
+  <meta property="og:site_name" content="ftisiot ideas about tech, food and life">
+  <meta property="og:title" content="How to build a JSON array from a list of elements in PostgreSQL®">
+  <meta property="og:description" content="PostgreSQL® offers two types of data types to handle JSON data, JSON and JSONB, you can use the function json_build_array (jsonb_build_array for JSONB) to create a JSON array from a list of elements.
+">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+  <meta property="article:section" content="postgresqljson">
+    <meta property="article:published_time" content="2023-01-09T17:14:22+01:00">
+    <meta property="article:modified_time" content="2023-01-09T17:14:22+01:00">
 
-<meta itemprop="name" content="How to build a JSON array from a list of elements in PostgreSQL®">
-<meta itemprop="description" content="PostgreSQL® offers two types of data types to handle JSON data, JSON and JSONB, you can use the function json_build_array (jsonb_build_array for JSONB) to create a JSON array from a list of elements."><meta itemprop="datePublished" content="2023-01-09T17:14:22+01:00" />
-<meta itemprop="dateModified" content="2023-01-09T17:14:22+01:00" />
-<meta itemprop="wordCount" content="146">
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="How to build a JSON array from a list of elements in PostgreSQL®"/>
-<meta name="twitter:description" content="PostgreSQL® offers two types of data types to handle JSON data, JSON and JSONB, you can use the function json_build_array (jsonb_build_array for JSONB) to create a JSON array from a list of elements."/>
+  <meta itemprop="name" content="How to build a JSON array from a list of elements in PostgreSQL®">
+  <meta itemprop="description" content="PostgreSQL® offers two types of data types to handle JSON data, JSON and JSONB, you can use the function json_build_array (jsonb_build_array for JSONB) to create a JSON array from a list of elements.">
+  <meta itemprop="datePublished" content="2023-01-09T17:14:22+01:00">
+  <meta itemprop="dateModified" content="2023-01-09T17:14:22+01:00">
+  <meta itemprop="wordCount" content="152">
+  <meta itemprop="keywords" content="PostgreSQL,JSON,Jsonb,Elements,Array"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="How to build a JSON array from a list of elements in PostgreSQL®">
+<meta name="twitter:description" content="PostgreSQL® offers two types of data types to handle JSON data, JSON and JSONB, you can use the function json_build_array (jsonb_build_array for JSONB) to create a JSON array from a list of elements.">
 
       
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7Z74BTZ0TM"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-7Z74BTZ0TM', { 'anonymize_ip': false });
-}
-</script>
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-7Z74BTZ0TM"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-7Z74BTZ0TM');
+        }
+      </script>
+    
+  
+
 
     
 	
@@ -243,7 +257,7 @@ if (!doNotTrack) {
       
       
         <span class="f6 mv4 dib tracked"> - One minute read </span>
-        <span class="f6 mv4 dib tracked"> - 146 words </span>
+        <span class="f6 mv4 dib tracked"> - 152 words </span>
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>PostgreSQL® offers two types of data types to handle JSON data, <code>JSON</code> and <code>JSONB</code>, you can use the function <code>json_build_array</code> (<code>jsonb_build_array</code> for <code>JSONB</code>) to create a JSON array from a list of elements.</p>
@@ -257,7 +271,7 @@ if (!doNotTrack) {
 <p> <p style="background: #C1E1C1;border: 2px solid #b4d3b2;border-radius: 15px;text-align: center;">👉 Need a FREE PostgreSQL database?👈<br>🦀 Check <a href="https://go.aiven.io/francesco-signup">Aiven&rsquo;s FREE plans</a>! 🦀 </p></p>
 <p style="background: #C1E1C1;border: 2px solid #b4d3b2;border-radius: 15px;text-align: center;">
 ⚡️ Need to optimize your SQL query with AI? ⚡️ <br>
-🐧 Check  <a href="https://www.eversql.com/?utm_medium=organic&utm_source=ext_blog&utm_content=ftisiotwebsite">EverSQL</a>! 🐧
+🐧 Check  <a href="https://go.aiven.io/ft-ai-db-optimizer">Aiven AI database optimizer</a>! Powered by EverSQL 🐧
 </p>
 
 <h2 id="create-a-json-array-from-a-list-of-elements-with-the-json_build_array-function">Create a JSON array from a list of elements with the <code>json_build_array</code> function</h2>

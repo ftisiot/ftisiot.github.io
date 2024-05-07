@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>scalability on ftisiot ideas about tech, food and life</title>
+    <title>Scalability on ftisiot ideas about tech, food and life</title>
     <link>https://ftisiot.net/categories/scalability/</link>
-    <description>Recent content in scalability on ftisiot ideas about tech, food and life</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Scalability on ftisiot ideas about tech, food and life</description>
+    <generator>Hugo 0.125.0</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Jan 2023 09:14:26 +0100</lastBuildDate>
     <atom:link href="https://ftisiot.net/categories/scalability/index.xml" rel="self" type="application/rss+xml" />
