@@ -6,8 +6,15 @@
     <description>Recent content in Francesco Tisiot Ideas! on ftisiot ideas about tech, food and life</description>
     <generator>Hugo 0.125.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Mar 2024 11:10:09 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 28 May 2024 15:48:13 +0200</lastBuildDate>
     <atom:link href="https://ftisiot.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Helping PostgreSQL professionals with AI-assisted performance recommendations</title>
+      <link>https://ftisiot.net/posts/aiven-db-optimizer/</link>
+      <pubDate>Tue, 28 May 2024 15:48:13 +0200</pubDate>
+      <guid>https://ftisiot.net/posts/aiven-db-optimizer/</guid>
+      <description>&lt;p&gt;Since the beginning of my journey into the data world I&amp;rsquo;ve been keen on making professionals better at their data job. In the previous years that took the shape of creating materials in several different forms that could help people understand, use, and avoid mistakes on their data tool of choice. But now there&amp;rsquo;s much more into it: a trusted AI solution to help data professional in their day to day job.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to use pgbench to test PostgreSQL® performance</title>
       <link>https://ftisiot.net/posts/pgbench-test-postgresql/</link>
