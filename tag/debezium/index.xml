@@ -13,7 +13,7 @@
       <link>https://ftisiot.net/talks/track-database-changes/</link>
       <pubDate>Tue, 22 Feb 2022 12:22:35 +0100</pubDate>
       <guid>https://ftisiot.net/talks/track-database-changes/</guid>
-      <description>&#xA;Useful Links Apache Kafka docs Debezium docs How to Debezium in Aiven docs JDBC source connector example Debezium source connector example JDBC Source Connector: what could go wrong? Aiven for PostgreSQL </description>
+      <description>Useful Links Apache Kafka docs Debezium docs How to Debezium in Aiven docs JDBC source connector example Debezium source connector example JDBC Source Connector: what could go wrong? Aiven for PostgreSQL 💻</description>
     </item>
   </channel>
 </rss>

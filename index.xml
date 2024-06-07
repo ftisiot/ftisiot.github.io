@@ -132,7 +132,7 @@
       <link>https://ftisiot.net/talks/from-batch-to-streaming-data-pipeline-evolution/</link>
       <pubDate>Wed, 23 Aug 2023 15:27:54 +0200</pubDate>
       <guid>https://ftisiot.net/talks/from-batch-to-streaming-data-pipeline-evolution/</guid>
-      <description>&#xA;Useful Links Aiven Signup Code examples to run with Aiven for Apache Flink Flink JDBC SQL Connector Flink SQL CDC Connecto for PostgreSQL </description>
+      <description>Useful Links Aiven Signup Code examples to run with Aiven for Apache Flink Flink JDBC SQL Connector Flink SQL CDC Connecto for PostgreSQL 💻</description>
     </item>
     <item>
       <title>How to tabulate a JSON document in MySQL</title>
@@ -503,21 +503,21 @@
       <link>https://ftisiot.net/talks/flask-kafka/</link>
       <pubDate>Fri, 13 May 2022 15:49:28 +0200</pubDate>
       <guid>https://ftisiot.net/talks/flask-kafka/</guid>
-      <description>&#xA;Useful Links Apache Kafka docs GitHub Repo Aiven for Apache Kafka </description>
+      <description>Useful Links Apache Kafka docs GitHub Repo Aiven for Apache Kafka 💻</description>
     </item>
     <item>
       <title>Solving the Knapsack Problem with Recursive Queries and PostgreSQL</title>
       <link>https://ftisiot.net/talks/knapsack-problem-pg/</link>
       <pubDate>Mon, 02 May 2022 14:54:29 +0200</pubDate>
       <guid>https://ftisiot.net/talks/knapsack-problem-pg/</guid>
-      <description>&#xA;Useful Links Knapsack Problem Knapsack in PostgreSQL PostgreSQL 14 Search and Cycle Features Aiven </description>
+      <description>Useful Links Knapsack Problem Knapsack in PostgreSQL PostgreSQL 14 Search and Cycle Features Aiven 💻</description>
     </item>
     <item>
       <title>JDBC Source Connector: What Could Go Wrong?</title>
       <link>https://ftisiot.net/talks/kafka-jdbc-what-can-go-wrong/</link>
       <pubDate>Fri, 01 Apr 2022 14:24:42 +0200</pubDate>
       <guid>https://ftisiot.net/talks/kafka-jdbc-what-can-go-wrong/</guid>
-      <description>&#xA;Useful Links Talk recording JDBC source connector docs Debezium docs How to Debezium in Aiven docs JDBC source connector example Debezium source connector example Aiven </description>
+      <description>Useful Links Talk recording JDBC source connector docs Debezium docs How to Debezium in Aiven docs JDBC source connector example Debezium source connector example Aiven 💻</description>
     </item>
     <item>
       <title>Beautify `kcat` consumer output by piping to `jq`</title>
@@ -531,14 +531,14 @@
       <link>https://ftisiot.net/talks/kafka-flink-sql/</link>
       <pubDate>Tue, 15 Mar 2022 16:12:47 +0100</pubDate>
       <guid>https://ftisiot.net/talks/kafka-flink-sql/</guid>
-      <description>&#xA;Useful Links Apache Kafka docs Apache Flink docs Apache Fink SQL client on Docker Build a Streaming data pipeline with Apache Kafka and Flink blog JDBC source connector example Debezium source connector example Aiven for Apache Kafka </description>
+      <description>Useful Links Apache Kafka docs Apache Flink docs Apache Fink SQL client on Docker Build a Streaming data pipeline with Apache Kafka and Flink blog JDBC source connector example Debezium source connector example Aiven for Apache Kafka 💻</description>
     </item>
     <item>
       <title>I Don&#39;t Want to Miss a Thing - Track Database Changes with Apache Kafka</title>
       <link>https://ftisiot.net/talks/track-database-changes/</link>
       <pubDate>Tue, 22 Feb 2022 12:22:35 +0100</pubDate>
       <guid>https://ftisiot.net/talks/track-database-changes/</guid>
-      <description>&#xA;Useful Links Apache Kafka docs Debezium docs How to Debezium in Aiven docs JDBC source connector example Debezium source connector example JDBC Source Connector: what could go wrong? Aiven for PostgreSQL </description>
+      <description>Useful Links Apache Kafka docs Debezium docs How to Debezium in Aiven docs JDBC source connector example Debezium source connector example JDBC Source Connector: what could go wrong? Aiven for PostgreSQL 💻</description>
     </item>
     <item>
       <title>A Month in Aiven.io</title>
