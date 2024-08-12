@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Francesco Tisiot Ideas! | ftisiot ideas about tech, food and life</title>
+    <title>Tune your SQL for performance | ftisiot ideas about tech, food and life</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="From Food till Tech and Everything in the Middle">
+    <meta name="description" content="Optimize your SQL queries with index and SQL rewrite recommendations">
     <meta name="generator" content="Hugo 0.125.0">
     
     
@@ -28,27 +28,28 @@
     
 
     
-    
-      <link href="/index.xml" rel="alternate" type="application/rss+xml" title="ftisiot ideas about tech, food and life" />
-      <link href="/index.xml" rel="feed" type="application/rss+xml" title="ftisiot ideas about tech, food and life" />
-      
-    
 
     
-      <link rel="canonical" href="https://ftisiot.net/">
+      <link rel="canonical" href="https://ftisiot.net/posts/sql-optimizer/">
     
 
-    <meta property="og:url" content="https://ftisiot.net/">
+    <meta property="og:url" content="https://ftisiot.net/posts/sql-optimizer/">
   <meta property="og:site_name" content="ftisiot ideas about tech, food and life">
-  <meta property="og:title" content="Francesco Tisiot Ideas!">
-  <meta property="og:description" content="From Food till Tech and Everything in the Middle">
+  <meta property="og:title" content="Tune your SQL for performance">
+  <meta property="og:description" content="Optimize your SQL queries with index and SQL rewrite recommendations">
   <meta property="og:locale" content="en-us">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+  <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-08-12T09:41:51+02:00">
+    <meta property="article:modified_time" content="2024-08-12T09:41:51+02:00">
 
-  <meta itemprop="name" content="Francesco Tisiot Ideas!">
-  <meta itemprop="description" content="From Food till Tech and Everything in the Middle">
-  <meta itemprop="dateModified" content="2024-08-12T09:41:51+02:00"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Francesco Tisiot Ideas!">
-<meta name="twitter:description" content="From Food till Tech and Everything in the Middle">
+  <meta itemprop="name" content="Tune your SQL for performance">
+  <meta itemprop="description" content="Optimize your SQL queries with index and SQL rewrite recommendations">
+  <meta itemprop="datePublished" content="2024-08-12T09:41:51+02:00">
+  <meta itemprop="dateModified" content="2024-08-12T09:41:51+02:00">
+  <meta itemprop="wordCount" content="41">
+  <meta itemprop="keywords" content="PostgreSQL,MySQL,AI,Performance,Speed"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Tune your SQL for performance">
+<meta name="twitter:description" content="Optimize your SQL queries with index and SQL rewrite recommendations">
 
       
   
@@ -78,9 +79,11 @@
   <body class="ma0 avenir bg-near-white production">
 
     
+   
+  
 
   
-  <header class="cover bg-top" style="background-image: url('https://ftisiot.net/images/2016/09/cropped-img_11341.jpg');">
+  <header class="cover bg-top" style="background-image: url('https://ftisiot.net/images/2024/dboptimizer.png');">
     <div class="bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
@@ -189,183 +192,114 @@
   </div>
 </nav>
 
-      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
-        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
-          Francesco Tisiot Ideas!
-        </h1>
+      <div class="tc-l pv6 ph3 ph4-ns">
         
-          <h2 class="fw1 f5 f3-l white-80 measure-wide-l center mt3">
-            From Food till Tech and Everything in the Middle
-          </h2>
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Tune your SQL for performance</div>
+          
+            <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              Optimize your SQL queries with index and SQL rewrite recommendations
+            </div>
+          
         
       </div>
     </div>
   </header>
 
 
+
     <main class="pb7" role="main">
       
- <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
     
+      
+      <a href="https://twitter.com/intent/tweet?url=https://ftisiot.net/posts/sql-optimizer/&amp;text=Tune%20your%20SQL%20for%20performance" class="ananke-social-link twitter no-underline" aria-label="share on Twitter">
+        
+        <span class="icon"> <svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+        
+      </a>
+    
+      
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://ftisiot.net/posts/sql-optimizer/&amp;title=Tune%20your%20SQL%20for%20performance" class="ananke-social-link linkedin no-underline" aria-label="share on LinkedIn">
+        
+        <span class="icon"> <svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+        
+      </a>
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Tune your SQL for performance</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2024-08-12T09:41:51+02:00">August 12, 2024</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - One minute read </span>
+        <span class="f6 mv4 dib tracked"> - 41 words </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Tuning a SQL query is a mix of data driven discovery and magic art, until now&hellip; Aiven SQL query optimizer allows you to speed up your query by simply pasting the SQL and additional metadata information. Check it out at <a href="https://go.aiven.io/ft-sql-query-optimizer">https://go.aiven.io/ft-sql-query-optimizer</a></p>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/vigZrDej8EA?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="SQL Query optimizer"
+      ></iframe>
+    </div>
+
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/posts/aiven-db-optimizer/">Helping PostgreSQL professionals with AI-assisted performance recommendations</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
   </article>
-  
-  
-  
-  
-  
-  
-  
-    
-    
-
-    <div class="pa3 pa4-ns w-100 w-70-ns center">
-      
-       
-          <h1 class="flex-none">
-            Recent Posts
-          </h1>
-        
-
-      
-
-      <section class="w-100 mw8">
-        
-        
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-          
-        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="/posts/sql-optimizer/" class="db grow">
-            <img src="https://ftisiot.net/images/2024/dboptimizer.png" class="img" alt="image from Tune your SQL for performance">
-          </a>
-        </div>
-      
-      <div class="blah w-100 w-60-ns pl3-ns">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/sql-optimizer/" class="color-inherit dim link">
-            Tune your SQL for performance
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          Tuning a SQL query is a mix of data driven discovery and magic art, until now&hellip; Aiven SQL query optimizer allows you to speed up your query by simply pasting the SQL and additional metadata information. Check it out at https://go.aiven.io/ft-sql-query-optimizer
-        </div>
-          <a href="/posts/sql-optimizer/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-          
-        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="/posts/aiven-db-optimizer/" class="db grow">
-            <img src="https://ftisiot.net/images/2024/dboptimizer.png" class="img" alt="image from Helping PostgreSQL professionals with AI-assisted performance recommendations">
-          </a>
-        </div>
-      
-      <div class="blah w-100 w-60-ns pl3-ns">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/aiven-db-optimizer/" class="color-inherit dim link">
-            Helping PostgreSQL professionals with AI-assisted performance recommendations
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          <p>Since the beginning of my journey into the data world I&rsquo;ve been keen on making professionals better at their data job. In the previous years that took the shape of creating materials in several different forms that could help people understand, use, and avoid mistakes on their data tool of choice. But now there&rsquo;s much more into it: a trusted AI solution to help data professional in their day to day optimization job.</p>
-        </div>
-          <a href="/posts/aiven-db-optimizer/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
-          <div class="relative w-100 mb4">
-            
-<article class="bb b--black-10">
-  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
-    <div class="flex flex-column flex-row-ns">
-      
-          
-        <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-          <a href="/posts/pgbench-test-postgresql/" class="db grow">
-            <img src="https://ftisiot.net/images/2024/index_suggestion.png" class="img" alt="image from How to use pgbench to test PostgreSQL® performance">
-          </a>
-        </div>
-      
-      <div class="blah w-100 w-60-ns pl3-ns">
-        <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/pgbench-test-postgresql/" class="color-inherit dim link">
-            How to use pgbench to test PostgreSQL® performance
-            </a>
-        </h1>
-        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          <p>Testing a database performance is a must in every company. Despite everyone&rsquo;s needs beings slightly different, a good starting point for PostgreSQL® database is using <a href="https://www.postgresql.org/docs/current/pgbench.html">pgbench</a>: a tool shipped with the PostgreSQL installation that allows you to stress test a local or remote database.
-This blog post showcases how to install (on a Mac) and use pgbench to create load on a remote PostgreSQL database on <a href="https://go.aiven.io/francesco-signup">Aiven</a>.</p>
-        </div>
-          <a href="/posts/pgbench-test-postgresql/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
-        
-      </div>
-    </div>
-  </div>
-</article>
-
-          </div>
-        
-      </section>
-
-      
-      <section class="w-100">
-        <h1 class="f3">More</h1>
-        
-        
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="/posts/dbf-to-postgresql-python/" class="link black dim">
-              From dbf to SQL (and PostgreSQL) with Python
-            </a>
-          </h2>
-        
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="/posts/list-of-postgresql-ai-resources/" class="link black dim">
-              List of PostgreSQL® AI Projects and Resources
-            </a>
-          </h2>
-        
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="/posts/postgresql-isnull/" class="link black dim">
-              11 Lessons to learn when using NULLs in PostgreSQL®
-            </a>
-          </h2>
-        
-          <h2 class="f5 fw4 mb4 dib mr3">
-            <a href="/posts/mysql-concat/" class="link black dim">
-              How to CONCAT in MySQL
-            </a>
-          </h2>
-        
-
-        
-        
-          <a href="/posts/" class="link db f6 pa2 br3 bg-mid-gray white dim w4 tc">All Posts</a>
-        
-        </section>
-      
-
-      </div>
-  
 
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">

@@ -6,13 +6,20 @@
     <description>Recent content in Categories on ftisiot ideas about tech, food and life</description>
     <generator>Hugo 0.125.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 May 2024 15:48:13 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 12 Aug 2024 09:41:51 +0200</lastBuildDate>
     <atom:link href="https://ftisiot.net/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
       <link>https://ftisiot.net/categories/ai/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ftisiot.net/categories/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MySQL</title>
+      <link>https://ftisiot.net/categories/mysql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ftisiot.net/categories/mysql/</guid>
       <description></description>
     </item>
     <item>
@@ -27,6 +34,13 @@
       <link>https://ftisiot.net/categories/postgresql/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ftisiot.net/categories/postgresql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Speed</title>
+      <link>https://ftisiot.net/categories/speed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ftisiot.net/categories/speed/</guid>
       <description></description>
     </item>
     <item>
@@ -83,13 +97,6 @@
       <link>https://ftisiot.net/categories/json_contains_path/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ftisiot.net/categories/json_contains_path/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>MySQL</title>
-      <link>https://ftisiot.net/categories/mysql/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ftisiot.net/categories/mysql/</guid>
       <description></description>
     </item>
     <item>

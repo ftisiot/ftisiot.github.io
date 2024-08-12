@@ -3,24 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ftisiot.net/categories/ai/</loc>
-    <lastmod>2024-05-28T15:48:13+02:00</lastmod>
+    <lastmod>2024-08-12T09:41:51+02:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/</loc>
-    <lastmod>2024-05-28T15:48:13+02:00</lastmod>
+    <lastmod>2024-08-12T09:41:51+02:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/</loc>
-    <lastmod>2024-05-28T15:48:13+02:00</lastmod>
+    <lastmod>2024-08-12T09:41:51+02:00</lastmod>
   </url><url>
-    <loc>https://ftisiot.net/posts/aiven-db-optimizer/</loc>
-    <lastmod>2024-05-28T15:48:13+02:00</lastmod>
+    <loc>https://ftisiot.net/categories/mysql/</loc>
+    <lastmod>2024-08-12T09:41:51+02:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/performance/</loc>
-    <lastmod>2024-05-28T15:48:13+02:00</lastmod>
+    <lastmod>2024-08-12T09:41:51+02:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/postgresql/</loc>
-    <lastmod>2024-05-28T15:48:13+02:00</lastmod>
+    <lastmod>2024-08-12T09:41:51+02:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/posts/</loc>
+    <lastmod>2024-08-12T09:41:51+02:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/categories/speed/</loc>
+    <lastmod>2024-08-12T09:41:51+02:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/posts/sql-optimizer/</loc>
+    <lastmod>2024-08-12T09:41:51+02:00</lastmod>
+  </url><url>
+    <loc>https://ftisiot.net/posts/aiven-db-optimizer/</loc>
     <lastmod>2024-05-28T15:48:13+02:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/posts/pgbench-test-postgresql/</loc>
@@ -54,9 +63,6 @@
     <lastmod>2024-03-01T10:53:23+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/categories/json_contains_path/</loc>
-    <lastmod>2024-03-01T10:53:23+01:00</lastmod>
-  </url><url>
-    <loc>https://ftisiot.net/categories/mysql/</loc>
     <lastmod>2024-03-01T10:53:23+01:00</lastmod>
   </url><url>
     <loc>https://ftisiot.net/posts/list-of-postgresql-ai-resources/</loc>

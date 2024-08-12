@@ -6,8 +6,15 @@
     <description>Recent content in Francesco Tisiot Ideas! on ftisiot ideas about tech, food and life</description>
     <generator>Hugo 0.125.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 May 2024 15:48:13 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 12 Aug 2024 09:41:51 +0200</lastBuildDate>
     <atom:link href="https://ftisiot.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tune your SQL for performance</title>
+      <link>https://ftisiot.net/posts/sql-optimizer/</link>
+      <pubDate>Mon, 12 Aug 2024 09:41:51 +0200</pubDate>
+      <guid>https://ftisiot.net/posts/sql-optimizer/</guid>
+      <description>Tuning a SQL query is a mix of data driven discovery and magic art, until now&amp;hellip; Aiven SQL query optimizer allows you to speed up your query by simply pasting the SQL and additional metadata information. Check it out at https://go.aiven.io/ft-sql-query-optimizer</description>
+    </item>
     <item>
       <title>Helping PostgreSQL professionals with AI-assisted performance recommendations</title>
       <link>https://ftisiot.net/posts/aiven-db-optimizer/</link>
