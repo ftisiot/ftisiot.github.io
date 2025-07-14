@@ -4,7 +4,7 @@
     <title>Analytics on ftisiot ideas about tech, food and life</title>
     <link>https://ftisiot.net/categories/analytics/</link>
     <description>Recent content in Analytics on ftisiot ideas about tech, food and life</description>
-    <generator>Hugo 0.125.0</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 18 Sep 2020 08:26:12 +0000</lastBuildDate>
     <atom:link href="https://ftisiot.net/categories/analytics/index.xml" rel="self" type="application/rss+xml" />
@@ -13,28 +13,28 @@
       <link>https://ftisiot.net/2020/09/18/oracle-analytics-server-and-kerberos-authentication/</link>
       <pubDate>Fri, 18 Sep 2020 08:26:12 +0000</pubDate>
       <guid>https://ftisiot.net/2020/09/18/oracle-analytics-server-and-kerberos-authentication/</guid>
-      <description>Oracle Analytics Server is out since several months and a common ask is to provide SSO with Kerberos Authentication.&#xA;The &amp;ldquo;old&amp;rdquo; OBIEE12c style Kerberos configuration is not working with OAS.&#xA;Oracle provided a solution to implement it via Apache Server and Oracle Access Manager Identity Asserter. All the info are published in Doc ID 2707401.1</description>
+      <description>&lt;p&gt;Oracle Analytics Server is out since several months and a common ask is to provide SSO with Kerberos Authentication.&lt;/p&gt;&#xA;&lt;p&gt;The &amp;ldquo;old&amp;rdquo; OBIEE12c style Kerberos configuration is not working with OAS.&lt;/p&gt;&#xA;&lt;p&gt;Oracle provided a solution to implement it via Apache Server and Oracle Access Manager Identity Asserter. All the info are published in &lt;strong&gt;&lt;a href=&#34;https://support.oracle.com/epmos/faces/DocumentDisplay?id=2707401.1&#34;&gt;Doc ID 2707401.1&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Oracle Analytics Cloud 5.7: Use ML Models in the Database</title>
       <link>https://ftisiot.net/2020/08/10/oracle-analytics-cloud-5-7-use-ml-models-in-the-database/</link>
       <pubDate>Mon, 10 Aug 2020 09:08:25 +0000</pubDate>
       <guid>https://ftisiot.net/2020/08/10/oracle-analytics-cloud-5-7-use-ml-models-in-the-database/</guid>
-      <description>I created a short video showing how you can register in Oracle Analytics Cloud 5.7 some Machine Learning models created in the Oracle Database and score data with a simple Data Flow, check it out&#xA;https://www.youtube.com/watch?v=GZubKpWUA0U</description>
+      <description>&lt;p&gt;I created a short video showing how you can register in &lt;strong&gt;Oracle Analytics Cloud 5.7&lt;/strong&gt; some Machine Learning models created in the &lt;strong&gt;Oracle Database&lt;/strong&gt; and score data with a simple &lt;strong&gt;Data Flow&lt;/strong&gt;, check it out&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=GZubKpWUA0U&#34;&gt;https://www.youtube.com/watch?v=GZubKpWUA0U&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Looker for OBIEE Experts: Introduction and Concepts</title>
       <link>https://ftisiot.net/2018/08/23/looker-for-obiee-experts-introduction-and-concepts/</link>
       <pubDate>Thu, 23 Aug 2018 09:14:16 +0000</pubDate>
       <guid>https://ftisiot.net/2018/08/23/looker-for-obiee-experts-introduction-and-concepts/</guid>
-      <description>Hello! After a long time I&amp;rsquo;m back to my personal blog! You can find all my Rittman Mead related blog posts here!&#xA;Recently I&amp;rsquo;ve been doing some personal study around various areas including streaming, machine learning and data visualization and one of the tools that got my attention is Looker. I&amp;rsquo;ve initially heard about Looker from a Drill to Detail podcast from Mark Rittman and increasingly been hearing about it in conferences and use cases together with other cloud solutions like BigQuery, Snowflake and Fivetran.</description>
+      <description>&lt;p&gt;Hello! After a long time I&amp;rsquo;m back to my personal blog! You can find all my Rittman Mead related blog posts &lt;a href=&#34;http://ritt.md/FT&#34;&gt;here&lt;/a&gt;!&lt;/p&gt;&#xA;&lt;p&gt;Recently I&amp;rsquo;ve been doing some personal study around various areas including streaming, machine learning and data visualization and one of the tools that got my attention is &lt;a href=&#34;https://looker.com&#34;&gt;Looker&lt;/a&gt;. I&amp;rsquo;ve initially heard about Looker from a &lt;a href=&#34;https://www.drilltodetail.com/podcast/2017/3/28/drill-to-detail-ep23-looker-bigquery-and-analytics-on-big-data-with-special-guest-daniel-mintz-1&#34;&gt;Drill to Detail&lt;/a&gt; podcast from Mark Rittman and increasingly been hearing about it in conferences and use cases together with other cloud solutions like &lt;a href=&#34;https://cloud.google.com/bigquery/&#34;&gt;BigQuery&lt;/a&gt;, &lt;a href=&#34;https://www.snowflake.com&#34;&gt;Snowflake&lt;/a&gt; and &lt;a href=&#34;https://fivetran.com&#34;&gt;Fivetran&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Remove OBI12c Data Visualisation from OBIEE</title>
       <link>https://ftisiot.net/2016/10/13/remove-obi12c-data-visualisation-from-obiee/</link>
       <pubDate>Thu, 13 Oct 2016 07:28:11 +0000</pubDate>
       <guid>https://ftisiot.net/2016/10/13/remove-obi12c-data-visualisation-from-obiee/</guid>
-      <description>For anybody interested in how to remove or add Data Visualisation (also known as Visual Analyser) option to a specific role in OBIEE 12c, Oracle released Doc ID 2102444.1 which gives the detail about the procedure using WLST and the RevokeDVPermission.py (or GrantDVPermission.py) that should be present in the OBIEE12c Installation Middleware home by default.</description>
+      <description>&lt;p&gt;For anybody interested in how to remove or add Data Visualisation (also known as Visual Analyser)  option to a specific role in OBIEE 12c, Oracle released &lt;a href=&#34;https://support.oracle.com/epmos/faces/SearchDocDisplay?_adf.ctrl-state=oxlq9igqe_9&amp;amp;_afrLoop=368341663992727&#34;&gt;Doc ID 2102444.1&lt;/a&gt; which gives the detail about the procedure using &lt;em&gt;WLST&lt;/em&gt; and the &lt;em&gt;RevokeDVPermission.py&lt;/em&gt; (or &lt;em&gt;GrantDVPermission.py&lt;/em&gt;) that should be present in the OBIEE12c Installation Middleware home by default.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

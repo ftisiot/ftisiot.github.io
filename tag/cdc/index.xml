@@ -4,7 +4,7 @@
     <title>Cdc on ftisiot ideas about tech, food and life</title>
     <link>https://ftisiot.net/tag/cdc/</link>
     <description>Recent content in Cdc on ftisiot ideas about tech, food and life</description>
-    <generator>Hugo 0.125.0</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 22 Feb 2022 12:22:35 +0100</lastBuildDate>
     <atom:link href="https://ftisiot.net/tag/cdc/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://ftisiot.net/talks/track-database-changes/</link>
       <pubDate>Tue, 22 Feb 2022 12:22:35 +0100</pubDate>
       <guid>https://ftisiot.net/talks/track-database-changes/</guid>
-      <description>Useful Links Apache Kafka docs Debezium docs How to Debezium in Aiven docs JDBC source connector example Debezium source connector example JDBC Source Connector: what could go wrong? Aiven for PostgreSQL 💻</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ftisiot.net/slides/track-database-changes/thumbnail.jpg&#34; alt=&#34;Intro image&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;useful-links&#34;&gt;Useful Links&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kafka.apache.org/&#34;&gt;Apache Kafka docs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://debezium.io/documentation/reference/stable/connectors/postgresql.html&#34;&gt;Debezium docs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://developer.aiven.io/docs/products/kafka/kafka-connect/howto/debezium-source-connector-pg.html&#34;&gt;How to Debezium in Aiven docs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/blog/using-kafka-connect-jdbc-source-a-postgresql-example&#34;&gt;JDBC source connector example&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/blog/db-technology-migration-with-apache-kafka-and-kafka-connect&#34;&gt;Debezium source connector example&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.kafka-summit.org/sessions/jdbc-source-connector-what-could-go-wrong&#34;&gt;JDBC Source Connector: what could go wrong?&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://landing.aiven.io/en/aiven-for-postgresql/&#34;&gt;Aiven for PostgreSQL&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ftisiot.net/slides/track-database-changes/track-database-changes.pdf&#34;&gt;💻&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

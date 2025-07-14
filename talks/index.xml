@@ -4,7 +4,7 @@
     <title>Talks on ftisiot ideas about tech, food and life</title>
     <link>https://ftisiot.net/talks/</link>
     <description>Recent content in Talks on ftisiot ideas about tech, food and life</description>
-    <generator>Hugo 0.125.0</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 08 Jan 2024 14:06:54 +0100</lastBuildDate>
     <atom:link href="https://ftisiot.net/talks/index.xml" rel="self" type="application/rss+xml" />
@@ -20,21 +20,21 @@
       <link>https://ftisiot.net/talks/accelerate-gen-ai-integrated-data-platform/</link>
       <pubDate>Mon, 04 Dec 2023 08:39:17 +0100</pubDate>
       <guid>https://ftisiot.net/talks/accelerate-gen-ai-integrated-data-platform/</guid>
-      <description>Generative AI is revolutionizing how we work and interact. Yet for generative AI applications relying on private, regulated, or commercially valuable data, feeding the model with the right information is crucial. Failure could result in adverse consequences such as poor performance, confidential information exposure, or regulatory requirement breaches. An integrated data platform is a powerful way to accelerate the development of generative AI applications by providing real-time data feeds, consolidating inputs from different sources, and defining clear information boundaries.</description>
+      <description>&lt;p&gt;Generative AI is revolutionizing how we work and interact. Yet for generative AI applications relying on private, regulated, or commercially valuable data, feeding the model with the right information is crucial. Failure could result in adverse consequences such as poor performance, confidential information exposure, or regulatory requirement breaches. An integrated data platform is a powerful way to accelerate the development of generative AI applications by providing real-time data feeds, consolidating inputs from different sources, and defining clear information boundaries. If you are considering generative AI for your business, this lightning talk provides methods for creating safe, up-to-date, and performant applications&lt;/p&gt;</description>
     </item>
     <item>
       <title>Attacking (and defending) Apache Kafka</title>
       <link>https://ftisiot.net/talks/attack-defend-apache-kafka/</link>
       <pubDate>Mon, 04 Dec 2023 08:32:09 +0100</pubDate>
       <guid>https://ftisiot.net/talks/attack-defend-apache-kafka/</guid>
-      <description>When attacking any system, taking control of its central nervous system is the first step in infiltrating the core infrastructure and gaining control over its vital functions. Translating this to organization data, a clear target is Apache Kafka, the data hub increasingly adopted for mission-critical systems. This session explores the topic of attacking and defending Apache Kafka, shedding light on potential threats, attack vectors, and countermeasures.&#xA;Initially, we’ll focus on understanding the potential attack surface of Apache Kafka.</description>
+      <description>&lt;p&gt;When attacking any system, taking control of its central nervous system is the first step in infiltrating the core infrastructure and gaining control over its vital functions. Translating this to organization data, a clear target is Apache Kafka, the data hub increasingly adopted for mission-critical systems. This session explores the topic of attacking and defending Apache Kafka, shedding light on potential threats, attack vectors, and countermeasures.&lt;/p&gt;&#xA;&lt;p&gt;Initially, we’ll focus on understanding the potential attack surface of Apache Kafka. Defining attackers&amp;rsquo; objectives and vectors, including unauthorized access, injection attacks, misconfigurations, and distributed denial-of-service (DDoS). With the fundamental threat surface and actors understood, we’ll shift our focus to defensive strategies that protect Apache Kafka deployments. We will discuss and demonstrate best practices and security measures including ACLs, encryption, and monitoring that can help reduce potential attacks.&lt;/p&gt;</description>
     </item>
     <item>
       <title>From Batch to Streaming Data Pipeline Evolution</title>
       <link>https://ftisiot.net/talks/from-batch-to-streaming-data-pipeline-evolution/</link>
       <pubDate>Wed, 23 Aug 2023 15:27:54 +0200</pubDate>
       <guid>https://ftisiot.net/talks/from-batch-to-streaming-data-pipeline-evolution/</guid>
-      <description>Useful Links Aiven Signup Code examples to run with Aiven for Apache Flink Flink JDBC SQL Connector Flink SQL CDC Connecto for PostgreSQL 💻</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ftisiot.net/slides/from-batch-to-streaming-data-pipeline-evolution/thumbnail.png&#34; alt=&#34;Intro image&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;useful-links&#34;&gt;Useful Links&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://go.aiven.io/francesco-signup&#34;&gt;Aiven Signup&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/Aiven-Labs/data-pipeline-evolution-batch-streaming-apache-flink&#34;&gt;Code examples to run with Aiven for Apache Flink&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://nightlies.apache.org/flink/flink-docs-master/docs/connectors/table/jdbc/&#34;&gt;Flink JDBC SQL Connector&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ververica.github.io/flink-cdc-connectors/master/content/connectors/postgres-cdc.html&#34;&gt;Flink SQL CDC Connecto for PostgreSQL&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ftisiot.net/slides/from-batch-to-streaming-data-pipeline-evolution/current2023.pdf&#34;&gt;💻&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Boost Apache Kafka with Schema Registry</title>
@@ -90,35 +90,35 @@
       <link>https://ftisiot.net/talks/flask-kafka/</link>
       <pubDate>Fri, 13 May 2022 15:49:28 +0200</pubDate>
       <guid>https://ftisiot.net/talks/flask-kafka/</guid>
-      <description>Useful Links Apache Kafka docs GitHub Repo Aiven for Apache Kafka 💻</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ftisiot.net/slides/flask-kafka/thumbnail.jpg&#34; alt=&#34;Intro image&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;useful-links&#34;&gt;Useful Links&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kafka.apache.org/&#34;&gt;Apache Kafka docs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/ftisiot/flask-apache-kafka-demo&#34;&gt;GitHub Repo&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/kafka&#34;&gt;Aiven for Apache Kafka&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ftisiot.net/slides/flask-kafka/flask-kafka.pdf&#34;&gt;💻&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Solving the Knapsack Problem with Recursive Queries and PostgreSQL</title>
       <link>https://ftisiot.net/talks/knapsack-problem-pg/</link>
       <pubDate>Mon, 02 May 2022 14:54:29 +0200</pubDate>
       <guid>https://ftisiot.net/talks/knapsack-problem-pg/</guid>
-      <description>Useful Links Knapsack Problem Knapsack in PostgreSQL PostgreSQL 14 Search and Cycle Features Aiven 💻</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ftisiot.net/slides/knapsack-problem-pg/thumbnail.jpg&#34; alt=&#34;Intro image&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;useful-links&#34;&gt;Useful Links&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Knapsack_problem&#34;&gt;Knapsack Problem&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/blog/solving-the-knapsack-problem-in-postgresql&#34;&gt;Knapsack in PostgreSQL&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/blog/explore-the-new-search-and-cycle-features-in-postgresql-14&#34;&gt;PostgreSQL 14 Search and Cycle Features&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/&#34;&gt;Aiven&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ftisiot.net/slides/knapsack-problem-pg/knapsack.pdf&#34;&gt;💻&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>JDBC Source Connector: What Could Go Wrong?</title>
       <link>https://ftisiot.net/talks/kafka-jdbc-what-can-go-wrong/</link>
       <pubDate>Fri, 01 Apr 2022 14:24:42 +0200</pubDate>
       <guid>https://ftisiot.net/talks/kafka-jdbc-what-can-go-wrong/</guid>
-      <description>Useful Links Talk recording JDBC source connector docs Debezium docs How to Debezium in Aiven docs JDBC source connector example Debezium source connector example Aiven 💻</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ftisiot.net/slides/kafka-jdbc-what-can-go-wrong/thumbnail.jpg&#34; alt=&#34;Intro image&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;useful-links&#34;&gt;Useful Links&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.confluent.io/events/kafka-summit-london-2022/jdbc-source-connector-what-could-go-wrong/&#34;&gt;Talk recording&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/aiven/jdbc-connector-for-apache-kafka&#34;&gt;JDBC source connector docs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://debezium.io/documentation/reference/stable/connectors/postgresql.html&#34;&gt;Debezium docs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://developer.aiven.io/docs/products/kafka/kafka-connect/howto/debezium-source-connector-pg.html&#34;&gt;How to Debezium in Aiven docs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/blog/using-kafka-connect-jdbc-source-a-postgresql-example&#34;&gt;JDBC source connector example&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/blog/db-technology-migration-with-apache-kafka-and-kafka-connect&#34;&gt;Debezium source connector example&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/&#34;&gt;Aiven&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ftisiot.net/slides/kafka-jdbc-what-can-go-wrong/kafka-summit2022-jdbc-go-wrong.pdf&#34;&gt;💻&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apache Kafka and Flink: Stateful Streaming Data Pipelines made easy with SQL</title>
       <link>https://ftisiot.net/talks/kafka-flink-sql/</link>
       <pubDate>Tue, 15 Mar 2022 16:12:47 +0100</pubDate>
       <guid>https://ftisiot.net/talks/kafka-flink-sql/</guid>
-      <description>Useful Links Apache Kafka docs Apache Flink docs Apache Fink SQL client on Docker Build a Streaming data pipeline with Apache Kafka and Flink blog JDBC source connector example Debezium source connector example Aiven for Apache Kafka 💻</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ftisiot.net/slides/kafka-flink-sql/thumbnail.jpg&#34; alt=&#34;Intro image&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;useful-links&#34;&gt;Useful Links&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kafka.apache.org/&#34;&gt;Apache Kafka docs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://flink.apache.org/&#34;&gt;Apache Flink docs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/aiven/flink-sql-cli-docker&#34;&gt;Apache Fink SQL client on Docker&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/blog/build-a-streaming-sql-pipeline-with-flink-and-kafka&#34;&gt;Build a Streaming data pipeline with Apache Kafka and Flink blog&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/blog/using-kafka-connect-jdbc-source-a-postgresql-example&#34;&gt;JDBC source connector example&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/blog/db-technology-migration-with-apache-kafka-and-kafka-connect&#34;&gt;Debezium source connector example&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/kafka&#34;&gt;Aiven for Apache Kafka &lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ftisiot.net/slides/kafka-flink-sql/kafka-flink-sql.pdf&#34;&gt;💻&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>I Don&#39;t Want to Miss a Thing - Track Database Changes with Apache Kafka</title>
       <link>https://ftisiot.net/talks/track-database-changes/</link>
       <pubDate>Tue, 22 Feb 2022 12:22:35 +0100</pubDate>
       <guid>https://ftisiot.net/talks/track-database-changes/</guid>
-      <description>Useful Links Apache Kafka docs Debezium docs How to Debezium in Aiven docs JDBC source connector example Debezium source connector example JDBC Source Connector: what could go wrong? Aiven for PostgreSQL 💻</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ftisiot.net/slides/track-database-changes/thumbnail.jpg&#34; alt=&#34;Intro image&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;useful-links&#34;&gt;Useful Links&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kafka.apache.org/&#34;&gt;Apache Kafka docs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://debezium.io/documentation/reference/stable/connectors/postgresql.html&#34;&gt;Debezium docs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://developer.aiven.io/docs/products/kafka/kafka-connect/howto/debezium-source-connector-pg.html&#34;&gt;How to Debezium in Aiven docs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/blog/using-kafka-connect-jdbc-source-a-postgresql-example&#34;&gt;JDBC source connector example&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/blog/db-technology-migration-with-apache-kafka-and-kafka-connect&#34;&gt;Debezium source connector example&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.kafka-summit.org/sessions/jdbc-source-connector-what-could-go-wrong&#34;&gt;JDBC Source Connector: what could go wrong?&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://landing.aiven.io/en/aiven-for-postgresql/&#34;&gt;Aiven for PostgreSQL&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ftisiot.net/slides/track-database-changes/track-database-changes.pdf&#34;&gt;💻&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

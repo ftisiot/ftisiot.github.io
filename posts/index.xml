@@ -4,7 +4,7 @@
     <title>Posts on ftisiot ideas about tech, food and life</title>
     <link>https://ftisiot.net/posts/</link>
     <description>Recent content in Posts on ftisiot ideas about tech, food and life</description>
-    <generator>Hugo 0.125.0</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 Aug 2024 09:41:51 +0200</lastBuildDate>
     <atom:link href="https://ftisiot.net/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://ftisiot.net/posts/sql-optimizer/</link>
       <pubDate>Mon, 12 Aug 2024 09:41:51 +0200</pubDate>
       <guid>https://ftisiot.net/posts/sql-optimizer/</guid>
-      <description>Tuning a SQL query is a mix of data driven discovery and magic art, until now&amp;hellip; Aiven SQL query optimizer allows you to speed up your query by simply pasting the SQL and additional metadata information. Check it out at https://go.aiven.io/ft-sql-query-optimizer</description>
+      <description>&lt;p&gt;Tuning a SQL query is a mix of data driven discovery and magic art, until now&amp;hellip; Aiven SQL query optimizer allows you to speed up your query by simply pasting the SQL and additional metadata information. Check it out at &lt;a href=&#34;https://go.aiven.io/ft-sql-query-optimizer&#34;&gt;https://go.aiven.io/ft-sql-query-optimizer&lt;/a&gt;&lt;/p&gt;&#xA;&#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/vigZrDej8EA?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
     </item>
     <item>
       <title>Helping PostgreSQL professionals with AI-assisted performance recommendations</title>
@@ -97,14 +97,14 @@
       <link>https://ftisiot.net/posts/kafka-consume-http/</link>
       <pubDate>Wed, 30 Aug 2023 11:30:24 +0200</pubDate>
       <guid>https://ftisiot.net/posts/kafka-consume-http/</guid>
-      <description>You have an Apache Kafka topic that you want to consume via REST APIs (think curl or just a web browser), how to do it?&#xA;The reply is Karapace an Open Source (Apache 2.0) tool providing Schema Registry and REST proxy functionality.&#xA;Let&amp;rsquo;s check out how to quickly run it on Docker.&#xA;Step 1: the Apache Kafka® Cluster You need an Apache Kafka cluster up &amp;amp; running, if you have one already you can skip to the next section.</description>
+      <description>&lt;p&gt;You have an Apache Kafka topic that you want to consume via REST APIs (think &lt;code&gt;curl&lt;/code&gt; or just a web browser), how to do it?&lt;/p&gt;&#xA;&lt;p&gt;The reply is &lt;a href=&#34;https://www.karapace.io/&#34;&gt;Karapace&lt;/a&gt; an Open Source (Apache 2.0) tool providing Schema Registry and REST proxy functionality.&lt;/p&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s check out how to quickly run it on Docker.&lt;/p&gt;&#xA;&lt;h2 id=&#34;step-1-the-apache-kafka-cluster&#34;&gt;Step 1: the Apache Kafka® Cluster&lt;/h2&gt;&#xA;&lt;p&gt;You need an Apache Kafka cluster up &amp;amp; running, if you have one already you can skip to the next section.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pros and Cons of Multi Step Data Platforms</title>
       <link>https://ftisiot.net/posts/pros-and-cons-of-multi-step-data-platforms/</link>
       <pubDate>Mon, 29 May 2023 15:25:59 +0200</pubDate>
       <guid>https://ftisiot.net/posts/pros-and-cons-of-multi-step-data-platforms/</guid>
-      <description>In the modern world, it&amp;rsquo;s rare to have the data in the same shape and platform from the beginning till the end of its journey. Yes, some technologies can achieve quite a good range of functionalities but sometimes at the expense of precision, developer experience or performance. Therefore, to achieve better or faster results, people might select a new tool for a precise task and start an implementation and integration process to move the data around.</description>
+      <description>&lt;p&gt;In the modern world, it&amp;rsquo;s rare to have the data in the same shape and platform from the beginning till the end of its journey. Yes, some technologies can achieve quite a good range of functionalities but sometimes at the expense of precision, developer experience or performance. Therefore, to achieve better or faster results, people might select a new tool for a precise task and start an implementation and integration process to move the data around.&lt;/p&gt;</description>
     </item>
     <item>
       <title>So… what does a Staff Developer Advocate do?</title>
@@ -202,105 +202,105 @@
       <link>https://ftisiot.net/2020/11/26/looking_back/</link>
       <pubDate>Wed, 23 Dec 2020 10:00:00 +0000</pubDate>
       <guid>https://ftisiot.net/2020/11/26/looking_back/</guid>
-      <description>It was February 2012 when I was meant to take a flight from a foggy Treviso Airport direction London Stansted. The fog created several problems, all passengers were taken by bus to Venice and we had to wait 3 hours before boarding on the plane. The flight 🛬 landed with an overall 4h of delay, not great if the scheduled arrival time was 8PM! I then caught a bus to Liverpool street and finally got lost while trying to reach my hotel.</description>
+      <description>&lt;p&gt;It was February 2012 when I was meant to take a flight from a foggy Treviso Airport direction London Stansted. The fog created several problems, all passengers were taken by bus to Venice and we had to wait 3 hours before boarding on the plane. The flight 🛬   landed with an overall 4h of delay, not great if the scheduled arrival time was 8PM! I then caught a bus to Liverpool street and finally got lost while trying to reach my hotel. I finally managed to arrive in bed at 3.30AM.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What&#39;s My (Talk) Age Again?</title>
       <link>https://ftisiot.net/2020/11/02/whats-my-talk-age-again/</link>
       <pubDate>Mon, 02 Nov 2020 13:12:10 +0000</pubDate>
       <guid>https://ftisiot.net/2020/11/02/whats-my-talk-age-again/</guid>
-      <description>Las week I shared a personal experience of talking to a small online audience (just one person) and how that episode made me think about my commitment to public talking and understanding that performing at best is still key for both the speaker and the audience.&#xA;One of the items that I explored was the Reflection bit: trying to understand what/why the paper/abstract didn&amp;rsquo;t work, why it didn&amp;rsquo;t attract people and what can be done to improve it.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ftisiot.net/images/2020/11/image.png?w=300&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Las week I shared a &lt;a href=&#34;https://ftisiot.net/2020/10/26/a-talk-for-one/&#34;&gt;personal experience&lt;/a&gt; of talking to a small online audience (just one person) and how that episode made me think about my commitment to public talking and understanding that performing at best is still key for both the speaker and the audience.&lt;/p&gt;&#xA;&lt;p&gt;One of the items that I explored was the &lt;strong&gt;Reflection&lt;/strong&gt; bit: trying to understand what/why the paper/abstract didn&amp;rsquo;t work, why it didn&amp;rsquo;t attract people and what can be done to improve it. The part briefly mentioned was about talks ageing pretty quickly these days with online-only conferences and I thought it needed more clarification.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Talk For One</title>
       <link>https://ftisiot.net/2020/10/26/a-talk-for-one/</link>
       <pubDate>Mon, 26 Oct 2020 14:15:21 +0000</pubDate>
       <guid>https://ftisiot.net/2020/10/26/a-talk-for-one/</guid>
-      <description>2020 hasn&amp;rsquo;t been a great year, with Covid forcing people home and all major events moving from physical to virtual. At the same time, now is the perfect time for attendees: everyone is creating and sharing content via videos, blogs or talks in conferences. People that before had to choose wisely the &amp;ldquo;1 conference&amp;rdquo; where to spend their budget on, now can access for free (or reduced fees) content coming from a huge variety of organisations and speakers.</description>
+      <description>&lt;p&gt;2020 hasn&amp;rsquo;t been a great year, with Covid forcing people home and all major events moving from physical to virtual. At the same time, now is the perfect time for attendees: everyone is creating and sharing content via videos, blogs or talks in conferences. People that before had to choose wisely the &amp;ldquo;1 conference&amp;rdquo; where to spend their budget on, now can access for free (or reduced fees) content coming from a huge variety of organisations and speakers.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Oracle Analytics Server and Kerberos Authentication</title>
       <link>https://ftisiot.net/2020/09/18/oracle-analytics-server-and-kerberos-authentication/</link>
       <pubDate>Fri, 18 Sep 2020 08:26:12 +0000</pubDate>
       <guid>https://ftisiot.net/2020/09/18/oracle-analytics-server-and-kerberos-authentication/</guid>
-      <description>Oracle Analytics Server is out since several months and a common ask is to provide SSO with Kerberos Authentication.&#xA;The &amp;ldquo;old&amp;rdquo; OBIEE12c style Kerberos configuration is not working with OAS.&#xA;Oracle provided a solution to implement it via Apache Server and Oracle Access Manager Identity Asserter. All the info are published in Doc ID 2707401.1</description>
+      <description>&lt;p&gt;Oracle Analytics Server is out since several months and a common ask is to provide SSO with Kerberos Authentication.&lt;/p&gt;&#xA;&lt;p&gt;The &amp;ldquo;old&amp;rdquo; OBIEE12c style Kerberos configuration is not working with OAS.&lt;/p&gt;&#xA;&lt;p&gt;Oracle provided a solution to implement it via Apache Server and Oracle Access Manager Identity Asserter. All the info are published in &lt;strong&gt;&lt;a href=&#34;https://support.oracle.com/epmos/faces/DocumentDisplay?id=2707401.1&#34;&gt;Doc ID 2707401.1&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Oracle Analytics Cloud 5.7: Use ML Models in the Database</title>
       <link>https://ftisiot.net/2020/08/10/oracle-analytics-cloud-5-7-use-ml-models-in-the-database/</link>
       <pubDate>Mon, 10 Aug 2020 09:08:25 +0000</pubDate>
       <guid>https://ftisiot.net/2020/08/10/oracle-analytics-cloud-5-7-use-ml-models-in-the-database/</guid>
-      <description>I created a short video showing how you can register in Oracle Analytics Cloud 5.7 some Machine Learning models created in the Oracle Database and score data with a simple Data Flow, check it out&#xA;https://www.youtube.com/watch?v=GZubKpWUA0U</description>
+      <description>&lt;p&gt;I created a short video showing how you can register in &lt;strong&gt;Oracle Analytics Cloud 5.7&lt;/strong&gt; some Machine Learning models created in the &lt;strong&gt;Oracle Database&lt;/strong&gt; and score data with a simple &lt;strong&gt;Data Flow&lt;/strong&gt;, check it out&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=GZubKpWUA0U&#34;&gt;https://www.youtube.com/watch?v=GZubKpWUA0U&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>2019 a Year of Conferences and Much More!</title>
       <link>https://ftisiot.net/2019/12/13/2019-a-year-of-conferences-and-much-more/</link>
       <pubDate>Fri, 13 Dec 2019 13:09:17 +0000</pubDate>
       <guid>https://ftisiot.net/2019/12/13/2019-a-year-of-conferences-and-much-more/</guid>
-      <description>The 2019 end-of-year holiday period is approaching, before closing the laptop for few days it&amp;rsquo;s good to look back how the year went. It has been very busy working wise: client work, conference preparation and talks, blog posts and videos kept my time well occupied. I also had an amazing news in June, when, during Kscope 19, I was invited on the stage and announced as Oracle ACE Director&#xA;Congratulations to new Oracle ACE Directors @ftisiot @thtechnology @fdmeeguru!</description>
+      <description>&lt;p&gt;The 2019 end-of-year holiday period is approaching, before closing the laptop for few days it&amp;rsquo;s good to look back how the year went. It has been very busy working wise: client work, conference preparation and talks, blog posts and videos kept my time well occupied. I also had an amazing news in June, when, during &lt;a href=&#34;https://kscope19.odtug.com&#34;&gt;Kscope 19&lt;/a&gt;, I was invited on the stage and announced as &lt;a href=&#34;https://www.oracle.com/technetwork/community/oracle-ace/index.html&#34;&gt;Oracle ACE Director&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Congratulations to new Oracle ACE Directors &lt;a href=&#34;https://twitter.com/FTisiot?ref_src=twsrc%5Etfw&#34;&gt;@ftisiot&lt;/a&gt; &lt;a href=&#34;https://twitter.com/thtechnology?ref_src=twsrc%5Etfw&#34;&gt;@thtechnology&lt;/a&gt; &lt;a href=&#34;https://twitter.com/fdmeeguru?ref_src=twsrc%5Etfw&#34;&gt;@fdmeeguru&lt;/a&gt;!! &lt;a href=&#34;https://twitter.com/hashtag/Kscope19?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Kscope19&lt;/a&gt; &lt;a href=&#34;https://t.co/ASUgNbZZfr&#34;&gt;pic.twitter.com/ASUgNbZZfr&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>ITOUG Call for Papers Submission Analysis</title>
       <link>https://ftisiot.net/2019/07/30/itoug-call-for-papers-submission-analysis/</link>
       <pubDate>Tue, 30 Jul 2019 14:21:36 +0000</pubDate>
       <guid>https://ftisiot.net/2019/07/30/itoug-call-for-papers-submission-analysis/</guid>
-      <description>If you read this now and you wanted to submit for ITOUG Tech Days 2020&amp;hellip;. well, bad luck, you&amp;rsquo;re too late! ITOUG Tech Days 2020 was closed last week with an astonishing record of submissions! This post will analyse a bit the numbers of the submissions using the magic Oracle Analytics Cloud.&#xA;First of all, uploading the data and fixing the column settings. For example, we want to properly convert to Date our Submission Date (Data di invio in Italian).</description>
+      <description>&lt;p&gt;If you read this now and you wanted to submit for &lt;a href=&#34;http://www.itoug.it/&#34;&gt;ITOUG Tech Days 2020&lt;/a&gt;&amp;hellip;. well, bad luck, you&amp;rsquo;re too late! ITOUG Tech Days 2020 was closed last week with an astonishing record of submissions! This post will analyse a bit the numbers of the submissions using the magic &lt;a href=&#34;https://www.oracle.com/middleware/technologies/oracle-data-visualization-desktop.html&#34;&gt;Oracle Analytics Cloud&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://ftisiot.net/images/2019/07/36rk0x.jpg&#34; alt=&#34;36rk0x&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;First of all, uploading the data and fixing the column settings. For example, we want to properly convert to &lt;code&gt;Date&lt;/code&gt; our Submission Date (&lt;code&gt;Data di invio&lt;/code&gt; in Italian). Oracle Analytics Cloud allows us to create a &lt;strong&gt;Preparation Script&lt;/strong&gt; so we can reuse it the next time we upload the same dataset.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Looker for OBIEE Experts: Introduction and Concepts</title>
       <link>https://ftisiot.net/2018/08/23/looker-for-obiee-experts-introduction-and-concepts/</link>
       <pubDate>Thu, 23 Aug 2018 09:14:16 +0000</pubDate>
       <guid>https://ftisiot.net/2018/08/23/looker-for-obiee-experts-introduction-and-concepts/</guid>
-      <description>Hello! After a long time I&amp;rsquo;m back to my personal blog! You can find all my Rittman Mead related blog posts here!&#xA;Recently I&amp;rsquo;ve been doing some personal study around various areas including streaming, machine learning and data visualization and one of the tools that got my attention is Looker. I&amp;rsquo;ve initially heard about Looker from a Drill to Detail podcast from Mark Rittman and increasingly been hearing about it in conferences and use cases together with other cloud solutions like BigQuery, Snowflake and Fivetran.</description>
+      <description>&lt;p&gt;Hello! After a long time I&amp;rsquo;m back to my personal blog! You can find all my Rittman Mead related blog posts &lt;a href=&#34;http://ritt.md/FT&#34;&gt;here&lt;/a&gt;!&lt;/p&gt;&#xA;&lt;p&gt;Recently I&amp;rsquo;ve been doing some personal study around various areas including streaming, machine learning and data visualization and one of the tools that got my attention is &lt;a href=&#34;https://looker.com&#34;&gt;Looker&lt;/a&gt;. I&amp;rsquo;ve initially heard about Looker from a &lt;a href=&#34;https://www.drilltodetail.com/podcast/2017/3/28/drill-to-detail-ep23-looker-bigquery-and-analytics-on-big-data-with-special-guest-daniel-mintz-1&#34;&gt;Drill to Detail&lt;/a&gt; podcast from Mark Rittman and increasingly been hearing about it in conferences and use cases together with other cloud solutions like &lt;a href=&#34;https://cloud.google.com/bigquery/&#34;&gt;BigQuery&lt;/a&gt;, &lt;a href=&#34;https://www.snowflake.com&#34;&gt;Snowflake&lt;/a&gt; and &lt;a href=&#34;https://fivetran.com&#34;&gt;Fivetran&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>ITOUG Call for Papers is Open!</title>
       <link>https://ftisiot.net/2017/02/28/itoug-call-for-papers-is-open/</link>
       <pubDate>Tue, 28 Feb 2017 14:33:52 +0000</pubDate>
       <guid>https://ftisiot.net/2017/02/28/itoug-call-for-papers-is-open/</guid>
-      <description>I&amp;rsquo;m pleased to announce that, for the first time, a BI/Analytics track will be present at ITOUG!&#xA;ITOUG, the recently created Italian Oracle User Group, has been so far almost 100% DBA orientated. At the next event, which will be held on 8th June 2017 at UNA Century Hotel in Milan, we are opening a new BI/Analytics streams and looking for speakers.&#xA;Call for papers is already open, visit http://www.itoug.it for more informations.</description>
+      <description>&lt;p&gt;I&amp;rsquo;m pleased to announce that, for the first time, a BI/Analytics track will be present at ITOUG!&lt;/p&gt;&#xA;&lt;p&gt;ITOUG, the recently created Italian Oracle User Group, has been so far almost 100% DBA orientated. At the next event, which will be held on 8th June 2017 at UNA Century Hotel in Milan, we are opening a new BI/Analytics streams and looking for speakers.&lt;/p&gt;&#xA;&lt;p&gt;Call for papers is already open, visit &lt;a href=&#34;http://www.itoug.it&#34;&gt;http://www.itoug.it&lt;/a&gt; for more informations. We are looking at Italian and English speakers with passion about BI/Analytics and stories to share.&lt;/p&gt;</description>
     </item>
     <item>
       <title>OBI12c SSL with Custom Certificates</title>
       <link>https://ftisiot.net/2016/10/16/obi12c-ssl-with-custom-certificates/</link>
       <pubDate>Sun, 16 Oct 2016 18:40:45 +0000</pubDate>
       <guid>https://ftisiot.net/2016/10/16/obi12c-ssl-with-custom-certificates/</guid>
-      <description>For anybody on OBIEE 12c wanting to enable full SSL, Oracle provided within the OBIEE Documentation an explanation on how to set it up using demo certificates.&#xA;However the usage of demo certificates gives the end user the annoying problem of needing to accept an exception to enter the website since the demo certificate wasn&amp;rsquo;t created for the server/domain where OBIEE is located (the same problem arises also with Smartview).</description>
+      <description>&lt;p&gt;For anybody on OBIEE 12c wanting to enable full SSL, Oracle provided within the &lt;a href=&#34;https://docs.oracle.com/middleware/1221/biee/BIESC/ssl.htm#BIESC374&#34;&gt;OBIEE Documentation&lt;/a&gt; an explanation on how to set it up using demo certificates.&lt;/p&gt;&#xA;&lt;p&gt;However the usage of demo certificates gives the end user the annoying problem of needing to accept an exception to enter the website since the demo certificate wasn&amp;rsquo;t created for the server/domain where OBIEE is located (the same problem arises also with Smartview).&lt;/p&gt;&#xA;&lt;p&gt;The problem is solved by using custom certificates, generated on purpose by a certificate authority. So far the usage of custom certificates with OBI12c was somehow hidden in the &lt;a href=&#34;https://docs.oracle.com/cd/E24329_01/web.1211/e24422/ssl.htm#SECMG387&#34;&gt;Weblogic 12c Documentation&lt;/a&gt;, but now Oracle explained the process in &lt;a href=&#34;https://support.oracle.com/epmos/faces/DocumentDisplay?_afrLoop=370404015522156&amp;amp;id=2188982.1&amp;amp;_adf.ctrl-state=oxlq9igqe_194&#34;&gt;Doc ID 2188982.1&lt;/a&gt; with a detailed list of steps.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Remove OBI12c Data Visualisation from OBIEE</title>
       <link>https://ftisiot.net/2016/10/13/remove-obi12c-data-visualisation-from-obiee/</link>
       <pubDate>Thu, 13 Oct 2016 07:28:11 +0000</pubDate>
       <guid>https://ftisiot.net/2016/10/13/remove-obi12c-data-visualisation-from-obiee/</guid>
-      <description>For anybody interested in how to remove or add Data Visualisation (also known as Visual Analyser) option to a specific role in OBIEE 12c, Oracle released Doc ID 2102444.1 which gives the detail about the procedure using WLST and the RevokeDVPermission.py (or GrantDVPermission.py) that should be present in the OBIEE12c Installation Middleware home by default.</description>
+      <description>&lt;p&gt;For anybody interested in how to remove or add Data Visualisation (also known as Visual Analyser)  option to a specific role in OBIEE 12c, Oracle released &lt;a href=&#34;https://support.oracle.com/epmos/faces/SearchDocDisplay?_adf.ctrl-state=oxlq9igqe_9&amp;amp;_afrLoop=368341663992727&#34;&gt;Doc ID 2102444.1&lt;/a&gt; which gives the detail about the procedure using &lt;em&gt;WLST&lt;/em&gt; and the &lt;em&gt;RevokeDVPermission.py&lt;/em&gt; (or &lt;em&gt;GrantDVPermission.py&lt;/em&gt;) that should be present in the OBIEE12c Installation Middleware home by default.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to search the Cause of Errors</title>
       <link>https://ftisiot.net/2016/10/12/how-to-search-the-cause-of-errors/</link>
       <pubDate>Wed, 12 Oct 2016 18:40:22 +0000</pubDate>
       <guid>https://ftisiot.net/2016/10/12/how-to-search-the-cause-of-errors/</guid>
-      <description>I&amp;rsquo;ve been working on OBIEE and Oracle products in general since 2008, it has been so far a great experience with an enormous amount of information being available freely in internet.&#xA;When trying to solve problems this amount of information can be a treasure but also a risk since the information contained in any website can be partial, not relevant or in some cases completely wrong for the subject searched. As an unexperienced person (but also for experienced) it&amp;rsquo;s difficult to distinguish whether the content of a website can be followed and trusted and sometimes even replies to public forums can&amp;rsquo;t be a valid source since different problems provide the similar wrong behaviour and can be confused.</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve been working on OBIEE and Oracle products in general since 2008, it has been so far a great experience with an enormous amount of information being available freely in internet.&lt;/p&gt;&#xA;&lt;p&gt;When trying to solve problems this amount of information can be a treasure but also a risk since the information contained in any website can be partial, not relevant or in some cases completely wrong for the subject searched. As an unexperienced person (but also for experienced) it&amp;rsquo;s difficult to distinguish whether the content of a website can be followed and trusted and sometimes even replies to public forums can&amp;rsquo;t be a valid source since different problems provide the similar wrong behaviour and can be confused.&lt;/p&gt;</description>
     </item>
     <item>
       <title>OBI Blogs to follow</title>
       <link>https://ftisiot.net/2016/09/29/obi-blogs-to-follow/</link>
       <pubDate>Thu, 29 Sep 2016 10:17:15 +0000</pubDate>
       <guid>https://ftisiot.net/2016/09/29/obi-blogs-to-follow/</guid>
-      <description>Hi All,&#xA;I thought that including a post on the OBI related blogs and the owner twitter accounts, may be useful. The list will be enriched over time&#xA;* [rittmanmead.com](http://www.rittmanmead.com): My company&#39;s blog, always source of good OBI articles * [rmoff.net](http://rmoff.net): [Robin Moffat](https://twitter.com/rmoff)&#39;s (Oracle ACE) personal blog * [gianniceresa.com](https://gianniceresa.com): [Gianni Ceresa](https://twitter.com/G_Ceresa)&#39;s personal blog * [dimensionality.ch](http://dimensionality.ch): [Christian Berg](https://twitter.com/Nephentur)&#39;s (Oracle ACE Associate) personal blog * [gerardnico.com](http://gerardnico.com/): Nicolas Gerard&#39;s personal blog * [bisoftdiary.com](https://bisoftdiary.com/): [Andrew Fomin](https://twitter.</description>
+      <description>&lt;p&gt;Hi All,&lt;/p&gt;&#xA;&lt;p&gt;I thought that including a post on the OBI related blogs and the owner twitter accounts, may be useful. The list will be enriched over time&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;  * [rittmanmead.com](http://www.rittmanmead.com): My company&#39;s blog, always source of good OBI articles&#xA;  * [rmoff.net](http://rmoff.net): [Robin Moffat](https://twitter.com/rmoff)&#39;s (Oracle ACE) personal blog&#xA;  * [gianniceresa.com](https://gianniceresa.com): [Gianni Ceresa](https://twitter.com/G_Ceresa)&#39;s personal blog&#xA;  * [dimensionality.ch](http://dimensionality.ch): [Christian Berg](https://twitter.com/Nephentur)&#39;s (Oracle ACE Associate) personal blog&#xA;  * [gerardnico.com](http://gerardnico.com/): Nicolas Gerard&#39;s personal blog&#xA;  * [bisoftdiary.com](https://bisoftdiary.com/): [Andrew Fomin](https://twitter.com/fomin_andrew)&#39;s personal blog&#xA;  * [redpillanalytics.com](http://redpillanalytics.com): Red Pill Analytics company blog&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;If you want more interaction, another important source of OBI/geek/fun ideas is the &lt;strong&gt;#obihackers&lt;/strong&gt; on &lt;strong&gt;IRC&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>OBI12c Performance Tiles PDF Print Error</title>
       <link>https://ftisiot.net/2016/09/29/obi12c-performance-tiles-pdf-print-error/</link>
       <pubDate>Thu, 29 Sep 2016 08:10:24 +0000</pubDate>
       <guid>https://ftisiot.net/2016/09/29/obi12c-performance-tiles-pdf-print-error/</guid>
-      <description>Hi All,&#xA;If you already migrated to OBI12c you could experience, when printing to PDF a dashboard or analysis including performance tiles that the layout is not what expected.&#xA;[caption width=&amp;ldquo;300&amp;rdquo; id=&amp;ldquo;attachment_37&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo;] Original Dashboard Layout[/caption] [caption width=&amp;ldquo;300&amp;rdquo; id=&amp;ldquo;attachment_36&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo;] PDF Print[/caption]The good news is that this has been recognised as a bug and if you are on 12.2.1.0.0 there is a patch available &amp;ldquo;Patch 22759083: BIEE 12C DASHBOARD PRINT TO PDF MISSING PERFORMANCE TILES FROM THE REPORT&amp;rdquo;.</description>
+      <description>&lt;p&gt;Hi All,&lt;/p&gt;&#xA;&lt;p&gt;If you already migrated to OBI12c you could experience, when printing to PDF a dashboard or analysis including performance tiles that the layout is not what expected.&lt;/p&gt;&#xA;&lt;p&gt;[caption width=&amp;ldquo;300&amp;rdquo; id=&amp;ldquo;attachment_37&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo;]&lt;img src=&#34;https://ftisiot.net/images/2016/09/screenshot-of-safari-29-09-16-09-55-51.png?w=600&#34; alt=&#34;screenshot-of-safari-29-09-16-09-55-51&#34;&gt;&#xA;Original Dashboard Layout[/caption]&#xA;[caption width=&amp;ldquo;300&amp;rdquo; id=&amp;ldquo;attachment_36&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo;]&lt;img src=&#34;https://ftisiot.net/images/2016/09/screenshot-of-safari-29-09-16-09-56-10.png?w=600&#34; alt=&#34;screenshot-of-safari-29-09-16-09-56-10&#34;&gt;&#xA;PDF Print[/caption]The good news is that this has been recognised as a bug and if you are on 12.2.1.0.0 there is a patch available &amp;ldquo;&lt;em&gt;Patch 22759083: BIEE 12C DASHBOARD PRINT TO PDF MISSING PERFORMANCE TILES FROM THE REPORT&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Welcome</title>
       <link>https://ftisiot.net/2016/09/28/first-blog-post/</link>
       <pubDate>Wed, 28 Sep 2016 13:10:09 +0000</pubDate>
       <guid>https://ftisiot.net/2016/09/28/first-blog-post/</guid>
-      <description>Hi All!&#xA;Welcome to my blog! If time and perseverance will assist me I&amp;rsquo;ll try to post here about my findings and ideas at work and about life in general, so stay tuned!&#xA;Francesco</description>
+      <description>&lt;p&gt;Hi All!&lt;/p&gt;&#xA;&lt;p&gt;Welcome to my blog! If time and perseverance will assist me I&amp;rsquo;ll try to post here about my findings and ideas at work and about life in general, so stay tuned!&lt;/p&gt;&#xA;&lt;p&gt;Francesco&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

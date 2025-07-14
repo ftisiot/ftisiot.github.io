@@ -4,7 +4,7 @@
     <title>Francesco Tisiot Ideas! on ftisiot ideas about tech, food and life</title>
     <link>https://ftisiot.net/</link>
     <description>Recent content in Francesco Tisiot Ideas! on ftisiot ideas about tech, food and life</description>
-    <generator>Hugo 0.125.0</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 Aug 2024 09:41:51 +0200</lastBuildDate>
     <atom:link href="https://ftisiot.net/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://ftisiot.net/posts/sql-optimizer/</link>
       <pubDate>Mon, 12 Aug 2024 09:41:51 +0200</pubDate>
       <guid>https://ftisiot.net/posts/sql-optimizer/</guid>
-      <description>Tuning a SQL query is a mix of data driven discovery and magic art, until now&amp;hellip; Aiven SQL query optimizer allows you to speed up your query by simply pasting the SQL and additional metadata information. Check it out at https://go.aiven.io/ft-sql-query-optimizer</description>
+      <description>&lt;p&gt;Tuning a SQL query is a mix of data driven discovery and magic art, until now&amp;hellip; Aiven SQL query optimizer allows you to speed up your query by simply pasting the SQL and additional metadata information. Check it out at &lt;a href=&#34;https://go.aiven.io/ft-sql-query-optimizer&#34;&gt;https://go.aiven.io/ft-sql-query-optimizer&lt;/a&gt;&lt;/p&gt;&#xA;&#xA;    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/vigZrDej8EA?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
     </item>
     <item>
       <title>Helping PostgreSQL professionals with AI-assisted performance recommendations</title>
@@ -111,14 +111,14 @@
       <link>https://ftisiot.net/talks/accelerate-gen-ai-integrated-data-platform/</link>
       <pubDate>Mon, 04 Dec 2023 08:39:17 +0100</pubDate>
       <guid>https://ftisiot.net/talks/accelerate-gen-ai-integrated-data-platform/</guid>
-      <description>Generative AI is revolutionizing how we work and interact. Yet for generative AI applications relying on private, regulated, or commercially valuable data, feeding the model with the right information is crucial. Failure could result in adverse consequences such as poor performance, confidential information exposure, or regulatory requirement breaches. An integrated data platform is a powerful way to accelerate the development of generative AI applications by providing real-time data feeds, consolidating inputs from different sources, and defining clear information boundaries.</description>
+      <description>&lt;p&gt;Generative AI is revolutionizing how we work and interact. Yet for generative AI applications relying on private, regulated, or commercially valuable data, feeding the model with the right information is crucial. Failure could result in adverse consequences such as poor performance, confidential information exposure, or regulatory requirement breaches. An integrated data platform is a powerful way to accelerate the development of generative AI applications by providing real-time data feeds, consolidating inputs from different sources, and defining clear information boundaries. If you are considering generative AI for your business, this lightning talk provides methods for creating safe, up-to-date, and performant applications&lt;/p&gt;</description>
     </item>
     <item>
       <title>Attacking (and defending) Apache Kafka</title>
       <link>https://ftisiot.net/talks/attack-defend-apache-kafka/</link>
       <pubDate>Mon, 04 Dec 2023 08:32:09 +0100</pubDate>
       <guid>https://ftisiot.net/talks/attack-defend-apache-kafka/</guid>
-      <description>When attacking any system, taking control of its central nervous system is the first step in infiltrating the core infrastructure and gaining control over its vital functions. Translating this to organization data, a clear target is Apache Kafka, the data hub increasingly adopted for mission-critical systems. This session explores the topic of attacking and defending Apache Kafka, shedding light on potential threats, attack vectors, and countermeasures.&#xA;Initially, we’ll focus on understanding the potential attack surface of Apache Kafka.</description>
+      <description>&lt;p&gt;When attacking any system, taking control of its central nervous system is the first step in infiltrating the core infrastructure and gaining control over its vital functions. Translating this to organization data, a clear target is Apache Kafka, the data hub increasingly adopted for mission-critical systems. This session explores the topic of attacking and defending Apache Kafka, shedding light on potential threats, attack vectors, and countermeasures.&lt;/p&gt;&#xA;&lt;p&gt;Initially, we’ll focus on understanding the potential attack surface of Apache Kafka. Defining attackers&amp;rsquo; objectives and vectors, including unauthorized access, injection attacks, misconfigurations, and distributed denial-of-service (DDoS). With the fundamental threat surface and actors understood, we’ll shift our focus to defensive strategies that protect Apache Kafka deployments. We will discuss and demonstrate best practices and security measures including ACLs, encryption, and monitoring that can help reduce potential attacks.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Kafka Connect sink to OpenSearch/ElasticSearch: how to sink unix timestamps</title>
@@ -132,14 +132,14 @@
       <link>https://ftisiot.net/posts/kafka-consume-http/</link>
       <pubDate>Wed, 30 Aug 2023 11:30:24 +0200</pubDate>
       <guid>https://ftisiot.net/posts/kafka-consume-http/</guid>
-      <description>You have an Apache Kafka topic that you want to consume via REST APIs (think curl or just a web browser), how to do it?&#xA;The reply is Karapace an Open Source (Apache 2.0) tool providing Schema Registry and REST proxy functionality.&#xA;Let&amp;rsquo;s check out how to quickly run it on Docker.&#xA;Step 1: the Apache Kafka® Cluster You need an Apache Kafka cluster up &amp;amp; running, if you have one already you can skip to the next section.</description>
+      <description>&lt;p&gt;You have an Apache Kafka topic that you want to consume via REST APIs (think &lt;code&gt;curl&lt;/code&gt; or just a web browser), how to do it?&lt;/p&gt;&#xA;&lt;p&gt;The reply is &lt;a href=&#34;https://www.karapace.io/&#34;&gt;Karapace&lt;/a&gt; an Open Source (Apache 2.0) tool providing Schema Registry and REST proxy functionality.&lt;/p&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s check out how to quickly run it on Docker.&lt;/p&gt;&#xA;&lt;h2 id=&#34;step-1-the-apache-kafka-cluster&#34;&gt;Step 1: the Apache Kafka® Cluster&lt;/h2&gt;&#xA;&lt;p&gt;You need an Apache Kafka cluster up &amp;amp; running, if you have one already you can skip to the next section.&lt;/p&gt;</description>
     </item>
     <item>
       <title>From Batch to Streaming Data Pipeline Evolution</title>
       <link>https://ftisiot.net/talks/from-batch-to-streaming-data-pipeline-evolution/</link>
       <pubDate>Wed, 23 Aug 2023 15:27:54 +0200</pubDate>
       <guid>https://ftisiot.net/talks/from-batch-to-streaming-data-pipeline-evolution/</guid>
-      <description>Useful Links Aiven Signup Code examples to run with Aiven for Apache Flink Flink JDBC SQL Connector Flink SQL CDC Connecto for PostgreSQL 💻</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ftisiot.net/slides/from-batch-to-streaming-data-pipeline-evolution/thumbnail.png&#34; alt=&#34;Intro image&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;useful-links&#34;&gt;Useful Links&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://go.aiven.io/francesco-signup&#34;&gt;Aiven Signup&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/Aiven-Labs/data-pipeline-evolution-batch-streaming-apache-flink&#34;&gt;Code examples to run with Aiven for Apache Flink&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://nightlies.apache.org/flink/flink-docs-master/docs/connectors/table/jdbc/&#34;&gt;Flink JDBC SQL Connector&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ververica.github.io/flink-cdc-connectors/master/content/connectors/postgres-cdc.html&#34;&gt;Flink SQL CDC Connecto for PostgreSQL&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ftisiot.net/slides/from-batch-to-streaming-data-pipeline-evolution/current2023.pdf&#34;&gt;💻&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to tabulate a JSON document in MySQL</title>
@@ -223,7 +223,7 @@
       <link>https://ftisiot.net/posts/pros-and-cons-of-multi-step-data-platforms/</link>
       <pubDate>Mon, 29 May 2023 15:25:59 +0200</pubDate>
       <guid>https://ftisiot.net/posts/pros-and-cons-of-multi-step-data-platforms/</guid>
-      <description>In the modern world, it&amp;rsquo;s rare to have the data in the same shape and platform from the beginning till the end of its journey. Yes, some technologies can achieve quite a good range of functionalities but sometimes at the expense of precision, developer experience or performance. Therefore, to achieve better or faster results, people might select a new tool for a precise task and start an implementation and integration process to move the data around.</description>
+      <description>&lt;p&gt;In the modern world, it&amp;rsquo;s rare to have the data in the same shape and platform from the beginning till the end of its journey. Yes, some technologies can achieve quite a good range of functionalities but sometimes at the expense of precision, developer experience or performance. Therefore, to achieve better or faster results, people might select a new tool for a precise task and start an implementation and integration process to move the data around.&lt;/p&gt;</description>
     </item>
     <item>
       <title>So… what does a Staff Developer Advocate do?</title>
@@ -510,21 +510,21 @@
       <link>https://ftisiot.net/talks/flask-kafka/</link>
       <pubDate>Fri, 13 May 2022 15:49:28 +0200</pubDate>
       <guid>https://ftisiot.net/talks/flask-kafka/</guid>
-      <description>Useful Links Apache Kafka docs GitHub Repo Aiven for Apache Kafka 💻</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ftisiot.net/slides/flask-kafka/thumbnail.jpg&#34; alt=&#34;Intro image&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;useful-links&#34;&gt;Useful Links&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kafka.apache.org/&#34;&gt;Apache Kafka docs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/ftisiot/flask-apache-kafka-demo&#34;&gt;GitHub Repo&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/kafka&#34;&gt;Aiven for Apache Kafka&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ftisiot.net/slides/flask-kafka/flask-kafka.pdf&#34;&gt;💻&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Solving the Knapsack Problem with Recursive Queries and PostgreSQL</title>
       <link>https://ftisiot.net/talks/knapsack-problem-pg/</link>
       <pubDate>Mon, 02 May 2022 14:54:29 +0200</pubDate>
       <guid>https://ftisiot.net/talks/knapsack-problem-pg/</guid>
-      <description>Useful Links Knapsack Problem Knapsack in PostgreSQL PostgreSQL 14 Search and Cycle Features Aiven 💻</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ftisiot.net/slides/knapsack-problem-pg/thumbnail.jpg&#34; alt=&#34;Intro image&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;useful-links&#34;&gt;Useful Links&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Knapsack_problem&#34;&gt;Knapsack Problem&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/blog/solving-the-knapsack-problem-in-postgresql&#34;&gt;Knapsack in PostgreSQL&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/blog/explore-the-new-search-and-cycle-features-in-postgresql-14&#34;&gt;PostgreSQL 14 Search and Cycle Features&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/&#34;&gt;Aiven&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ftisiot.net/slides/knapsack-problem-pg/knapsack.pdf&#34;&gt;💻&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>JDBC Source Connector: What Could Go Wrong?</title>
       <link>https://ftisiot.net/talks/kafka-jdbc-what-can-go-wrong/</link>
       <pubDate>Fri, 01 Apr 2022 14:24:42 +0200</pubDate>
       <guid>https://ftisiot.net/talks/kafka-jdbc-what-can-go-wrong/</guid>
-      <description>Useful Links Talk recording JDBC source connector docs Debezium docs How to Debezium in Aiven docs JDBC source connector example Debezium source connector example Aiven 💻</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ftisiot.net/slides/kafka-jdbc-what-can-go-wrong/thumbnail.jpg&#34; alt=&#34;Intro image&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;useful-links&#34;&gt;Useful Links&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.confluent.io/events/kafka-summit-london-2022/jdbc-source-connector-what-could-go-wrong/&#34;&gt;Talk recording&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/aiven/jdbc-connector-for-apache-kafka&#34;&gt;JDBC source connector docs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://debezium.io/documentation/reference/stable/connectors/postgresql.html&#34;&gt;Debezium docs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://developer.aiven.io/docs/products/kafka/kafka-connect/howto/debezium-source-connector-pg.html&#34;&gt;How to Debezium in Aiven docs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/blog/using-kafka-connect-jdbc-source-a-postgresql-example&#34;&gt;JDBC source connector example&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/blog/db-technology-migration-with-apache-kafka-and-kafka-connect&#34;&gt;Debezium source connector example&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/&#34;&gt;Aiven&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ftisiot.net/slides/kafka-jdbc-what-can-go-wrong/kafka-summit2022-jdbc-go-wrong.pdf&#34;&gt;💻&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Beautify `kcat` consumer output by piping to `jq`</title>
@@ -538,14 +538,14 @@
       <link>https://ftisiot.net/talks/kafka-flink-sql/</link>
       <pubDate>Tue, 15 Mar 2022 16:12:47 +0100</pubDate>
       <guid>https://ftisiot.net/talks/kafka-flink-sql/</guid>
-      <description>Useful Links Apache Kafka docs Apache Flink docs Apache Fink SQL client on Docker Build a Streaming data pipeline with Apache Kafka and Flink blog JDBC source connector example Debezium source connector example Aiven for Apache Kafka 💻</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ftisiot.net/slides/kafka-flink-sql/thumbnail.jpg&#34; alt=&#34;Intro image&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;useful-links&#34;&gt;Useful Links&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kafka.apache.org/&#34;&gt;Apache Kafka docs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://flink.apache.org/&#34;&gt;Apache Flink docs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/aiven/flink-sql-cli-docker&#34;&gt;Apache Fink SQL client on Docker&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/blog/build-a-streaming-sql-pipeline-with-flink-and-kafka&#34;&gt;Build a Streaming data pipeline with Apache Kafka and Flink blog&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/blog/using-kafka-connect-jdbc-source-a-postgresql-example&#34;&gt;JDBC source connector example&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/blog/db-technology-migration-with-apache-kafka-and-kafka-connect&#34;&gt;Debezium source connector example&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/kafka&#34;&gt;Aiven for Apache Kafka &lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ftisiot.net/slides/kafka-flink-sql/kafka-flink-sql.pdf&#34;&gt;💻&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>I Don&#39;t Want to Miss a Thing - Track Database Changes with Apache Kafka</title>
       <link>https://ftisiot.net/talks/track-database-changes/</link>
       <pubDate>Tue, 22 Feb 2022 12:22:35 +0100</pubDate>
       <guid>https://ftisiot.net/talks/track-database-changes/</guid>
-      <description>Useful Links Apache Kafka docs Debezium docs How to Debezium in Aiven docs JDBC source connector example Debezium source connector example JDBC Source Connector: what could go wrong? Aiven for PostgreSQL 💻</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ftisiot.net/slides/track-database-changes/thumbnail.jpg&#34; alt=&#34;Intro image&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;useful-links&#34;&gt;Useful Links&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kafka.apache.org/&#34;&gt;Apache Kafka docs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://debezium.io/documentation/reference/stable/connectors/postgresql.html&#34;&gt;Debezium docs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://developer.aiven.io/docs/products/kafka/kafka-connect/howto/debezium-source-connector-pg.html&#34;&gt;How to Debezium in Aiven docs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/blog/using-kafka-connect-jdbc-source-a-postgresql-example&#34;&gt;JDBC source connector example&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/blog/db-technology-migration-with-apache-kafka-and-kafka-connect&#34;&gt;Debezium source connector example&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.kafka-summit.org/sessions/jdbc-source-connector-what-could-go-wrong&#34;&gt;JDBC Source Connector: what could go wrong?&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://landing.aiven.io/en/aiven-for-postgresql/&#34;&gt;Aiven for PostgreSQL&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ftisiot.net/slides/track-database-changes/track-database-changes.pdf&#34;&gt;💻&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Month in Aiven.io</title>
@@ -573,133 +573,133 @@
       <link>https://ftisiot.net/2020/11/26/looking_back/</link>
       <pubDate>Wed, 23 Dec 2020 10:00:00 +0000</pubDate>
       <guid>https://ftisiot.net/2020/11/26/looking_back/</guid>
-      <description>It was February 2012 when I was meant to take a flight from a foggy Treviso Airport direction London Stansted. The fog created several problems, all passengers were taken by bus to Venice and we had to wait 3 hours before boarding on the plane. The flight 🛬 landed with an overall 4h of delay, not great if the scheduled arrival time was 8PM! I then caught a bus to Liverpool street and finally got lost while trying to reach my hotel.</description>
+      <description>&lt;p&gt;It was February 2012 when I was meant to take a flight from a foggy Treviso Airport direction London Stansted. The fog created several problems, all passengers were taken by bus to Venice and we had to wait 3 hours before boarding on the plane. The flight 🛬   landed with an overall 4h of delay, not great if the scheduled arrival time was 8PM! I then caught a bus to Liverpool street and finally got lost while trying to reach my hotel. I finally managed to arrive in bed at 3.30AM.&lt;/p&gt;</description>
     </item>
     <item>
       <title>What&#39;s My (Talk) Age Again?</title>
       <link>https://ftisiot.net/2020/11/02/whats-my-talk-age-again/</link>
       <pubDate>Mon, 02 Nov 2020 13:12:10 +0000</pubDate>
       <guid>https://ftisiot.net/2020/11/02/whats-my-talk-age-again/</guid>
-      <description>Las week I shared a personal experience of talking to a small online audience (just one person) and how that episode made me think about my commitment to public talking and understanding that performing at best is still key for both the speaker and the audience.&#xA;One of the items that I explored was the Reflection bit: trying to understand what/why the paper/abstract didn&amp;rsquo;t work, why it didn&amp;rsquo;t attract people and what can be done to improve it.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ftisiot.net/images/2020/11/image.png?w=300&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Las week I shared a &lt;a href=&#34;https://ftisiot.net/2020/10/26/a-talk-for-one/&#34;&gt;personal experience&lt;/a&gt; of talking to a small online audience (just one person) and how that episode made me think about my commitment to public talking and understanding that performing at best is still key for both the speaker and the audience.&lt;/p&gt;&#xA;&lt;p&gt;One of the items that I explored was the &lt;strong&gt;Reflection&lt;/strong&gt; bit: trying to understand what/why the paper/abstract didn&amp;rsquo;t work, why it didn&amp;rsquo;t attract people and what can be done to improve it. The part briefly mentioned was about talks ageing pretty quickly these days with online-only conferences and I thought it needed more clarification.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Talk For One</title>
       <link>https://ftisiot.net/2020/10/26/a-talk-for-one/</link>
       <pubDate>Mon, 26 Oct 2020 14:15:21 +0000</pubDate>
       <guid>https://ftisiot.net/2020/10/26/a-talk-for-one/</guid>
-      <description>2020 hasn&amp;rsquo;t been a great year, with Covid forcing people home and all major events moving from physical to virtual. At the same time, now is the perfect time for attendees: everyone is creating and sharing content via videos, blogs or talks in conferences. People that before had to choose wisely the &amp;ldquo;1 conference&amp;rdquo; where to spend their budget on, now can access for free (or reduced fees) content coming from a huge variety of organisations and speakers.</description>
+      <description>&lt;p&gt;2020 hasn&amp;rsquo;t been a great year, with Covid forcing people home and all major events moving from physical to virtual. At the same time, now is the perfect time for attendees: everyone is creating and sharing content via videos, blogs or talks in conferences. People that before had to choose wisely the &amp;ldquo;1 conference&amp;rdquo; where to spend their budget on, now can access for free (or reduced fees) content coming from a huge variety of organisations and speakers.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Oracle Analytics Server and Kerberos Authentication</title>
       <link>https://ftisiot.net/2020/09/18/oracle-analytics-server-and-kerberos-authentication/</link>
       <pubDate>Fri, 18 Sep 2020 08:26:12 +0000</pubDate>
       <guid>https://ftisiot.net/2020/09/18/oracle-analytics-server-and-kerberos-authentication/</guid>
-      <description>Oracle Analytics Server is out since several months and a common ask is to provide SSO with Kerberos Authentication.&#xA;The &amp;ldquo;old&amp;rdquo; OBIEE12c style Kerberos configuration is not working with OAS.&#xA;Oracle provided a solution to implement it via Apache Server and Oracle Access Manager Identity Asserter. All the info are published in Doc ID 2707401.1</description>
+      <description>&lt;p&gt;Oracle Analytics Server is out since several months and a common ask is to provide SSO with Kerberos Authentication.&lt;/p&gt;&#xA;&lt;p&gt;The &amp;ldquo;old&amp;rdquo; OBIEE12c style Kerberos configuration is not working with OAS.&lt;/p&gt;&#xA;&lt;p&gt;Oracle provided a solution to implement it via Apache Server and Oracle Access Manager Identity Asserter. All the info are published in &lt;strong&gt;&lt;a href=&#34;https://support.oracle.com/epmos/faces/DocumentDisplay?id=2707401.1&#34;&gt;Doc ID 2707401.1&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Analytics Everywhere!</title>
       <link>https://ftisiot.net/analytics-everywhere-webinar/</link>
       <pubDate>Wed, 02 Sep 2020 12:49:47 +0000</pubDate>
       <guid>https://ftisiot.net/analytics-everywhere-webinar/</guid>
-      <description> </description>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;</description>
     </item>
     <item>
       <title>Oracle Analytics Cloud 5.7: Use ML Models in the Database</title>
       <link>https://ftisiot.net/2020/08/10/oracle-analytics-cloud-5-7-use-ml-models-in-the-database/</link>
       <pubDate>Mon, 10 Aug 2020 09:08:25 +0000</pubDate>
       <guid>https://ftisiot.net/2020/08/10/oracle-analytics-cloud-5-7-use-ml-models-in-the-database/</guid>
-      <description>I created a short video showing how you can register in Oracle Analytics Cloud 5.7 some Machine Learning models created in the Oracle Database and score data with a simple Data Flow, check it out&#xA;https://www.youtube.com/watch?v=GZubKpWUA0U</description>
+      <description>&lt;p&gt;I created a short video showing how you can register in &lt;strong&gt;Oracle Analytics Cloud 5.7&lt;/strong&gt; some Machine Learning models created in the &lt;strong&gt;Oracle Database&lt;/strong&gt; and score data with a simple &lt;strong&gt;Data Flow&lt;/strong&gt;, check it out&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=GZubKpWUA0U&#34;&gt;https://www.youtube.com/watch?v=GZubKpWUA0U&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>2019 a Year of Conferences and Much More!</title>
       <link>https://ftisiot.net/2019/12/13/2019-a-year-of-conferences-and-much-more/</link>
       <pubDate>Fri, 13 Dec 2019 13:09:17 +0000</pubDate>
       <guid>https://ftisiot.net/2019/12/13/2019-a-year-of-conferences-and-much-more/</guid>
-      <description>The 2019 end-of-year holiday period is approaching, before closing the laptop for few days it&amp;rsquo;s good to look back how the year went. It has been very busy working wise: client work, conference preparation and talks, blog posts and videos kept my time well occupied. I also had an amazing news in June, when, during Kscope 19, I was invited on the stage and announced as Oracle ACE Director&#xA;Congratulations to new Oracle ACE Directors @ftisiot @thtechnology @fdmeeguru!</description>
+      <description>&lt;p&gt;The 2019 end-of-year holiday period is approaching, before closing the laptop for few days it&amp;rsquo;s good to look back how the year went. It has been very busy working wise: client work, conference preparation and talks, blog posts and videos kept my time well occupied. I also had an amazing news in June, when, during &lt;a href=&#34;https://kscope19.odtug.com&#34;&gt;Kscope 19&lt;/a&gt;, I was invited on the stage and announced as &lt;a href=&#34;https://www.oracle.com/technetwork/community/oracle-ace/index.html&#34;&gt;Oracle ACE Director&lt;/a&gt;&lt;/p&gt;&#xA;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Congratulations to new Oracle ACE Directors &lt;a href=&#34;https://twitter.com/FTisiot?ref_src=twsrc%5Etfw&#34;&gt;@ftisiot&lt;/a&gt; &lt;a href=&#34;https://twitter.com/thtechnology?ref_src=twsrc%5Etfw&#34;&gt;@thtechnology&lt;/a&gt; &lt;a href=&#34;https://twitter.com/fdmeeguru?ref_src=twsrc%5Etfw&#34;&gt;@fdmeeguru&lt;/a&gt;!! &lt;a href=&#34;https://twitter.com/hashtag/Kscope19?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Kscope19&lt;/a&gt; &lt;a href=&#34;https://t.co/ASUgNbZZfr&#34;&gt;pic.twitter.com/ASUgNbZZfr&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>ITOUG Call for Papers Submission Analysis</title>
       <link>https://ftisiot.net/2019/07/30/itoug-call-for-papers-submission-analysis/</link>
       <pubDate>Tue, 30 Jul 2019 14:21:36 +0000</pubDate>
       <guid>https://ftisiot.net/2019/07/30/itoug-call-for-papers-submission-analysis/</guid>
-      <description>If you read this now and you wanted to submit for ITOUG Tech Days 2020&amp;hellip;. well, bad luck, you&amp;rsquo;re too late! ITOUG Tech Days 2020 was closed last week with an astonishing record of submissions! This post will analyse a bit the numbers of the submissions using the magic Oracle Analytics Cloud.&#xA;First of all, uploading the data and fixing the column settings. For example, we want to properly convert to Date our Submission Date (Data di invio in Italian).</description>
+      <description>&lt;p&gt;If you read this now and you wanted to submit for &lt;a href=&#34;http://www.itoug.it/&#34;&gt;ITOUG Tech Days 2020&lt;/a&gt;&amp;hellip;. well, bad luck, you&amp;rsquo;re too late! ITOUG Tech Days 2020 was closed last week with an astonishing record of submissions! This post will analyse a bit the numbers of the submissions using the magic &lt;a href=&#34;https://www.oracle.com/middleware/technologies/oracle-data-visualization-desktop.html&#34;&gt;Oracle Analytics Cloud&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://ftisiot.net/images/2019/07/36rk0x.jpg&#34; alt=&#34;36rk0x&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;First of all, uploading the data and fixing the column settings. For example, we want to properly convert to &lt;code&gt;Date&lt;/code&gt; our Submission Date (&lt;code&gt;Data di invio&lt;/code&gt; in Italian). Oracle Analytics Cloud allows us to create a &lt;strong&gt;Preparation Script&lt;/strong&gt; so we can reuse it the next time we upload the same dataset.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Looker for OBIEE Experts: Introduction and Concepts</title>
       <link>https://ftisiot.net/2018/08/23/looker-for-obiee-experts-introduction-and-concepts/</link>
       <pubDate>Thu, 23 Aug 2018 09:14:16 +0000</pubDate>
       <guid>https://ftisiot.net/2018/08/23/looker-for-obiee-experts-introduction-and-concepts/</guid>
-      <description>Hello! After a long time I&amp;rsquo;m back to my personal blog! You can find all my Rittman Mead related blog posts here!&#xA;Recently I&amp;rsquo;ve been doing some personal study around various areas including streaming, machine learning and data visualization and one of the tools that got my attention is Looker. I&amp;rsquo;ve initially heard about Looker from a Drill to Detail podcast from Mark Rittman and increasingly been hearing about it in conferences and use cases together with other cloud solutions like BigQuery, Snowflake and Fivetran.</description>
+      <description>&lt;p&gt;Hello! After a long time I&amp;rsquo;m back to my personal blog! You can find all my Rittman Mead related blog posts &lt;a href=&#34;http://ritt.md/FT&#34;&gt;here&lt;/a&gt;!&lt;/p&gt;&#xA;&lt;p&gt;Recently I&amp;rsquo;ve been doing some personal study around various areas including streaming, machine learning and data visualization and one of the tools that got my attention is &lt;a href=&#34;https://looker.com&#34;&gt;Looker&lt;/a&gt;. I&amp;rsquo;ve initially heard about Looker from a &lt;a href=&#34;https://www.drilltodetail.com/podcast/2017/3/28/drill-to-detail-ep23-looker-bigquery-and-analytics-on-big-data-with-special-guest-daniel-mintz-1&#34;&gt;Drill to Detail&lt;/a&gt; podcast from Mark Rittman and increasingly been hearing about it in conferences and use cases together with other cloud solutions like &lt;a href=&#34;https://cloud.google.com/bigquery/&#34;&gt;BigQuery&lt;/a&gt;, &lt;a href=&#34;https://www.snowflake.com&#34;&gt;Snowflake&lt;/a&gt; and &lt;a href=&#34;https://fivetran.com&#34;&gt;Fivetran&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>ITOUG Call for Papers is Open!</title>
       <link>https://ftisiot.net/2017/02/28/itoug-call-for-papers-is-open/</link>
       <pubDate>Tue, 28 Feb 2017 14:33:52 +0000</pubDate>
       <guid>https://ftisiot.net/2017/02/28/itoug-call-for-papers-is-open/</guid>
-      <description>I&amp;rsquo;m pleased to announce that, for the first time, a BI/Analytics track will be present at ITOUG!&#xA;ITOUG, the recently created Italian Oracle User Group, has been so far almost 100% DBA orientated. At the next event, which will be held on 8th June 2017 at UNA Century Hotel in Milan, we are opening a new BI/Analytics streams and looking for speakers.&#xA;Call for papers is already open, visit http://www.itoug.it for more informations.</description>
+      <description>&lt;p&gt;I&amp;rsquo;m pleased to announce that, for the first time, a BI/Analytics track will be present at ITOUG!&lt;/p&gt;&#xA;&lt;p&gt;ITOUG, the recently created Italian Oracle User Group, has been so far almost 100% DBA orientated. At the next event, which will be held on 8th June 2017 at UNA Century Hotel in Milan, we are opening a new BI/Analytics streams and looking for speakers.&lt;/p&gt;&#xA;&lt;p&gt;Call for papers is already open, visit &lt;a href=&#34;http://www.itoug.it&#34;&gt;http://www.itoug.it&lt;/a&gt; for more informations. We are looking at Italian and English speakers with passion about BI/Analytics and stories to share.&lt;/p&gt;</description>
     </item>
     <item>
       <title>OBI12c SSL with Custom Certificates</title>
       <link>https://ftisiot.net/2016/10/16/obi12c-ssl-with-custom-certificates/</link>
       <pubDate>Sun, 16 Oct 2016 18:40:45 +0000</pubDate>
       <guid>https://ftisiot.net/2016/10/16/obi12c-ssl-with-custom-certificates/</guid>
-      <description>For anybody on OBIEE 12c wanting to enable full SSL, Oracle provided within the OBIEE Documentation an explanation on how to set it up using demo certificates.&#xA;However the usage of demo certificates gives the end user the annoying problem of needing to accept an exception to enter the website since the demo certificate wasn&amp;rsquo;t created for the server/domain where OBIEE is located (the same problem arises also with Smartview).</description>
+      <description>&lt;p&gt;For anybody on OBIEE 12c wanting to enable full SSL, Oracle provided within the &lt;a href=&#34;https://docs.oracle.com/middleware/1221/biee/BIESC/ssl.htm#BIESC374&#34;&gt;OBIEE Documentation&lt;/a&gt; an explanation on how to set it up using demo certificates.&lt;/p&gt;&#xA;&lt;p&gt;However the usage of demo certificates gives the end user the annoying problem of needing to accept an exception to enter the website since the demo certificate wasn&amp;rsquo;t created for the server/domain where OBIEE is located (the same problem arises also with Smartview).&lt;/p&gt;&#xA;&lt;p&gt;The problem is solved by using custom certificates, generated on purpose by a certificate authority. So far the usage of custom certificates with OBI12c was somehow hidden in the &lt;a href=&#34;https://docs.oracle.com/cd/E24329_01/web.1211/e24422/ssl.htm#SECMG387&#34;&gt;Weblogic 12c Documentation&lt;/a&gt;, but now Oracle explained the process in &lt;a href=&#34;https://support.oracle.com/epmos/faces/DocumentDisplay?_afrLoop=370404015522156&amp;amp;id=2188982.1&amp;amp;_adf.ctrl-state=oxlq9igqe_194&#34;&gt;Doc ID 2188982.1&lt;/a&gt; with a detailed list of steps.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Remove OBI12c Data Visualisation from OBIEE</title>
       <link>https://ftisiot.net/2016/10/13/remove-obi12c-data-visualisation-from-obiee/</link>
       <pubDate>Thu, 13 Oct 2016 07:28:11 +0000</pubDate>
       <guid>https://ftisiot.net/2016/10/13/remove-obi12c-data-visualisation-from-obiee/</guid>
-      <description>For anybody interested in how to remove or add Data Visualisation (also known as Visual Analyser) option to a specific role in OBIEE 12c, Oracle released Doc ID 2102444.1 which gives the detail about the procedure using WLST and the RevokeDVPermission.py (or GrantDVPermission.py) that should be present in the OBIEE12c Installation Middleware home by default.</description>
+      <description>&lt;p&gt;For anybody interested in how to remove or add Data Visualisation (also known as Visual Analyser)  option to a specific role in OBIEE 12c, Oracle released &lt;a href=&#34;https://support.oracle.com/epmos/faces/SearchDocDisplay?_adf.ctrl-state=oxlq9igqe_9&amp;amp;_afrLoop=368341663992727&#34;&gt;Doc ID 2102444.1&lt;/a&gt; which gives the detail about the procedure using &lt;em&gt;WLST&lt;/em&gt; and the &lt;em&gt;RevokeDVPermission.py&lt;/em&gt; (or &lt;em&gt;GrantDVPermission.py&lt;/em&gt;) that should be present in the OBIEE12c Installation Middleware home by default.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to search the Cause of Errors</title>
       <link>https://ftisiot.net/2016/10/12/how-to-search-the-cause-of-errors/</link>
       <pubDate>Wed, 12 Oct 2016 18:40:22 +0000</pubDate>
       <guid>https://ftisiot.net/2016/10/12/how-to-search-the-cause-of-errors/</guid>
-      <description>I&amp;rsquo;ve been working on OBIEE and Oracle products in general since 2008, it has been so far a great experience with an enormous amount of information being available freely in internet.&#xA;When trying to solve problems this amount of information can be a treasure but also a risk since the information contained in any website can be partial, not relevant or in some cases completely wrong for the subject searched. As an unexperienced person (but also for experienced) it&amp;rsquo;s difficult to distinguish whether the content of a website can be followed and trusted and sometimes even replies to public forums can&amp;rsquo;t be a valid source since different problems provide the similar wrong behaviour and can be confused.</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve been working on OBIEE and Oracle products in general since 2008, it has been so far a great experience with an enormous amount of information being available freely in internet.&lt;/p&gt;&#xA;&lt;p&gt;When trying to solve problems this amount of information can be a treasure but also a risk since the information contained in any website can be partial, not relevant or in some cases completely wrong for the subject searched. As an unexperienced person (but also for experienced) it&amp;rsquo;s difficult to distinguish whether the content of a website can be followed and trusted and sometimes even replies to public forums can&amp;rsquo;t be a valid source since different problems provide the similar wrong behaviour and can be confused.&lt;/p&gt;</description>
     </item>
     <item>
       <title>OBI Blogs to follow</title>
       <link>https://ftisiot.net/2016/09/29/obi-blogs-to-follow/</link>
       <pubDate>Thu, 29 Sep 2016 10:17:15 +0000</pubDate>
       <guid>https://ftisiot.net/2016/09/29/obi-blogs-to-follow/</guid>
-      <description>Hi All,&#xA;I thought that including a post on the OBI related blogs and the owner twitter accounts, may be useful. The list will be enriched over time&#xA;* [rittmanmead.com](http://www.rittmanmead.com): My company&#39;s blog, always source of good OBI articles * [rmoff.net](http://rmoff.net): [Robin Moffat](https://twitter.com/rmoff)&#39;s (Oracle ACE) personal blog * [gianniceresa.com](https://gianniceresa.com): [Gianni Ceresa](https://twitter.com/G_Ceresa)&#39;s personal blog * [dimensionality.ch](http://dimensionality.ch): [Christian Berg](https://twitter.com/Nephentur)&#39;s (Oracle ACE Associate) personal blog * [gerardnico.com](http://gerardnico.com/): Nicolas Gerard&#39;s personal blog * [bisoftdiary.com](https://bisoftdiary.com/): [Andrew Fomin](https://twitter.</description>
+      <description>&lt;p&gt;Hi All,&lt;/p&gt;&#xA;&lt;p&gt;I thought that including a post on the OBI related blogs and the owner twitter accounts, may be useful. The list will be enriched over time&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;  * [rittmanmead.com](http://www.rittmanmead.com): My company&#39;s blog, always source of good OBI articles&#xA;  * [rmoff.net](http://rmoff.net): [Robin Moffat](https://twitter.com/rmoff)&#39;s (Oracle ACE) personal blog&#xA;  * [gianniceresa.com](https://gianniceresa.com): [Gianni Ceresa](https://twitter.com/G_Ceresa)&#39;s personal blog&#xA;  * [dimensionality.ch](http://dimensionality.ch): [Christian Berg](https://twitter.com/Nephentur)&#39;s (Oracle ACE Associate) personal blog&#xA;  * [gerardnico.com](http://gerardnico.com/): Nicolas Gerard&#39;s personal blog&#xA;  * [bisoftdiary.com](https://bisoftdiary.com/): [Andrew Fomin](https://twitter.com/fomin_andrew)&#39;s personal blog&#xA;  * [redpillanalytics.com](http://redpillanalytics.com): Red Pill Analytics company blog&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;If you want more interaction, another important source of OBI/geek/fun ideas is the &lt;strong&gt;#obihackers&lt;/strong&gt; on &lt;strong&gt;IRC&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>OBI12c Performance Tiles PDF Print Error</title>
       <link>https://ftisiot.net/2016/09/29/obi12c-performance-tiles-pdf-print-error/</link>
       <pubDate>Thu, 29 Sep 2016 08:10:24 +0000</pubDate>
       <guid>https://ftisiot.net/2016/09/29/obi12c-performance-tiles-pdf-print-error/</guid>
-      <description>Hi All,&#xA;If you already migrated to OBI12c you could experience, when printing to PDF a dashboard or analysis including performance tiles that the layout is not what expected.&#xA;[caption width=&amp;ldquo;300&amp;rdquo; id=&amp;ldquo;attachment_37&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo;] Original Dashboard Layout[/caption] [caption width=&amp;ldquo;300&amp;rdquo; id=&amp;ldquo;attachment_36&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo;] PDF Print[/caption]The good news is that this has been recognised as a bug and if you are on 12.2.1.0.0 there is a patch available &amp;ldquo;Patch 22759083: BIEE 12C DASHBOARD PRINT TO PDF MISSING PERFORMANCE TILES FROM THE REPORT&amp;rdquo;.</description>
+      <description>&lt;p&gt;Hi All,&lt;/p&gt;&#xA;&lt;p&gt;If you already migrated to OBI12c you could experience, when printing to PDF a dashboard or analysis including performance tiles that the layout is not what expected.&lt;/p&gt;&#xA;&lt;p&gt;[caption width=&amp;ldquo;300&amp;rdquo; id=&amp;ldquo;attachment_37&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo;]&lt;img src=&#34;https://ftisiot.net/images/2016/09/screenshot-of-safari-29-09-16-09-55-51.png?w=600&#34; alt=&#34;screenshot-of-safari-29-09-16-09-55-51&#34;&gt;&#xA;Original Dashboard Layout[/caption]&#xA;[caption width=&amp;ldquo;300&amp;rdquo; id=&amp;ldquo;attachment_36&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo;]&lt;img src=&#34;https://ftisiot.net/images/2016/09/screenshot-of-safari-29-09-16-09-56-10.png?w=600&#34; alt=&#34;screenshot-of-safari-29-09-16-09-56-10&#34;&gt;&#xA;PDF Print[/caption]The good news is that this has been recognised as a bug and if you are on 12.2.1.0.0 there is a patch available &amp;ldquo;&lt;em&gt;Patch 22759083: BIEE 12C DASHBOARD PRINT TO PDF MISSING PERFORMANCE TILES FROM THE REPORT&lt;/em&gt;&amp;rdquo;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Who is Francesco Tisiot?</title>
       <link>https://ftisiot.net/who/</link>
       <pubDate>Wed, 28 Sep 2016 20:00:20 +0000</pubDate>
       <guid>https://ftisiot.net/who/</guid>
-      <description>Francesco Tisiot Ciao!&#xA;I’m Francesco Tisiot, Field CTO at Aiven. You can find me on twitter at @ftisiot and on LinkedIn&#xA;Some more resources:&#xA;My series of blog post for Aiven The slides of my previous speaking engagements on SpeakerDeck My previous company (Rittman Mead) related articles in Rittman Mead’s blog This is my personal blog! Stay tuned for ideas, tests and opinions related to my work. All the content written here is my own and don’t necessary reflect my company vision.</description>
+      <description>&lt;h1 id=&#34;francesco-tisiot&#34;&gt;Francesco Tisiot&lt;/h1&gt;&#xA;&lt;p&gt;Ciao!&lt;/p&gt;&#xA;&lt;p&gt;I’m Francesco Tisiot, Field CTO at &lt;a href=&#34;https://aiven.io&#34;&gt;Aiven&lt;/a&gt;. You can find me on twitter at &lt;a href=&#34;https://twitter.com/ftisiot&#34;&gt;@ftisiot&lt;/a&gt; and on &lt;a href=&#34;https://www.linkedin.com/in/francescotisiot/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://ftisiot.net/images/ftisiotroundnew.png&#34; alt=&#34;Me&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Some more resources:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;My &lt;a href=&#34;https://dev.to/ftisiot&#34;&gt;series of blog post for Aiven&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;The slides of my previous speaking engagements on &lt;a href=&#34;https://speakerdeck.com/ftisiot&#34;&gt;SpeakerDeck&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;My previous company (Rittman Mead) related articles in Rittman Mead’s &lt;a href=&#34;http://ritt.md/FT&#34;&gt;blog&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This is my personal blog! Stay tuned for ideas, tests and opinions related to my work. All the content written here is my own and don’t necessary reflect my company vision.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Welcome</title>
       <link>https://ftisiot.net/2016/09/28/first-blog-post/</link>
       <pubDate>Wed, 28 Sep 2016 13:10:09 +0000</pubDate>
       <guid>https://ftisiot.net/2016/09/28/first-blog-post/</guid>
-      <description>Hi All!&#xA;Welcome to my blog! If time and perseverance will assist me I&amp;rsquo;ll try to post here about my findings and ideas at work and about life in general, so stay tuned!&#xA;Francesco</description>
+      <description>&lt;p&gt;Hi All!&lt;/p&gt;&#xA;&lt;p&gt;Welcome to my blog! If time and perseverance will assist me I&amp;rsquo;ll try to post here about my findings and ideas at work and about life in general, so stay tuned!&lt;/p&gt;&#xA;&lt;p&gt;Francesco&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
       <link>https://ftisiot.net/components/mysqllink/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ftisiot.net/components/mysqllink/</guid>
-      <description> 👉 Want a FREE MySQL database?👈&#xA;🦀 Check Aiven&amp;rsquo;s FREE plans! 🦀&#xA;⚡️ Want to optimize your SQL query with AI? ⚡️ Check Aiven SQL Query Optimizer! ⚡️ Want a Fully MySQL optimized Database? ⚡️ 🐧 Check Aiven AI database optimizer! Powered by EverSQL 🐧 </description>
+      <description>&lt;p&gt; &lt;p style=&#34;background: #C1E1C1;border: 2px solid #b4d3b2;border-radius: 15px;text-align: center;&#34;&gt;👉 Want a FREE MySQL database?👈&lt;br&gt;🦀 Check &lt;a href=&#34;https://go.aiven.io/francesco-signup&#34;&gt;Aiven&amp;rsquo;s FREE plans&lt;/a&gt;! 🦀&lt;/p&gt;&lt;/p&gt;&#xA;&lt;p style=&#34;background: #ffdfba;border: 2px solid #FFAC1C;border-radius: 15px;text-align: center;&#34;&gt;&#xA;⚡️ Want to optimize your SQL query with AI? ⚡️ &lt;br&gt;&#xA;Check  &lt;a href=&#34;https://go.aiven.io/ft-sql-query-optimizer&#34;&gt;Aiven SQL Query Optimizer&lt;/a&gt;! &lt;/p&gt;&#xA;&lt;p style=&#34;background: #C1E1C1;border: 2px solid #b4d3b2;border-radius: 15px;text-align: center;&#34;&gt;&#xA;⚡️ Want a Fully MySQL optimized Database? ⚡️ &lt;br&gt;&#xA;🐧 Check  &lt;a href=&#34;https://go.aiven.io/ft-ai-db-optimizer&#34;&gt;Aiven AI database optimizer&lt;/a&gt;! Powered by EverSQL 🐧&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
       <link>https://ftisiot.net/components/pglink/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ftisiot.net/components/pglink/</guid>
-      <description> 👉 Want a FREE PostgreSQL database?👈&#xA;🦀 Check Aiven&amp;rsquo;s FREE plans! 🦀 ⚡️ Want to optimize your SQL query with AI? ⚡️ Check Aiven SQL Query Optimizer! ⚡️ Want a Fully PostgreSQL optimized Database? ⚡️ Check Aiven AI Database Optimizer! Powered by EverSQL, it provides you index and SQL rewrite recommendations to take your database performance to the next level </description>
+      <description>&lt;p&gt; &lt;p style=&#34;background: #C1E1C1;border: 2px solid #b4d3b2;border-radius: 15px;text-align: center;&#34;&gt;👉 Want a FREE PostgreSQL database?👈&lt;br&gt;🦀 Check &lt;a href=&#34;https://go.aiven.io/francesco-signup&#34;&gt;Aiven&amp;rsquo;s FREE plans&lt;/a&gt;! 🦀 &lt;/p&gt;&lt;/p&gt;&#xA;&lt;p style=&#34;background: #ffdfba;border: 2px solid #FFAC1C;border-radius: 15px;text-align: center;&#34;&gt;&#xA;⚡️ Want to optimize your SQL query with AI? ⚡️ &lt;br&gt;&#xA;Check  &lt;a href=&#34;https://go.aiven.io/ft-sql-query-optimizer&#34;&gt;Aiven SQL Query Optimizer&lt;/a&gt;! &lt;/p&gt;&#xA;&lt;p style=&#34;background: #C1E1C1;border: 2px solid #b4d3b2;border-radius: 15px;text-align: center;&#34;&gt;&#xA;⚡️ Want a Fully PostgreSQL optimized Database? ⚡️ &lt;br&gt;&#xA;Check  &lt;a href=&#34;https://go.aiven.io/ft-ai-db-optimizer&#34;&gt;Aiven AI Database Optimizer&lt;/a&gt;! &lt;br&gt;&lt;font size=1&gt;Powered by EverSQL, it provides you index and SQL rewrite recommendations to take your database performance to the next level&lt;/font&gt;&#xA;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -4,7 +4,7 @@
     <title>Karapace on ftisiot ideas about tech, food and life</title>
     <link>https://ftisiot.net/categories/karapace/</link>
     <description>Recent content in Karapace on ftisiot ideas about tech, food and life</description>
-    <generator>Hugo 0.125.0</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 30 Aug 2023 11:30:24 +0200</lastBuildDate>
     <atom:link href="https://ftisiot.net/categories/karapace/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://ftisiot.net/posts/kafka-consume-http/</link>
       <pubDate>Wed, 30 Aug 2023 11:30:24 +0200</pubDate>
       <guid>https://ftisiot.net/posts/kafka-consume-http/</guid>
-      <description>You have an Apache Kafka topic that you want to consume via REST APIs (think curl or just a web browser), how to do it?&#xA;The reply is Karapace an Open Source (Apache 2.0) tool providing Schema Registry and REST proxy functionality.&#xA;Let&amp;rsquo;s check out how to quickly run it on Docker.&#xA;Step 1: the Apache Kafka® Cluster You need an Apache Kafka cluster up &amp;amp; running, if you have one already you can skip to the next section.</description>
+      <description>&lt;p&gt;You have an Apache Kafka topic that you want to consume via REST APIs (think &lt;code&gt;curl&lt;/code&gt; or just a web browser), how to do it?&lt;/p&gt;&#xA;&lt;p&gt;The reply is &lt;a href=&#34;https://www.karapace.io/&#34;&gt;Karapace&lt;/a&gt; an Open Source (Apache 2.0) tool providing Schema Registry and REST proxy functionality.&lt;/p&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s check out how to quickly run it on Docker.&lt;/p&gt;&#xA;&lt;h2 id=&#34;step-1-the-apache-kafka-cluster&#34;&gt;Step 1: the Apache Kafka® Cluster&lt;/h2&gt;&#xA;&lt;p&gt;You need an Apache Kafka cluster up &amp;amp; running, if you have one already you can skip to the next section.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

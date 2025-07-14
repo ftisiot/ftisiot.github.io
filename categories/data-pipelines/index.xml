@@ -4,7 +4,7 @@
     <title>Data Pipelines on ftisiot ideas about tech, food and life</title>
     <link>https://ftisiot.net/categories/data-pipelines/</link>
     <description>Recent content in Data Pipelines on ftisiot ideas about tech, food and life</description>
-    <generator>Hugo 0.125.0</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 29 May 2023 15:25:59 +0200</lastBuildDate>
     <atom:link href="https://ftisiot.net/categories/data-pipelines/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://ftisiot.net/posts/pros-and-cons-of-multi-step-data-platforms/</link>
       <pubDate>Mon, 29 May 2023 15:25:59 +0200</pubDate>
       <guid>https://ftisiot.net/posts/pros-and-cons-of-multi-step-data-platforms/</guid>
-      <description>In the modern world, it&amp;rsquo;s rare to have the data in the same shape and platform from the beginning till the end of its journey. Yes, some technologies can achieve quite a good range of functionalities but sometimes at the expense of precision, developer experience or performance. Therefore, to achieve better or faster results, people might select a new tool for a precise task and start an implementation and integration process to move the data around.</description>
+      <description>&lt;p&gt;In the modern world, it&amp;rsquo;s rare to have the data in the same shape and platform from the beginning till the end of its journey. Yes, some technologies can achieve quite a good range of functionalities but sometimes at the expense of precision, developer experience or performance. Therefore, to achieve better or faster results, people might select a new tool for a precise task and start an implementation and integration process to move the data around.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

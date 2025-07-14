@@ -4,7 +4,7 @@
     <title>Components on ftisiot ideas about tech, food and life</title>
     <link>https://ftisiot.net/components/</link>
     <description>Recent content in Components on ftisiot ideas about tech, food and life</description>
-    <generator>Hugo 0.125.0</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://ftisiot.net/components/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -12,14 +12,14 @@
       <link>https://ftisiot.net/components/mysqllink/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ftisiot.net/components/mysqllink/</guid>
-      <description> 👉 Want a FREE MySQL database?👈&#xA;🦀 Check Aiven&amp;rsquo;s FREE plans! 🦀&#xA;⚡️ Want to optimize your SQL query with AI? ⚡️ Check Aiven SQL Query Optimizer! ⚡️ Want a Fully MySQL optimized Database? ⚡️ 🐧 Check Aiven AI database optimizer! Powered by EverSQL 🐧 </description>
+      <description>&lt;p&gt; &lt;p style=&#34;background: #C1E1C1;border: 2px solid #b4d3b2;border-radius: 15px;text-align: center;&#34;&gt;👉 Want a FREE MySQL database?👈&lt;br&gt;🦀 Check &lt;a href=&#34;https://go.aiven.io/francesco-signup&#34;&gt;Aiven&amp;rsquo;s FREE plans&lt;/a&gt;! 🦀&lt;/p&gt;&lt;/p&gt;&#xA;&lt;p style=&#34;background: #ffdfba;border: 2px solid #FFAC1C;border-radius: 15px;text-align: center;&#34;&gt;&#xA;⚡️ Want to optimize your SQL query with AI? ⚡️ &lt;br&gt;&#xA;Check  &lt;a href=&#34;https://go.aiven.io/ft-sql-query-optimizer&#34;&gt;Aiven SQL Query Optimizer&lt;/a&gt;! &lt;/p&gt;&#xA;&lt;p style=&#34;background: #C1E1C1;border: 2px solid #b4d3b2;border-radius: 15px;text-align: center;&#34;&gt;&#xA;⚡️ Want a Fully MySQL optimized Database? ⚡️ &lt;br&gt;&#xA;🐧 Check  &lt;a href=&#34;https://go.aiven.io/ft-ai-db-optimizer&#34;&gt;Aiven AI database optimizer&lt;/a&gt;! Powered by EverSQL 🐧&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
       <link>https://ftisiot.net/components/pglink/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ftisiot.net/components/pglink/</guid>
-      <description> 👉 Want a FREE PostgreSQL database?👈&#xA;🦀 Check Aiven&amp;rsquo;s FREE plans! 🦀 ⚡️ Want to optimize your SQL query with AI? ⚡️ Check Aiven SQL Query Optimizer! ⚡️ Want a Fully PostgreSQL optimized Database? ⚡️ Check Aiven AI Database Optimizer! Powered by EverSQL, it provides you index and SQL rewrite recommendations to take your database performance to the next level </description>
+      <description>&lt;p&gt; &lt;p style=&#34;background: #C1E1C1;border: 2px solid #b4d3b2;border-radius: 15px;text-align: center;&#34;&gt;👉 Want a FREE PostgreSQL database?👈&lt;br&gt;🦀 Check &lt;a href=&#34;https://go.aiven.io/francesco-signup&#34;&gt;Aiven&amp;rsquo;s FREE plans&lt;/a&gt;! 🦀 &lt;/p&gt;&lt;/p&gt;&#xA;&lt;p style=&#34;background: #ffdfba;border: 2px solid #FFAC1C;border-radius: 15px;text-align: center;&#34;&gt;&#xA;⚡️ Want to optimize your SQL query with AI? ⚡️ &lt;br&gt;&#xA;Check  &lt;a href=&#34;https://go.aiven.io/ft-sql-query-optimizer&#34;&gt;Aiven SQL Query Optimizer&lt;/a&gt;! &lt;/p&gt;&#xA;&lt;p style=&#34;background: #C1E1C1;border: 2px solid #b4d3b2;border-radius: 15px;text-align: center;&#34;&gt;&#xA;⚡️ Want a Fully PostgreSQL optimized Database? ⚡️ &lt;br&gt;&#xA;Check  &lt;a href=&#34;https://go.aiven.io/ft-ai-db-optimizer&#34;&gt;Aiven AI Database Optimizer&lt;/a&gt;! &lt;br&gt;&lt;font size=1&gt;Powered by EverSQL, it provides you index and SQL rewrite recommendations to take your database performance to the next level&lt;/font&gt;&#xA;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

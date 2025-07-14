@@ -4,7 +4,7 @@
     <title>Apache-Flink on ftisiot ideas about tech, food and life</title>
     <link>https://ftisiot.net/tag/apache-flink/</link>
     <description>Recent content in Apache-Flink on ftisiot ideas about tech, food and life</description>
-    <generator>Hugo 0.125.0</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 15 Mar 2022 16:12:47 +0100</lastBuildDate>
     <atom:link href="https://ftisiot.net/tag/apache-flink/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://ftisiot.net/talks/kafka-flink-sql/</link>
       <pubDate>Tue, 15 Mar 2022 16:12:47 +0100</pubDate>
       <guid>https://ftisiot.net/talks/kafka-flink-sql/</guid>
-      <description>Useful Links Apache Kafka docs Apache Flink docs Apache Fink SQL client on Docker Build a Streaming data pipeline with Apache Kafka and Flink blog JDBC source connector example Debezium source connector example Aiven for Apache Kafka 💻</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://ftisiot.net/slides/kafka-flink-sql/thumbnail.jpg&#34; alt=&#34;Intro image&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;useful-links&#34;&gt;Useful Links&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kafka.apache.org/&#34;&gt;Apache Kafka docs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://flink.apache.org/&#34;&gt;Apache Flink docs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/aiven/flink-sql-cli-docker&#34;&gt;Apache Fink SQL client on Docker&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/blog/build-a-streaming-sql-pipeline-with-flink-and-kafka&#34;&gt;Build a Streaming data pipeline with Apache Kafka and Flink blog&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/blog/using-kafka-connect-jdbc-source-a-postgresql-example&#34;&gt;JDBC source connector example&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/blog/db-technology-migration-with-apache-kafka-and-kafka-connect&#34;&gt;Debezium source connector example&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://aiven.io/kafka&#34;&gt;Aiven for Apache Kafka &lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ftisiot.net/slides/kafka-flink-sql/kafka-flink-sql.pdf&#34;&gt;💻&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
