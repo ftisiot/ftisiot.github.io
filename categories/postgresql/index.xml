@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>PostgreSQL on ftisiot ideas about tech, food and life</title>
+    <title>PostgreSQL on Data and Open Source</title>
     <link>https://ftisiot.net/categories/postgresql/</link>
-    <description>Recent content in PostgreSQL on ftisiot ideas about tech, food and life</description>
+    <description>Recent content in PostgreSQL on Data and Open Source</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 Aug 2024 09:41:51 +0200</lastBuildDate>
