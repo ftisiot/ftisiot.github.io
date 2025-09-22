@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>How to search the Cause of Errors | Data and Open Source</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="I&rsquo;ve been working on OBIEE and Oracle products in general since 2008, it has been so far a great experience with an enormous amount of information being available freely in internet.
+When trying to solve problems this amount of information can be a treasure but also a risk since the information contained in any website can be partial, not relevant or in some cases completely wrong for the subject searched. As an unexperienced person (but also for experienced) it&rsquo;s difficult to distinguish whether the content of a website can be followed and trusted and sometimes even replies to public forums can&rsquo;t be a valid source since different problems provide the similar wrong behaviour and can be confused.">
+    <meta name="generator" content="Hugo 0.140.2">
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    <meta name="author" content="ftisiot">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.d05fb5f317fcf33b3a52936399bdf6f47dc776516e1692e412ec7d76f4a5faa2.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://ftisiot.net/posts/how-to-search-the-cause-of-errors/">
+    
+
+    <meta property="og:url" content="https://ftisiot.net/posts/how-to-search-the-cause-of-errors/">
+  <meta property="og:site_name" content="Data and Open Source">
+  <meta property="og:title" content="How to search the Cause of Errors">
+  <meta property="og:description" content="I’ve been working on OBIEE and Oracle products in general since 2008, it has been so far a great experience with an enormous amount of information being available freely in internet.
+When trying to solve problems this amount of information can be a treasure but also a risk since the information contained in any website can be partial, not relevant or in some cases completely wrong for the subject searched. As an unexperienced person (but also for experienced) it’s difficult to distinguish whether the content of a website can be followed and trusted and sometimes even replies to public forums can’t be a valid source since different problems provide the similar wrong behaviour and can be confused.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2016-10-12T18:40:22+00:00">
+    <meta property="article:modified_time" content="2016-10-12T18:40:22+00:00">
+
+  <meta itemprop="name" content="How to search the Cause of Errors">
+  <meta itemprop="description" content="I’ve been working on OBIEE and Oracle products in general since 2008, it has been so far a great experience with an enormous amount of information being available freely in internet.
+When trying to solve problems this amount of information can be a treasure but also a risk since the information contained in any website can be partial, not relevant or in some cases completely wrong for the subject searched. As an unexperienced person (but also for experienced) it’s difficult to distinguish whether the content of a website can be followed and trusted and sometimes even replies to public forums can’t be a valid source since different problems provide the similar wrong behaviour and can be confused.">
+  <meta itemprop="datePublished" content="2016-10-12T18:40:22+00:00">
+  <meta itemprop="dateModified" content="2016-10-12T18:40:22+00:00">
+  <meta itemprop="wordCount" content="558">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="How to search the Cause of Errors">
+  <meta name="twitter:description" content="I’ve been working on OBIEE and Oracle products in general since 2008, it has been so far a great experience with an enormous amount of information being available freely in internet.
+When trying to solve problems this amount of information can be a treasure but also a risk since the information contained in any website can be partial, not relevant or in some cases completely wrong for the subject searched. As an unexperienced person (but also for experienced) it’s difficult to distinguish whether the content of a website can be followed and trusted and sometimes even replies to public forums can’t be a valid source since different problems provide the similar wrong behaviour and can be confused.">
+
+      
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-7Z74BTZ0TM"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-7Z74BTZ0TM');
+        }
+      </script>
+    
+	
+  </head><body class="ma0 avenir bg-near-white production">
+
+    
+   
+  
+
+  
+  
+  
+  <header class="cover bg-center" style="background-image: url('https://ftisiot.net/images/2016/09/cropped-img_11341.jpg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Data and Open Source
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/who" title="about page">
+              about
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/suggestions-verona" title="suggestions page">
+              suggestions
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/postgresqljson/main" title="json-pg page">
+              json-pg
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/mysqljson/main" title="json-mysql page">
+              json-mysql
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">How to search the Cause of Errors</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">How to search the Cause of Errors</h1>
+      
+      <p class="tracked"><strong>ftisiot</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2016-10-12T18:40:22Z">October 12, 2016</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 3 minutes read </span>
+        <span class="f6 mv4 dib tracked"> - 558 words </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>I&rsquo;ve been working on OBIEE and Oracle products in general since 2008, it has been so far a great experience with an enormous amount of information being available freely in internet.</p>
+<p>When trying to solve problems this amount of information can be a treasure but also a risk since the information contained in any website can be partial, not relevant or in some cases completely wrong for the subject searched. As an unexperienced person (but also for experienced) it&rsquo;s difficult to distinguish whether the content of a website can be followed and trusted and sometimes even replies to public forums can&rsquo;t be a valid source since different problems provide the similar wrong behaviour and can be confused.</p>
+<p>I&rsquo;m very fortunate to work for Rittman Mead, a company made up of experts, which is a unique source of knowledge for any problem or question about work. Almost every possible solution was already experimented by a colleague and if this is not the case either what I&rsquo;m trying to achieve it&rsquo;s impossible or too new (and I&rsquo;ll be the one sharing my knowledge with other colleagues).</p>
+<p>In general however this is the standard process I follow when looking for a problem solution or a way to achieve a goal:</p>
+<pre><code>  * **RTFM**: Read the product documentation!
+  * **Google** Search: being smart, write the key fields (e.g. error number, error keywords, components name), check results and check if they exactly apply to the problem.
+  * **Oracle Support** Search: Oracle support is the main place to search for oracle problems. Bugs, Patches and Service Requests can be found there and the replies are coming directly from Oracle support team.
+  * Ask **internally**: If you are member, like me, of a company having experts, ask them, they may have seen the same error/problem and may already know a fix.
+  * Ask a question in **OTN Forums**: There are a lot of peers willing to give an help on any subject. Remember [how to ask a question the smart way](http://www.catb.org/~esr/faqs/smart-questions.html)!
+  * **#obihackers** on **IRC**: yes IRC, seems odd but there is a growing community of OBIEE experts coming from different companies and parts of the world in IRC channel #obihackers that may give you a good suggestion about what you are looking for.
+</code></pre>
+<p>Every route you decide to follow bear in mind what written before: check any reply you find since it could be partial, not relevant or in some cases completely wrong for the subject searched. Don&rsquo;t start changing parameters only because a single post on a forum said so, try to cross reference (possibly with official documentation) any config changes you&rsquo;re reading before trying to implement it.</p>
+<p>The last rant is about forums and Expertise level based on number of replies, don&rsquo;t assume a reply is correct just because the person who wrote it it&rsquo;s level X on a specific forum, especially if the reply tells you to change parameter Y without any other specification.</p>
+<p>Level X can be achieved by 10 correct answers out of 10 suggestions by a real expert or 10 correct answers out of 1000 random suggestions by someone that just has a lot of free time. Most of the times experts will give you not only the reply to what you are looking for but also an example, a detail description or a reference to an official document.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="https://ftisiot.net/" >
+    &copy;  Data and Open Source 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

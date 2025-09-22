@@ -17,23 +17,23 @@
     </item>
     <item>
       <title>A Talk For One</title>
-      <link>https://ftisiot.net/2020/10/26/a-talk-for-one/</link>
+      <link>https://ftisiot.net/posts/a-talk-for-one/</link>
       <pubDate>Mon, 26 Oct 2020 14:15:21 +0000</pubDate>
-      <guid>https://ftisiot.net/2020/10/26/a-talk-for-one/</guid>
+      <guid>https://ftisiot.net/posts/a-talk-for-one/</guid>
       <description>&lt;p&gt;2020 hasn&amp;rsquo;t been a great year, with Covid forcing people home and all major events moving from physical to virtual. At the same time, now is the perfect time for attendees: everyone is creating and sharing content via videos, blogs or talks in conferences. People that before had to choose wisely the &amp;ldquo;1 conference&amp;rdquo; where to spend their budget on, now can access for free (or reduced fees) content coming from a huge variety of organisations and speakers.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Oracle Analytics Server and Kerberos Authentication</title>
-      <link>https://ftisiot.net/2020/09/18/oracle-analytics-server-and-kerberos-authentication/</link>
+      <link>https://ftisiot.net/posts/oracle-analytics-server-and-kerberos-authentication/</link>
       <pubDate>Fri, 18 Sep 2020 08:26:12 +0000</pubDate>
-      <guid>https://ftisiot.net/2020/09/18/oracle-analytics-server-and-kerberos-authentication/</guid>
+      <guid>https://ftisiot.net/posts/oracle-analytics-server-and-kerberos-authentication/</guid>
       <description>&lt;p&gt;Oracle Analytics Server is out since several months and a common ask is to provide SSO with Kerberos Authentication.&lt;/p&gt;&#xA;&lt;p&gt;The &amp;ldquo;old&amp;rdquo; OBIEE12c style Kerberos configuration is not working with OAS.&lt;/p&gt;&#xA;&lt;p&gt;Oracle provided a solution to implement it via Apache Server and Oracle Access Manager Identity Asserter. All the info are published in &lt;strong&gt;&lt;a href=&#34;https://support.oracle.com/epmos/faces/DocumentDisplay?id=2707401.1&#34;&gt;Doc ID 2707401.1&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Oracle Analytics Cloud 5.7: Use ML Models in the Database</title>
-      <link>https://ftisiot.net/2020/08/10/oracle-analytics-cloud-5-7-use-ml-models-in-the-database/</link>
+      <link>https://ftisiot.net/posts/oracle-analytics-cloud-5-7-use-ml-models-in-the-database/</link>
       <pubDate>Mon, 10 Aug 2020 09:08:25 +0000</pubDate>
-      <guid>https://ftisiot.net/2020/08/10/oracle-analytics-cloud-5-7-use-ml-models-in-the-database/</guid>
+      <guid>https://ftisiot.net/posts/oracle-analytics-cloud-5-7-use-ml-models-in-the-database/</guid>
       <description>&lt;p&gt;I created a short video showing how you can register in &lt;strong&gt;Oracle Analytics Cloud 5.7&lt;/strong&gt; some Machine Learning models created in the &lt;strong&gt;Oracle Database&lt;/strong&gt; and score data with a simple &lt;strong&gt;Data Flow&lt;/strong&gt;, check it out&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=GZubKpWUA0U&#34;&gt;https://www.youtube.com/watch?v=GZubKpWUA0U&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>

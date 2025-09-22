@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>ITOUG Call for Papers Submission Analysis | Data and Open Source</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="If you read this now and you wanted to submit for ITOUG Tech Days 2020&hellip;. well, bad luck, you&rsquo;re too late! ITOUG Tech Days 2020 was closed last week with an astonishing record of submissions! This post will analyse a bit the numbers of the submissions using the magic Oracle Analytics Cloud.
+
+First of all, uploading the data and fixing the column settings. For example, we want to properly convert to Date our Submission Date (Data di invio in Italian). Oracle Analytics Cloud allows us to create a Preparation Script so we can reuse it the next time we upload the same dataset.">
+    <meta name="generator" content="Hugo 0.140.2">
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    <meta name="author" content="ftisiot">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.d05fb5f317fcf33b3a52936399bdf6f47dc776516e1692e412ec7d76f4a5faa2.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://ftisiot.net/posts/itoug-call-for-papers-submission-analysis/">
+    
+
+    <meta property="og:url" content="https://ftisiot.net/posts/itoug-call-for-papers-submission-analysis/">
+  <meta property="og:site_name" content="Data and Open Source">
+  <meta property="og:title" content="ITOUG Call for Papers Submission Analysis">
+  <meta property="og:description" content="If you read this now and you wanted to submit for ITOUG Tech Days 2020…. well, bad luck, you’re too late! ITOUG Tech Days 2020 was closed last week with an astonishing record of submissions! This post will analyse a bit the numbers of the submissions using the magic Oracle Analytics Cloud.
+First of all, uploading the data and fixing the column settings. For example, we want to properly convert to Date our Submission Date (Data di invio in Italian). Oracle Analytics Cloud allows us to create a Preparation Script so we can reuse it the next time we upload the same dataset.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2019-07-30T14:21:36+00:00">
+    <meta property="article:modified_time" content="2019-07-30T14:21:36+00:00">
+
+  <meta itemprop="name" content="ITOUG Call for Papers Submission Analysis">
+  <meta itemprop="description" content="If you read this now and you wanted to submit for ITOUG Tech Days 2020…. well, bad luck, you’re too late! ITOUG Tech Days 2020 was closed last week with an astonishing record of submissions! This post will analyse a bit the numbers of the submissions using the magic Oracle Analytics Cloud.
+First of all, uploading the data and fixing the column settings. For example, we want to properly convert to Date our Submission Date (Data di invio in Italian). Oracle Analytics Cloud allows us to create a Preparation Script so we can reuse it the next time we upload the same dataset.">
+  <meta itemprop="datePublished" content="2019-07-30T14:21:36+00:00">
+  <meta itemprop="dateModified" content="2019-07-30T14:21:36+00:00">
+  <meta itemprop="wordCount" content="574">
+  <meta itemprop="keywords" content="Conferences">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="ITOUG Call for Papers Submission Analysis">
+  <meta name="twitter:description" content="If you read this now and you wanted to submit for ITOUG Tech Days 2020…. well, bad luck, you’re too late! ITOUG Tech Days 2020 was closed last week with an astonishing record of submissions! This post will analyse a bit the numbers of the submissions using the magic Oracle Analytics Cloud.
+First of all, uploading the data and fixing the column settings. For example, we want to properly convert to Date our Submission Date (Data di invio in Italian). Oracle Analytics Cloud allows us to create a Preparation Script so we can reuse it the next time we upload the same dataset.">
+
+      
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-7Z74BTZ0TM"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-7Z74BTZ0TM');
+        }
+      </script>
+    
+	
+  </head><body class="ma0 avenir bg-near-white production">
+
+    
+   
+  
+
+  
+  
+  
+  <header class="cover bg-center" style="background-image: url('https://ftisiot.net/images/2016/09/cropped-img_11341.jpg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Data and Open Source
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/who" title="about page">
+              about
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/suggestions-verona" title="suggestions page">
+              suggestions
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/postgresqljson/main" title="json-pg page">
+              json-pg
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/mysqljson/main" title="json-mysql page">
+              json-mysql
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">ITOUG Call for Papers Submission Analysis</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">ITOUG Call for Papers Submission Analysis</h1>
+      
+      <p class="tracked"><strong>ftisiot</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2019-07-30T14:21:36Z">July 30, 2019</time>
+      
+
+      
+      
+        <span class="f6 mv4 dib tracked"> - 3 minutes read </span>
+        <span class="f6 mv4 dib tracked"> - 574 words </span>
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>If you read this now and you wanted to submit for <a href="http://www.itoug.it/">ITOUG Tech Days 2020</a>&hellip;. well, bad luck, you&rsquo;re too late! ITOUG Tech Days 2020 was closed last week with an astonishing record of submissions! This post will analyse a bit the numbers of the submissions using the magic <a href="https://www.oracle.com/middleware/technologies/oracle-data-visualization-desktop.html">Oracle Analytics Cloud</a>.</p>
+<p><img src="/images/2019/07/36rk0x.jpg" alt="36rk0x"></p>
+<p>First of all, uploading the data and fixing the column settings. For example, we want to properly convert to <code>Date</code> our Submission Date (<code>Data di invio</code> in Italian). Oracle Analytics Cloud allows us to create a <strong>Preparation Script</strong> so we can reuse it the next time we upload the same dataset.</p>
+<p><img src="/images/2019/07/2019-07-30_15-27-17.png" alt="2019-07-30_15-27-17.png"></p>
+<p>The second step is cleaning, since we have few <code>TEST</code> submissions, we can easily create a Dataflow to exclude them.</p>
+<p><img src="/images/2019/07/2019-07-29_16-10-34.png" alt="2019-07-29_16-10-34.png"></p>
+<p>Now it&rsquo;s time to start the analysis! Let&rsquo;s have a look at the total number of submissions</p>
+<p><img src="/images/2019/07/2019-07-30_14-26-14.png" alt="2019-07-30_14-26-14"></p>
+<p>Wow! We had <code>126</code> papers submitted by <code>52</code> different speakers! <code>2.93</code> times the amount of submissions we had last year! Where are our papers coming from? Let&rsquo;s drag the <code>country</code> and the <code># of Papers</code> in a map<img src="/images/2019/07/2019-07-30_14-52-24.png" alt="2019-07-30_14-52-24"></p>
+<p>We had papers coming from all around the world! As expected, we have a lot from Europe, but also Australia, India, USA and Costa Rica!!!! Let&rsquo;s have a look at the Country in detail</p>
+<p><img src="/images/2019/07/2019-07-30_14-53-19.png" alt="2019-07-30_14-53-19"></p>
+<p>The <code>Netherlands</code> is the #1 country by submissions! Followed by <code>Switzerland</code> and&hellip;&hellip;. <code>Italy</code>! Even if we are based in Italy, this looks a little bit suspicious: we historically had very few submissions by Italian speakers so it&rsquo;s worth having a deep look at this by creating a <strong>Table View</strong> in OAC.</p>
+<p><img src="/images/2019/07/2019-07-29_16-54-18.png" alt="2019-07-29_16-54-18.png"></p>
+<p>Some of the entries were correct indeed, but some not. Why should a speaker select Italy instead of his/her country? Well, <code>Italia</code> is the default value for the country selector, so that is a good reason. On top of this, the list of country names is in Italian! Making difficult for the non-italian speakers to associate for example <code>Paesi Bassi</code> with <code>Netherlands</code> or ​​<code>Regno Unito</code> with <code>United Kingdom</code> also for the different position in the alphabetical order. Tip for next year: <strong>List of origin countries in English</strong>!</p>
+<p>Next question: are Oracle related speakers submitting in advance or do they like to rush last minute? We just need to select the <code>Submission Date</code> and <code># of Submissions</code> columns and drag them into the canvas; OAC will automatically suggest a line chart.</p>
+<p><img src="/images/2019/07/2019-07-30_15-04-05.png" alt="2019-07-30_15-04-05"></p>
+<p>We received quite a good number of papers during the early stages of the CFP, but there is a nice spike towards the closure date with <code>21%</code> of papers arriving in the 2 days finish line!</p>
+<p>Last analysis, how are papers divided by stream, aka how many chances do I have to get a paper accepted?</p>
+<p><img src="/images/2019/07/2019-07-30_15-05-25.png" alt="2019-07-30_15-05-25"></p>
+<p>The vast majority of papers goes into the <code>Database</code> stream, which is the most popular across all the major Oracle conferences. We also have almost <code>20%</code> of submissions for the <code>Analytics and Big Data</code> track and few submissions for the newly created <code>JDE</code> stream too!</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>Thanks to all the speakers who took the time to submit! ITOUG board is amazed by the quantity and quality of the submissions received! At the same time, we know that the difficult job starts now with paper scoring and agenda selection! As you already understood with such a huge number of submission and a fixed one-day agenda per stream and location the chances of getting accepted are very low, but hey, there is always <strong>ITOUG Tech Days 2021</strong>!</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="https://ftisiot.net/" >
+    &copy;  Data and Open Source 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

@@ -952,7 +952,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://ftisiot.net/2020/10/26/a-talk-for-one/</loc>
+    <loc>https://ftisiot.net/posts/a-talk-for-one/</loc>
     <lastmod>2020-10-26T14:15:21+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -967,12 +967,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://ftisiot.net/2020/09/18/oracle-analytics-server-and-kerberos-authentication/</loc>
+    <loc>https://ftisiot.net/posts/oracle-analytics-server-and-kerberos-authentication/</loc>
     <lastmod>2020-09-18T08:26:12+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://ftisiot.net/2020/08/10/oracle-analytics-cloud-5-7-use-ml-models-in-the-database/</loc>
+    <loc>https://ftisiot.net/posts/oracle-analytics-cloud-5-7-use-ml-models-in-the-database/</loc>
     <lastmod>2020-08-10T09:08:25+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -982,7 +982,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://ftisiot.net/2019/07/30/itoug-call-for-papers-submission-analysis/</loc>
+    <loc>https://ftisiot.net/posts/itoug-call-for-papers-submission-analysis/</loc>
     <lastmod>2019-07-30T14:21:36+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -997,12 +997,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://ftisiot.net/2017/02/28/itoug-call-for-papers-is-open/</loc>
+    <loc>https://ftisiot.net/posts/itoug-call-for-papers-is-open/</loc>
     <lastmod>2017-02-28T14:33:52+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://ftisiot.net/2016/10/16/obi12c-ssl-with-custom-certificates/</loc>
+    <loc>https://ftisiot.net/posts/obi12c-ssl-with-custom-certificates/</loc>
     <lastmod>2016-10-16T18:40:45+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1012,12 +1012,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://ftisiot.net/2016/10/12/how-to-search-the-cause-of-errors/</loc>
+    <loc>https://ftisiot.net/posts/how-to-search-the-cause-of-errors/</loc>
     <lastmod>2016-10-12T18:40:22+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://ftisiot.net/2016/09/29/obi-blogs-to-follow/</loc>
+    <loc>https://ftisiot.net/posts/obi-blogs-to-follow/</loc>
     <lastmod>2016-09-29T10:17:15+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
