@@ -10,9 +10,9 @@
     <atom:link href="https://ftisiot.net/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What&#39;s My (Talk) Age Again?</title>
-      <link>https://ftisiot.net/2020/11/02/whats-my-talk-age-again/</link>
+      <link>https://ftisiot.net/posts/whats-my-talk-age-again/</link>
       <pubDate>Mon, 02 Nov 2020 13:12:10 +0000</pubDate>
-      <guid>https://ftisiot.net/2020/11/02/whats-my-talk-age-again/</guid>
+      <guid>https://ftisiot.net/posts/whats-my-talk-age-again/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://ftisiot.net/images/2020/11/image.png?w=300&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Las week I shared a &lt;a href=&#34;https://ftisiot.net/2020/10/26/a-talk-for-one/&#34;&gt;personal experience&lt;/a&gt; of talking to a small online audience (just one person) and how that episode made me think about my commitment to public talking and understanding that performing at best is still key for both the speaker and the audience.&lt;/p&gt;&#xA;&lt;p&gt;One of the items that I explored was the &lt;strong&gt;Reflection&lt;/strong&gt; bit: trying to understand what/why the paper/abstract didn&amp;rsquo;t work, why it didn&amp;rsquo;t attract people and what can be done to improve it. The part briefly mentioned was about talks ageing pretty quickly these days with online-only conferences and I thought it needed more clarification.&lt;/p&gt;</description>
     </item>
     <item>
@@ -45,9 +45,9 @@
     </item>
     <item>
       <title>Remove OBI12c Data Visualisation from OBIEE</title>
-      <link>https://ftisiot.net/2016/10/13/remove-obi12c-data-visualisation-from-obiee/</link>
+      <link>https://ftisiot.net/posts/remove-obi12c-data-visualisation-from-obiee/</link>
       <pubDate>Thu, 13 Oct 2016 07:28:11 +0000</pubDate>
-      <guid>https://ftisiot.net/2016/10/13/remove-obi12c-data-visualisation-from-obiee/</guid>
+      <guid>https://ftisiot.net/posts/remove-obi12c-data-visualisation-from-obiee/</guid>
       <description>&lt;p&gt;For anybody interested in how to remove or add Data Visualisation (also known as Visual Analyser)  option to a specific role in OBIEE 12c, Oracle released &lt;a href=&#34;https://support.oracle.com/epmos/faces/SearchDocDisplay?_adf.ctrl-state=oxlq9igqe_9&amp;amp;_afrLoop=368341663992727&#34;&gt;Doc ID 2102444.1&lt;/a&gt; which gives the detail about the procedure using &lt;em&gt;WLST&lt;/em&gt; and the &lt;em&gt;RevokeDVPermission.py&lt;/em&gt; (or &lt;em&gt;GrantDVPermission.py&lt;/em&gt;) that should be present in the OBIEE12c Installation Middleware home by default.&lt;/p&gt;</description>
     </item>
   </channel>
